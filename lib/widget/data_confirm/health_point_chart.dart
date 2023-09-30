@@ -1,3 +1,5 @@
+import 'dart:collection';
+
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
@@ -184,6 +186,21 @@ class _HealthPointChartState extends State<HealthPointChart> {
     return weeklyData.entries
         .map((e) => FlSpot((index++).toDouble(), e.value))
         .toList();
+  }
+
+  /// 1週間分のデータからグラフ表示用のデータを抽出する
+  Map<DateTime, double> _getWeeklyData(Map<DateTime, String> foodHistory) {
+    var sortedFoodHistory = SplayTreeMap<DateTime, String>.from(
+        foodHistory, (DateTime a, DateTime b) => a.compareTo(b));
+    var retMap = <DateTime, double>{};
+
+    // 月曜から順にデータを作成していく
+    // その日の中で最後のデータを取得し、その日のデータとする
+    // データが抜けている日は前日のデータを引き継ぐ
+    // データが抜けているわけではなく、その週のある日以降データがなければそのデータは空で良い
+    // （意図的にせずともそうなるはず）
+
+    return retMap;
   }
 
   Map<DateTime, double> weeklyData = {
