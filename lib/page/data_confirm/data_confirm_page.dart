@@ -40,11 +40,12 @@ class DataConfirm extends StatelessWidget {
                     physics: const NeverScrollableScrollPhysics(),
                     itemCount: dailyData.value.length + 1,
                     itemBuilder: (BuildContext context, int index) {
-                      if (index == 0)
+                      if (index == 0) {
                         return Text(_getDisplayDate(context, dailyData.key));
+                      }
                       return Row(
                         children: [
-                          SizedBox(width: 10),
+                          const SizedBox(width: 10),
                           Text(
                               '${_getDisplayTime(context, dailyData.value.entries.elementAt(index - 1).key)} ${dailyData.value.entries.elementAt(index - 1).value}')
                         ],
