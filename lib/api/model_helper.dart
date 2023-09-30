@@ -30,11 +30,13 @@ class ModelHelper {
   }
 
   Future<Interpreter> _getHealthRating() async {
-    return await Interpreter.fromAsset('assets/ml/health_rating.tflite');
+    final modelPath = await _getModelPath('assets/ml/health_rating.tflite');
+    return await Interpreter.fromAsset(modelPath);
   }
 
   Future<Interpreter> _getMealFeature() async {
-    return await Interpreter.fromAsset('assets/ml/meal_feature.tflite');
+    final modelPath = await _getModelPath('assets/ml/meal_feature.tflite');
+    return await Interpreter.fromAsset(modelPath);
   }
 
   Future<List<String>> _loadLabelTexts() async {
