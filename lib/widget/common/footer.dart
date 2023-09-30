@@ -7,12 +7,12 @@ import '../../share/share.dart';
 
 const _gap = 10.0;
 
-enum TabType { home, page02, page03 }
+enum TabType { home, camera, confirm }
 
 const pages = [
   HomePage(),
-  DataConfirm(),
   CameraPage(),
+  DataConfirm(),
 ];
 
 final tabTypeProvider = StateProvider<TabType>((_) => TabType.home);
