@@ -11,7 +11,7 @@ enum TabType { page01, page02, page03 }
 
 const pages = [
   Page01(),
-  Page02(),
+  CameraPage(),
   Page03(),
 ];
 
@@ -29,7 +29,7 @@ class FooterView extends ConsumerWidget {
           _buildBottomNavItem(0, IconType.footer.page01,
               L10n.of(context)!.page01FooterLabel, context, ref),
           _buildBottomNavItem(1, IconType.footer.page02,
-              L10n.of(context)!.page02FooterLabel, context, ref),
+              L10n.of(context)!.pageCameraFooterLabel, context, ref),
           _buildBottomNavItem(2, IconType.footer.page03,
               L10n.of(context)!.page03FooterLabel, context, ref),
         ],
