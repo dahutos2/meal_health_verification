@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:meal_health_verification/index.dart';
+import 'package:meal_health_verification/widget/home/home_parts/loading_recommend_image.dart';
 import 'package:meal_health_verification/widget/home/home_parts/recommended_image.dart';
 import 'package:meal_health_verification/widget/home/home_parts/start_up_camera_area.dart';
 
@@ -13,10 +15,19 @@ class Home extends ConsumerStatefulWidget {
 class HomeWidgetState extends ConsumerState<Home> {
   late PageController controller;
   int currentIndex = 0;
+  List<RecommendImage> recommendImages = List<RecommendImage>.empty();
 
   @override
   void initState() {
     super.initState();
+    // この処理で非同期操作を初期化時に実行する
+    Future.delayed(Duration.zero, () async {
+      var notifier = ref.read(recommendNotifierProvider.notifier);
+      recommendImages = await notifier.getRecommendImages();
+      setState(() {
+        recommendImages = recommendImages;
+      });
+    });
     controller = PageController(initialPage: 0);
     controller.addListener(() {
       setState(() {
@@ -47,71 +58,69 @@ class HomeWidgetState extends ConsumerState<Home> {
   Widget build(BuildContext context) {
     // PageViewの中で現在のページのインデックスを取得する
 
-    Future(() {
-      currentIndex = controller.page?.round() ?? 0;
-    });
-
     return Column(
       children: [
         /// 画像部分
         Expanded(
           flex: 8, // 画像部分 7/10
-          child: Row(
-            children: [
-              Expanded(
-                flex: 1,
-                child: InkWell(
-                  onTap: () {
-                    // ボタンがタップされたときの処理
-                    _previousImage();
-                  },
-                  child: Icon(
-                    Icons.arrow_back_ios,
-                    size: 24.0, // アイコンのサイズ
-                    color: currentIndex > 0
-                        ? Colors.black
-                        : Colors.transparent, // アイコンの色
-                  ),
-                ),
-              ),
-              Expanded(
-                flex: 8,
-                child: PageView(
-                  controller: controller,
-                  children: const [
-                    RecommendedImage(
-                      mealName: '料理名１',
-                      mealImagePath: 'assets/images/curry_vertical.jpg',
+          child: recommendImages.isEmpty
+              ? const LoadingRecommendImage()
+              : Row(
+                  children: [
+                    Expanded(
+                      flex: 1,
+                      child: InkWell(
+                        onTap: () {
+                          // ボタンがタップされたときの処理
+                          _previousImage();
+                        },
+                        child: Icon(
+                          Icons.arrow_back_ios,
+                          size: 24.0, // アイコンのサイズ
+                          color: currentIndex > 0
+                              ? Colors.black
+                              : Colors.transparent, // アイコンの色
+                        ),
+                      ),
                     ),
-                    RecommendedImage(
-                      mealName: '料理名２',
-                      mealImagePath: 'assets/images/hamburger.jpg',
+                    Expanded(
+                      flex: 8,
+                      child: PageView(
+                        controller: controller,
+                        children: [
+                          RecommendedImage(
+                            mealName: recommendImages[0].name,
+                            mealImagePath: recommendImages[0].imagePath,
+                          ),
+                          RecommendedImage(
+                            mealName: recommendImages[1].name,
+                            mealImagePath: recommendImages[1].imagePath,
+                          ),
+                          RecommendedImage(
+                            mealName: recommendImages[2].name,
+                            mealImagePath: recommendImages[2].imagePath,
+                          ),
+                        ],
+                      ),
                     ),
-                    RecommendedImage(
-                      mealName: '料理名３',
-                      mealImagePath: 'assets/images/breakfast.jpg',
+                    Expanded(
+                      flex: 1,
+                      child: InkWell(
+                        onTap: () {
+                          // ボタンがタップされたときの処理
+                          _nextImage();
+                        },
+                        child: Icon(
+                          Icons.arrow_forward_ios,
+                          size: 24.0, // アイコンのサイズ
+                          color: currentIndex == 2
+                              ? Colors.transparent
+                              : Colors.black, // アイコンの色
+                        ),
+                      ),
                     ),
                   ],
                 ),
-              ),
-              Expanded(
-                flex: 1,
-                child: InkWell(
-                  onTap: () {
-                    // ボタンがタップされたときの処理
-                    _nextImage();
-                  },
-                  child: Icon(
-                    Icons.arrow_forward_ios,
-                    size: 24.0, // アイコンのサイズ
-                    color: currentIndex == 2
-                        ? Colors.transparent
-                        : Colors.black, // アイコンの色
-                  ),
-                ),
-              ),
-            ],
-          ),
         ),
 
         /// メッセージとカメラ起動ボタン部分

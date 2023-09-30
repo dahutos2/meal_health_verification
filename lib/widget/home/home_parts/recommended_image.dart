@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class RecommendedImage extends StatelessWidget {
   const RecommendedImage(
       {super.key, required this.mealName, required this.mealImagePath});
 
-  final String mealName;
+  final String Function(L10n) mealName;
   final String mealImagePath;
   @override
   Widget build(BuildContext context) {
@@ -22,14 +23,14 @@ class RecommendedImage extends StatelessWidget {
               fit: BoxFit.cover,
             ),
           ),
-          const Positioned(
+          Positioned(
             top: 40.0, // 50px上に配置
             left: 0,
             right: 0,
             child: Text(
-              '〜本日のおすすめ〜',
+              L10n.of(context)!.recommendImageTitle,
               textAlign: TextAlign.center,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 24.0,
                 fontWeight: FontWeight.bold,
                 color: Colors.yellow,
@@ -38,7 +39,7 @@ class RecommendedImage extends StatelessWidget {
           ),
           Center(
             child: Text(
-              mealName,
+              mealName(L10n.of(context)!),
               textAlign: TextAlign.center,
               style: const TextStyle(
                 fontSize: 50.0,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../../share/icons.dart';
 
@@ -22,7 +23,7 @@ class StartUpCameraArea extends StatelessWidget {
         children: [
           Flexible(
             child: Text(
-              getMessage(),
+              getMessage(context),
               style: const TextStyle(fontSize: 14.0),
             ),
           ),
@@ -41,7 +42,7 @@ class StartUpCameraArea extends StatelessWidget {
     );
   }
 
-  String getMessage() {
+  String getMessage(BuildContext context) {
     // ・6:00~9:00 → 朝食
     // ・12:00~13:00 → 昼食
     // ・18:00~21:00 → 夜食
@@ -52,15 +53,15 @@ class StartUpCameraArea extends StatelessWidget {
     int hour = now.hour;
 
     if (hour >= 6 && hour < 9) {
-      return '朝食の時間です！';
+      return L10n.of(context)!.homeMessageBreakfast;
     } else if (hour >= 12 && hour < 13) {
-      return '昼食の時間です！';
+      return L10n.of(context)!.homeMessageLunch;
     } else if (hour >= 18 && hour < 21) {
-      return '晩ご飯の時間です！';
+      return L10n.of(context)!.homeMessageDinner;
     } else if (hour >= 21 || hour < 6) {
-      return '夜食ですか？\n栄養バランスに気を付けてくださいね';
+      return L10n.of(context)!.homeMessageMidNightSnack;
     } else {
-      return '間食ですか？\n摂取量に気を付けてくださいね';
+      return L10n.of(context)!.homeMessageSnackingBetween;
     }
   }
 }

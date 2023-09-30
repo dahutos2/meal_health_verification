@@ -19,15 +19,28 @@ void main() {
   );
 }
 
+final GlobalKey<NavigatorState> _navigatorKey = GlobalKey<NavigatorState>();
+
+// 初期化用
+final appInitProvider = Provider.autoDispose(
+  (ref) => AppInit(
+    navigatorKey: _navigatorKey,
+    dbHelper: ref.read(dbHelperProvider),
+    modelHelper: ref.read(modelHelperProvider),
+  ),
+);
+
 class MyApp extends ConsumerWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       localizationsDelegates: L10n.localizationsDelegates,
       supportedLocales: L10n.supportedLocales,
-      onGenerateRoute: (_) => RouteType.fadeIn(nextPage: const HomePage()),
+      navigatorKey: ref.watch(appInitProvider).navigatorKey,
+      onGenerateRoute: (_) => RouteType.fadeIn(nextPage: const InitPage()),
     );
   }
 }

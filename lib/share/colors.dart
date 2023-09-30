@@ -12,6 +12,10 @@ class ColorType {
   static const header = ColorsHeader();
 
   static const footer = ColorsFooter();
+
+  static const home = ColorsHome();
+
+  static const camera = ColorsCamera();
 }
 
 class ColorsBase {
@@ -33,4 +37,23 @@ class ColorsFooter {
   Color get item => const Color(0xFFFFFFFF);
   Color get disabledItem => const Color(0xFFAAAAAA);
   Color get unselectedItem => const Color(0xFFFFFFFF);
+}
+
+class ColorsHome {
+  const ColorsHome();
+
+  Color get loadingBackground => const Color(0xFFAAAAAA);
+}
+
+class ColorsCamera {
+  const ColorsCamera();
+
+  Color get rect => const Color(0xFFFFFFFF);
+  Color get errorBackGround => const Color(0xFF8E8E93);
+  Color get buttonBackGround => const Color(0xFFFFFFFF);
+  Color get buttonBackGroundShadow => const Color(0x13747480);
+  Color get pauseCameraButtonActive => const Color(0xFF34C759);
+  Color get pauseCameraButtonDisabled => const Color(0x13747480);
+  Color get resumeCameraButtonActive => const Color(0xFF34C759);
+  Color get resumeCameraButtonDisabled => const Color(0x13747480);
 }

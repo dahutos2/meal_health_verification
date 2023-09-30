@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 /// アイコンを管理するクラス
@@ -11,6 +12,8 @@ class IconType {
   static const footer = IconsFooter();
 
   static const home = IconsHome();
+  
+  static const camera = IconsCamera();
 }
 
 class IconsHeader {
@@ -34,4 +37,17 @@ class IconsHome {
   const IconsHome();
 
   Icon get startUpCamera => const Icon(Icons.add_a_photo);
+}
+
+class IconsCamera {
+  const IconsCamera();
+
+  Icon get pauseCameraButton => const Icon(
+        CupertinoIcons.pause_circle,
+        color: CupertinoColors.white,
+      );
+  Icon get resumeCameraButton => const Icon(
+        CupertinoIcons.play_arrow_solid,
+        color: CupertinoColors.white,
+      );
 }
