@@ -194,9 +194,6 @@ class _HealthPointChartState extends State<HealthPointChart> {
         foodHistory, (DateTime a, DateTime b) => a.compareTo(b)).entries;
     var retMap = <DateTime, double>{};
 
-    // 月曜から順にデータを作成していく
-    MapEntry<DateTime, double> dayData;
-
     // その週の最初の月曜を取得
     DateTime firstMonday = sortedFoodHistory.first.key
         .subtract(Duration(days: sortedFoodHistory.first.key.weekday - 1));
