@@ -23,19 +23,6 @@ class _DetectImageState extends ConsumerState<DetectImage> {
   List<DetectedObject> _detectedObjects = [];
   bool _isLoading = false;
 
-  @override
-  void initState() {
-    super.initState();
-
-    // モデルを読み込み初期化されていない場合は初期化しておく
-    ref.read(modelHelperProvider);
-  }
-
-  @override
-  void dispose() {
-    super.dispose();
-  }
-
   void onLoading() {
     setState(() {
       _isLoading = true;
