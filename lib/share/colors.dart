@@ -44,12 +44,8 @@ class ColorsCamera {
   Color get errorBackGround => const Color(0xFF8E8E93);
   Color get buttonBackGround => const Color(0xFFFFFFFF);
   Color get buttonBackGroundShadow => const Color(0x13747480);
-  Color get startCameraButtonActive => const Color(0xFF007AFF);
-  Color get startCameraButtonDisabled => const Color(0x13747480);
   Color get pauseCameraButtonActive => const Color(0xFF34C759);
   Color get pauseCameraButtonDisabled => const Color(0x13747480);
   Color get resumeCameraButtonActive => const Color(0xFF34C759);
   Color get resumeCameraButtonDisabled => const Color(0x13747480);
-  Color get stopCameraButtonActive => const Color(0xFFFF3B30);
-  Color get stopCameraButtonDisabled => const Color(0x13747480);
 }
