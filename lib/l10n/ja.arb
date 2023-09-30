@@ -6,13 +6,13 @@
     },
     "homePageHeaderTitle": "ホーム",
     "pageCameraHeaderTitle": "カメラ",
-    "page03HeaderTitle": "ページ03",
     "homePageFooterLabel": "ホーム",
     "pageCameraFooterLabel": "カメラ",
-    "page03FooterLabel": "ページ03",
     "pauseCameraStart": "カメラを起動して下さい。",
     "pauseCameraErrorNotExistCamera": "カメラが存在しません。",
     "pauseCameraErrorCameraAccessDenied": "カメラへのアクセス権限がありません。",
     "pauseCameraErrorUndefined": "カメラ接続時に不明なエラーが発生しました。",
-    "startDetectImageText": "画像を撮影して下さい。"
+    "startDetectImageText": "画像を撮影して下さい。",
+    "dataConfirmTitle": "データ確認",
+    "dataConfirmLabel": "確認"
 }

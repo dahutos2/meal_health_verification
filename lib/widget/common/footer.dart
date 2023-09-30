@@ -11,8 +11,8 @@ enum TabType { home, page02, page03 }
 
 const pages = [
   HomePage(),
+  DataConfirm(),
   CameraPage(),
-  Page03(),
 ];
 
 final tabTypeProvider = StateProvider<TabType>((_) => TabType.home);
@@ -31,7 +31,7 @@ class FooterView extends ConsumerWidget {
           _buildBottomNavItem(1, IconType.footer.page02,
               L10n.of(context)!.pageCameraFooterLabel, context, ref),
           _buildBottomNavItem(2, IconType.footer.page03,
-              L10n.of(context)!.page03FooterLabel, context, ref),
+              L10n.of(context)!.dataConfirmLabel, context, ref),
         ],
       ),
     );
