@@ -6,8 +6,8 @@
     },
     "page01HeaderTitle": "ページ01",
     "page02HeaderTitle": "ページ02",
-    "page03HeaderTitle": "ページ03",
+    "dataConfirmTitle": "データ確認",
     "page01FooterLabel": "ページ01",
     "page02FooterLabel": "ページ02",
-    "page03FooterLabel": "ページ03"
+    "dataConfirmLabel": "確認"
 }

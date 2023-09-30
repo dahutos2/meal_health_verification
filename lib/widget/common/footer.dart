@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../../page/page.dart';
 import '../../share/share.dart';
@@ -12,7 +12,7 @@ enum TabType { page01, page02, page03 }
 const pages = [
   Page01(),
   Page02(),
-  Page03(),
+  DataConfirm(),
 ];
 
 final tabTypeProvider = StateProvider<TabType>((_) => TabType.page01);
@@ -31,7 +31,7 @@ class FooterView extends ConsumerWidget {
           _buildBottomNavItem(1, IconType.footer.page02,
               L10n.of(context)!.page02FooterLabel, context, ref),
           _buildBottomNavItem(2, IconType.footer.page03,
-              L10n.of(context)!.page03FooterLabel, context, ref),
+              L10n.of(context)!.dataConfirmLabel, context, ref),
         ],
       ),
     );
