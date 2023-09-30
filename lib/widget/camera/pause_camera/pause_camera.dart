@@ -40,7 +40,7 @@ class PauseCamera extends StatefulWidget {
 }
 
 class _PauseCameraState extends State<PauseCamera> {
-  late final String _tempDir;
+  String _tempDir = '';
   File? _image;
 
   List<CameraDescription> _cameras = [];
@@ -174,7 +174,7 @@ class _PauseCameraState extends State<PauseCamera> {
   }
 
   void _deleteImages() {
-    if (!mounted) return;
+    if (!mounted || _tempDir.isEmpty) return;
     final files = Directory(_tempDir).listSync();
     for (var entity in files) {
       if (entity is File) {
