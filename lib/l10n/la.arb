@@ -1,0 +1,13 @@
+{
+    "@@locale": "la",
+    "test": "probo",
+    "@test": {
+        "description": "Hoc est a translation Description de test, basically non solebat, sed non est propter procuratio procuratio.Sit agnoscis ut annotation"
+    },
+    "homePageHeaderTitle": "in domo",
+    "page02HeaderTitle": "Page II",
+    "page03HeaderTitle": "Page III",
+    "homePageFooterLabel": "in domo",
+    "page02FooterLabel": "Page II",
+    "page03FooterLabel": "Page III"
+}

@@ -1,7 +1,7 @@
-import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import 'index.dart';
 
@@ -27,7 +27,7 @@ class MyApp extends ConsumerWidget {
     return MaterialApp(
       localizationsDelegates: L10n.localizationsDelegates,
       supportedLocales: L10n.supportedLocales,
-      onGenerateRoute: (_) => RouteType.fadeIn(nextPage: const Page01()),
+      onGenerateRoute: (_) => RouteType.fadeIn(nextPage: const HomePage()),
     );
   }
 }

@@ -1,0 +1,13 @@
+{
+    "@@locale": "ko",
+    "test": "시험",
+    "@test": {
+        "description": "이것은 기본적으로 사용되지 않은 테스트에 대한 번역 설명이지만 관리 관리에 사용됩니다.그것을 주석으로 인식합시다"
+    },
+    "homePageHeaderTitle": "집",
+    "page02HeaderTitle": "페이지 02",
+    "page03HeaderTitle": "페이지 03",
+    "homePageFooterLabel": "집",
+    "page02FooterLabel": "페이지 02",
+    "page03FooterLabel": "페이지 03"
+}

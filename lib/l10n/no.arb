@@ -1,0 +1,13 @@
+{
+    "@@locale": "no",
+    "test": "test",
+    "@test": {
+        "description": "Dette er en oversettelsesbeskrivelse av testen, i utgangspunktet ikke brukt, men den brukes til styringsledelse.La oss gjenkjenne det som en merknad"
+    },
+    "homePageHeaderTitle": "hjem",
+    "page02HeaderTitle": "Side 02",
+    "page03HeaderTitle": "Side 03",
+    "homePageFooterLabel": "hjem",
+    "page02FooterLabel": "Side 02",
+    "page03FooterLabel": "Side 03"
+}
