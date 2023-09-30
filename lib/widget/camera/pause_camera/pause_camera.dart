@@ -6,6 +6,7 @@ import 'package:camera/camera.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
+import '../../../share/share.dart';
 import 'pause_camera_isolate.dart';
 
 class PauseCameraImage {
@@ -234,7 +235,7 @@ class _PauseCameraState extends State<PauseCamera> {
                             ),
                 )
               : ColoredBox(
-                  color: CupertinoColors.systemGrey,
+                  color: ColorType.camera.errorBackGround,
                   child: AspectRatio(
                     aspectRatio: widget.aspectRatio,
                     child: Center(
@@ -242,20 +243,19 @@ class _PauseCameraState extends State<PauseCamera> {
                         _errorMessage,
                         softWrap: true,
                         textAlign: TextAlign.center,
-                        style: const TextStyle(
-                            color: CupertinoColors.systemBackground),
+                        style: StyleType.camera.errorText,
                       ),
                     ),
                   ),
                 ),
           Container(
             padding: const EdgeInsets.symmetric(vertical: 10),
-            decoration: const BoxDecoration(
-              color: CupertinoColors.systemBackground,
+            decoration: BoxDecoration(
+              color: ColorType.camera.buttonBackGround,
               boxShadow: [
                 BoxShadow(
-                  color: CupertinoColors.quaternarySystemFill,
-                  offset: Offset(0, 2),
+                  color: ColorType.camera.buttonBackGroundShadow,
+                  offset: const Offset(0, 2),
                   blurRadius: 8.0,
                 ),
               ],
@@ -267,13 +267,10 @@ class _PauseCameraState extends State<PauseCamera> {
                   // カメラを起動している場合は非活性にする
                   // カメラの起動ボタン
                   onPressed: _isCameraReady ? null : _startCamera,
-                  color: CupertinoColors.activeBlue,
-                  disabledColor: CupertinoColors.quaternarySystemFill,
+                  color: ColorType.camera.startCameraButtonActive,
+                  disabledColor: ColorType.camera.startCameraButtonDisabled,
                   padding: const EdgeInsets.all(10),
-                  child: const Icon(
-                    CupertinoIcons.videocam_fill,
-                    color: CupertinoColors.white,
-                  ),
+                  child: IconType.camera.startCameraButton,
                 ),
                 !_isPause
                     ? CupertinoButton(
@@ -282,25 +279,21 @@ class _PauseCameraState extends State<PauseCamera> {
                         onPressed: _isCameraReady && _isNotScanning
                             ? _startRecording
                             : null,
-                        color: CupertinoColors.activeGreen,
-                        disabledColor: CupertinoColors.quaternarySystemFill,
+                        color: ColorType.camera.pauseCameraButtonActive,
+                        disabledColor:
+                            ColorType.camera.pauseCameraButtonDisabled,
                         padding: const EdgeInsets.all(10),
-                        child: const Icon(
-                          CupertinoIcons.pause_circle,
-                          color: CupertinoColors.white,
-                        ),
+                        child: IconType.camera.pauseCameraButton,
                       )
                     : CupertinoButton(
                         // カメラを起動している場合は活性にする
                         // 再開ボタン
                         onPressed: _isCameraReady ? _resumeCamera : null,
-                        color: CupertinoColors.activeGreen,
-                        disabledColor: CupertinoColors.quaternarySystemFill,
+                        color: ColorType.camera.resumeCameraButtonActive,
+                        disabledColor:
+                            ColorType.camera.resumeCameraButtonDisabled,
                         padding: const EdgeInsets.all(10),
-                        child: const Icon(
-                          CupertinoIcons.play_arrow_solid,
-                          color: CupertinoColors.white,
-                        ),
+                        child: IconType.camera.resumeCameraButton,
                       ),
                 CupertinoButton(
                   onPressed:
@@ -308,13 +301,10 @@ class _PauseCameraState extends State<PauseCamera> {
                       _isCameraReady && _isNotScanning && !_isPause
                           ? _stopCamera
                           : null,
-                  color: CupertinoColors.destructiveRed,
-                  disabledColor: CupertinoColors.quaternarySystemFill,
+                  color: ColorType.camera.stopCameraButtonActive,
+                  disabledColor: ColorType.camera.stopCameraButtonDisabled,
                   padding: const EdgeInsets.all(10),
-                  child: const Icon(
-                    CupertinoIcons.stop_circle,
-                    color: CupertinoColors.white,
-                  ),
+                  child: IconType.camera.stopCameraButton,
                 ),
               ],
             ),
