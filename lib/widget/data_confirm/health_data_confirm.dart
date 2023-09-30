@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:intl/intl.dart';
 
-import '../common/page_common.dart';
-import 'data_confirm.dart';
+import 'health_point_chart.dart';
 
-class DataConfirm extends StatelessWidget {
-  const DataConfirm({super.key});
+class HealthDataConfirm extends StatelessWidget {
+  const HealthDataConfirm({super.key});
 
   /// 日付の表示用文字列取得メソッド
   /// 例:日本語→9月25日(月)
@@ -24,41 +22,38 @@ class DataConfirm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BasePage(
-      headerTitle: L10n.of(context)!.dataConfirmTitle,
-      body: Column(
-        children: [
-          // 健康ポイントの折れ線グラフ表示部
-          const Expanded(
-            child: HealthPointChart(),
+    return Column(
+      children: [
+        // 健康ポイントの折れ線グラフ表示部
+        const Expanded(
+          child: HealthPointChart(),
+        ),
+        // 食事履歴リスト表示部
+        Expanded(
+          child: ListView.builder(
+            itemCount: historyList.length,
+            itemBuilder: (BuildContext context, int index) {
+              var dailyData = historyList.entries.elementAt(index);
+              return ListView.builder(
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemCount: dailyData.value.length + 1,
+                  itemBuilder: (BuildContext context, int index) {
+                    if (index == 0) {
+                      return Text(_getDisplayDate(context, dailyData.key));
+                    }
+                    return Row(
+                      children: [
+                        const SizedBox(width: 10),
+                        Text(
+                            '${_getDisplayTime(context, dailyData.value.entries.elementAt(index - 1).key)} ${dailyData.value.entries.elementAt(index - 1).value}')
+                      ],
+                    );
+                  });
+            },
           ),
-          // 食事履歴リスト表示部
-          Expanded(
-            child: ListView.builder(
-              itemCount: historyList.length,
-              itemBuilder: (BuildContext context, int index) {
-                var dailyData = historyList.entries.elementAt(index);
-                return ListView.builder(
-                    shrinkWrap: true,
-                    physics: const NeverScrollableScrollPhysics(),
-                    itemCount: dailyData.value.length + 1,
-                    itemBuilder: (BuildContext context, int index) {
-                      if (index == 0) {
-                        return Text(_getDisplayDate(context, dailyData.key));
-                      }
-                      return Row(
-                        children: [
-                          const SizedBox(width: 10),
-                          Text(
-                              '${_getDisplayTime(context, dailyData.value.entries.elementAt(index - 1).key)} ${dailyData.value.entries.elementAt(index - 1).value}')
-                        ],
-                      );
-                    });
-              },
-            ),
-          ),
-        ],
-      ),
+        ),
+      ],
     );
   }
 }
