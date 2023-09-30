@@ -110,7 +110,12 @@ class _HealthDataConfirmState extends ConsumerState<HealthDataConfirm> {
         // 食事履歴リスト表示部
         Expanded(
           child: dailyFoodHistory.isEmpty
-              ? const Center(child: ColorfulLoadPage())
+              ? Center(
+                  child: SizedBox(
+                      width: context.deviceWidth * 0.3,
+                      height: context.deviceWidth * 0.3,
+                      child: const ColorfulLoadPage()),
+                )
               : ListView.builder(
                   itemCount: dailyFoodHistory.length,
                   itemBuilder: (BuildContext context, int index) {
