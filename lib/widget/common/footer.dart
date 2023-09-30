@@ -7,11 +7,11 @@ import '../../share/share.dart';
 
 const _gap = 10.0;
 
-enum TabType { home, page02, page03 }
+enum TabType { home, camera, confirm }
 
 const pages = [
   HomePage(),
-  Page02(),
+  CameraPage(),
   DataConfirm(),
 ];
 
@@ -29,7 +29,7 @@ class FooterView extends ConsumerWidget {
           _buildBottomNavItem(0, IconType.footer.page01,
               L10n.of(context)!.homePageFooterLabel, context, ref),
           _buildBottomNavItem(1, IconType.footer.page02,
-              L10n.of(context)!.page02FooterLabel, context, ref),
+              L10n.of(context)!.pageCameraFooterLabel, context, ref),
           _buildBottomNavItem(2, IconType.footer.page03,
               L10n.of(context)!.dataConfirmLabel, context, ref),
         ],
