@@ -10,6 +10,8 @@ class StyleType {
   static const header = StylesHeader();
 
   static const footer = StylesFooter();
+
+  static const camera = StylesCamera();
 }
 
 class StylesHeader {
@@ -28,4 +30,16 @@ class StylesFooter {
       const TextStyle(fontSize: 13, color: Color(0xFFFFFFFF));
   TextStyle get disabledLabel =>
       const TextStyle(fontSize: 13, color: Color(0xFFAAAAAA));
+}
+
+class StylesCamera {
+  const StylesCamera();
+
+  TextStyle get detectText =>
+      const TextStyle(fontSize: 16, color: Color(0xFFFFFFFF));
+  TextStyle get errorText => const TextStyle(color: Color(0xFFFFFFFF));
+  TextStyle get startDetectImageText =>
+      const TextStyle(color: Color(0xFF8E8E93));
+  TextStyle get recommendText =>
+      const TextStyle(fontSize: 24, fontWeight: FontWeight.bold);
 }
