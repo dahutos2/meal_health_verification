@@ -6,6 +6,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../api/api.dart';
 import '../../share/share.dart';
+import '../../extensions/extensions.dart';
 import 'colorful_load.dart';
 import './pause_camera/pause_camera.dart';
 import 'recommend_meal.dart';
@@ -89,8 +90,8 @@ class _DetectImageState extends ConsumerState<DetectImage> {
                     )
               : Center(
                   child: SizedBox(
-                      width: MediaQuery.of(context).size.width * 0.3,
-                      height: MediaQuery.of(context).size.width * 0.3,
+                      width: context.deviceWidth * 0.3,
+                      height: context.deviceWidth * 0.3,
                       child: const ColorfulLoadPage()),
                 ),
         ),

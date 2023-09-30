@@ -1,2 +1,2 @@
-export 'recommend_text_service.dart';
+export 'recommend_service.dart';
 export 'meal_service.dart';
