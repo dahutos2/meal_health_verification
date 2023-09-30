@@ -9,6 +9,8 @@ class IconType {
   static const header = IconsHeader();
 
   static const footer = IconsFooter();
+
+  static const home = IconsHome();
 }
 
 class IconsHeader {
@@ -23,7 +25,13 @@ class IconsHeader {
 class IconsFooter {
   const IconsFooter();
 
-  Icon get page01 => const Icon(Icons.book_sharp);
-  Icon get page02 => const Icon(Icons.lightbulb_outline_sharp);
-  Icon get page03 => const Icon(Icons.settings);
+  Icon get page01 => const Icon(Icons.home);
+  Icon get page02 => const Icon(Icons.add_a_photo);
+  Icon get page03 => const Icon(Icons.auto_graph);
+}
+
+class IconsHome {
+  const IconsHome();
+
+  Icon get startUpCamera => const Icon(Icons.add_a_photo);
 }
