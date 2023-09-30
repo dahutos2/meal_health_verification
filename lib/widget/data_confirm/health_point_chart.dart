@@ -226,12 +226,12 @@ class _HealthPointChartState extends State<HealthPointChart> {
     return retMap;
   }
 
-  Map<DateTime, double> weeklyDataExample = {
-    DateTime(2023, 10, 3, 1): 54,
-    DateTime(2023, 10, 3, 2): 54,
-    DateTime(2023, 10, 3, 3): 88,
-    DateTime(2023, 10, 5): 93,
-    DateTime(2023, 10, 6): 21,
-    DateTime(2023, 10, 7): 44,
-  };
+  // Map<DateTime, double> weeklyDataExample = {
+  //   DateTime(2023, 10, 3, 1): 54,
+  //   DateTime(2023, 10, 3, 2): 54,
+  //   DateTime(2023, 10, 3, 3): 88,
+  //   DateTime(2023, 10, 5): 93,
+  //   DateTime(2023, 10, 6): 21,
+  //   DateTime(2023, 10, 7): 44,
+  // };
 }
