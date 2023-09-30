@@ -22,12 +22,17 @@ class _HealthDataConfirmState extends ConsumerState<HealthDataConfirm> {
     super.initState();
 
     var notifier = ref.read(mealNotifierProvider.notifier);
-    Future.delayed(Duration.zero, () async {
-      notifier.displayList();
-      setState(() {
-        healthData = notifier.list ?? <Meal>[];
-      });
-    });
+    Future.delayed(
+      Duration.zero,
+      () async {
+        notifier.displayList();
+        setState(
+          () {
+            healthData = notifier.list ?? <Meal>[];
+          },
+        );
+      },
+    );
   }
 
   /// 日付の表示用文字列取得メソッド
