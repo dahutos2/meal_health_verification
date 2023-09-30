@@ -66,7 +66,7 @@ class RecommendNotifier with ChangeNotifier {
     required List<Meal> meals,
     String label = '',
   }) async {
-    if (_model.healthRating == null) return 0;
+    if (_model.healthRating == null) return -1;
 
     // 画面が固まらないようにする
     final isolateInterpreter =
