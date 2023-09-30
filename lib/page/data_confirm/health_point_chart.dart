@@ -1,6 +1,8 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
+import '../../share/share.dart';
+
 class HealthPointChart extends StatefulWidget {
   const HealthPointChart({super.key});
 
@@ -44,10 +46,13 @@ class _HealthPointChartState extends State<HealthPointChart> {
               });
             },
             child: Text(
-              'avg',
+              '平均',
               style: TextStyle(
                 fontSize: 12,
-                color: showAvg ? Colors.white.withOpacity(0.5) : Colors.white,
+                color: showAvg
+                    ? ColorType.footer.background.withOpacity(0.5)
+                    : ColorType.footer.background,
+                // color: showAvg ? Colors.white.withOpacity(0.5) : Colors.white,
               ),
             ),
           ),
