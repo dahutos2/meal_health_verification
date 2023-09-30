@@ -18,14 +18,14 @@ class RecommendService {
 
   List<RecommendImage> getRecommendImages(List<Meal> meals) {
     final recommendImage01 = RecommendImage(
-        name: (L10n l10n) => l10n.initPageMainContentMessage,
+        name: (L10n l10n) => l10n.mealNameCurry,
         imagePath: 'assets/images/curry_vertical.jpg');
     final recommendImage02 = RecommendImage(
-        name: (L10n l10n) => l10n.initPageMainContentMessage,
+        name: (L10n l10n) => l10n.mealNameHamburger,
         imagePath: 'assets/images/hamburger.jpg');
     final recommendImage03 = RecommendImage(
-        name: (L10n l10n) => l10n.initPageMainContentMessage,
-        imagePath: 'assets/images/breakfast.jpg');
+        name: (L10n l10n) => l10n.mealNameEggAndVegetable,
+        imagePath: 'assets/images/eggAndVegetable.jpg');
     return [recommendImage01, recommendImage02, recommendImage03];
   }
 }

@@ -18,6 +18,7 @@ void main() {
   testWidgets('画像内にタイトルが表示されていること', (tester) async {
     // given
     await tester.pumpWidget(homeWidget(const HomePage()));
+    await tester.pumpAndSettle(const Duration(seconds: 3));
     final appBarTextFinder = find.text('〜本日のおすすめ〜');
 
     // when
@@ -28,6 +29,7 @@ void main() {
   testWidgets('カメラを起動するためのボタンが存在すること', (tester) async {
     // given
     await tester.pumpWidget(homeWidget(const HomePage()));
+    await tester.pumpAndSettle(const Duration(seconds: 3));
 
     // when
     // then
