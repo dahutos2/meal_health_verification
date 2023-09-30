@@ -3,6 +3,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:intl/intl.dart';
 
 import '../common/page_common.dart';
+import 'data_confirm.dart';
 
 class DataConfirm extends StatelessWidget {
   const DataConfirm({super.key});
@@ -27,9 +28,11 @@ class DataConfirm extends StatelessWidget {
       headerTitle: L10n.of(context)!.dataConfirmTitle,
       body: Column(
         children: [
+          // 健康ポイントの折れ線グラフ表示部
           const Expanded(
-            child: Placeholder(),
+            child: HealthPointChart(),
           ),
+          // 食事履歴リスト表示部
           Expanded(
             child: ListView.builder(
               itemCount: historyList.length,
@@ -62,12 +65,12 @@ class DataConfirm extends StatelessWidget {
 
 Map<DateTime, double> healthPointMap = {
   DateTime(1, 1, 1): 50,
-  DateTime(1, 1, 2): 50,
-  DateTime(1, 1, 3): 50,
-  DateTime(1, 1, 4): 50,
-  DateTime(1, 1, 5): 50,
-  DateTime(1, 1, 6): 50,
-  DateTime(1, 1, 7): 50,
+  DateTime(1, 1, 2): 60,
+  DateTime(1, 1, 3): 40,
+  DateTime(1, 1, 4): 70,
+  DateTime(1, 1, 5): 30,
+  DateTime(1, 1, 6): 80,
+  DateTime(1, 1, 7): 99,
 };
 
 Map<DateTime, Map<DateTime, String>> historyList = {
