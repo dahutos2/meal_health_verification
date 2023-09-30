@@ -1,5 +1,5 @@
-import 'package:flutter/painting.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 
 /// 色を管理するクラス
 ///
@@ -23,13 +23,13 @@ class ColorsBase {
 class ColorsHeader {
   const ColorsHeader();
 
-  Color get background => const Color(0xFF383689);
+  Color get background => const Color(0xFFE6BC5B);
 }
 
 class ColorsFooter {
   const ColorsFooter();
 
-  Color get background => const Color(0xFF383689);
+  Color get background => const Color(0xFFE6BC5B);
   Color get item => const Color(0xFFFFFFFF);
   Color get disabledItem => const Color(0xFFAAAAAA);
   Color get unselectedItem => const Color(0xFFFFFFFF);
