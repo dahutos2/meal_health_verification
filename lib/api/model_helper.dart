@@ -7,49 +7,23 @@ import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:google_mlkit_object_detection/google_mlkit_object_detection.dart';
 
-// 一度読み込まれた破棄しない
-final detectModelNotifierProvider =
-    StateNotifierProvider<DetectModelNotifier, DetectModel>(
-  (_) => DetectModelNotifier(),
+final modelHelperProvider = Provider<ModelHelper>(
+  (_) => ModelHelper(),
 );
 
-class DetectModel {
-  final ObjectDetector? objectDetector;
-  final List<String> labelTexts;
-  DetectModel({
-    required this.objectDetector,
-    required this.labelTexts,
-  });
+class ModelHelper {
+  ObjectDetector? _objectDetector;
+  List<String>? _labelTexts;
 
-  DetectModel copyWith({
-    required ObjectDetector objectDetector,
-    required List<String> labelTexts,
-  }) {
-    return DetectModel(
-      objectDetector: objectDetector,
-      labelTexts: labelTexts,
-    );
-  }
-}
+  ObjectDetector? get objectDetector => _objectDetector;
+  List<String> get labelTexts => _labelTexts ?? [];
 
-class DetectModelNotifier extends StateNotifier<DetectModel> {
-  DetectModelNotifier()
-      : super(DetectModel(
-          objectDetector: null,
-          labelTexts: [],
-        )) {
-    _init();
-  }
-
-  ObjectDetector? get objectDetector => state.objectDetector;
-  List<String> get labelTexts => state.labelTexts;
-
-  Future<void> _init() async {
+  Future<void> init() async {
     final objectDetector = await _getObjectDetector();
     final labelTexts = await _loadLabelTexts();
 
-    state =
-        state.copyWith(objectDetector: objectDetector, labelTexts: labelTexts);
+    _objectDetector = objectDetector;
+    _labelTexts = labelTexts;
   }
 
   Future<List<String>> _loadLabelTexts() async {

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:google_mlkit_object_detection/google_mlkit_object_detection.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-import '../../notifier/notifier.dart';
+import '../../api/api.dart';
 import '../../share/share.dart';
 import 'colorful_load.dart';
 import './pause_camera/pause_camera.dart';
@@ -28,7 +28,7 @@ class _DetectImageState extends ConsumerState<DetectImage> {
     super.initState();
 
     // モデルを読み込み初期化されていない場合は初期化しておく
-    ref.read(detectModelNotifierProvider);
+    ref.read(modelHelperProvider);
   }
 
   @override
@@ -59,7 +59,7 @@ class _DetectImageState extends ConsumerState<DetectImage> {
     }
     final inputImage = InputImage.fromFile(image.file);
     final objects = await ref
-        .read(detectModelNotifierProvider)
+        .read(modelHelperProvider)
         .objectDetector!
         .processImage(inputImage);
     setState(() {
@@ -79,7 +79,7 @@ class _DetectImageState extends ConsumerState<DetectImage> {
           stackWidget: CustomPaint(
             foregroundPainter: _DetectedObjectsPainter(
               detectedObjects: _detectedObjects,
-              labelTexts: ref.read(detectModelNotifierProvider).labelTexts,
+              labelTexts: ref.read(modelHelperProvider).labelTexts,
               width: _image?.width ?? 0,
               height: _image?.height ?? 0,
             ),

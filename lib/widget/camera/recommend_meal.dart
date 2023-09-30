@@ -5,7 +5,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:google_mlkit_object_detection/google_mlkit_object_detection.dart';
 
-import '../../notifier/notifier.dart';
+import '../../api/api.dart';
 import '../../share/share.dart';
 import '../../service/service.dart';
 
@@ -20,7 +20,7 @@ class RecommendMeal extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final labelText = _getLabelText(
       detectedObjects,
-      ref.read(detectModelNotifierProvider).labelTexts,
+      ref.read(modelHelperProvider).labelTexts,
     );
     final recommendText = getRecommendText(labelText);
     return Padding(
