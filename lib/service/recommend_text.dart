@@ -10,8 +10,7 @@ class RecommendText {
 }
 
 RecommendText getRecommendText(String label) {
-  // 'もう少し、野菜を食べてみても\nいいのではないでしょうか？',
   return RecommendText(
-      text: (L10n l10n) => l10n.dataConfirmLabel,
+      text: (L10n l10n) => l10n.recommendBadText,
       lottiePath: 'assets/lottie/bad.json');
 }
