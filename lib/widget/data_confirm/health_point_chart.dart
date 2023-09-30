@@ -158,7 +158,7 @@ class _HealthPointChartState extends State<HealthPointChart> {
       maxY: 100,
       lineBarsData: [
         LineChartBarData(
-          spots: [..._getFlSpotList(weeklyData)],
+          spots: [..._getFlSpotList(_getWeeklyData(weeklyDataExample))],
           isCurved: false,
           gradient: LinearGradient(
             colors: gradientColors,
@@ -189,27 +189,47 @@ class _HealthPointChartState extends State<HealthPointChart> {
   }
 
   /// 1週間分のデータからグラフ表示用のデータを抽出する
-  Map<DateTime, double> _getWeeklyData(Map<DateTime, String> foodHistory) {
-    var sortedFoodHistory = SplayTreeMap<DateTime, String>.from(
-        foodHistory, (DateTime a, DateTime b) => a.compareTo(b));
+  Map<DateTime, double> _getWeeklyData(Map<DateTime, double> foodHistory) {
+    var sortedFoodHistory = SplayTreeMap<DateTime, double>.from(
+        foodHistory, (DateTime a, DateTime b) => a.compareTo(b)).entries;
     var retMap = <DateTime, double>{};
 
     // 月曜から順にデータを作成していく
-    // その日の中で最後のデータを取得し、その日のデータとする
-    // データが抜けている日は前日のデータを引き継ぐ
-    // データが抜けているわけではなく、その週のある日以降データがなければそのデータは空で良い
-    // （意図的にせずともそうなるはず）
+    MapEntry<DateTime, double> dayData;
 
+    // その週の最初の月曜を取得
+    DateTime firstMonday = sortedFoodHistory.first.key
+        .subtract(Duration(days: sortedFoodHistory.first.key.weekday - 1));
+    firstMonday =
+        DateTime(firstMonday.year, firstMonday.month, firstMonday.day);
+
+    for (var value in sortedFoodHistory) {
+      var dayDataDay = DateTime(value.key.year, value.key.month, value.key.day);
+      retMap[dayDataDay] = value.value;
+    }
+
+    //　その週の最初の月曜から７日間るーぷして、
+    // 空きの日程がないか確認。月曜がなければ０をあれば前日のスコアで埋める
+    for (var day = firstMonday;
+        day.isBefore(firstMonday.add(const Duration(days: 6)));
+        day = day.add(const Duration(days: 1))) {
+      if (retMap.containsKey(day)) continue;
+      if (day.isAtSameMomentAs(firstMonday)) retMap[day] = 0.0;
+      retMap[day] = retMap[day.subtract(const Duration(days: 1))] ?? 0;
+    }
+
+    retMap = SplayTreeMap<DateTime, double>.from(
+        retMap, (DateTime a, DateTime b) => a.compareTo(b));
     return retMap;
   }
 
-  Map<DateTime, double> weeklyData = {
-    DateTime(1, 1, 1): 21,
-    DateTime(1, 1, 2): 62,
-    DateTime(1, 1, 3): 54,
-    DateTime(1, 1, 4): 87,
-    DateTime(1, 1, 5): 93,
-    DateTime(1, 1, 6): 21,
-    DateTime(1, 1, 7): 44,
+  Map<DateTime, double> weeklyDataExample = {
+    // DateTime(1, 1, 1): 21,
+    // DateTime(1, 1, 2): 62,
+    DateTime(2023, 10, 3): 54,
+    // DateTime(1, 1, 4): 87,
+    DateTime(2023, 10, 5): 93,
+    DateTime(2023, 10, 6): 21,
+    DateTime(2023, 10, 7): 44,
   };
 }
