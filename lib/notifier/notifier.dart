@@ -1,1 +1,1 @@
-export 'detect_model_notifier.dart';
+export 'meal_notifier.dart';

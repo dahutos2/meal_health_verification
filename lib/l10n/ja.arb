@@ -4,6 +4,7 @@
     "@test": {
         "description": "これはテストの翻訳説明文です、基本的に使わないですが、運営管理に活用ところです。注釈と認識しましょう"
     },
+    "initPageMainContentMessage": "ようこそ",
     "homePageHeaderTitle": "ホーム",
     "pageCameraHeaderTitle": "カメラ",
     "homePageFooterLabel": "ホーム",
