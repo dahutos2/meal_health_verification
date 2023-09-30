@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:meal_health_verification/index.dart';
 
 class RecommendedImage extends StatelessWidget {
   const RecommendedImage(
@@ -30,10 +31,10 @@ class RecommendedImage extends StatelessWidget {
             child: Text(
               L10n.of(context)!.recommendImageTitle,
               textAlign: TextAlign.center,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 24.0,
                 fontWeight: FontWeight.bold,
-                color: Colors.yellow,
+                color: ColorType.home.recommendImageTitle,
               ),
             ),
           ),
@@ -41,10 +42,10 @@ class RecommendedImage extends StatelessWidget {
             child: Text(
               mealName(L10n.of(context)!),
               textAlign: TextAlign.center,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 50.0,
                 fontWeight: FontWeight.bold,
-                color: Colors.yellow,
+                color: ColorType.home.recommendMealName,
               ),
             ),
           ),

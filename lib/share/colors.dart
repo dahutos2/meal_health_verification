@@ -43,6 +43,8 @@ class ColorsHome {
   const ColorsHome();
 
   Color get loadingBackground => const Color(0xFFAAAAAA);
+  Color get recommendImageTitle => const Color(0xFFEED835);
+  Color get recommendMealName => const Color(0xFFEED835);
 }
 
 class ColorsCamera {
