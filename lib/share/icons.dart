@@ -34,21 +34,12 @@ class IconsFooter {
 class IconsCamera {
   const IconsCamera();
 
-  Icon get startCameraButton => const Icon(
-        CupertinoIcons.videocam_fill,
-        color: CupertinoColors.white,
-      );
-
   Icon get pauseCameraButton => const Icon(
         CupertinoIcons.pause_circle,
         color: CupertinoColors.white,
       );
   Icon get resumeCameraButton => const Icon(
         CupertinoIcons.play_arrow_solid,
-        color: CupertinoColors.white,
-      );
-  Icon get stopCameraButton => const Icon(
-        CupertinoIcons.stop_circle,
         color: CupertinoColors.white,
       );
 }

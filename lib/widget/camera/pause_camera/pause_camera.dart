@@ -60,8 +60,9 @@ class _PauseCameraState extends State<PauseCamera> {
 
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       final tempDir = await getTemporaryDirectory();
+      await _startCamera();
       setState(() {
-        _tempDir = tempDir.path;
+        _tempDir = '${tempDir.path}/temp_image/';
         _errorMessage = L10n.of(context)!.pauseCameraStart;
       });
     });
@@ -107,17 +108,6 @@ class _PauseCameraState extends State<PauseCamera> {
         _isCameraReady = false;
       }
     });
-
-    setState(() {});
-  }
-
-  Future<void> _stopCamera() async {
-    await _controller?.dispose();
-    _deleteImage();
-    setState(() {
-      _errorMessage = L10n.of(context)!.pauseCameraStart;
-      _isCameraReady = false;
-    });
   }
 
   Future<void> _startRecording() async {
@@ -129,7 +119,7 @@ class _PauseCameraState extends State<PauseCamera> {
     });
     // この処理で非同期操作をステートの変更後に行う
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      _deleteImage();
+      _deleteImages();
       await _controller?.startImageStream(_processImage);
     });
   }
@@ -149,13 +139,12 @@ class _PauseCameraState extends State<PauseCamera> {
       // nullの場合は止めるだけ
       if (widget.changeImageFile == null) return;
 
-      final imagePath = '$_tempDir/temp_image_$_recordCount.png';
+      final imagePath = '$_tempDir/$_recordCount.png';
       final image = await CameraIsolate.convertAndSaveCameraImage(
           cameraImage, _cameras[0], imagePath, widget.aspectRatio);
       if (image == null) {
         // 画像の取得に失敗した場合は、画像をnullにする
         widget.changeImageFile!(null);
-        _deleteImage();
         return;
       }
       final imageFile = File(imagePath);
@@ -181,9 +170,14 @@ class _PauseCameraState extends State<PauseCamera> {
     }
   }
 
-  void _deleteImage() {
-    if (mounted && _image != null && _image!.existsSync()) {
-      _image!.deleteSync();
+  void _deleteImages() {
+    final files = Directory(_tempDir).listSync();
+    for (var entity in files) {
+      if (entity is File) {
+        entity.deleteSync();
+      }
+    }
+    if (mounted && _image != null) {
       setState(() {
         _image = null;
       });
@@ -192,7 +186,7 @@ class _PauseCameraState extends State<PauseCamera> {
 
   void _clear() {
     // ページ遷移の際にTemp画像を削除
-    _deleteImage();
+    _deleteImages();
 
     // フレームの描画が完了した直後にコールバックを実行
     WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -259,17 +253,8 @@ class _PauseCameraState extends State<PauseCamera> {
               ],
             ),
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                CupertinoButton(
-                  // カメラを起動している場合は非活性にする
-                  // カメラの起動ボタン
-                  onPressed: _isCameraReady ? null : _startCamera,
-                  color: ColorType.camera.startCameraButtonActive,
-                  disabledColor: ColorType.camera.startCameraButtonDisabled,
-                  padding: const EdgeInsets.all(10),
-                  child: IconType.camera.startCameraButton,
-                ),
                 !_isPause
                     ? CupertinoButton(
                         // カメラを起動しているかつ読み込み中ではない場合は活性にする
@@ -293,17 +278,6 @@ class _PauseCameraState extends State<PauseCamera> {
                         padding: const EdgeInsets.all(10),
                         child: IconType.camera.resumeCameraButton,
                       ),
-                CupertinoButton(
-                  onPressed:
-                      // カメラを起動しており、読み込み中でも停止中でもない場合は活性にする
-                      _isCameraReady && _isNotScanning && !_isPause
-                          ? _stopCamera
-                          : null,
-                  color: ColorType.camera.stopCameraButtonActive,
-                  disabledColor: ColorType.camera.stopCameraButtonDisabled,
-                  padding: const EdgeInsets.all(10),
-                  child: IconType.camera.stopCameraButton,
-                ),
               ],
             ),
           ),
