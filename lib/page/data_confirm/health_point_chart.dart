@@ -28,8 +28,8 @@ class _HealthPointChartState extends State<HealthPointChart> {
             padding: const EdgeInsets.only(
               right: 18,
               left: 12,
-              top: 24,
-              bottom: 12,
+              top: 40,
+              bottom: 0,
             ),
             child: LineChart(
               showAvg ? avgData() : mainData(),
@@ -52,7 +52,6 @@ class _HealthPointChartState extends State<HealthPointChart> {
                 color: showAvg
                     ? ColorType.footer.background.withOpacity(0.5)
                     : ColorType.footer.background,
-                // color: showAvg ? Colors.white.withOpacity(0.5) : Colors.white,
               ),
             ),
           ),
@@ -68,14 +67,26 @@ class _HealthPointChartState extends State<HealthPointChart> {
     );
     Widget text;
     switch (value.toInt()) {
+      case 0:
+        text = const Text('月', style: style);
+        break;
+      case 1:
+        text = const Text('火', style: style);
+        break;
       case 2:
-        text = const Text('MAR', style: style);
+        text = const Text('水', style: style);
+        break;
+      case 3:
+        text = const Text('木', style: style);
+        break;
+      case 4:
+        text = const Text('金', style: style);
         break;
       case 5:
-        text = const Text('JUN', style: style);
+        text = const Text('土', style: style);
         break;
-      case 8:
-        text = const Text('SEP', style: style);
+      case 6:
+        text = const Text('日', style: style);
         break;
       default:
         text = const Text('', style: style);
@@ -95,14 +106,23 @@ class _HealthPointChartState extends State<HealthPointChart> {
     );
     String text;
     switch (value.toInt()) {
-      case 1:
-        text = '10K';
+      case 0:
+        text = '0';
         break;
-      case 3:
-        text = '30k';
+      case 20:
+        text = '20';
         break;
-      case 5:
-        text = '50k';
+      case 40:
+        text = '40';
+        break;
+      case 60:
+        text = '60';
+        break;
+      case 80:
+        text = '80';
+        break;
+      case 100:
+        text = '100';
         break;
       default:
         return Container();
@@ -116,7 +136,7 @@ class _HealthPointChartState extends State<HealthPointChart> {
       gridData: FlGridData(
         show: true,
         drawVerticalLine: true,
-        horizontalInterval: 1,
+        horizontalInterval: 20,
         verticalInterval: 1,
         getDrawingHorizontalLine: (value) {
           return const FlLine(
@@ -161,21 +181,13 @@ class _HealthPointChartState extends State<HealthPointChart> {
         border: Border.all(color: const Color(0xff37434d)),
       ),
       minX: 0,
-      maxX: 11,
+      maxX: 6,
       minY: 0,
-      maxY: 6,
+      maxY: 100,
       lineBarsData: [
         LineChartBarData(
-          spots: const [
-            FlSpot(0, 3),
-            FlSpot(2.6, 2),
-            FlSpot(4.9, 5),
-            FlSpot(6.8, 3.1),
-            FlSpot(8, 4),
-            FlSpot(9.5, 3),
-            FlSpot(11, 4),
-          ],
-          isCurved: true,
+          spots: [..._getFlSpotList(weeklyData)],
+          isCurved: false,
           gradient: LinearGradient(
             colors: gradientColors,
           ),
@@ -197,14 +209,21 @@ class _HealthPointChartState extends State<HealthPointChart> {
     );
   }
 
+  List<FlSpot> _getFlSpotList(Map<DateTime, double> weeklyData) {
+    var index = 0;
+    return weeklyData.entries
+        .map((e) => FlSpot((index++).toDouble(), e.value))
+        .toList();
+  }
+
   LineChartData avgData() {
     return LineChartData(
       lineTouchData: const LineTouchData(enabled: false),
       gridData: FlGridData(
         show: true,
         drawHorizontalLine: true,
+        horizontalInterval: 20,
         verticalInterval: 1,
-        horizontalInterval: 1,
         getDrawingVerticalLine: (value) {
           return const FlLine(
             color: Color(0xff37434d),
@@ -248,20 +267,12 @@ class _HealthPointChartState extends State<HealthPointChart> {
         border: Border.all(color: const Color(0xff37434d)),
       ),
       minX: 0,
-      maxX: 11,
+      maxX: 6,
       minY: 0,
-      maxY: 6,
+      maxY: 100,
       lineBarsData: [
         LineChartBarData(
-          spots: const [
-            FlSpot(0, 3.44),
-            FlSpot(2.6, 3.44),
-            FlSpot(4.9, 3.44),
-            FlSpot(6.8, 3.44),
-            FlSpot(8, 3.44),
-            FlSpot(9.5, 3.44),
-            FlSpot(11, 3.44),
-          ],
+          spots: [..._getAverageFlSpotList(weeklyData)],
           isCurved: true,
           gradient: LinearGradient(
             colors: [
@@ -293,4 +304,21 @@ class _HealthPointChartState extends State<HealthPointChart> {
       ],
     );
   }
+
+  List<FlSpot> _getAverageFlSpotList(Map<DateTime, double> weeklyData) {
+    var sum = weeklyData.entries
+        .fold(0.0, (previousValue, element) => previousValue + element.value);
+    var average = sum / weeklyData.length;
+    return List.generate(7, (index) => FlSpot((index++).toDouble(), average));
+  }
+
+  Map<DateTime, double> weeklyData = {
+    DateTime(1, 1, 1): 21,
+    DateTime(1, 1, 2): 62,
+    DateTime(1, 1, 3): 54,
+    DateTime(1, 1, 4): 87,
+    DateTime(1, 1, 5): 93,
+    DateTime(1, 1, 6): 21,
+    DateTime(1, 1, 7): 44,
+  };
 }
