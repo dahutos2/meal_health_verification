@@ -224,10 +224,9 @@ class _HealthPointChartState extends State<HealthPointChart> {
   }
 
   Map<DateTime, double> weeklyDataExample = {
-    // DateTime(1, 1, 1): 21,
-    // DateTime(1, 1, 2): 62,
-    DateTime(2023, 10, 3): 54,
-    // DateTime(1, 1, 4): 87,
+    DateTime(2023, 10, 3, 1): 54,
+    DateTime(2023, 10, 3, 2): 54,
+    DateTime(2023, 10, 3, 3): 88,
     DateTime(2023, 10, 5): 93,
     DateTime(2023, 10, 6): 21,
     DateTime(2023, 10, 7): 44,
