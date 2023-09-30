@@ -4,7 +4,9 @@ import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
 class HealthPointChart extends StatefulWidget {
-  const HealthPointChart({super.key});
+  const HealthPointChart({super.key, required this.graphHistoryData});
+
+  final Map<DateTime, double> graphHistoryData;
 
   @override
   State<HealthPointChart> createState() => _HealthPointChartState();
@@ -158,7 +160,7 @@ class _HealthPointChartState extends State<HealthPointChart> {
       maxY: 100,
       lineBarsData: [
         LineChartBarData(
-          spots: [..._getFlSpotList(_getWeeklyData(weeklyDataExample))],
+          spots: [..._getFlSpotList(_getWeeklyData(widget.graphHistoryData))],
           isCurved: false,
           gradient: LinearGradient(
             colors: gradientColors,
@@ -182,6 +184,8 @@ class _HealthPointChartState extends State<HealthPointChart> {
   }
 
   List<FlSpot> _getFlSpotList(Map<DateTime, double> weeklyData) {
+    if (weeklyData.isEmpty) return <FlSpot>[];
+
     var index = 0;
     return weeklyData.entries
         .map((e) => FlSpot((index++).toDouble(), e.value))
@@ -190,6 +194,8 @@ class _HealthPointChartState extends State<HealthPointChart> {
 
   /// 1週間分のデータからグラフ表示用のデータを抽出する
   Map<DateTime, double> _getWeeklyData(Map<DateTime, double> foodHistory) {
+    if (foodHistory.isEmpty) return <DateTime, double>{};
+
     var sortedFoodHistory = SplayTreeMap<DateTime, double>.from(
         foodHistory, (DateTime a, DateTime b) => a.compareTo(b)).entries;
     var retMap = <DateTime, double>{};
