@@ -6,8 +6,8 @@
     },
     "homePageHeaderTitle": "ホーム",
     "page02HeaderTitle": "ページ02",
-    "page03HeaderTitle": "ページ03",
     "homePageFooterLabel": "ホーム",
+    "dataConfirmTitle": "データ確認",
     "page02FooterLabel": "ページ02",
-    "page03FooterLabel": "ページ03"
+    "dataConfirmLabel": "確認"
 }
