@@ -1,0 +1,101 @@
+name: Flutter Build CI
+
+on:
+  # ビルドに時間がかかるので、ワークフローからのみ実施
+  # pull_request:
+  #   branches:
+  #     - master
+  # push:
+  #   branches:
+  #     - master
+  workflow_dispatch:
+
+jobs:
+  build-apk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+      - name: Cache Flutter SDK
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/sdks/flutter
+          key: ${{ runner.os }}-flutter-${{ hashFiles('.tool-versions') }}
+          restore-keys: |
+            ${{ runner.os }}-flutter-
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.13.4'
+
+      - name: Cache Flutter dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.pub-cache
+          key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pub-
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Build APK
+        run: flutter build apk
+
+  build-ios:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Cache Flutter SDK
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/sdks/flutter
+          key: ${{ runner.os }}-flutter-${{ hashFiles('.tool-versions') }}
+          restore-keys: |
+            ${{ runner.os }}-flutter-
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.13.4'
+
+      - name: Cache Flutter dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.pub-cache
+          key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pub-
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      # IOSの署名を確認しない
+      - name: Build iOS (No code signing)
+        run: flutter build ios --no-codesign
+
+      # 署名を確認する場合
+      # - name: Setup iOS signing
+      #   env:
+      #     APPLE_CERTIFICATE: ${{ secrets.APPLE_CERTIFICATE }}
+      #     APPLE_PROVISIONING_PROFILE: ${{ secrets.APPLE_PROVISIONING_PROFILE }}
+      #   run: |
+      #     echo "$APPLE_CERTIFICATE" | base64 --decode > /tmp/certificate.p12
+      #     echo "$APPLE_PROVISIONING_PROFILE" | base64 --decode > /tmp/profile.mobileprovision
+      #     security create-keychain -p "" build.keychain
+      #     security import /tmp/certificate.p12 -t agg -k ~/Library/Keychains/build.keychain -P "password" -A
+      #     security list-keychains -s ~/Library/Keychains/build.keychain
+      #     security default-keychain -s ~/Library/Keychains/build.keychain
+      #     security unlock-keychain -p "" ~/Library/Keychains/build.keychain
+      #     mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
+      #     cp /tmp/profile.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/
+      
+
+      # - name: Build iOS
+      #   run: flutter build ios

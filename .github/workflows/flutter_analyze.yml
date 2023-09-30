@@ -1,0 +1,50 @@
+name: Flutter Analyze CI
+
+on:
+  pull_request:
+    branches:
+      - master
+  # 基本的に禁止なので省く
+  # push:
+  #   branches:
+  #     - master
+  workflow_dispatch:
+
+jobs:
+  check_flutter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Cache Flutter SDK
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/sdks/flutter
+          key: ${{ runner.os }}-flutter-${{ hashFiles('.tool-versions') }}
+          restore-keys: |
+            ${{ runner.os }}-flutter-
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.13.4'
+
+      - name: Cache Flutter dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.pub-cache
+          key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pub-
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Analyze
+        run: flutter analyze lib/
+        
+      - name: Test
+        run: flutter test
+

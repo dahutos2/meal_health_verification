@@ -1,0 +1,46 @@
+# このファイルは、Dartコードを静的に解析して
+# エラー、警告、lintsをチェックするアナライザを設定します。
+#
+# アナライザーによって特定された問題は、
+# Dart対応IDEのUI（https://dart.dev/tools#ides-and-editors）に表示されます。
+# コマンドラインから`flutter analyze`を実行してアナライザーを起動することもできます。
+
+# 下記はFlutterアプリ、パッケージ、プラグインのための推奨lintsのセットをアクティブにし、
+# 良いコーディングプラクティスを奨励するような設計を可能にします。
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  plugins:
+    - custom_lint
+
+linter:
+  # このプロジェクトに適用されるlintルールは、
+  # 上記の`package:flutter_lints/flutter.yaml`に含まれる
+  # ルールを無効にしたり、追加のルールを有効にしたりと、以下のセクションでカスタマイズできます。
+  # 利用可能なすべてのリントとそのドキュメントのリストは、
+  # https://dart-lang.github.io/linter/lints/index.html を参照して下さい。
+  #
+  # このセクションで lint ルールを無効にするのではなく、
+  # 下記を記載することで、特定のコード行やDartファイル全体でルールを無視することができます。
+  # // ignore: name_of_lint や // ignore_for_file: name_of_lint を使用する。
+  rules:
+    # 文字列を定義する際に単一引用符(')を使用することを推奨します。
+    prefer_single_quotes: true
+    # このルールをfalseに設定しているので、二重引用符(")を使用することは推奨されていません。
+    prefer_double_quotes: false
+    # void型の非同期関数を避けることを推奨します。
+    avoid_returning_this: true
+    # Colorの指定だけをしているContainerがある場合、ColoredBoxの使用を推奨します。
+    use_colored_box: true
+    # Decorationの指定だけをしているContainerがある場合、DecoratedBoxの使用を推奨します。
+    use_decorated_box: true
+    # StreamSubscriptionインスタンスに対してcancelを行うことを推奨します。
+    cancel_subscriptions: true
+    # オブジェクトを返す静的メソッドよりも、コンストラクタを使用することを推奨します。
+    prefer_constructors_over_static_methods: true
+    # パフォーマンスの低下を引き起こす可能性がある非同期のI/Oを避けることを推奨します。
+    avoid_slow_async_io: true
+    # 1行に複数の変数宣言を避けることを推奨します。
+    avoid_multiple_declarations_per_line: true
+# このファイルに関する追加情報は下記を参照して下さい。
+# https://dart.dev/guides/language/analysis-options

@@ -1,0 +1,78 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*.lock
+.DS_Store
+.metadata
+
+# Dart related
+*.dart.js
+*.info.json      # Coverage/lcov json for Coverage, which is saved on disk only.
+*.packages
+
+# Flutter related
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Flutter auto-generated files for desktop platforms
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugins.cmake
+macos/Flutter/GeneratedPluginRegistrant.swift
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugins.cmake
+
+# Flutter plugins
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Dart tool directory
+.dart_tool/
+
+# IntelliJ and VS Code related
+*.iml
+.idea/
+.vscode/
+
+# Android related build artifacts and configurations
+*.keystore
+*.jks
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/local.properties
+**/android/build/
+**/android/app/build/
+**/android/**/.DS_Store
+
+# iOS related build artifacts and configurations
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/.idea/
+**/ios/**/.generated/
+**/ios/**/Pods/
+
+# Exception to keep the xcuserdata but remove content inside
+!**/ios/**/xcuserdata/
+**/ios/**/xcuserdata/** 
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Build artifacts
+build/
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
