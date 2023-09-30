@@ -1,0 +1,13 @@
+{
+    "@@locale": "ne",
+    "test": "परिक्षण",
+    "@test": {
+        "description": "यो परिक्षणको अनुवाद वर्णन हो, मूल रूपमा प्रयोग गरिएको छैन, तर यो व्यवस्थापन व्यवस्थापनको लागि प्रयोग गरिन्छ।यसलाई एक एनोशेशनको रूपमा चिन्नुहोस्"
+    },
+    "homePageHeaderTitle": "घर",
+    "page02HeaderTitle": "0 2",
+    "page03HeaderTitle": "पृष्ठ 03",
+    "homePageFooterLabel": "घर",
+    "page02FooterLabel": "0 2",
+    "page03FooterLabel": "पृष्ठ 03"
+}

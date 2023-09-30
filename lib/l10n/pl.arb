@@ -1,0 +1,13 @@
+{
+    "@@locale": "pl",
+    "test": "test",
+    "@test": {
+        "description": "Jest to opis tłumaczenia testu, zasadniczo nie używany, ale jest używany do zarządzania.Rozpoznajmy to jako adnotację"
+    },
+    "homePageHeaderTitle": "dom",
+    "page02HeaderTitle": "Strona 02",
+    "page03HeaderTitle": "Strona 03",
+    "homePageFooterLabel": "dom",
+    "page02FooterLabel": "Strona 02",
+    "page03FooterLabel": "Strona 03"
+}

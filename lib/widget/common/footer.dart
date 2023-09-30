@@ -7,15 +7,15 @@ import '../../share/share.dart';
 
 const _gap = 10.0;
 
-enum TabType { page01, page02, page03 }
+enum TabType { home, page02, page03 }
 
 const pages = [
-  Page01(),
+  HomePage(),
   Page02(),
   DataConfirm(),
 ];
 
-final tabTypeProvider = StateProvider<TabType>((_) => TabType.page01);
+final tabTypeProvider = StateProvider<TabType>((_) => TabType.home);
 
 class FooterView extends ConsumerWidget {
   const FooterView({super.key});
@@ -27,7 +27,7 @@ class FooterView extends ConsumerWidget {
       child: Row(
         children: [
           _buildBottomNavItem(0, IconType.footer.page01,
-              L10n.of(context)!.page01FooterLabel, context, ref),
+              L10n.of(context)!.homePageFooterLabel, context, ref),
           _buildBottomNavItem(1, IconType.footer.page02,
               L10n.of(context)!.page02FooterLabel, context, ref),
           _buildBottomNavItem(2, IconType.footer.page03,

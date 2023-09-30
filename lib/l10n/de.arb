@@ -1,0 +1,13 @@
+{
+    "@@locale": "de",
+    "test": "prüfen",
+    "@test": {
+        "description": "Dies ist eine Übersetzungsbeschreibung des Tests, im Grunde genommen nicht verwendet, wird jedoch für die Verwaltung des Managements verwendet.Lassen Sie es uns als Annotation erkennen"
+    },
+    "homePageHeaderTitle": "heim",
+    "page02HeaderTitle": "Seite 02",
+    "page03HeaderTitle": "Seite 03",
+    "homePageFooterLabel": "heim",
+    "page02FooterLabel": "Seite 02",
+    "page03FooterLabel": "Seite 03"
+}
