@@ -36,6 +36,13 @@ class MealNotifier with ChangeNotifier {
       _list == null ? null : List.unmodifiable(_list ?? <Meal>[]);
 
   void displayList() {
+    findFirstWeek().then((list) {
+      _list = list;
+      notifyListeners();
+    });
+  }
+
+  Future<List<Meal>> findFirstWeek() async {
     final DateTime now = DateTime.now();
     final DateTime lastMonday = now.subtract(
       Duration(days: now.weekday + (now.weekday == DateTime.monday ? 6 : -1)),
@@ -45,10 +52,7 @@ class MealNotifier with ChangeNotifier {
       lastMonday.month,
       lastMonday.day,
     );
-    _service.findByDateRange(startOfLastWeek, lastMonday).then((list) {
-      _list = list;
-      notifyListeners();
-    });
+    return await _service.findByDateRange(startOfLastWeek, now);
   }
 
   Future<List<Meal>> findByDateRange({
@@ -58,7 +62,7 @@ class MealNotifier with ChangeNotifier {
     return await _service.findByDateRange(startDate, endDate);
   }
 
-  void saveBook({
+  void add({
     required String name,
     required int healthRating,
   }) {
