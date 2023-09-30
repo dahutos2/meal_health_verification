@@ -5,9 +5,13 @@
         "description": "これはテストの翻訳説明文です、基本的に使わないですが、運営管理に活用ところです。注釈と認識しましょう"
     },
     "page01HeaderTitle": "ページ01",
-    "page02HeaderTitle": "ページ02",
+    "pageCameraHeaderTitle": "カメラ",
     "page03HeaderTitle": "ページ03",
     "page01FooterLabel": "ページ01",
-    "page02FooterLabel": "ページ02",
-    "page03FooterLabel": "ページ03"
+    "pageCameraFooterLabel": "カメラ",
+    "page03FooterLabel": "ページ03",
+    "pauseCameraStart": "カメラを起動して下さい。",
+    "pauseCameraErrorNotExistCamera": "カメラが存在しません。",
+    "pauseCameraErrorCameraAccessDenied": "カメラへのアクセス権限がありません。",
+    "pauseCameraErrorUndefined": "カメラ接続時に不明なエラーが発生しました。"
 }
