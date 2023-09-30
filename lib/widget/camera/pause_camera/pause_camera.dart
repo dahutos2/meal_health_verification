@@ -40,7 +40,7 @@ class PauseCamera extends StatefulWidget {
 }
 
 class _PauseCameraState extends State<PauseCamera> {
-  late final String _tempDir;
+  String _tempDir = '';
   File? _image;
 
   List<CameraDescription> _cameras = [];
@@ -59,10 +59,13 @@ class _PauseCameraState extends State<PauseCamera> {
     super.initState();
 
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      final tempDir = await getTemporaryDirectory();
+      final osTempDir = await getTemporaryDirectory();
+      final Directory tempDir = Directory('${osTempDir.path}/temp_image/');
+
+      tempDir.createSync(recursive: true);
       await _startCamera();
       setState(() {
-        _tempDir = '${tempDir.path}/temp_image/';
+        _tempDir = tempDir.path;
         _errorMessage = L10n.of(context)!.pauseCameraStart;
       });
     });
@@ -171,6 +174,7 @@ class _PauseCameraState extends State<PauseCamera> {
   }
 
   void _deleteImages() {
+    if (!mounted || _tempDir.isEmpty) return;
     final files = Directory(_tempDir).listSync();
     for (var entity in files) {
       if (entity is File) {

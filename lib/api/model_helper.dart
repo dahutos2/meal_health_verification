@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-
+import 'package:tflite_flutter/tflite_flutter.dart';
 import 'package:flutter/services.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
@@ -14,16 +14,27 @@ final modelHelperProvider = Provider<ModelHelper>(
 class ModelHelper {
   ObjectDetector? _objectDetector;
   List<String>? _labelTexts;
+  Interpreter? _healthRating;
+  Interpreter? _mealFeature;
 
   ObjectDetector? get objectDetector => _objectDetector;
   List<String> get labelTexts => _labelTexts ?? [];
+  Interpreter? get healthRating => _healthRating;
+  Interpreter? get mealFeature => _mealFeature;
 
   Future<void> init() async {
-    final objectDetector = await _getObjectDetector();
-    final labelTexts = await _loadLabelTexts();
+    _objectDetector = await _getObjectDetector();
+    _labelTexts = await _loadLabelTexts();
+    _healthRating = await _getHealthRating();
+    _mealFeature = await _getMealFeature();
+  }
 
-    _objectDetector = objectDetector;
-    _labelTexts = labelTexts;
+  Future<Interpreter> _getHealthRating() async {
+    return await Interpreter.fromAsset('assets/ml/health_rating.tflite');
+  }
+
+  Future<Interpreter> _getMealFeature() async {
+    return await Interpreter.fromAsset('assets/ml/meal_feature.tflite');
   }
 
   Future<List<String>> _loadLabelTexts() async {

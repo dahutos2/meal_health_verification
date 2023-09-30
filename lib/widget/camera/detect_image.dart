@@ -7,7 +7,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../api/api.dart';
 import '../../share/share.dart';
 import '../../extensions/extensions.dart';
-import 'colorful_load.dart';
+import '../common/widget_common.dart';
 import './pause_camera/pause_camera.dart';
 import 'recommend_meal.dart';
 
