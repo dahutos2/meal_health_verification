@@ -13,6 +13,8 @@ class ColorType {
 
   static const footer = ColorsFooter();
 
+  static const home = ColorsHome();
+
   static const camera = ColorsCamera();
 }
 
@@ -35,6 +37,14 @@ class ColorsFooter {
   Color get item => const Color(0xFFFFFFFF);
   Color get disabledItem => const Color(0xFFAAAAAA);
   Color get unselectedItem => const Color(0xFFFFFFFF);
+}
+
+class ColorsHome {
+  const ColorsHome();
+
+  Color get loadingBackground => const Color(0xFFAAAAAA);
+  Color get recommendImageTitle => const Color(0xFFEED835);
+  Color get recommendMealName => const Color(0xFFEED835);
 }
 
 class ColorsCamera {
