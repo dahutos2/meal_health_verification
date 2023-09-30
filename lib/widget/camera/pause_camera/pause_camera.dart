@@ -155,9 +155,7 @@ class _PauseCameraState extends State<PauseCamera> {
       if (image == null) {
         // 画像の取得に失敗した場合は、画像をnullにする
         widget.changeImageFile!(null);
-        setState(() {
-          _image = null;
-        });
+        _deleteImage();
         return;
       }
       final imageFile = File(imagePath);

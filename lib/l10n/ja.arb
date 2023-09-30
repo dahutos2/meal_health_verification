@@ -13,5 +13,6 @@
     "pauseCameraStart": "カメラを起動して下さい。",
     "pauseCameraErrorNotExistCamera": "カメラが存在しません。",
     "pauseCameraErrorCameraAccessDenied": "カメラへのアクセス権限がありません。",
-    "pauseCameraErrorUndefined": "カメラ接続時に不明なエラーが発生しました。"
+    "pauseCameraErrorUndefined": "カメラ接続時に不明なエラーが発生しました。",
+    "startDetectImageText": "画像を撮影して下さい。"
 }

@@ -7,11 +7,12 @@ import 'package:flutter/services.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:google_mlkit_object_detection/google_mlkit_object_detection.dart';
-// import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../share/share.dart';
 import 'colorful_load.dart';
 import './pause_camera/pause_camera.dart';
+import 'recommend_meal.dart';
 
 class DetectImage extends StatefulWidget {
   const DetectImage({super.key});
@@ -25,6 +26,7 @@ class _DetectImageState extends State<DetectImage> {
 
   ObjectDetector? _objectDetector;
   List<DetectedObject> _detectedObjects = [];
+  List<String> _labelTexts = [];
   bool _isLoading = false;
 
   @override
@@ -39,9 +41,27 @@ class _DetectImageState extends State<DetectImage> {
     });
   }
 
+  Future<List<String>> _loadLabels() async {
+    final labelPath = await _getLabelPath('assets/ml/detect_object.txt');
+    final file = File(labelPath);
+    final contents = await file.readAsLines();
+    return contents.where((line) => line.isNotEmpty).toList();
+  }
+
+  Future<String> _getLabelPath(String asset) async {
+    final path = '${(await getApplicationSupportDirectory()).path}/$asset';
+    await Directory(dirname(path)).create(recursive: true);
+    final file = File(path);
+    if (!file.existsSync()) {
+      final byteData = await rootBundle.load(asset);
+      await file.writeAsBytes(byteData.buffer
+          .asUint8List(byteData.offsetInBytes, byteData.lengthInBytes));
+    }
+    return file.path;
+  }
+
   Future<ObjectDetector> getDetector() async {
-    final modelPath =
-        await _getModelPath('assets/ml/mobilenet_v1_1.0_224_quant.tflite');
+    final modelPath = await _getModelPath('assets/ml/detect_object.tflite');
     final options = LocalObjectDetectorOptions(
       mode: DetectionMode.single,
       modelPath: modelPath,
@@ -89,14 +109,18 @@ class _DetectImageState extends State<DetectImage> {
       // 画像の取得に失敗した場合は、画像をnullにする
       setState(() {
         _detectedObjects = [];
+        _labelTexts = [];
+        _image = null;
       });
       return;
     }
     final inputImage = InputImage.fromFile(image.file);
     final objects = await _objectDetector!.processImage(inputImage);
+    final texts = await _loadLabels();
     setState(() {
       _image = image;
       _detectedObjects = objects;
+      _labelTexts = texts;
     });
   }
 
@@ -118,6 +142,7 @@ class _DetectImageState extends State<DetectImage> {
                 stackWidget: CustomPaint(
                   foregroundPainter: _DetectedObjectsPainter(
                     detectedObjects: _detectedObjects,
+                    labelTexts: _labelTexts,
                     width: _image?.width ?? 0,
                     height: _image?.height ?? 0,
                   ),
@@ -126,7 +151,16 @@ class _DetectImageState extends State<DetectImage> {
               ),
               Expanded(
                 child: !_isLoading
-                    ? const SizedBox()
+                    ? _detectedObjects.isEmpty
+                        ? Center(
+                            child: Text(
+                              L10n.of(context)!.startDetectImageText,
+                              softWrap: true,
+                              textAlign: TextAlign.center,
+                              style: StyleType.camera.startDetectImageText,
+                            ),
+                          )
+                        : const RecommendMeal()
                     : Center(
                         child: SizedBox(
                             width: MediaQuery.of(context).size.width * 0.3,
@@ -141,11 +175,13 @@ class _DetectImageState extends State<DetectImage> {
 
 class _DetectedObjectsPainter extends CustomPainter {
   final List<DetectedObject> detectedObjects;
+  final List<String> labelTexts;
   final int width;
   final int height;
 
   _DetectedObjectsPainter({
     required this.detectedObjects,
+    required this.labelTexts,
     required this.width,
     required this.height,
   });
@@ -176,7 +212,9 @@ class _DetectedObjectsPainter extends CustomPainter {
       canvas.drawRect(scaledRect, paint);
 
       for (Label label in detectedObject.labels) {
-        final text = label.text.isEmpty ? 'カレー' : label.text;
+        // indexが範囲外の場合は何もしない
+        if (labelTexts.length - 1 < label.index || label.index < 0) continue;
+        final text = labelTexts[label.index];
         textPaint.text = TextSpan(
           text: text,
           style: StyleType.camera.detectText,

@@ -44,6 +44,7 @@ dependencies:
   path_provider: 2.1.1
   google_mlkit_object_detection: 0.10.0
   path: 1.8.3
+  lottie: 2.6.0
 
 dev_dependencies:
   flutter_test:
@@ -72,6 +73,7 @@ flutter:
   assets:
     - assets/images/
     - assets/ml/
+    - assets/lottie/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
