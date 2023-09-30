@@ -1,8 +1,6 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
-import '../../share/share.dart';
-
 class HealthPointChart extends StatefulWidget {
   const HealthPointChart({super.key});
 
@@ -50,8 +48,8 @@ class _HealthPointChartState extends State<HealthPointChart> {
               style: TextStyle(
                 fontSize: 12,
                 color: showAvg
-                    ? ColorType.footer.background.withOpacity(0.5)
-                    : ColorType.footer.background,
+                    ? const Color(0xff37434d).withOpacity(0.5)
+                    : const Color(0xff37434d),
               ),
             ),
           ),
@@ -140,13 +138,13 @@ class _HealthPointChartState extends State<HealthPointChart> {
         verticalInterval: 1,
         getDrawingHorizontalLine: (value) {
           return const FlLine(
-            color: Colors.blue,
+            color: Color(0xff37434d),
             strokeWidth: 1,
           );
         },
         getDrawingVerticalLine: (value) {
           return const FlLine(
-            color: Colors.blueAccent,
+            color: Color(0xff37434d),
             strokeWidth: 1,
           );
         },
