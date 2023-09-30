@@ -9,9 +9,16 @@ class DataConfirm extends StatelessWidget {
 
   /// 日付の表示用文字列取得メソッド
   /// 例:日本語→9月25日(月)
-  String _getDisplayDateTime(BuildContext context, DateTime date) {
+  String _getDisplayDate(BuildContext context, DateTime date) {
     var languageCode = Localizations.localeOf(context).languageCode;
     return DateFormat.MMMEd(languageCode).format(date);
+  }
+
+  /// 日付の表示用文字列取得メソッド
+  /// 例:日本語→9月25日(月)
+  String _getDisplayTime(BuildContext context, DateTime date) {
+    var languageCode = Localizations.localeOf(context).languageCode;
+    return DateFormat.Hm(languageCode).format(date);
   }
 
   @override
@@ -34,14 +41,12 @@ class DataConfirm extends StatelessWidget {
                     itemCount: dailyData.value.length + 1,
                     itemBuilder: (BuildContext context, int index) {
                       if (index == 0)
-                        return Text(
-                            _getDisplayDateTime(context, dailyData.key));
+                        return Text(_getDisplayDate(context, dailyData.key));
                       return Row(
                         children: [
                           SizedBox(width: 10),
-                          Text(dailyData.value.entries
-                              .elementAt(index - 1)
-                              .value)
+                          Text(
+                              '${_getDisplayTime(context, dailyData.value.entries.elementAt(index - 1).key)} ${dailyData.value.entries.elementAt(index - 1).value}')
                         ],
                       );
                     });
