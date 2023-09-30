@@ -17,9 +17,15 @@ class RecommendService {
   }
 
   List<RecommendImage> getRecommendImages(List<Meal> meals) {
-    final recommendImage = RecommendImage(
+    final recommendImage01 = RecommendImage(
         name: (L10n l10n) => l10n.initPageMainContentMessage,
         imagePath: 'assets/images/curry_vertical.jpg');
-    return [recommendImage, recommendImage, recommendImage];
+    final recommendImage02 = RecommendImage(
+        name: (L10n l10n) => l10n.initPageMainContentMessage,
+        imagePath: 'assets/images/hamburger.jpg');
+    final recommendImage03 = RecommendImage(
+        name: (L10n l10n) => l10n.initPageMainContentMessage,
+        imagePath: 'assets/images/breakfast.jpg');
+    return [recommendImage01, recommendImage02, recommendImage03];
   }
 }
