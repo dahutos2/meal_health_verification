@@ -1,0 +1,13 @@
+{
+    "@@locale": "en",
+    "test": "test",
+    "@test": {
+        "description": "This is a translation description of the test, basically not used, but it is used for management management.Let's recognize it as an annotation"
+    },
+    "homePageHeaderTitle": "home",
+    "page02HeaderTitle": "Page 02",
+    "page03HeaderTitle": "Page 03",
+    "homePageFooterLabel": "home",
+    "page02FooterLabel": "Page 02",
+    "page03FooterLabel": "Page 03"
+}

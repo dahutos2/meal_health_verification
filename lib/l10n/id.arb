@@ -1,0 +1,13 @@
+{
+    "@@locale": "id",
+    "test": "tes",
+    "@test": {
+        "description": "Ini adalah deskripsi terjemahan dari tes, pada dasarnya tidak digunakan, tetapi digunakan untuk manajemen manajemen.Mari kita mengenalinya sebagai anotasi"
+    },
+    "homePageHeaderTitle": "rumah",
+    "page02HeaderTitle": "Halaman 02",
+    "page03HeaderTitle": "Halaman 03",
+    "homePageFooterLabel": "rumah",
+    "page02FooterLabel": "Halaman 02",
+    "page03FooterLabel": "Halaman 03"
+}

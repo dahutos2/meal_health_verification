@@ -4,10 +4,10 @@
     "@test": {
         "description": "これはテストの翻訳説明文です、基本的に使わないですが、運営管理に活用ところです。注釈と認識しましょう"
     },
-    "page01HeaderTitle": "ページ01",
+    "homePageHeaderTitle": "ホーム",
     "page02HeaderTitle": "ページ02",
     "page03HeaderTitle": "ページ03",
-    "page01FooterLabel": "ページ01",
+    "homePageFooterLabel": "ホーム",
     "page02FooterLabel": "ページ02",
     "page03FooterLabel": "ページ03"
 }
