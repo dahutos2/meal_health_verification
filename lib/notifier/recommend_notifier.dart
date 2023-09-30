@@ -72,11 +72,13 @@ class RecommendNotifier with ChangeNotifier {
     final isolateInterpreter =
         await IsolateInterpreter.create(address: _model.healthRating!.address);
 
+    final parseLabel = await _parseLabel(label);
+
     // 複数の健康度と、ラベルの特徴量から一つの健康度を返す
     var input = [
       [
         ...meals.map((meal) => meal.healthRating.toDouble()).toList(),
-        ...await _parseLabel(label),
+        ...parseLabel,
       ]
     ];
     var output = List.filled(1 * 1, 0).reshape([1, 1]);
