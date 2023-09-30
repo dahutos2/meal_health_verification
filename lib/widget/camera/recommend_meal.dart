@@ -8,6 +8,7 @@ import 'package:google_mlkit_object_detection/google_mlkit_object_detection.dart
 import '../../api/api.dart';
 import '../../notifier/notifier.dart';
 import '../../share/share.dart';
+import '../../extensions/extensions.dart';
 
 class RecommendMeal extends ConsumerWidget {
   final List<DetectedObject> detectedObjects;
@@ -38,8 +39,8 @@ class RecommendMeal extends ConsumerWidget {
           Lottie.asset(
             recommendText.lottiePath,
             repeat: true,
-            width: MediaQuery.of(context).size.width * 0.3,
-            height: MediaQuery.of(context).size.width * 0.3,
+            width: context.deviceWidth * 0.3,
+            height: context.deviceWidth * 0.3,
           ),
         ],
       ),
