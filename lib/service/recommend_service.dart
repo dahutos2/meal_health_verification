@@ -51,6 +51,9 @@ class RecommendService {
   }
 
   List<RecommendImage> _getRandomRecommendImages(List<RecommendImage> source) {
+    if (source.isEmpty) {
+      source = normalRateRecommends;
+    }
     final result = <RecommendImage>[];
     int randomLimit = source.length;
     final random = Random();
