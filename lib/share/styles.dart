@@ -41,5 +41,7 @@ class StylesCamera {
   TextStyle get startDetectImageText =>
       const TextStyle(color: Color(0xFF8E8E93));
   TextStyle get recommendText => const TextStyle(
-      fontSize: 24, fontWeight: FontWeight.bold, color: Color(0xFF8E8E93));
+        fontSize: 16,
+        color: Colors.black,
+      );
 }

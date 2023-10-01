@@ -22,6 +22,7 @@ class ColorsBase {
   const ColorsBase();
 
   Color get background => const Color(0xFFF3E5E5);
+  Color get initBackGround => const Color(0xFFE6BC5B);
 }
 
 class ColorsHeader {
@@ -52,10 +53,10 @@ class ColorsCamera {
 
   Color get rect => const Color(0xFFFFFFFF);
   Color get errorBackGround => const Color(0xFF8E8E93);
-  Color get buttonBackGround => const Color(0xFFFFFFFF);
+  Color get buttonBackGround => const Color(0x60FFFFFF);
   Color get buttonBackGroundShadow => const Color(0x13747480);
-  Color get pauseCameraButtonActive => const Color(0xFF34C759);
+  Color get pauseCameraButtonActive => const Color(0xFF9E9E9E);
   Color get pauseCameraButtonDisabled => const Color(0x13747480);
-  Color get resumeCameraButtonActive => const Color(0xFF34C759);
+  Color get resumeCameraButtonActive => const Color(0xFF9E9E9E);
   Color get resumeCameraButtonDisabled => const Color(0x13747480);
 }

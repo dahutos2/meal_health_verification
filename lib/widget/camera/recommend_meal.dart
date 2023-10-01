@@ -54,22 +54,26 @@ class _RecommendMealState extends ConsumerState<RecommendMeal> {
                 height: context.deviceWidth * 0.3,
                 child: const ColorfulLoadPage()),
           )
-        : Padding(
-            padding: const EdgeInsets.only(top: 20),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
+        : SizedBox(
+            width: context.deviceWidth,
+            child: Stack(
+              alignment: AlignmentDirectional.bottomCenter,
               children: [
-                Text(
-                  _recommendText!.value(L10n.of(context)!),
-                  style: StyleType.camera.recommendText,
-                  textAlign: TextAlign.center,
+                Padding(
+                  padding: EdgeInsets.only(right: context.deviceWidth / 2),
+                  child: Lottie.asset(
+                    _recommendText!.lottiePath,
+                    repeat: true,
+                    width: context.deviceWidth * 0.3,
+                    height: context.deviceWidth * 0.3,
+                  ),
                 ),
-                const SizedBox(height: 10),
-                Lottie.asset(
-                  _recommendText!.lottiePath,
-                  repeat: true,
-                  width: context.deviceWidth * 0.3,
-                  height: context.deviceWidth * 0.3,
+                Positioned(
+                  top: 10,
+                  left: context.deviceWidth / 3,
+                  child: SpeechBubble(
+                    text: _recommendText!.value(L10n.of(context)!),
+                  ),
                 ),
               ],
             ),
@@ -90,4 +94,50 @@ String _getLabelText(
   }
 
   return '';
+}
+
+class SpeechBubble extends StatelessWidget {
+  final String text;
+
+  SpeechBubble({required this.text});
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomPaint(
+      painter: SpeechBubblePainter(),
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5)
+            .copyWith(bottom: 10), // Padding adjusted for triangle
+        child: Text(
+          text,
+          style: StyleType.camera.recommendText,
+        ),
+      ),
+    );
+  }
+}
+
+class SpeechBubblePainter extends CustomPainter {
+  @override
+  void paint(Canvas canvas, Size size) {
+    final Paint paint = Paint()
+      ..color = Colors.white
+      ..style = PaintingStyle.fill;
+
+    final Path path = Path()
+      ..moveTo(0, 0)
+      ..lineTo(size.width, 0)
+      ..lineTo(size.width, size.height)
+      ..lineTo(10, size.height) // Right side of triangle, moved to left
+      ..lineTo(0, size.height + 20) // Bottom point of triangle, moved down
+      ..lineTo(0, size.height) // Left side of triangle
+      ..close();
+
+    canvas.drawPath(path, paint);
+  }
+
+  @override
+  bool shouldRepaint(CustomPainter oldDelegate) {
+    return false;
+  }
 }

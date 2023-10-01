@@ -60,6 +60,10 @@ class RecommendService {
     for (int index = 0; index < imageCount; index++) {
       // リスト内の要素をランダムに取得する
       final targetIndex = random.nextInt(randomLimit);
+
+      // すでに追加済みの場合はやり直す
+      if (result.contains(source[targetIndex])) continue;
+
       result.add(source[targetIndex]);
     }
 
