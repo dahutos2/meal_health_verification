@@ -138,7 +138,7 @@ class _HealthDataConfirmState extends ConsumerState<HealthDataConfirm> {
               },
               style: ElevatedButton.styleFrom(
                 foregroundColor: Colors.white,
-                backgroundColor: ColorType.footer.background,
+                backgroundColor: Colors.grey,
               ),
               child: const Text('先週'),
             ),
@@ -161,7 +161,7 @@ class _HealthDataConfirmState extends ConsumerState<HealthDataConfirm> {
               },
               style: ElevatedButton.styleFrom(
                 foregroundColor: Colors.white,
-                backgroundColor: ColorType.footer.background,
+                backgroundColor: Colors.grey,
               ),
               child: const Text('翌週'),
             ),
