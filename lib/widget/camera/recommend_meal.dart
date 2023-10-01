@@ -99,7 +99,10 @@ String _getLabelText(
 class SpeechBubble extends StatelessWidget {
   final String text;
 
-  SpeechBubble({required this.text});
+  const SpeechBubble({
+    super.key,
+    required this.text,
+  });
 
   @override
   Widget build(BuildContext context) {
