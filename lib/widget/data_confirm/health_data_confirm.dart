@@ -24,7 +24,6 @@ class _HealthDataConfirmState extends ConsumerState<HealthDataConfirm> {
     super.initState();
 
     var state = ref.read(mealNotifierProvider).list;
-    if (mounted) return;
     Future.delayed(
       Duration.zero,
       () async {
