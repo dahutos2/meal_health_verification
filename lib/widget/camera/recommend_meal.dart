@@ -110,7 +110,7 @@ class SpeechBubble extends StatelessWidget {
       painter: SpeechBubblePainter(),
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5)
-            .copyWith(bottom: 10), // Padding adjusted for triangle
+            .copyWith(bottom: 10),
         child: Text(
           text,
           style: StyleType.camera.recommendText,
@@ -131,9 +131,9 @@ class SpeechBubblePainter extends CustomPainter {
       ..moveTo(0, 0)
       ..lineTo(size.width, 0)
       ..lineTo(size.width, size.height)
-      ..lineTo(10, size.height) // Right side of triangle, moved to left
-      ..lineTo(0, size.height + 20) // Bottom point of triangle, moved down
-      ..lineTo(0, size.height) // Left side of triangle
+      ..lineTo(10, size.height)
+      ..lineTo(0, size.height + 20)
+      ..lineTo(0, size.height)
       ..close();
 
     canvas.drawPath(path, paint);
