@@ -30,7 +30,7 @@ class ModelHelper {
   }
 
   Future<Interpreter> _getHealthRating() async {
-    return await Interpreter.fromAsset('assets/ml/health_rating.tflite');
+    return Interpreter.fromAsset('assets/ml/health_rating.tflite');
   }
 
   Future<Interpreter> _getMealFeature() async {
@@ -38,26 +38,14 @@ class ModelHelper {
   }
 
   Future<List<String>> _loadLabelTexts() async {
-    final labelPath = await _getLabelPath('assets/ml/detect_object.txt');
+    final labelPath = await _getAssetsPath('assets/ml/detect_object.txt');
     final file = File(labelPath);
     final contents = await file.readAsLines();
     return contents.where((line) => line.isNotEmpty).toList();
   }
 
-  Future<String> _getLabelPath(String asset) async {
-    final path = '${(await getApplicationSupportDirectory()).path}/$asset';
-    await Directory(dirname(path)).create(recursive: true);
-    final file = File(path);
-    if (!file.existsSync()) {
-      final byteData = await rootBundle.load(asset);
-      await file.writeAsBytes(byteData.buffer
-          .asUint8List(byteData.offsetInBytes, byteData.lengthInBytes));
-    }
-    return file.path;
-  }
-
   Future<ObjectDetector> _getObjectDetector() async {
-    final modelPath = await _getModelPath('assets/ml/detect_object.tflite');
+    final modelPath = await _getAssetsPath('assets/ml/detect_object.tflite');
     final options = LocalObjectDetectorOptions(
       mode: DetectionMode.single,
       modelPath: modelPath,
@@ -70,7 +58,7 @@ class ModelHelper {
     return ObjectDetector(options: options);
   }
 
-  Future<String> _getModelPath(String asset) async {
+  Future<String> _getAssetsPath(String asset) async {
     final path = '${(await getApplicationSupportDirectory()).path}/$asset';
     await Directory(dirname(path)).create(recursive: true);
     final file = File(path);
