@@ -57,7 +57,7 @@ class RecommendService {
     final result = <RecommendImage>[];
     int randomLimit = source.length;
     final random = Random();
-    for (int index = 0; index < imageCount; index++) {
+    while (result.length < imageCount) {
       // リスト内の要素をランダムに取得する
       final targetIndex = random.nextInt(randomLimit);
 
