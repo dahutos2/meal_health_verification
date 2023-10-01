@@ -1,5 +1,5 @@
-import 'package:flutter/painting.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 
 /// 文字を管理するクラス
 ///
@@ -12,6 +12,8 @@ class StyleType {
   static const footer = StylesFooter();
 
   static const camera = StylesCamera();
+
+  static const dataConfirm = StylesDataConfirm();
 }
 
 class StylesHeader {
@@ -42,4 +44,13 @@ class StylesCamera {
       const TextStyle(color: Color(0xFF8E8E93));
   TextStyle get recommendText => const TextStyle(
       fontSize: 24, fontWeight: FontWeight.bold, color: Color(0xFF8E8E93));
+}
+
+class StylesDataConfirm {
+  const StylesDataConfirm();
+
+  TextStyle get dateText =>
+      const TextStyle(fontSize: 18, color: Color(0xFF545454));
+  TextStyle get foodText =>
+      const TextStyle(fontSize: 16, color: Color(0xFF545454));
 }
