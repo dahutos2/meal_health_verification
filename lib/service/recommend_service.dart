@@ -23,12 +23,12 @@ class RecommendService {
           lottiePath: 'assets/lottie/bad.json');
     } else if (30 <= healthRating && healthRating < 60) {
       return RecommendText(
-          value: (L10n l10n) => l10n.recommendBadText,
-          lottiePath: 'assets/lottie/bad.json');
+          value: (L10n l10n) => l10n.recommendNormalText,
+          lottiePath: 'assets/lottie/normal.json');
     } else if (60 <= healthRating && healthRating < 100) {
       return RecommendText(
-          value: (L10n l10n) => l10n.recommendBadText,
-          lottiePath: 'assets/lottie/bad.json');
+          value: (L10n l10n) => l10n.recommendGoodText,
+          lottiePath: 'assets/lottie/good.json');
     } else {
       // 範囲外のものは通常とする
       return RecommendText(

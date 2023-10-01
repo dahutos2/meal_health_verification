@@ -26,7 +26,9 @@
     "startDetectImageText": "画像を撮影して下さい。",
     "dataConfirmTitle": "データ確認",
     "dataConfirmLabel": "確認",
-    "recommendBadText": "もう少し、野菜を食べてみても\nいいのではないでしょうか？",
+    "recommendBadText": "もう少し、健康を意識しても\nいいのではないでしょうか？",
+    "recommendNormalText": "いい感じですが、もう一歩頑張りましょう!",
+    "recommendGoodText": "いい調子です! \nこの調子で続けていきましょう!",
     "showErrorDialogTitle": "エラー発生",
     "showErrorDialogOK": "OK"
 }
