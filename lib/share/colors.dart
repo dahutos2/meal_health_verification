@@ -16,6 +16,8 @@ class ColorType {
   static const home = ColorsHome();
 
   static const camera = ColorsCamera();
+
+  static const dataConfirm = ColorsDataConfirm();
 }
 
 class ColorsBase {
@@ -44,8 +46,8 @@ class ColorsHome {
   const ColorsHome();
 
   Color get loadingBackground => const Color(0xFFAAAAAA);
-  Color get recommendImageTitle => const Color(0xFFEED835);
-  Color get recommendMealName => const Color(0xFFEED835);
+  Color get recommendImageTitle => const Color(0xFFFFFFFF);
+  Color get recommendMealName => const Color(0xFFFFFFFF);
 }
 
 class ColorsCamera {
@@ -59,4 +61,10 @@ class ColorsCamera {
   Color get pauseCameraButtonDisabled => const Color(0x13747480);
   Color get resumeCameraButtonActive => const Color(0xFF9E9E9E);
   Color get resumeCameraButtonDisabled => const Color(0x13747480);
+}
+
+class ColorsDataConfirm {
+  const ColorsDataConfirm();
+
+  Color get chartLine => const Color(0xFF8E8E93);
 }

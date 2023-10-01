@@ -3,6 +3,8 @@ import 'dart:collection';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
+import '../../share/colors.dart';
+
 class HealthPointChart extends StatefulWidget {
   const HealthPointChart({super.key, required this.graphHistoryData});
 
@@ -14,8 +16,8 @@ class HealthPointChart extends StatefulWidget {
 
 class _HealthPointChartState extends State<HealthPointChart> {
   List<Color> gradientColors = [
-    Colors.red,
-    Colors.redAccent,
+    ColorType.footer.background,
+    ColorType.footer.background.withOpacity(0.5),
   ];
 
   @override
@@ -35,35 +37,35 @@ class _HealthPointChartState extends State<HealthPointChart> {
   }
 
   Widget bottomTitleWidgets(double value, TitleMeta meta) {
-    const style = TextStyle(
-      fontWeight: FontWeight.bold,
-      fontSize: 16,
-    );
+    final style = TextStyle(
+        fontWeight: FontWeight.bold,
+        fontSize: 16,
+        color: ColorType.dataConfirm.chartLine);
     Widget text;
     switch (value.toInt()) {
       case 0:
-        text = const Text('月', style: style);
+        text = Text('月', style: style);
         break;
       case 1:
-        text = const Text('火', style: style);
+        text = Text('火', style: style);
         break;
       case 2:
-        text = const Text('水', style: style);
+        text = Text('水', style: style);
         break;
       case 3:
-        text = const Text('木', style: style);
+        text = Text('木', style: style);
         break;
       case 4:
-        text = const Text('金', style: style);
+        text = Text('金', style: style);
         break;
       case 5:
-        text = const Text('土', style: style);
+        text = Text('土', style: style);
         break;
       case 6:
-        text = const Text('日', style: style);
+        text = Text('日', style: style);
         break;
       default:
-        text = const Text('', style: style);
+        text = Text('', style: style);
         break;
     }
 
@@ -74,10 +76,10 @@ class _HealthPointChartState extends State<HealthPointChart> {
   }
 
   Widget leftTitleWidgets(double value, TitleMeta meta) {
-    const style = TextStyle(
-      fontWeight: FontWeight.bold,
-      fontSize: 15,
-    );
+    final style = TextStyle(
+        fontWeight: FontWeight.bold,
+        fontSize: 15,
+        color: ColorType.dataConfirm.chartLine);
     String text;
     switch (value.toInt()) {
       case 0:
@@ -113,14 +115,14 @@ class _HealthPointChartState extends State<HealthPointChart> {
         horizontalInterval: 20,
         verticalInterval: 1,
         getDrawingHorizontalLine: (value) {
-          return const FlLine(
-            color: Color(0xff37434d),
+          return FlLine(
+            color: ColorType.dataConfirm.chartLine,
             strokeWidth: 1,
           );
         },
         getDrawingVerticalLine: (value) {
-          return const FlLine(
-            color: Color(0xff37434d),
+          return FlLine(
+            color: ColorType.dataConfirm.chartLine,
             strokeWidth: 1,
           );
         },
@@ -152,7 +154,7 @@ class _HealthPointChartState extends State<HealthPointChart> {
       ),
       borderData: FlBorderData(
         show: true,
-        border: Border.all(color: const Color(0xff37434d)),
+        border: Border.all(color: ColorType.dataConfirm.chartLine),
       ),
       minX: 0,
       maxX: 6,
