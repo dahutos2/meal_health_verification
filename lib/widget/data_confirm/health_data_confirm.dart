@@ -112,7 +112,7 @@ class _HealthDataConfirmState extends ConsumerState<HealthDataConfirm> {
     var dailyFoodHistory = _getDailyFoodHistory(foodHistoryData);
     var languageCode = Localizations.localeOf(context).languageCode;
 
-    String _getDisplayDurationString(DateTime beginDate) {
+    String getDisplayDurationString(DateTime beginDate) {
       var beginDateString = DateFormat.MMMEd(languageCode).format(beginDate);
       var finishDateString = DateFormat.MMMEd(languageCode)
           .format(beginDate.add(const Duration(days: 6)));
@@ -144,7 +144,7 @@ class _HealthDataConfirmState extends ConsumerState<HealthDataConfirm> {
               child: const Text('先週'),
             ),
             const Spacer(),
-            Text(_getDisplayDurationString(displayDurationBeginDate)),
+            Text(getDisplayDurationString(displayDurationBeginDate)),
             const Spacer(),
             ElevatedButton(
               onPressed: () async {
