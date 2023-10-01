@@ -467,6 +467,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Runner",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.mealHealthVerification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -651,6 +652,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Runner",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.mealHealthVerification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -679,6 +681,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Runner",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.mealHealthVerification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
