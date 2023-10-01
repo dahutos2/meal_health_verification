@@ -7,7 +7,7 @@ class DataConfirm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => BasePage(
-        headerTitle: L10n.of(context)!.homePageHeaderTitle,
+        headerTitle: L10n.of(context)!.dataConfirmTitle,
         body: const HealthDataConfirm(),
       );
 }
