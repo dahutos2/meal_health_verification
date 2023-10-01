@@ -1,9 +1,9 @@
-import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:flutter/material.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../service/service.dart';
 
-final mealNotifierProvider = ChangeNotifierProvider.autoDispose(
+final mealNotifierProvider = ChangeNotifierProvider(
   (ref) => MealNotifier(
     service: ref.read(mealServiceProvider),
   ),
