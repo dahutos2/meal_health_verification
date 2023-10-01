@@ -16,6 +16,8 @@ class ColorType {
   static const home = ColorsHome();
 
   static const camera = ColorsCamera();
+
+  static const dataConfirm = ColorsDataConfirm();
 }
 
 class ColorsBase {
@@ -58,4 +60,10 @@ class ColorsCamera {
   Color get pauseCameraButtonDisabled => const Color(0x13747480);
   Color get resumeCameraButtonActive => const Color(0xFF34C759);
   Color get resumeCameraButtonDisabled => const Color(0x13747480);
+}
+
+class ColorsDataConfirm {
+  const ColorsDataConfirm();
+
+  Color get chartLine => const Color(0xFF8E8E93);
 }
