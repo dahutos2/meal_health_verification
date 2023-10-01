@@ -68,42 +68,54 @@ class RecommendNotifier with ChangeNotifier {
   }) async {
     if (_model.healthRating == null) return -1;
 
-    // 画面が固まらないようにする
-    final isolateInterpreter =
-        await IsolateInterpreter.create(address: _model.healthRating!.address);
+    try {
+      // 画面が固まらないようにする
+      final isolateInterpreter = await IsolateInterpreter.create(
+          address: _model.healthRating!.address);
 
-    final parseLabel = await _parseLabel(label);
+      final parseLabel = await _parseLabel(label);
 
-    // 複数の健康度と、ラベルの特徴量から一つの健康度を返す
-    var input = [
-      [
-        ...meals.map((meal) => meal.healthRating.toDouble()).toList(),
-        ...parseLabel,
-      ]
-    ];
-    var output = List.filled(1 * 1, 0).reshape([1, 1]);
+      // 複数の健康度と、ラベルの特徴量から一つの健康度を返す
+      var input = [
+        [
+          ...meals.map((meal) => meal.healthRating.toDouble()).toList(),
+          ...parseLabel,
+        ]
+      ];
+      var output = List.filled(1 * 1, 0).reshape([1, 1]);
 
-    // 1 * 1 の2次元リスト
-    await isolateInterpreter.run(input, output);
-    return int.parse(output[0][0].toString());
+      // 1 * 1 の2次元リスト
+      await isolateInterpreter.run(input, output);
+      return int.parse(output[0][0].toString());
+    } catch (e) {
+      // SimulatorではTFLiteは動作しない場合があるので
+      // 例外時は、固定値を返す
+      return -1;
+    }
   }
 
   Future<List<double>> _parseLabel(String labels) async {
     // 文字列の特徴量を抽出する
     if (_model.mealFeature == null || labels.isEmpty) return [0.0];
 
-    // 画面が固まらないようにする
-    final isolateInterpreter =
-        await IsolateInterpreter.create(address: _model.mealFeature!.address);
+    try {
+      // 画面が固まらないようにする
+      final isolateInterpreter =
+          await IsolateInterpreter.create(address: _model.mealFeature!.address);
 
-    // ラベルのバッファから、健康度推論用の単語の特徴量を返す
-    // トークナイザが存在しないのでトークン化は行わない
-    final inputBytes = utf8.encode(labels);
-    final input = Uint8List.fromList(inputBytes).buffer.asFloat32List();
-    final output = List.filled(228, 0.0);
+      // ラベルのバッファから、健康度推論用の単語の特徴量を返す
+      // トークナイザが存在しないのでトークン化は行わない
+      final inputBytes = utf8.encode(labels);
+      final input = Uint8List.fromList(inputBytes).buffer.asFloat32List();
+      final output = List.filled(228, 0.0);
 
-    await isolateInterpreter.run(input, output);
+      await isolateInterpreter.run(input, output);
 
-    return output;
+      return output;
+    } catch (e) {
+      // SimulatorではTFLiteは動作しない場合があるので
+      // 例外時は、空のリストを返す
+      return [0.0];
+    }
   }
 }
