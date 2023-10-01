@@ -16,19 +16,25 @@ class HealthDataConfirm extends ConsumerStatefulWidget {
 
 class _HealthDataConfirmState extends ConsumerState<HealthDataConfirm> {
   var healthData = <Meal>[];
+  var displayDurationBeginDate = DateTime.now()
+      .subtract(Duration(days: DateTime.now().weekday - 1)); // 必ず月曜
 
   @override
   void initState() {
     super.initState();
 
-    var notifier = ref.read(mealNotifierProvider.notifier);
+    var state = ref.read(mealNotifierProvider).list;
+    if (mounted) return;
     Future.delayed(
       Duration.zero,
       () async {
-        notifier.displayList();
         setState(
           () {
-            healthData = notifier.list ?? <Meal>[];
+            healthData = state ?? <Meal>[];
+            final List<Meal> list = List.from(healthData)
+              ..sort((Meal a, Meal b) => a.date.compareTo(b.date));
+            displayDurationBeginDate = list.first.date
+                .subtract(Duration(days: list.first.date.weekday - 1));
           },
         );
       },
@@ -104,8 +110,64 @@ class _HealthDataConfirmState extends ConsumerState<HealthDataConfirm> {
     var graphHistoryData = _getGraphHistoryData(); // グラフ用データに整形したもの渡す
     var foodHistoryData = _getFoodHistoryData(); // 食事履歴表示用データに整形したもの渡す
     var dailyFoodHistory = _getDailyFoodHistory(foodHistoryData);
+    var languageCode = Localizations.localeOf(context).languageCode;
+
+    String _getDisplayDurationString(DateTime beginDate) {
+      var beginDateString = DateFormat.MMMEd(languageCode).format(beginDate);
+      var finishDateString = DateFormat.MMMEd(languageCode)
+          .format(beginDate.add(const Duration(days: 6)));
+      return '$beginDateString - $finishDateString';
+    }
+
     return Column(
       children: [
+        Row(
+          children: [
+            ElevatedButton(
+              onPressed: () async {
+                final newBeginDate =
+                    displayDurationBeginDate.subtract(const Duration(days: 7));
+                final newHealthData = await ref
+                    .read(mealNotifierProvider.notifier)
+                    .findByDateRange(
+                        startDate: newBeginDate,
+                        endDate: newBeginDate.add(const Duration(days: 6)));
+                setState(() {
+                  healthData = newHealthData;
+                  displayDurationBeginDate = newBeginDate;
+                });
+              },
+              style: ElevatedButton.styleFrom(
+                foregroundColor: Colors.white,
+                backgroundColor: ColorType.footer.background,
+              ),
+              child: const Text('先週'),
+            ),
+            const Spacer(),
+            Text(_getDisplayDurationString(displayDurationBeginDate)),
+            const Spacer(),
+            ElevatedButton(
+              onPressed: () async {
+                final newBeginDate =
+                    displayDurationBeginDate.add(const Duration(days: 7));
+                final newHealthData = await ref
+                    .read(mealNotifierProvider.notifier)
+                    .findByDateRange(
+                        startDate: newBeginDate,
+                        endDate: newBeginDate.add(const Duration(days: 6)));
+                setState(() {
+                  healthData = newHealthData;
+                  displayDurationBeginDate = newBeginDate;
+                });
+              },
+              style: ElevatedButton.styleFrom(
+                foregroundColor: Colors.white,
+                backgroundColor: ColorType.footer.background,
+              ),
+              child: const Text('翌週'),
+            ),
+          ],
+        ),
         // 健康ポイントの折れ線グラフ表示部
         Expanded(
           child: HealthPointChart(
