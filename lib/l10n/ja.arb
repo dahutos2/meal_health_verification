@@ -30,5 +30,7 @@
     "recommendNormalText": "いい感じですが、もう一歩頑張りましょう!",
     "recommendGoodText": "いい調子です! \nこの調子で続けていきましょう!",
     "showErrorDialogTitle": "エラー発生",
-    "showErrorDialogOK": "OK"
+    "showErrorDialogOK": "OK",
+    "lastWeek": "先週",
+    "nextWeek": "翌週"
 }

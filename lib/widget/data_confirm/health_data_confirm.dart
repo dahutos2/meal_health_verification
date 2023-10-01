@@ -1,6 +1,7 @@
 import 'dart:collection';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:meal_health_verification/index.dart';
@@ -140,7 +141,7 @@ class _HealthDataConfirmState extends ConsumerState<HealthDataConfirm> {
                 foregroundColor: Colors.white,
                 backgroundColor: Colors.grey,
               ),
-              child: const Text('先週'),
+              child: Text(L10n.of(context)!.lastWeek),
             ),
             const Spacer(),
             Text(getDisplayDurationString(displayDurationBeginDate)),
@@ -163,7 +164,7 @@ class _HealthDataConfirmState extends ConsumerState<HealthDataConfirm> {
                 foregroundColor: Colors.white,
                 backgroundColor: Colors.grey,
               ),
-              child: const Text('翌週'),
+              child: Text(L10n.of(context)!.nextWeek),
             ),
           ],
         ),
