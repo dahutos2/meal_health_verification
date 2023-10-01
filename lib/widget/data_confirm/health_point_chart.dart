@@ -1,8 +1,12 @@
+import 'dart:collection';
+
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
 class HealthPointChart extends StatefulWidget {
-  const HealthPointChart({super.key});
+  const HealthPointChart({super.key, required this.graphHistoryData});
+
+  final Map<DateTime, double> graphHistoryData;
 
   @override
   State<HealthPointChart> createState() => _HealthPointChartState();
@@ -14,47 +18,19 @@ class _HealthPointChartState extends State<HealthPointChart> {
     Colors.redAccent,
   ];
 
-  bool showAvg = false;
-
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: <Widget>[
-        AspectRatio(
-          aspectRatio: 1.70,
-          child: Padding(
-            padding: const EdgeInsets.only(
-              right: 18,
-              left: 12,
-              top: 40,
-              bottom: 0,
-            ),
-            child: LineChart(
-              showAvg ? avgData() : mainData(),
-            ),
-          ),
+    return AspectRatio(
+      aspectRatio: 1.70,
+      child: Padding(
+        padding: const EdgeInsets.only(
+          right: 16,
+          left: 12,
+          top: 24,
+          bottom: 14,
         ),
-        SizedBox(
-          width: 60,
-          height: 34,
-          child: TextButton(
-            onPressed: () {
-              setState(() {
-                showAvg = !showAvg;
-              });
-            },
-            child: Text(
-              '平均',
-              style: TextStyle(
-                fontSize: 12,
-                color: showAvg
-                    ? const Color(0xff37434d).withOpacity(0.5)
-                    : const Color(0xff37434d),
-              ),
-            ),
-          ),
-        ),
-      ],
+        child: LineChart(mainData()),
+      ),
     );
   }
 
@@ -184,7 +160,7 @@ class _HealthPointChartState extends State<HealthPointChart> {
       maxY: 100,
       lineBarsData: [
         LineChartBarData(
-          spots: [..._getFlSpotList(weeklyData)],
+          spots: [..._getFlSpotList(_getWeeklyData(widget.graphHistoryData))],
           isCurved: false,
           gradient: LinearGradient(
             colors: gradientColors,
@@ -208,115 +184,45 @@ class _HealthPointChartState extends State<HealthPointChart> {
   }
 
   List<FlSpot> _getFlSpotList(Map<DateTime, double> weeklyData) {
+    if (weeklyData.isEmpty) return <FlSpot>[];
+
     var index = 0;
     return weeklyData.entries
         .map((e) => FlSpot((index++).toDouble(), e.value))
         .toList();
   }
 
-  LineChartData avgData() {
-    return LineChartData(
-      lineTouchData: const LineTouchData(enabled: false),
-      gridData: FlGridData(
-        show: true,
-        drawHorizontalLine: true,
-        horizontalInterval: 20,
-        verticalInterval: 1,
-        getDrawingVerticalLine: (value) {
-          return const FlLine(
-            color: Color(0xff37434d),
-            strokeWidth: 1,
-          );
-        },
-        getDrawingHorizontalLine: (value) {
-          return const FlLine(
-            color: Color(0xff37434d),
-            strokeWidth: 1,
-          );
-        },
-      ),
-      titlesData: FlTitlesData(
-        show: true,
-        bottomTitles: AxisTitles(
-          sideTitles: SideTitles(
-            showTitles: true,
-            reservedSize: 30,
-            getTitlesWidget: bottomTitleWidgets,
-            interval: 1,
-          ),
-        ),
-        leftTitles: AxisTitles(
-          sideTitles: SideTitles(
-            showTitles: true,
-            getTitlesWidget: leftTitleWidgets,
-            reservedSize: 42,
-            interval: 1,
-          ),
-        ),
-        topTitles: const AxisTitles(
-          sideTitles: SideTitles(showTitles: false),
-        ),
-        rightTitles: const AxisTitles(
-          sideTitles: SideTitles(showTitles: false),
-        ),
-      ),
-      borderData: FlBorderData(
-        show: true,
-        border: Border.all(color: const Color(0xff37434d)),
-      ),
-      minX: 0,
-      maxX: 6,
-      minY: 0,
-      maxY: 100,
-      lineBarsData: [
-        LineChartBarData(
-          spots: [..._getAverageFlSpotList(weeklyData)],
-          isCurved: true,
-          gradient: LinearGradient(
-            colors: [
-              ColorTween(begin: gradientColors[0], end: gradientColors[1])
-                  .lerp(0.2)!,
-              ColorTween(begin: gradientColors[0], end: gradientColors[1])
-                  .lerp(0.2)!,
-            ],
-          ),
-          barWidth: 5,
-          isStrokeCapRound: true,
-          dotData: const FlDotData(
-            show: false,
-          ),
-          belowBarData: BarAreaData(
-            show: true,
-            gradient: LinearGradient(
-              colors: [
-                ColorTween(begin: gradientColors[0], end: gradientColors[1])
-                    .lerp(0.2)!
-                    .withOpacity(0.1),
-                ColorTween(begin: gradientColors[0], end: gradientColors[1])
-                    .lerp(0.2)!
-                    .withOpacity(0.1),
-              ],
-            ),
-          ),
-        ),
-      ],
-    );
-  }
+  /// 1週間分のデータからグラフ表示用のデータを抽出する
+  Map<DateTime, double> _getWeeklyData(Map<DateTime, double> foodHistory) {
+    if (foodHistory.isEmpty) return <DateTime, double>{};
 
-  List<FlSpot> _getAverageFlSpotList(Map<DateTime, double> weeklyData) {
-    var sum = weeklyData.entries
-        .fold(0.0, (previousValue, element) => previousValue + element.value);
-    var average = sum / weeklyData.length;
-    return List.generate(7, (index) => FlSpot((index++).toDouble(), average));
-  }
+    var sortedFoodHistory = SplayTreeMap<DateTime, double>.from(
+        foodHistory, (DateTime a, DateTime b) => a.compareTo(b)).entries;
+    var retMap = <DateTime, double>{};
 
-  Map<DateTime, double> weeklyData = {
-    DateTime(1, 1, 1): 21,
-    DateTime(1, 1, 2): 62,
-    DateTime(1, 1, 3): 54,
-    DateTime(1, 1, 4): 87,
-    DateTime(1, 1, 5): 93,
-    DateTime(1, 1, 6): 21,
-    DateTime(1, 1, 7): 44,
-  };
+    // その週の最初の月曜を取得
+    DateTime firstMonday = sortedFoodHistory.first.key
+        .subtract(Duration(days: sortedFoodHistory.first.key.weekday - 1));
+    firstMonday =
+        DateTime(firstMonday.year, firstMonday.month, firstMonday.day);
+
+    for (var value in sortedFoodHistory) {
+      var dayDataDay = DateTime(value.key.year, value.key.month, value.key.day);
+      retMap[dayDataDay] = value.value;
+    }
+
+    //　その週の最初の月曜から７日間るーぷして、
+    // 空きの日程がないか確認。月曜がなければ０をあれば前日のスコアで埋める
+    for (var day = firstMonday;
+        day.isBefore(firstMonday.add(const Duration(days: 6)));
+        day = day.add(const Duration(days: 1))) {
+      if (retMap.containsKey(day)) continue;
+      if (day.isAtSameMomentAs(firstMonday)) retMap[day] = 0.0;
+      retMap[day] = retMap[day.subtract(const Duration(days: 1))] ?? 0;
+    }
+
+    retMap = SplayTreeMap<DateTime, double>.from(
+        retMap, (DateTime a, DateTime b) => a.compareTo(b));
+    return retMap;
+  }
 }
