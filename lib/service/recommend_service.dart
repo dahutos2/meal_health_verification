@@ -39,20 +39,20 @@ class RecommendService {
 
   List<RecommendImage> getRecommendImages(int healthRating) {
     if (0 <= healthRating && healthRating < 30) {
-      return _getRandomRecommendImages(badRateRecommends);
+      return _getRandomRecommendImages(lowRateRecommends);
     } else if (30 <= healthRating && healthRating < 60) {
-      return _getRandomRecommendImages(normalRateRecommends);
+      return _getRandomRecommendImages(middleRateRecommends);
     } else if (60 <= healthRating && healthRating < 100) {
-      return _getRandomRecommendImages(goodRateRecommends);
+      return _getRandomRecommendImages(highRateRecommends);
     } else {
       // 範囲外のものは通常とする
-      return _getRandomRecommendImages(normalRateRecommends);
+      return _getRandomRecommendImages(middleRateRecommends);
     }
   }
 
   List<RecommendImage> _getRandomRecommendImages(List<RecommendImage> source) {
     if (source.isEmpty) {
-      source = normalRateRecommends;
+      source = middleRateRecommends;
     }
     final result = <RecommendImage>[];
     int randomLimit = source.length;
@@ -66,17 +66,37 @@ class RecommendService {
     return result;
   }
 
-  final List<RecommendImage> badRateRecommends = [];
-  final List<RecommendImage> normalRateRecommends = [
+  final List<RecommendImage> lowRateRecommends = [
     RecommendImage(
-        name: (L10n l10n) => l10n.mealNameCurry,
+        name: (L10n l10n) => l10n.recommendLowCake,
+        imagePath: 'assets/images/cake.jpg'),
+    RecommendImage(
+        name: (L10n l10n) => l10n.recommendLowPizza,
+        imagePath: 'assets/images/pizza.jpg'),
+    RecommendImage(
+        name: (L10n l10n) => l10n.recommendLowSpaghetti,
+        imagePath: 'assets/images/spaghetti.jpg')
+  ];
+  final List<RecommendImage> middleRateRecommends = [
+    RecommendImage(
+        name: (L10n l10n) => l10n.recommendMiddleCurry,
         imagePath: 'assets/images/curry_vertical.jpg'),
     RecommendImage(
-        name: (L10n l10n) => l10n.mealNameHamburger,
+        name: (L10n l10n) => l10n.recommendMiddleHamburger,
         imagePath: 'assets/images/hamburger.jpg'),
     RecommendImage(
-        name: (L10n l10n) => l10n.mealNameEggAndVegetable,
-        imagePath: 'assets/images/eggAndVegetable.jpg')
+        name: (L10n l10n) => l10n.recommendMiddlePanCake,
+        imagePath: 'assets/images/pan_cake.jpg')
   ];
-  final List<RecommendImage> goodRateRecommends = [];
+  final List<RecommendImage> highRateRecommends = [
+    RecommendImage(
+        name: (L10n l10n) => l10n.recommendHighOatmeal,
+        imagePath: 'assets/images/oatmeal.jpg'),
+    RecommendImage(
+        name: (L10n l10n) => l10n.recommendHighEggAndVegetable,
+        imagePath: 'assets/images/eggAndVegetable.jpg'),
+    RecommendImage(
+        name: (L10n l10n) => l10n.recommendHighTomatoSoup,
+        imagePath: 'assets/images/tomato_soup.jpg')
+  ];
 }

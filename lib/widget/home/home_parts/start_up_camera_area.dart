@@ -32,6 +32,9 @@ class StartUpCameraArea extends StatelessWidget {
             onPressed: () {
               // ボタンが押された時の処理
             },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.grey, // 背景色を青に設定
+            ),
             child: Icon(
               IconType.home.startUpCamera.icon, // カメラアイコン
               color: Colors.white, // アイコンの色
