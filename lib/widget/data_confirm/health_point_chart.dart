@@ -3,6 +3,8 @@ import 'dart:collection';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
+import '../../share/colors.dart';
+
 class HealthPointChart extends StatefulWidget {
   const HealthPointChart({super.key, required this.graphHistoryData});
 
@@ -14,8 +16,8 @@ class HealthPointChart extends StatefulWidget {
 
 class _HealthPointChartState extends State<HealthPointChart> {
   List<Color> gradientColors = [
-    Colors.red,
-    Colors.redAccent,
+    ColorType.footer.background,
+    ColorType.footer.background.withOpacity(0.5),
   ];
 
   @override
