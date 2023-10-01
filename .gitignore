@@ -6,6 +6,7 @@
 *.lock
 .DS_Store
 .metadata
+myenv/
 
 # Dart related
 *.dart.js

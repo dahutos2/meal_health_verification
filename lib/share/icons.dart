@@ -12,7 +12,7 @@ class IconType {
   static const footer = IconsFooter();
 
   static const home = IconsHome();
-  
+
   static const camera = IconsCamera();
 }
 
@@ -43,11 +43,13 @@ class IconsCamera {
   const IconsCamera();
 
   Icon get pauseCameraButton => const Icon(
-        CupertinoIcons.pause_circle,
+        size: 30,
+        Icons.camera,
         color: CupertinoColors.white,
       );
   Icon get resumeCameraButton => const Icon(
-        CupertinoIcons.play_arrow_solid,
+        Icons.keyboard_return,
+        size: 30,
         color: CupertinoColors.white,
       );
 }

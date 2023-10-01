@@ -32,7 +32,7 @@ class PauseCamera extends StatefulWidget {
     this.onLoading,
     this.onLoaded,
     this.stackWidget,
-    this.aspectRatio = 5 / 4,
+    this.aspectRatio = 18 / 19,
   });
 
   @override

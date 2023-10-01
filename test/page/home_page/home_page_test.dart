@@ -10,6 +10,7 @@ void main() {
       child: MaterialApp(
         localizationsDelegates: L10n.localizationsDelegates,
         supportedLocales: L10n.supportedLocales,
+        locale: const Locale('ja'),
         home: widget,
       ),
     );
