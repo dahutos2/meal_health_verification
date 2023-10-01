@@ -175,36 +175,46 @@ class _HealthDataConfirmState extends ConsumerState<HealthDataConfirm> {
         ),
         // 食事履歴リスト表示部
         Expanded(
-          child: dailyFoodHistory.isEmpty
-              ? Center(
-                  child: SizedBox(
-                      width: context.deviceWidth * 0.3,
-                      height: context.deviceWidth * 0.3,
-                      child: const ColorfulLoadPage()),
-                )
-              : ListView.builder(
-                  itemCount: dailyFoodHistory.length,
-                  itemBuilder: (BuildContext context, int index) {
-                    var dailyData = dailyFoodHistory.entries.elementAt(index);
-                    return ListView.builder(
-                      shrinkWrap: true,
-                      physics: const NeverScrollableScrollPhysics(),
-                      itemCount: dailyData.value.length + 1,
-                      itemBuilder: (BuildContext context, int index) {
-                        if (index == 0) {
-                          return Text(_getDisplayDate(context, dailyData.key));
-                        }
-                        return Row(
-                          children: [
-                            const SizedBox(width: 10),
-                            Text(_getDisplayTimeAndFood(context,
-                                dailyData.value.entries.elementAt(index - 1)))
-                          ],
-                        );
-                      },
-                    );
-                  },
-                ),
+          child: DecoratedBox(
+            decoration: const BoxDecoration(
+              color: Colors.white,
+            ),
+            child: dailyFoodHistory.isEmpty
+                ? Center(
+                    child: SizedBox(
+                        width: context.deviceWidth * 0.3,
+                        height: context.deviceWidth * 0.3,
+                        child: const ColorfulLoadPage()),
+                  )
+                : ListView.builder(
+                    itemCount: dailyFoodHistory.length,
+                    itemBuilder: (BuildContext context, int index) {
+                      var dailyData = dailyFoodHistory.entries.elementAt(index);
+                      return ListView.builder(
+                        shrinkWrap: true,
+                        physics: const NeverScrollableScrollPhysics(),
+                        itemCount: dailyData.value.length + 1,
+                        itemBuilder: (BuildContext context, int index) {
+                          if (index == 0) {
+                            return Text(_getDisplayDate(context, dailyData.key),
+                                style: StyleType.dataConfirm.dateText);
+                          }
+                          return Row(
+                            children: [
+                              const SizedBox(width: 10),
+                              Text(
+                                  _getDisplayTimeAndFood(
+                                      context,
+                                      dailyData.value.entries
+                                          .elementAt(index - 1)),
+                                  style: StyleType.dataConfirm.foodText)
+                            ],
+                          );
+                        },
+                      );
+                    },
+                  ),
+          ),
         ),
       ],
     );
