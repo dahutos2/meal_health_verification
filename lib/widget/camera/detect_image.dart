@@ -6,7 +6,6 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../api/api.dart';
 import '../../share/share.dart';
-import '../../extensions/extensions.dart';
 import '../common/widget_common.dart';
 import './pause_camera/pause_camera.dart';
 import 'recommend_meal.dart';
@@ -90,11 +89,8 @@ class _DetectImageState extends ConsumerState<DetectImage> {
                   : RecommendMeal(
                       detectedObjects: _detectedObjects,
                     )
-              : Center(
-                  child: SizedBox(
-                      width: context.deviceWidth * 0.3,
-                      height: context.deviceWidth * 0.3,
-                      child: const ColorfulLoadPage()),
+              : const Center(
+                  child: ColorfulLoadPage(),
                 ),
         ),
       ],

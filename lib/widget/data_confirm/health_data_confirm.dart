@@ -181,11 +181,8 @@ class _HealthDataConfirmState extends ConsumerState<HealthDataConfirm> {
               color: Colors.white,
             ),
             child: dailyFoodHistory.isEmpty
-                ? Center(
-                    child: SizedBox(
-                        width: context.deviceWidth * 0.3,
-                        height: context.deviceWidth * 0.3,
-                        child: const ColorfulLoadPage()),
+                ? const Center(
+                    child: ColorfulLoadPage(),
                   )
                 : ListView.builder(
                     itemCount: dailyFoodHistory.length,
