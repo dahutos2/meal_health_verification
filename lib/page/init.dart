@@ -1,21 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:lottie/lottie.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
+import '../main.dart';
 import '../share/share.dart';
 
-class InitPage extends StatelessWidget {
+class InitPage extends ConsumerWidget {
   const InitPage({
     super.key,
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final locale = Localizations.localeOf(context);
+    ref.read(appInitProvider).init(locale);
     return Scaffold(
       backgroundColor: ColorType.base.initBackGround,
       body: Center(
-        child: Text(
-          L10n.of(context)!.initPageMainContentMessage,
-          style: Theme.of(context).primaryTextTheme.titleLarge,
+        child: Lottie.asset(
+          'assets/lottie/load.json',
+          repeat: true,
         ),
       ),
     );
