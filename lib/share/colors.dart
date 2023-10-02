@@ -24,30 +24,30 @@ class ColorsBase {
   const ColorsBase();
 
   Color get background => const Color(0xFFF3E5E5);
-  Color get initBackGround => const Color(0xFFE6BC5B);
+  Color get initBackGround => const Color(0xFFF3E5E5);
 }
 
 class ColorsHeader {
   const ColorsHeader();
 
-  Color get background => const Color(0xFFE6BC5B);
+  Color get background => const Color(0xFFFFFFFF);
 }
 
 class ColorsFooter {
   const ColorsFooter();
 
-  Color get background => const Color(0xFFE6BC5B);
-  Color get item => const Color(0xFFFFFFFF);
-  Color get disabledItem => const Color(0xFFAAAAAA);
-  Color get unselectedItem => const Color(0xFFFFFFFF);
+  Color get background => const Color(0xFFFFFFFF);
+  Color get unSelectedItem => const Color(0xFF333333);
+  Color get selectedItem => const Color(0xFFFF0000);
 }
 
 class ColorsHome {
   const ColorsHome();
 
   Color get loadingBackground => const Color(0xFFAAAAAA);
-  Color get recommendImageTitle => const Color(0xFFFFFFFF);
-  Color get recommendMealName => const Color(0xFFFFFFFF);
+  Color get cameraAreaBorder => const Color(0xFFF3E5E5);
+  Color get cameraAreaBackground => const Color(0xFFFFFFFF);
+  Color get cameraAreaButtonBackGround => const Color(0xFF9E9E9E);
 }
 
 class ColorsCamera {

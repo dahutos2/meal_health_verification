@@ -7,7 +7,7 @@ class HeaderView extends StatelessWidget implements PreferredSizeWidget {
   const HeaderView({super.key, this.title});
 
   @override
-  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
+  Size get preferredSize => const Size.fromHeight(47.0);
 
   @override
   Widget build(BuildContext context) {

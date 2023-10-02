@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-import '../../../share/icons.dart';
+import '../../../share/share.dart';
 
 class StartUpCameraArea extends StatelessWidget {
   const StartUpCameraArea({super.key});
@@ -9,17 +9,20 @@ class StartUpCameraArea extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.all(20.0), // 全方向に20pxのマージン
+      // 全方向に20pxのマージン
+      margin: const EdgeInsets.all(20.0),
       padding: const EdgeInsets.all(10.0),
       decoration: BoxDecoration(
+        color: ColorType.home.cameraAreaBackground,
         border: Border.all(
-          color: Colors.grey,
+          color: ColorType.home.cameraAreaBorder,
           width: 2.0,
         ),
         borderRadius: BorderRadius.circular(12.0),
       ),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween, // テキストとボタンを右端に配置
+        // テキストとボタンを右端に配置
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Flexible(
             child: Text(
@@ -27,18 +30,18 @@ class StartUpCameraArea extends StatelessWidget {
               style: const TextStyle(fontSize: 14.0),
             ),
           ),
-          const SizedBox(width: 16.0), // テキストとボタン間のスペース
+          // テキストとボタン間のスペース
+          const SizedBox(width: 16.0),
           ElevatedButton(
             onPressed: () {
               // ボタンが押された時の処理
             },
+            // 背景色を設定
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.grey, // 背景色を青に設定
+              backgroundColor: ColorType.home.cameraAreaButtonBackGround,
             ),
-            child: Icon(
-              IconType.home.startUpCamera.icon, // カメラアイコン
-              color: Colors.white, // アイコンの色
-            ),
+            // カメラアイコン
+            child: IconType.home.startUpCamera,
           ),
         ],
       ),

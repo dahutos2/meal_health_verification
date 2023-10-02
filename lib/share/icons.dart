@@ -19,24 +19,27 @@ class IconType {
 class IconsHeader {
   const IconsHeader();
 
-  Icon get page01HeaderEdit => const Icon(
+  Icon get title => const Icon(
         Icons.edit_square,
-        color: Color(0xFFFFFFFF),
+        color: Color(0xFF333333),
       );
 }
 
 class IconsFooter {
   const IconsFooter();
 
-  Icon get page01 => const Icon(Icons.home);
-  Icon get page02 => const Icon(Icons.add_a_photo);
-  Icon get page03 => const Icon(Icons.auto_graph);
+  Icon get home => const Icon(Icons.home);
+  Icon get camera => const Icon(Icons.add_a_photo);
+  Icon get confirm => const Icon(Icons.auto_graph);
 }
 
 class IconsHome {
   const IconsHome();
 
-  Icon get startUpCamera => const Icon(Icons.add_a_photo);
+  Icon get startUpCamera => const Icon(
+        Icons.add_a_photo,
+        color: Colors.white,
+      );
 }
 
 class IconsCamera {

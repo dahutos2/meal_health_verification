@@ -26,11 +26,11 @@ class FooterView extends ConsumerWidget {
       color: ColorType.footer.background,
       child: Row(
         children: [
-          _buildBottomNavItem(0, IconType.footer.page01,
+          _buildBottomNavItem(0, IconType.footer.home,
               L10n.of(context)!.homePageFooterLabel, context, ref),
-          _buildBottomNavItem(1, IconType.footer.page02,
+          _buildBottomNavItem(1, IconType.footer.camera,
               L10n.of(context)!.pageCameraFooterLabel, context, ref),
-          _buildBottomNavItem(2, IconType.footer.page03,
+          _buildBottomNavItem(2, IconType.footer.confirm,
               L10n.of(context)!.dataConfirmLabel, context, ref),
         ],
       ),
@@ -55,11 +55,15 @@ class FooterView extends ConsumerWidget {
               Icon(
                 icon.icon,
                 color: tabType.state.index != index
-                    ? ColorType.footer.item
-                    : ColorType.footer.unselectedItem,
+                    ? ColorType.footer.unSelectedItem
+                    : ColorType.footer.selectedItem,
               ),
-              if (tabType.state.index != index)
-                Expanded(child: Text(label, style: StyleType.footer.label))
+              Expanded(
+                child: Text(label,
+                    style: tabType.state.index != index
+                        ? StyleType.footer.unSelectedLabel
+                        : StyleType.footer.selectedLabel),
+              )
             ],
           ),
         ),

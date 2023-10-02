@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => BasePage(
-        headerTitle: L10n.of(context)!.homePageHeaderTitle,
+        headerTitle: L10n.of(context)!.homeHeaderTitle,
         body: const Home(),
       );
 }
