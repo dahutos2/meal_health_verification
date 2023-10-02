@@ -62,7 +62,7 @@ class MyApp extends ConsumerWidget {
       localizationsDelegates: L10n.localizationsDelegates,
       supportedLocales: L10n.supportedLocales,
       navigatorKey: ref.watch(appInitProvider).navigatorKey,
-      onGenerateRoute: (_) => RouteType.fadeIn(nextPage: const InitPage()),
+      home: const InitPage(),
     );
   }
 }
