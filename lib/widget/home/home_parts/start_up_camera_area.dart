@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
+import '../../../page/page.dart';
 import '../../../share/share.dart';
+import '../../common/footer.dart';
 
-class StartUpCameraArea extends StatelessWidget {
+class StartUpCameraArea extends ConsumerWidget {
   const StartUpCameraArea({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return Container(
       // 全方向に20pxのマージン
       margin: const EdgeInsets.all(20.0),
@@ -34,7 +37,14 @@ class StartUpCameraArea extends StatelessWidget {
           const SizedBox(width: 16.0),
           ElevatedButton(
             onPressed: () {
-              // ボタンが押された時の処理
+              final tabType = ref.read(tabTypeProvider.notifier);
+              tabType.state = TabType.camera;
+              Navigator.of(context).pushAndRemoveUntil(
+                RouteType.fadeIn(
+                  nextPage: const CameraPage(),
+                ),
+                (_) => false,
+              );
             },
             // 背景色を設定
             style: ElevatedButton.styleFrom(
