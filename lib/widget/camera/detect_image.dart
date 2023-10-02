@@ -27,6 +27,8 @@ class _DetectImageState extends ConsumerState<DetectImage> {
   void onLoading() {
     setState(() {
       _isLoading = true;
+      _image = null;
+      _detectedObjects = [];
     });
   }
 
