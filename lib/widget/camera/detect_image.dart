@@ -40,8 +40,8 @@ class _DetectImageState extends ConsumerState<DetectImage> {
     if (image == null) {
       // 画像の取得に失敗した場合は、画像をnullにする
       setState(() {
-        _detectedObjects = [];
         _image = null;
+        _detectedObjects = [];
       });
       return;
     }
@@ -115,20 +115,23 @@ class _DetectedObjectsPainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    final paint = Paint()
-      ..color = ColorType.camera.rect
+    final paintOuter = Paint()
+      ..color = Colors.white
       ..style = PaintingStyle.stroke
-      ..strokeWidth = 2.0;
+      ..strokeWidth = 1.0;
 
-    final textPaint = TextPainter(
-      textDirection: TextDirection.ltr,
-    );
+    final paintInner = Paint()
+      ..color = Colors.white
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 2.5;
 
     final widthScale = size.width / width;
     final heightScale = size.height / height;
 
     for (final detectedObject in detectedObjects) {
       final rect = detectedObject.boundingBox;
+
+      // 矩形の座標をスケールに合わせて調整
       final scaledRect = Rect.fromLTRB(
         rect.left * widthScale,
         rect.top * heightScale,
@@ -136,22 +139,50 @@ class _DetectedObjectsPainter extends CustomPainter {
         rect.bottom * heightScale,
       );
 
-      canvas.drawRect(scaledRect, paint);
+      final outerRect = scaledRect
+          .inflate(20)
+          .intersect(Rect.fromLTWH(2, 2, size.width - 4, size.height - 4));
+
+      canvas.drawRRect(
+          RRect.fromRectAndRadius(outerRect, const Radius.circular(8)),
+          paintOuter);
+      canvas.drawRRect(
+          RRect.fromRectAndRadius(scaledRect, const Radius.circular(8)),
+          paintInner);
 
       for (Label label in detectedObject.labels) {
-        // indexが範囲外の場合は何もしない
         if (labelTexts.length - 1 < label.index || label.index < 0) continue;
         final text = labelTexts[label.index];
-        textPaint.text = TextSpan(
-          text: text,
-          style: StyleType.camera.detectText,
+
+        final textPainter = TextPainter(
+          text: TextSpan(text: text, style: StyleType.camera.detectText),
+          textDirection: TextDirection.ltr,
         );
-        textPaint.layout();
-        final offset = Offset(
-          scaledRect.left,
-          scaledRect.top - textPaint.height,
+
+        textPainter.layout();
+
+        final containerWidth = outerRect.width + 40;
+        final textContainer = Rect.fromLTWH(
+          outerRect.left + (outerRect.width - containerWidth) / 2,
+          outerRect.center.dy,
+          containerWidth,
+          textPainter.height + 10,
         );
-        textPaint.paint(canvas, offset);
+
+        final textBackgroundPaint = Paint()
+          ..color = Colors.black.withOpacity(0.6)
+          ..style = PaintingStyle.fill;
+
+        canvas.drawRRect(
+            RRect.fromRectAndRadius(textContainer, const Radius.circular(8)),
+            textBackgroundPaint);
+
+        final textOffset = Offset(
+          textContainer.left + (textContainer.width - textPainter.width) / 2,
+          textContainer.top + 5,
+        );
+
+        textPainter.paint(canvas, textOffset);
       }
     }
   }
