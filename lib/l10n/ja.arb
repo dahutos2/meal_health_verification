@@ -4,7 +4,9 @@
     "@test": {
         "description": "これはテストの翻訳説明文です、基本的に使わないですが、運営管理に活用ところです。注釈と認識しましょう"
     },
-    "initPageMainContentMessage": "ようこそ",
+    "homeHeaderTitle": "食事健康検証",
+    "cameraHeaderTitle": "カメラ",
+    "confirmHeaderTitle": "確認",
     "loadingRecommendImage": "読み込み中です...",
     "recommendImageTitle": "〜本日のおすすめ〜",
     "recommendHighOatmeal": "オートミール",
@@ -21,8 +23,6 @@
     "homeMessageDinner": "晩ご飯の時間です！",
     "homeMessageMidNightSnack": "夜食ですか？\n栄養バランスに気を付けてくださいね",
     "homeMessageSnackingBetween": "間食ですか？\n摂取量に気を付けてくださいね",
-    "homePageHeaderTitle": "ホーム",
-    "pageCameraHeaderTitle": "カメラ",
     "homePageFooterLabel": "ホーム",
     "pageCameraFooterLabel": "カメラ",
     "pauseCameraStart": "カメラを起動して下さい。",
@@ -30,7 +30,6 @@
     "pauseCameraErrorCameraAccessDenied": "カメラへのアクセス権限がありません。",
     "pauseCameraErrorUndefined": "カメラ接続時に不明なエラーが発生しました。",
     "startDetectImageText": "画像を撮影して下さい。",
-    "dataConfirmTitle": "データ確認",
     "dataConfirmLabel": "確認",
     "recommendBadText": "もう少し、健康を意識しても\nいいのではないでしょうか？",
     "recommendNormalText": "いい感じですが、もう一歩頑張りましょう!",
