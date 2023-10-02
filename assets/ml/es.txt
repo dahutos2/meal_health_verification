@@ -1,0 +1,1001 @@
+fondo
+tenca
+pez de colores
+gran tiburón blanco
+tiburón tigre
+tiburón martillo
+rayo electrico
+mantarraya
+polla
+gallina
+avestruz
+pinzón
+jilguero
+pinzón doméstico
+junco
+empavesado índigo
+Robin
+bulbul
+arrendajo
+urraca
+paro
+miga de agua
+cometa
+Águila calva
+buitre
+gran búho gris
+salamandra europea
+tritón común
+eft
+salamandra manchada
+ajolote
+rana mugidora
+rana de árbol
+rana de cola
+necio
+tortuga laúd
+tortuga de barro
+tortuga de agua dulce
+tortuga de caja
+gecko bandeado
+iguana común
+camaleón americano
+cola de látigo
+agama
+lagarto con volantes
+lagarto caimán
+monstruo Gila
+Lagartija verde
+camaleón africano
+Dragon de Komodo
+cocodrilo africano
+caimán americano
+triceratops
+serpiente del trueno
+serpiente de cuello anillado
+serpiente nariz de cerdo
+serpiente verde
+Rey Serpiente
+serpiente de liga
+serpiente de agua
+serpiente de vid
+serpiente nocturna
+Boa constrictor
+pitón de roca
+cobra india
+mamba verde
+serpiente marina
+víbora cornuda
+espalda de diamante
+enrollador lateral
+trilobites
+cosechador
+escorpión
+araña de jardín negra y dorada
+araña de granero
+araña de jardín
+viuda negra
+tarántula
+araña lobo
+garrapata
+ciempiés
+urogallo negro
+perdiz blanca
+urogallo
+pollo de la pradera
+pavo real
+codorniz
+perdiz
+gris africano
+guacamayo
+cacatúa de cresta de azufre
+lorito
+cucal
+comedor de abejas
+cálao
+colibrí
+jacamar
+tucán
+pato
+pollo de agua de pecho rojo
+ganso
+cisne negro
+elefante
+equidna
+ornitorrinco
+ualabí
+coala
+wombat
+Medusa
+anémona de mar
+coral cerebro
+gusano plano
+nematodo
+concha
+caracol
+babosa
+babosa de mar
+chitona
+nautilo con cámara
+cangrejo Dungeness
+cangrejo de roca
+cangrejo violinista
+cangrejo real
+langosta americana
+langosta espinosa
+cangrejo de río
+cangrejo ermitaño
+isópodo
+cigüeña blanca
+cigüeña negra
+espátula
+flamenco
+pequeña garza azul
+garceta americana
+avetoro
+grua
+cojo
+gallinula europea
+focha americana
+avutarda
+piedra rojiza
+correlimos de lomo rojo
+archibebe
+zahorí
+ostrero
+pelícano
+pingüino real
+albatros
+ballena gris
+Orca
+dugongo
+León marino
+chihuahua
+perro de aguas japonés
+perro maltés
+pekinés
+Shih Tzu
+Perro de aguas de Blenheim
+papillón
+terrier de juguete
+Ridgeback de Rodesia
+sabueso afgano
+afloramiento
+beagle
+sabueso
+marca azul
+Coonhound negro y fuego
+sabueso caminante
+raposero inglés
+hueso rojo
+borzoi
+perro lobo irlandés
+galgo italiano
+lebrel
+sabueso ibicenco
+Elkhound noruego
+perro de nutria
+Saluki
+perro de caza escocés
+Weimaraner
+Staffordshire Bull Terrier
+American Staffordshire Terrier
+terrier de bedlington
+terrier fronterizo
+terrier azul kerry
+terrier irlandés
+terrier norfolk
+terrier de norwich
+terrier de yorkshire
+fox terrier de pelo duro
+terrier de la región de los lagos
+terrier sealyham
+airedale
+mojón
+terrier australiano
+Dandie Dinmont
+toro de boston
+Schnauzer miniatura
+schnauzer gigante
+schnauzer estándar
+terrier escocés
+terrier tibetano
+terrier sedoso
+terrier de trigo de pelo suave
+Terrier blanco de las tierras altas del oeste
+Lhasa
+perro perdiguero de pelo plano
+perro perdiguero de pelo rizado
+perro perdiguero de oro
+Labrador retriever
+Perro perdiguero de la Bahía de Chesapeake
+Braco alemán de pelo corto
+vizla
+setter inglés
+setter irlandés
+colocador gordon
+perro de aguas de Bretaña
+trepar
+saltador inglés
+Springer Spaniel galés
+Cocker
+perro de aguas de sussex
+Spaniel de agua irlandés
+kuvasz
+chipperke
+groenendael
+pastor malinois
+brezo
+kelpie
+komondor
+Viejo perro pastor inglés
+perro pastor de Shetland
+collie
+collie fronterizo
+Bouvier de Flandres
+rottweiler
+Pastor alemán
+Caballero
+pinscher miniatura
+Gran boyero suizo
+Perro de montaña de Bernese
+Appenzell
+EntleBucher
+Boxer
+mastín toro
+mastín tibetano
+Bulldog francés
+Gran Danés
+San Bernardo
+perro esquimal
+malamute
+Husky siberiano
+dálmata
+affenpinscher
+basenji
+doguillo
+Leonberg
+Terranova
+Grandes Pirineos
+Samoyedo
+pomeranio
+perro chino
+keeshond
+grifo de brabançon
+Pembroke
+Cárdigan
+poodle de juguete
+caniche miniatura
+caniche estándar
+mexicano sin pelo
+Lobo de madera
+Lobo blanco
+Lobo rojo
+coyote
+dingo
+dhole
+perro de caza africano
+hiena
+zorro rojo
+equipo de zorro
+zorro ártico
+zorro gris
+atigrado
+gato tigre
+gato persa
+gato siames
+gato egipcio
+Puma
+lince
+leopardo
+leopardo de nieve
+jaguar
+león
+tigre
+guepardo
+oso café
+oso negro americano
+oso de hielo
+oso perezoso
+mangosta
+suricata
+escarabajo tigre
+mariquita
+escarabajo de tierra
+escarabajo de cuernos largos
+escarabajo de hoja
+escarabajo pelotero
+Escarabajo rinoceronte
+gorgojo
+volar
+abeja
+hormiga
+saltamontes
+Grillo
+bastón
+cucaracha
+mantis
+cigarra
+saltamontes
+crisopa
+libélula
+caballito del diablo
+almirante
+rizo
+monarca
+mariposa de la col
+mariposa de azufre
+licénida
+estrella de mar
+erizo de mar
+pepino de mar
+conejo de madera
+liebre
+Angora
+hámster
+puerco espín
+ardilla zorro
+marmota
+castor
+conejillo de indias
+Alazán
+cebra
+cerdo
+Jabalí
+jabalí
+hipopótamo
+buey
+búfalo de agua
+bisonte
+RAM
+cuerno grande
+cabra montés
+búfalo
+impala
+gacela
+camello arabe
+llama
+comadreja
+visón
+turón
+hurón de patas negras
+nutria
+zorrillo
+tejón
+armadillo
+perezoso de tres dedos
+orangután
+gorila
+chimpancé
+gibón
+siamang
+gueñón
+patas
+babuino
+macaco
+langur
+colobo
+mono narigudo
+tití
+capucho
+mono aullador
+tití
+mono araña
+mono ardilla
+gato madagascar
+indri
+elefante indio
+elefante africano
+panda menor
+Panda gigante
+barracuta
+Anguila
+coho
+belleza de roca
+pez anémona
+esturión
+gar
+pez león
+fumador
+ábaco
+abaya
+bata académica
+acordeón
+guitarra acustica
+portaaviones
+avión de línea
+dirigible
+altar
+ambulancia
+anfibio
+reloj analogo
+colmenar
+delantal
+cubo de la basura
+fusil de asalto
+mochila
+panadería
+barra de equilibrio
+globo
+bolígrafo
+Apósito adhesivo
+banjo
+barandilla
+barra con pesas
+silla de barbero
+peluquería
+granero
+barómetro
+barril
+carretilla
+béisbol
+baloncesto
+moisés
+fagot
+gorro de baño
+toalla de baño
+bañera
+carro de playa
+Faro
+cubilete
+piel de oso
+botella de cerveza
+vaso de cerveza
+campanario
+babero
+bicicleta construida para dos
+bikini
+aglutinante
+prismáticos
+pajarera
+cobertizo
+bobsleigh
+corbata de bolo
+capó
+estantería
+librería
+tapa de botella
+arco
+corbata de moño
+latón
+sostén
+rompeolas
+coraza
+escoba
+balde
+hebilla
+chaleco antibalas
+tren bala
+carnicería
+taxi
+fiera
+vela
+cañón
+canoa
+abrelatas
+cárdigan
+espejo de coche
+carrusel
+kit de carpintero
+caja de cartón
+Llanta de carro
+cajero automático
+casete
+reproductor de casetes
+castillo
+catamarán
+reproductor de CD
+violonchelo
+telefono celular
+cadena
+cerca de alambre
+correo en cadena
+sierra de cadena
+pecho
+chifonier
+repicar
+gabinete de China
+calcetín navideño
+iglesia
+cine
+cuchilla de carnicero
+vivienda en acantilado
+capa
+obstruir
+batidor de coctéles
+taza de café
+cafetera
+bobina
+cerradura de combinación
+teclado
+confitería
+barco mercante
+convertible
+sacacorchos
+cucurucho
+bota de vaquero
+sombrero de vaquero
+cuna
+grua
+casco protector
+caja
+cuna
+Olla de barro
+pelota de croquet
+muleta
+coraza
+presa
+escritorio
+computadora de escritorio
+marcar teléfono
+pañal
+reloj digital
+reloj digital
+comedor
+trapo para fregar platos
+lavavajillas
+frenos de disco
+muelle
+trineo de perros
+cúpula
+felpudo
+plataforma de perforación
+tambor
+palillo de tambor
+pesa
+horno holandés
+ventilador eléctrico
+guitarra electrica
+locomotora electrica
+Centro de entretenimiento
+sobre
+máquina de café expreso
+polvos
+Boa de plumas
+archivo
+barco de bomberos
+camion de bomberos
+pantalla de fuego
+asta de bandera
+flauta
+silla plegable
+casco de fútbol
+máquina elevadora
+fuente
+Pluma fuente
+cuatro postes
+vagón de carga
+cuerno francés
+sartén
+abrigo de piel
+camión de la basura
+máscara de gas
+bomba de gas
+copa
+kart
+pelota de golf
+carro de golf
+góndola
+gong
+vestido
+piano de cola
+invernadero
+reja
+tienda de comestibles
+guillotina
+pasador de pelo
+laca para el cabello
+media pista
+martillo
+cesto
+soplador de mano
+computadora de mano
+pañuelo
+disco duro
+harmónica
+arpa
+segador
+hacha
+funda
+cine en casa
+panal
+gancho
+falda de aro
+barra horizontal
+carro de caballos
+reloj de arena
+iPod
+hierro
+jack-o'-lantern
+vaquero
+todoterreno
+jersey
+rompecabezas
+jinrikisha
+palanca de mando
+kimono
+rodillera
+nudo
+bata de laboratorio
+cucharón
+pantalla de lámpara
+computadora portátil
+cortacésped
+tapa de la lente
+abrecartas
+biblioteca
+bote salvavidas
+encendedor
+limusina
+transatlántico
+lápiz labial
+Mocasín
+loción
+altoparlante
+lupa
+Serreria
+brújula
+saca de correos
+buzón
+maillot
+maillot
+tapa de alcantarilla
+maraca
+marimba
+mascarilla
+fósforo
+mayo
+laberinto
+taza medidora
+botiquin
+megalito
+micrófono
+microonda
+uniforme militar
+la leche puede
+microbús
+mini falda
+minivan
+misil
+mitón
+tazón para mezclar
+casa móvil
+Modelo T
+módem
+monasterio
+monitor
+ciclomotor
+mortero
+birrete
+mezquita
+mosquitero
+motor de scooter
+bicicleta de montaña
+tienda de montaña
+ratón
+ratonera
+van en movimiento
+bozal
+clavo
+collarín
+collar
+pezón
+computadora portátil
+obelisco
+oboe
+ocarina
+cuentakilómetros
+filtro de aceite
+Organo
+osciloscopio
+sobrefalda
+carreta de bueyes
+mascara de oxigeno
+paquete
+paleta
+Rueda de paletas
+candado
+Cepillo de pintura
+pijama
+palacio
+zampoña
+toalla de papel
+paracaídas
+barras paralelas
+Banco del parque
+parquímetro
+coche de pasajeros
+patio
+teléfono público de monedas
+pedestal
+caja de lápices
+sacapuntas
+perfume
+placa de Petri
+fotocopiadora
+elegir
+pickelhaube
+valla de estacas
+levantar
+muelle
+hucha
+frasco de pastillas
+almohada
+pelota de ping pong
+molinillo
+pirata
+lanzador
+avión
+planetario
+bolsa de plastico
+escurreplatos
+arado
+émbolo
+cámara Polaroid
+polo
+camioneta de policia
+poncho
+mesa de billar
+botella de refresco
+maceta
+rueda de alfarero
+taladro eléctrico
+alfombra de rezo
+impresora
+prisión
+proyectil
+proyector
+disco
+saco de boxeo
+cartera
+pluma
+colcha
+corredor
+raqueta
+radiador
+radio
+Radio telescopio
+barril de lluvia
+vehículo recreacional
+carrete
+cámara réflex
+refrigerador
+control remoto
+restaurante
+revólver
+rifle
+mecedora
+asador
+borrador de goma
+Pelota de rugby
+regla
+Zapatos para correr
+seguro
+imperdible
+salero
+sandalia
+pareo de malasia
+saxófono
+vaina
+escala
+autobús escolar
+goleta
+marcador
+pantalla
+tornillo
+destornillador
+cinturón de seguridad
+máquina de coser
+blindaje
+tienda de zapatos
+shoji
+cesta de la compra
+carro de la compra
+pala
+gorro de ducha
+cortina de la ducha
+esquí
+máscara de esquí
+bolsa de dormir
+regla de cálculo
+puerta corrediza
+ranura
+tubo respirador
+motonieve
+quitanieves
+dispensador de jabón
+balón de fútbol
+calcetín
+plato solar
+sombrero
+tazón de sopa
+barra espaciadora
+Calentador
+transbordador espacial
+espátula
+lancha rápida
+telaraña
+huso
+coche deportivo
+destacar
+escenario
+locomotora de vapor
+puente de arco de acero
+tambor de acero
+estetoscopio
+robó
+Pared de piedra
+cronógrafo
+cocina
+colador
+tranvía
+camilla
+sofá de estudio
+estupa
+submarino
+traje
+reloj de sol
+gafas de sol
+Gafas de sol
+protector solar
+puente colgante
+torunda
+camisa de entrenamiento
+shorts de baño
+balancearse
+cambiar
+jeringuilla
+Lámpara de mesa
+tanque
+reproductor de cintas
+tetera
+osito de peluche
+televisión
+Pelota de tenis
+paja
+telón de teatro
+dedal
+trilladora
+trono
+teja
+tostadora
+tienda de tabaco
+asiento del baño
+antorcha
+tótem
+camión de remolque
+tienda de juguetes
+tractor
+camión de remolque
+bandeja
+gabardina
+triciclo
+trimarán
+trípode
+arco triunfal
+trolebús
+trombón
+bañera
+torniquete
+teclado de máquina de escribir
+paraguas
+monociclo
+vertical
+vacío
+florero
+bóveda
+terciopelo
+máquina expendedora
+vestimenta
+viaducto
+violín
+vóleibol
+plancha para gofres
+reloj de pared
+billetera
+armario
+avión de guerra
+lavabo
+lavadora
+botella de agua
+jarra de agua
+Torre de agua
+jarra de whisky
+silbar
+peluca
+pantalla de la ventana
+persiana
+corbata
+botella de vino
+ala
+wok
+cuchara de madera
+lana
+valla de gusanos
+naufragio
+yola
+yurta
+sitio web
+libro cómico
+crucigrama
+cartel de la calle
+semáforo
+solapa del libro
+menú
+lámina
+guacamole
+consomé
+olla caliente
+nimiedad
+helado
+paleta
+pan francés
+rosquilla
+galleta salada
+hamburguesa con queso
+Hot dog
+puré de patatas
+repollo
+brócoli
+coliflor
+calabacín
+calabaza espagueti
+calabaza bellota
+calabaza
+pepino
+alcachofa
+pimiento morrón
+cardo
+champiñón
+Granny Smith
+fresa
+naranja
+limón
+higo
+piña
+banana
+yaca
+chirimoya
+granada
+heno
+carbonara
+salsa de chocolate
+masa
+pastel de carne
+pizza
+pastel de carne
+burrito
+vino tinto
+Café exprés
+taza
+Ponche de huevo
+montaña
+burbuja
+acantilado
+Arrecife de coral
+géiser
+junto al lago
+promontorio
+banco de arena
+costa
+valle
+volcán
+jugador de pelota
+acicalar
+buzo
+colza
+margarita
+zapatilla de dama amarilla
+maíz
+bellota
+cadera
+castaño de indias
+hongo coralino
+agárico
+giromitra
+cuerno apestoso
+estrella terrestre
+gallina del bosque
+boleto
+oreja
+papel de baño

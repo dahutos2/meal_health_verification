@@ -1,0 +1,1001 @@
+Hintergrund
+Schleie
+Goldfisch
+großer weißer Hai
+Tigerhai
+Hammerkopf
+Zitterrochen
+Stachelrochen
+Schwanz
+Henne
+Strauß
+murmelnd
+Stieglitz
+Hausfink
+Junco
+Indigo-Ammer
+Robin
+Bulbul
+Jay
+Elster
+Meise
+Wasser Ouzel
+Drachen
+Weißkopfseeadler
+Geier
+Bartkauz
+Europäischer Feuersalamander
+Gemeiner Molch
+eft
+gefleckter Salamander
+Axolotl
+Ochsenfrosch
+Laubfrosch
+Schwanzfrosch
+Unechte
+Lederschildkröte
+Schlammschildkröte
+Sumpfschildkröte
+Dosenschildkröte
+gebänderter Gecko
+Gemeiner Leguan
+Amerikanisches Chamäleon
+Peitschenschwanz
+Agama
+Rüscheneidechse
+Alligator-Eidechse
+Gila-Monster
+grüne Eidechse
+Afrikanisches Chamäleon
+Komodowaran
+Afrikanisches Krokodil
+Amerikanischer Alligator
+Triceratops
+Donnerschlange
+Ringhalsschlange
+Hognose-Schlange
+grüne Schlange
+Königsschlange
+Strumpfbandnatter
+Wasserschlange
+Weinschlange
+Nachtschlange
+Boa Constrictor
+Rock-Python
+Indische Kobra
+grüne Mamba
+Seeschlange
+Hornotter
+Diamantrücken
+Seitenwinder
+Trilobit
+Erntemann
+Skorpion
+Schwarz-goldene Gartenspinne
+Scheunenspinne
+Gartenspinne
+Schwarze Witwe
+Tarantel
+Wolfspinne
+Tick
+Tausendfüßler
+Birkhuhn
+Schneehuhn
+Halshuhn
+Präriehuhn
+Pfau
+Wachtel
+Rebhuhn
+Afrikanisches Grau
+Ara
+Gelbhaubenkakadu
+Lorikeet
+Coucal
+Bienenesser
+Nashornvogel
+Kolibri
+jacamar
+Tukan
+Erpel
+rotbrüstiger Prototyp
+Gans
+schwarzer Schwan
+Tusker
+Ameisenigel
+Schnabeltier
+Wallaby
+Koala
+wombat
+Qualle
+Seeanemone
+Hirnkoralle
+Plattwurm
+Fadenwurm
+Muschel
+Schnecke
+Schnecke
+Meeresschnecke
+Chiton
+gekammerter Nautilus
+Dungeness-Krabbe
+Felsenkrabbe
+Winkerkrabbe
+Königskrabbe
+Amerikanischer Hummer
+Languste
+Flusskrebs
+Einsiedlerkrebs
+Assel
+Weißer Storch
+Schwarzstorch
+Löffler
+Flamingo
+kleiner blauer Reiher
+Amerikanischer Reiher
+Rohrdommel
+Kran
+Limpkin
+Europäische Gallinule
+Amerikanisches Blässhuhn
+Trappe
+rötlicher Steinwälzer
+Flussuferläufer
+Rotschenkel
+Dowitcher
+Austernfischer
+Pelikan
+Königspinguin
+Albatros
+Grauwal
+Killerwal
+Dugong
+Seelöwe
+Chihuahua
+Japanischer Spaniel
+Malteser Hund
+Pekinese
+Shih-Tzu
+Blenheim-Spaniel
+Papillon
+Spielzeugterrier
+Rhodesian Ridgeback
+Afghanischer Windhund
+Basset
+Beagle
+Bluthund
+Bluetick
+Black-and-Tan Coonhound
+Wanderhund
+Englischer Foxhound
+Redbone
+Barsoi
+Irischer Wolfshund
+Italienischer Windhund
+Whippet
+Ibizanischer Jagdhund
+Norwegischer Elchhund
+Otterhund
+Saluki
+Schottischer Hirschhund
+Weimaraner
+Staffordshire bull terrier
+Amerikanischer Staffordshire Terrier
+Bedlington-Terrier
+Border Terrier
+Kerry Blue Terrier
+Irischer Terrier
+Norfolk-Terrier
+Norwich-Terrier
+Yorkshire-Terrier
+Rauhaar-Foxterrier
+Lakeland-Terrier
+Sealyham-Terrier
+Airedale
+Steinhaufen
+Australischer Terrier
+Dandie Dinmont
+Bostoner Bulle
+Zwergschnauzer
+Riesenschnauzer
+Standardschnauzer
+Scotch-Terrier
+Tibetischer Terrier
+Seidenterrier
+weichhaariger Wheaten Terrier
+West Highland White Terrier
+Lhasa
+Flatcoated Retriever
+Curly Coated Retriever
+Golden Retriever
+Labrador Retriever
+Chesapeake Bay Retriever
+Deutscher Kurzhaarvorstehhund
+vizsla
+Englischer Setter
+Irish Setter
+Gordon-Setter
+Bretagne Spaniel
+Klempner
+Englischer Springer
+Welsh Springer Spaniel
+Cocker Spaniel
+Sussex-Spaniel
+Irischer Wasserspaniel
+kuvasz
+Schipperke
+Groenendael
+Malinois
+Briard
+Kelpie
+komondor
+Alter englischer Schäferhund
+Shetland Schäferhund
+Collie
+Border Collie
+Bouvier des Flandres
+Rottweiler
+Deutscher Schäferhund
+Dobermann
+Zwergpinscher
+Großer Schweizer Sennenhund
+Berner Sennenhund
+Appenzeller
+EntleBucher
+Boxer
+Bullmastiff
+Tibetischer Mastiff
+Französische Bulldogge
+Deutsche Dogge
+Heiliger Bernhard
+Eskimohund
+Malamute
+Sibirischer Husky
+Dalmatiner
+Affenpinscher
+Basenji
+Mops
+Leonberg
+Neufundland
+Große Pyrenäen
+Samojede
+Pommern
+Chow
+Keeshond
+Brabancon-Greif
+Pembroke
+Strickjacke
+Zwergpudel
+Zwergpudel
+Standardpudel
+Mexikanischer Haarloser
+Timberwolf
+weißer Wolf
+roter Wolf
+Kojote
+Dingo
+dhole
+Afrikanischer Jagdhund
+Hyäne
+roter Fuchs
+Kit Fuchs
+Polarfuchs
+grauer Fuchs
+Tabby
+Tiger Katze
+Persische Katze
+Siamesische Katze
+Ägyptische Katze
+Puma
+Luchs
+Leopard
+Schneeleopard
+Jaguar
+Löwe
+Tiger
+Gepard
+Braunbär
+Amerikanischer Schwarzbär
+Eisbär
+Lippenbär
+Mungo
+Erdmännchen
+Tigerkäfer
+Marienkäfer
+Laufkäfer
+Laubholzbockkäfer
+Blattkäfer
+Mistkäfer
+Nashornkäfer
+Rüsselkäfer
+Fliege
+Biene
+Ameise
+Heuschrecke
+Kricket
+Gehstock
+Kakerlake
+Gottesanbeterin
+Zikade
+Zikaden
+Florfliege
+Libelle
+Damselfly
+Admiral
+Ringel
+Monarch
+Kohlschmetterling
+Schwefelschmetterling
+Lycaenid
+Seestern
+Seeigel
+Seegurke
+Holzkaninchen
+Hase
+Angora
+Hamster
+Stachelschwein
+Fuchs-Eichhörnchen
+Murmeltier
+Biber
+Meerschweinchen
+Sauerampfer
+Zebra
+Schwein
+Wildschwein
+Warzenschwein
+Nilpferd
+Ochse
+Wasserbüffel
+Bison
+RAM
+großes Horn
+Steinbock
+Kuhantilope
+Impala
+Gazelle
+Arabisches Kamel
+Lama
+Wiesel
+Nerz
+Iltis
+Schwarzfußfrettchen
+Otter
+Skunk
+Dachs
+Gürteltier
+Dreifingerfaultier
+Orang-Utan
+Gorilla
+Schimpanse
+Gibbon
+Siamang
+Guenon
+Patas
+Pavian
+Makaken
+Langur
+Colobus
+Nasenaffe
+Weißbüschelaffe
+Kapuziner
+Brüllaffe
+titi
+Spinnenaffe
+Totenkopfäffchen
+Madagaskar-Katze
+indri
+Indischer Elefant
+Afrikanischer Elefant
+Kleiner Panda
+Riesenpanda
+barracouta
+Aal
+coho
+Rockschönheit
+Anemonenfisch
+Stör
+gar
+Rotfeuerfisch
+Kugelfisch
+Abakus
+Abaya
+akademisches Gewand
+Akkordeon
+akustische Gitarre
+Flugzeugträger
+Verkehrsflugzeug
+Luftschiff
+Altar
+Krankenwagen
+Amphibie
+Analoge Uhr
+Bienenhaus
+Schürze
+Aschenbecher
+Sturmgewehr
+Rucksack
+Bäckerei
+Schwebebalken
+Ballon
+Kugelschreiber
+Pflaster
+Banjo
+Geländer
+Hantel
+Frisörstuhl
+Friseurladen
+Scheune
+Barometer
+Fass
+Karren
+Baseball
+Basketball
+Stubenwagen
+Fagott
+Bademütze
+Badetuch
+Badewanne
+Strandwagen
+Leuchtfeuer
+Becherglas
+Bärenfell
+Bierflasche
+Bierglas
+Bell Cote
+Lätzchen
+Fahrrad für zwei Personen
+Bikini
+Bindemittel
+Fernglas
+Vogelhaus
+Bootshaus
+Bob
+Bolotie
+Motorhaube
+Bücherregal
+Buchgeschäft
+Flaschenverschluss
+Bogen
+Krawatte
+Messing
+Büstenhalter
+Wellenbrecher
+Brustplatte
+Besen
+Eimer
+Schnalle
+kugelsichere Weste
+Schnellzug
+Metzgerei
+Taxi
+Kessel
+Kerze
+Kanone
+Kanu
+Dosenöffner
+Strickjacke
+Autospiegel
+Karussell
+Tischlerset
+Karton
+Autoreifen
+Geldmaschine
+Kassette
+Kassettenspieler
+Schloss
+Katamaran
+CD-Player
+Cello
+Mobiltelefon
+Kette
+Maschendrahtzaun
+Kettenhemd
+Kettensäge
+Brust
+Chiffonnier
+Glockenspiel
+Porzellanschrank
+Weihnachtsstrumpf
+Kirche
+Kino
+Hackmesser
+Klippenwohnung
+Mantel
+verstopfen
+Cocktail-Shaker
+Kaffeebecher
+Kaffeetasse
+Spule
+Kombinationsschloss
+Computer Tastatur
+Süßwaren
+Containerschiff
+Cabrio
+Korkenzieher
+Kornett
+Cowboystiefel
+Cowboy-Hut
+Wiege
+Kran
+Sturzhelm
+Kiste
+Krippe
+Schmortopf
+Krocketball
+Krücke
+Kürass
+Damm
+Schreibtisch
+Desktop-Computer
+Telefon wählen
+Windel
+Digitaluhr
+Digitaluhr
+Esstisch
+abwaschen
+Geschirrspüler
+Scheibenbremse
+Dock
+Hundeschlitten
+Kuppel
+Fußabtreter
+Bohrplattform
+Trommel
+Trommelstock
+Hantel
+Schmortopf
+Elektrolüfter
+elektrische Gitarre
+elektrische Lokomotive
+Unterhaltungszentrum
+Umschlag
+Espressomaschine
+Gesichtspuder
+Federboa
+Datei
+Feuerlöschboot
+Feuerwehrauto
+Feuer Bildschirm
+Fahnenstange
+Flöte
+Klappstuhl
+Football helm
+Gabelstapler
+Brunnen
+Füller
+Himmelbett
+Güterwagen
+Waldhorn
+Bratpfanne
+Pelzmantel
+Müllwagen
+Gasmaske
+Zapfsäule
+Kelch
+Gokart
+Golfball
+Golfwagen
+Gondel
+Gong
+Kleid
+Konzertflügel
+Gewächshaus
+Gitter
+Lebensmittelgeschäft
+Guillotine
+Haarspange
+Haarspray
+Halbe Strecke
+Hammer
+Korb
+Handgebläse
+Handheld-Computer
+Taschentuch
+Festplatte
+Mundharmonika
+Harfe
+Mähdrescher
+Beil
+Halfter
+Heimkino
+Bienenwabe
+Haken
+Reifenrock
+horizontale Linie
+Pferdewagen
+Sanduhr
+iPod
+Eisen
+Kürbislaterne
+Jean
+Jeep
+Jersey
+Puzzle
+Jinrikisha
+Joystick
+Kimono
+Knieschoner
+Knoten
+Laborkittel
+Kelle
+Lampenschirm
+Laptop
+Rasenmäher
+Objektivkappe
+Brieföffner
+Bibliothek
+Rettungsboot
+Feuerzeug
+Limousine
+Liner
+Lippenstift
+Slipper
+Lotion
+Lautsprecher
+Lupe
+Sägewerk
+magnetischer Kompass
+Postsack
+Briefkasten
+Maillot
+Maillot
+Schachtabdeckung
+Rassel
+Marimba
+Maske
+Streichholz
+Maibaum
+Labyrinth
+Messbecher
+Hausapotheke
+Megalith
+Mikrofon
+Mikrowelle
+Militäruniform
+Milchkanne
+Kleinbus
+Minirock
+Minivan
+Rakete
+Fäustling
+Rührschüssel
+Wohnwagen
+Modell T
+Modem
+Kloster
+Monitor
+Moped
+Granatwerfer
+Doktorhut
+Moschee
+Moskitonetz
+Motorroller
+Mountainbike
+Bergzelt
+Maus
+Mausefalle
+Umzugswagen
+Schnauze
+Nagel
+Halskrause
+Halskette
+Nippel
+Notizbuch
+Obelisk
+Oboe
+Okarina
+Kilometerzähler
+Ölfilter
+Organ
+Oszilloskop
+Überrock
+Ochsenkarren
+Sauerstoffmaske
+Paket
+Paddel
+Schaufelrad
+Vorhängeschloss
+Pinsel
+Schlafanzug
+Palast
+Panflöte
+papierhandtuch
+Fallschirm
+Barren
+Parkbank
+Parkuhr
+Personenkraftwagen
+Terrasse
+Münztelefon
+Sockel
+Stifftehalter
+Bleistiftspitzer
+Parfüm
+Petrischale
+Kopiergerät
+wählen
+pickelhaube
+Lattenzaun
+abholen
+Seebrücke
+Sparschwein
+Tablettendose
+Kissen
+Tischtennisball
+Windrad
+Pirat
+Krug
+Flugzeug
+Planetarium
+Plastiktüte
+Tellerhalter
+Pflug
+Kolben
+Polaroidkamera
+Pole
+Polizeiwagen
+Poncho
+Billardtisch
+Pop-Flasche
+Topf
+Töpferscheibe
+Bohrmaschine
+Gebetsteppich
+Drucker
+Gefängnis
+Projektil
+Beamer
+Puck
+Boxsack
+Geldbeutel
+Feder
+Decke
+Rennfahrer
+Schläger
+Kühler
+Radio
+Radioteleskop
+Regentonne
+Wohnmobil
+Spule
+Spiegelreflexkamera
+Kühlschrank
+Fernbedienung
+Restaurant
+Revolver
+Gewehr
+Schaukelstuhl
+Rotisserie
+Radiergummi
+Rugby Ball
+Regel
+Laufschuh
+sicher
+Sicherheitsnadel
+Salzstreuer
+Sandale
+Sarong
+Saxophon
+Scheide
+Skala
+Schulbus
+Schoner
+Anzeigetafel
+Bildschirm
+schrauben
+Schraubendreher
+Sicherheitsgurt
+Nähmaschine
+Schild
+Schuhladen
+Shoji
+Einkaufskorb
+Einkaufswagen
+Schaufel
+Duschhaube
+Duschvorhang
+Ski
+Ski-Maske
+Schlafsack
+Rechenschieber
+Schiebetür
+Slot
+Schnorchel
+Schneemobil
+Schneepflug
+Seifenspender
+Fußball
+Socke
+Solarschüssel
+Sombrero
+Suppenschüssel
+Leertaste
+Raumheizkörper
+Space Shuttle
+Spatel
+Schnellboot
+Spinnennetz
+Spindel
+Sportwagen
+Scheinwerfer
+Bühne
+Dampflokomotive
+Stahlbogenbrücke
+Stahltrommel
+Stethoskop
+Stahl
+Steinwand
+Stoppuhr
+Herd
+Sieb
+Straßenbahn
+Bahre
+Studiocouch
+Stupa
+U-Boot
+Anzug
+Sonnenuhr
+Sonnenbrille
+Sonnenbrille
+Sonnenschutz
+Hängebrücke
+Tupfer
+Sweatshirt
+Badehose
+schwingen
+schalten
+Spritze
+Tischlampe
+Panzer
+Kassettenspieler
+Teekanne
+Teddy
+Fernsehen
+Tennis Ball
+Stroh
+Theatervorhang
+Fingerhut
+Drescher
+Thron
+Ziegeldach
+Toaster
+Tabak Laden
+Toilleten Sitz
+Fackel
+Totempfahl
+Abschleppfahrzeug
+Spielzeugladen
+Traktor
+Anhänger-LKW
+Tablett
+Regenmantel
+Dreirad
+Trimaran
+Stativ
+Triumphbogen
+Obus
+Posaune
+Wanne
+Drehkreuz
+Schreibmaschinentastatur
+Regenschirm
+Einrad
+aufrecht
+Vakuum
+Vase
+Gewölbe
+Samt
+Verkaufsautomat
+Gewand
+Viadukt
+Geige
+Volleyball
+Waffeleisen
+Wanduhr
+Geldbörse
+Kleiderschrank
+Kampfflugzeug
+Waschbecken
+Waschmaschine
+Wasserflasche
+Wasserkrug
+Wasserturm
+Whiskykrug
+Pfeife
+Perücke
+Fensterscheibe
+Fensterschatten
+Windsor-Krawatte
+Weinflasche
+Flügel
+wok
+Holzlöffel
+wolle
+Wurmzaun
+Wrack
+Jolle
+Jurte
+Webseite
+Comic-Buch
+Kreuzworträtsel
+Straßenschild
+Ampel
+Buchumschlag
+Speisekarte
+Platte
+Guacamole
+consomme
+heißer Topf
+Kleinigkeit
+Eiscreme
+Eislutscher
+Französisches Brot
+Bagel
+Brezel
+Cheeseburger
+Hotdog
+Kartoffelbrei
+Kopfkohl
+Brokkoli
+Blumenkohl
+Zucchini
+Spaghettikürbis
+Eichelkürbis
+Butternusskürbis
+Gurke
+Artischocke
+Paprika
+Kardon
+Pilz
+Granny Smith
+Erdbeere
+orange
+Zitrone
+Feige
+Ananas
+Banane
+Jackfrucht
+Puddingapfel
+Granatapfel
+Heu
+Carbonara
+Schokoladensoße
+Teig
+Hackbraten
+Pizza
+Topfkuchen
+Burrito
+Rotwein
+Espresso
+Tasse
+Eierlikör
+Alp
+Blase
+Cliff
+Korallenriff
+Geysir
+Seeufer
+Vorgebirge
+Sandbank
+Strand
+Schlucht
+Vulkan
+Ballspieler
+Bräutigam
+Taucher
+Raps
+Gänseblümchen
+gelber Damenschuh
+Mais
+Eichel
+Hüfte
+Rosskastanie
+Korallenpilz
+Pilz
+Gyromitra
+Stinkhorn
+Erdstern
+Henne-des-Walds
+Steinpilz
+Ohr
+Toilettenpapier
