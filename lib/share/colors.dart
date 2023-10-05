@@ -38,7 +38,7 @@ class ColorsFooter {
 
   Color get background => const Color(0xFFFFFFFF);
   Color get unSelectedItem => const Color(0xFF333333);
-  Color get selectedItem => const Color(0xFFFF0000);
+  Color get selectedItem => const Color(0xFFFF3B30);
 }
 
 class ColorsHome {
@@ -55,12 +55,13 @@ class ColorsCamera {
 
   Color get rect => const Color(0xFFFFFFFF);
   Color get errorBackGround => const Color(0xFF8E8E93);
-  Color get buttonBackGround => const Color(0x60FFFFFF);
+  Color get buttonBackGround => const Color(0xFF1C1C1E);
   Color get buttonBackGroundShadow => const Color(0x13747480);
-  Color get pauseCameraButtonActive => const Color(0xFF9E9E9E);
-  Color get pauseCameraButtonDisabled => const Color(0x13747480);
-  Color get resumeCameraButtonActive => const Color(0xFF9E9E9E);
-  Color get resumeCameraButtonDisabled => const Color(0x13747480);
+  Color get button => const Color(0x4D1C1C1E);
+  Color get buttonBlinking => const Color(0x4D1C1C1E);
+  Color get buttonInner => const Color(0xFFFFFFFF);
+  Color get buttonOuter => const Color(0xFFFFFFFF);
+  Color get buttonDisabled => const Color(0xFFFFFFFF);
 }
 
 class ColorsDataConfirm {

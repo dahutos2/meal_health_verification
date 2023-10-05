@@ -25,7 +25,7 @@
     "homeMessageSnackingBetween": "Est-ce une collation ?\nSoyez prudent quant à la quantité que vous consommez.",
     "homePageFooterLabel": "maison",
     "pageCameraFooterLabel": "caméra",
-    "pauseCameraStart": "Veuillez démarrer la caméra.",
+    "pauseCameraStart": "Démarrez la caméra.",
     "pauseCameraErrorNotExistCamera": "Caméra non présente.",
     "pauseCameraErrorCameraAccessDenied": "Vous n'êtes pas autorisé à accéder à la caméra.",
     "pauseCameraErrorUndefined": "Une erreur inconnue s'est produite lors de la connexion de la caméra.",

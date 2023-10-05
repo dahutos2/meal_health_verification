@@ -25,7 +25,7 @@
     "homeMessageSnackingBetween": "Ist es ein Snack?\nBitte achten Sie auf die Menge, die Sie zu sich nehmen.",
     "homePageFooterLabel": "heim",
     "pageCameraFooterLabel": "Kamera",
-    "pauseCameraStart": "Bitte starten Sie die Kamera.",
+    "pauseCameraStart": "Starten Sie die Kamera.",
     "pauseCameraErrorNotExistCamera": "Kamera nicht vorhanden.",
     "pauseCameraErrorCameraAccessDenied": "Sie haben keine Berechtigung, auf die Kamera zuzugreifen.",
     "pauseCameraErrorUndefined": "Beim Anschließen der Kamera ist ein unbekannter Fehler aufgetreten.",

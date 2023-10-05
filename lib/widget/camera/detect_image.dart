@@ -23,6 +23,13 @@ class _DetectImageState extends ConsumerState<DetectImage> {
   List<DetectedObject> _detectedObjects = [];
   bool _isLoading = false;
 
+  @override
+  void setState(void Function() func) {
+    if (mounted) {
+      super.setState(func);
+    }
+  }
+
   void onLoading() {
     setState(() {
       _isLoading = true;
@@ -39,11 +46,7 @@ class _DetectImageState extends ConsumerState<DetectImage> {
 
   Future<void> _getDetectedObjects(PauseCameraImage? image) async {
     if (image == null) {
-      // 画像の取得に失敗した場合は、画像をnullにする
-      setState(() {
-        _image = null;
-        _detectedObjects = [];
-      });
+      // 画像の取得に失敗した場合は、何もしない
       return;
     }
     final inputImage = InputImage.fromFile(image.file);
@@ -72,7 +75,7 @@ class _DetectImageState extends ConsumerState<DetectImage> {
               width: _image?.width ?? 0,
               height: _image?.height ?? 0,
             ),
-            child: _image != null ? Image.file(_image!.file) : null,
+            child: _image != null ? Image.memory(_image!.bytes) : null,
           ),
         ),
         Expanded(

@@ -1,19 +1,23 @@
 import 'dart:io';
 import 'dart:async';
+import 'dart:typed_data';
 
-import 'package:flutter/cupertino.dart';
 import 'package:camera/camera.dart';
+import 'package:flutter/material.dart';
+import 'package:meal_health_verification/index.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-import '../../../share/share.dart';
+import 'pause_button.dart';
 import 'pause_camera_isolate.dart';
 
 class PauseCameraImage {
+  final Uint8List bytes;
   final File file;
   final int width;
   final int height;
   const PauseCameraImage({
+    required this.bytes,
     required this.file,
     required this.width,
     required this.height,
@@ -32,7 +36,7 @@ class PauseCamera extends StatefulWidget {
     this.onLoading,
     this.onLoaded,
     this.stackWidget,
-    this.aspectRatio = 18 / 19,
+    this.aspectRatio = 11 / 14,
   });
 
   @override
@@ -40,8 +44,7 @@ class PauseCamera extends StatefulWidget {
 }
 
 class _PauseCameraState extends State<PauseCamera> {
-  String _tempDir = '';
-  File? _image;
+  String _imagePath = '';
 
   List<CameraDescription> _cameras = [];
   CameraController? _controller;
@@ -51,24 +54,29 @@ class _PauseCameraState extends State<PauseCamera> {
   bool _isCameraReady = false;
   bool _isNotScanning = true;
   bool _isPause = false;
-
-  int _recordCount = 0;
+  bool _isSucceeded = false;
 
   @override
   void initState() {
     super.initState();
 
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      final osTempDir = await getTemporaryDirectory();
-      final Directory tempDir = Directory('${osTempDir.path}/temp_image/');
-
-      tempDir.createSync(recursive: true);
-      await _startCamera();
       setState(() {
-        _tempDir = tempDir.path;
         _errorMessage = L10n.of(context)!.pauseCameraStart;
       });
+      final tempDir = await getTemporaryDirectory();
+      await _startCamera();
+      setState(() {
+        _imagePath = '${tempDir.path}/pause_image.png';
+      });
     });
+  }
+
+  @override
+  void setState(void Function() func) {
+    if (mounted) {
+      super.setState(func);
+    }
   }
 
   @override
@@ -114,15 +122,15 @@ class _PauseCameraState extends State<PauseCamera> {
   }
 
   Future<void> _startRecording() async {
-    if (widget.onLoading != null) {
+    if (widget.onLoading != null && mounted) {
       widget.onLoading!();
     }
     setState(() {
       _isNotScanning = false;
+      _isSucceeded = false;
     });
     // この処理で非同期操作をステートの変更後に行う
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      _deleteImages();
       await _controller?.startImageStream(_processImage);
     });
   }
@@ -140,95 +148,80 @@ class _PauseCameraState extends State<PauseCamera> {
       await _controller?.pausePreview();
 
       // nullの場合は止めるだけ
-      if (widget.changeImageFile == null) return;
+      if (widget.changeImageFile == null || !mounted) return;
 
-      final imagePath = '$_tempDir/$_recordCount.png';
       final image = await CameraIsolate.convertAndSaveCameraImage(
-          cameraImage, _cameras[0], imagePath, widget.aspectRatio);
+          cameraImage, _cameras[0], _imagePath, widget.aspectRatio);
+      if (!mounted) return;
       if (image == null) {
         // 画像の取得に失敗した場合は、画像をnullにする
         widget.changeImageFile!(null);
         return;
       }
-      final imageFile = File(imagePath);
+      final bytes = await CameraIsolate.convertToBytes(image);
+
+      final file = File(_imagePath);
+      if (!mounted) return;
       widget.changeImageFile!(
         PauseCameraImage(
-          file: imageFile,
+          bytes: bytes,
+          file: file,
           width: image.width,
           height: image.height,
         ),
       );
       setState(() {
-        _image = imageFile;
+        _isSucceeded = true;
       });
     } finally {
-      if (widget.onLoaded != null) {
+      if (widget.onLoaded != null && mounted) {
         widget.onLoaded!();
       }
+
       setState(() {
-        _recordCount++;
         _isNotScanning = true;
         _isPause = true;
       });
     }
   }
 
-  void _deleteImages() {
-    if (!mounted || _tempDir.isEmpty) return;
-    final files = Directory(_tempDir).listSync();
-    for (var entity in files) {
-      if (entity is File) {
-        entity.deleteSync();
-      }
+  void _deleteImage() {
+    if (!mounted) return;
+    var imageFile = File(_imagePath);
+    if (imageFile.existsSync()) {
+      imageFile.deleteSync();
     }
-    if (mounted && _image != null) {
-      setState(() {
-        _image = null;
-      });
-    }
-  }
-
-  void _clear() {
-    // ページ遷移の際にTemp画像を削除
-    _deleteImages();
-
-    // フレームの描画が完了した直後にコールバックを実行
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      // ここで画面遷移などの処理を行う
-      Navigator.of(context).pop();
-    });
   }
 
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
-        _clear();
-        return false;
+        _deleteImage();
+        return true;
       },
-      child: Column(
+      child: Stack(
         children: [
           _isCameraReady &&
                   _controller != null &&
                   _controller!.value.isInitialized
               ? AspectRatio(
                   aspectRatio: widget.aspectRatio,
-                  child:
-                      _isPause && _image != null && widget.stackWidget != null
-                          ? widget.stackWidget
-                          : Stack(
-                              children: [
-                                ClipRect(
-                                  child: Transform.scale(
-                                    scale: _controller!.value.aspectRatio *
-                                        widget.aspectRatio,
-                                    child: Center(
-                                      child: CameraPreview(_controller!),
-                                    ),
-                                  ),
-                                )
-                              ],
-                            ),
+                  child: _isPause && _isSucceeded && widget.stackWidget != null
+                      ? widget.stackWidget
+                      : Stack(
+                          children: [
+                            ClipRect(
+                              child: Transform.scale(
+                                scale: _controller!.value.aspectRatio *
+                                    widget.aspectRatio,
+                                child: Center(
+                                  child: CameraPreview(_controller!),
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
                 )
               : ColoredBox(
                   color: ColorType.camera.errorBackGround,
@@ -244,45 +237,32 @@ class _PauseCameraState extends State<PauseCamera> {
                     ),
                   ),
                 ),
-          Container(
-            padding: const EdgeInsets.symmetric(vertical: 10),
-            decoration: BoxDecoration(
-              color: ColorType.camera.buttonBackGround,
-              boxShadow: [
-                BoxShadow(
-                  color: ColorType.camera.buttonBackGroundShadow,
-                  offset: const Offset(0, 2),
-                  blurRadius: 8.0,
-                ),
-              ],
-            ),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                !_isPause
-                    ? CupertinoButton(
-                        // カメラを起動しているかつ読み込み中ではない場合は活性にする
-                        // 一時停止ボタン
-                        onPressed: _isCameraReady && _isNotScanning
-                            ? _startRecording
-                            : null,
-                        color: ColorType.camera.pauseCameraButtonActive,
-                        disabledColor:
-                            ColorType.camera.pauseCameraButtonDisabled,
-                        padding: const EdgeInsets.all(10),
-                        child: IconType.camera.pauseCameraButton,
-                      )
-                    : CupertinoButton(
-                        // カメラを起動している場合は活性にする
-                        // 再開ボタン
-                        onPressed: _isCameraReady ? _resumeCamera : null,
-                        color: ColorType.camera.resumeCameraButtonActive,
-                        disabledColor:
-                            ColorType.camera.resumeCameraButtonDisabled,
-                        padding: const EdgeInsets.all(10),
-                        child: IconType.camera.resumeCameraButton,
-                      ),
-              ],
+          Positioned(
+            bottom: 0,
+            child: Container(
+              width: context.deviceWidth,
+              padding: const EdgeInsets.symmetric(vertical: 10),
+              decoration: BoxDecoration(
+                color: ColorType.camera.buttonBackGround.withOpacity(0.8),
+                boxShadow: [
+                  BoxShadow(
+                    color: ColorType.camera.buttonBackGroundShadow,
+                    offset: const Offset(0, 2),
+                    blurRadius: 8.0,
+                  ),
+                ],
+              ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  PauseCameraButton(
+                    isEnabled: _isCameraReady && _isNotScanning,
+                    isPause: _isPause,
+                    startRecording: _startRecording,
+                    resumeCamera: _resumeCamera,
+                  ),
+                ],
+              ),
             ),
           ),
         ],

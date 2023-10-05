@@ -9,6 +9,11 @@ import 'package:image/image.dart' as imglib;
 class CameraIsolate {
   CameraIsolate._();
 
+  static Future<Uint8List> convertToBytes(imglib.Image image) async {
+    return await compute(
+        (image) => Uint8List.fromList(imglib.encodePng(image)), image);
+  }
+
   static Future<imglib.Image?> convertAndSaveCameraImage(
     CameraImage cameraImage,
     CameraDescription camera,

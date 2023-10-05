@@ -25,7 +25,7 @@
     "homeMessageSnackingBetween": "के यो खाजा हो?\nकृपया तपाईले खपत गर्ने रकमको बारेमा सावधान रहनुहोस्।",
     "homePageFooterLabel": "घर",
     "pageCameraFooterLabel": "क्यामेरा",
-    "pauseCameraStart": "कृपया क्यामेरा सुरु गर्नुहोस्।",
+    "pauseCameraStart": "क्यामेरा सुरु गर्नुहोस्।",
     "pauseCameraErrorNotExistCamera": "क्यामेरा उपस्थित छैन।",
     "pauseCameraErrorCameraAccessDenied": "तपाईंसँग क्यामेरा पहुँच गर्ने अनुमति छैन।",
     "pauseCameraErrorUndefined": "क्यामेरा जडान गर्दा अज्ञात त्रुटि भयो।",

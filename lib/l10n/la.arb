@@ -25,7 +25,7 @@
     "homeMessageSnackingBetween": "Estne itus?\nCave, quaeso, quantum consumis.",
     "homePageFooterLabel": "home",
     "pageCameraFooterLabel": "camera",
-    "pauseCameraStart": "Quaeso incipit a camera.",
+    "pauseCameraStart": "Incipit camera.",
     "pauseCameraErrorNotExistCamera": "Camera non praesente.",
     "pauseCameraErrorCameraAccessDenied": "Permittitur tibi accedere ad cameram.",
     "pauseCameraErrorUndefined": "Error incognitus occurrit cum camera connectens.",

@@ -25,7 +25,7 @@
     "homeMessageSnackingBetween": "¿Es un refrigerio?\nTenga cuidado con la cantidad que consume.",
     "homePageFooterLabel": "hogar",
     "pageCameraFooterLabel": "cámara",
-    "pauseCameraStart": "Por favor inicie la cámara.",
+    "pauseCameraStart": "Inicie la cámara.",
     "pauseCameraErrorNotExistCamera": "Cámara no presente.",
     "pauseCameraErrorCameraAccessDenied": "No tienes permiso para acceder a la cámara.",
     "pauseCameraErrorUndefined": "Se produjo un error desconocido al conectar la cámara.",

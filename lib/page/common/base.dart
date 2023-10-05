@@ -6,20 +6,14 @@ import '../../widget/common/header.dart';
 
 class BasePage extends StatelessWidget {
   final String? headerTitle;
-  final PreferredSizeWidget? appBar;
   final String? backgroundImagePath;
   final Widget? body;
-  final Widget? floatingActionButton;
-  final Widget? bottomNavigationBar;
 
   const BasePage({
     super.key,
     this.headerTitle,
-    this.appBar,
     this.backgroundImagePath,
     this.body,
-    this.floatingActionButton,
-    this.bottomNavigationBar,
   });
 
   @override
@@ -27,7 +21,7 @@ class BasePage extends StatelessWidget {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       backgroundColor: ColorType.base.background,
-      appBar: appBar ?? HeaderView(title: headerTitle),
+      appBar: HeaderView(title: headerTitle),
       body: backgroundImagePath == null
           ? body
           : Stack(
@@ -43,8 +37,7 @@ class BasePage extends StatelessWidget {
                 if (body != null) body!,
               ],
             ),
-      floatingActionButton: floatingActionButton,
-      bottomNavigationBar: bottomNavigationBar ?? const FooterView(),
+      bottomNavigationBar: const FooterView(),
     );
   }
 }

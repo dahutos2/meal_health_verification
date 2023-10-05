@@ -25,7 +25,7 @@
     "homeMessageSnackingBetween": "Apakah itu camilan?\nHarap berhati-hati dengan jumlah yang Anda konsumsi.",
     "homePageFooterLabel": "rumah",
     "pageCameraFooterLabel": "kamera",
-    "pauseCameraStart": "Silakan mulai kamera.",
+    "pauseCameraStart": "Mulai kamera.",
     "pauseCameraErrorNotExistCamera": "Kamera tidak ada.",
     "pauseCameraErrorCameraAccessDenied": "Anda tidak memiliki izin untuk mengakses kamera.",
     "pauseCameraErrorUndefined": "Terjadi kesalahan yang tidak diketahui saat menghubungkan kamera.",

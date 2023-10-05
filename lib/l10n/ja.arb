@@ -25,7 +25,7 @@
     "homeMessageSnackingBetween": "間食ですか？\n摂取量に気を付けてくださいね",
     "homePageFooterLabel": "ホーム",
     "pageCameraFooterLabel": "カメラ",
-    "pauseCameraStart": "カメラを起動して下さい。",
+    "pauseCameraStart": "カメラを起動します。",
     "pauseCameraErrorNotExistCamera": "カメラが存在しません。",
     "pauseCameraErrorCameraAccessDenied": "カメラへのアクセス権限がありません。",
     "pauseCameraErrorUndefined": "カメラ接続時に不明なエラーが発生しました。",

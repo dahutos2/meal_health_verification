@@ -25,7 +25,7 @@
     "homeMessageSnackingBetween": "Czy to przekąska?\nProszę uważać na ilość spożywanego preparatu.",
     "homePageFooterLabel": "dom",
     "pageCameraFooterLabel": "kamera",
-    "pauseCameraStart": "Proszę uruchomić kamerę.",
+    "pauseCameraStart": "Uruchom aparat.",
     "pauseCameraErrorNotExistCamera": "Brak aparatu.",
     "pauseCameraErrorCameraAccessDenied": "Nie masz uprawnień dostępu do kamery.",
     "pauseCameraErrorUndefined": "Wystąpił nieznany błąd podczas podłączania aparatu.",
