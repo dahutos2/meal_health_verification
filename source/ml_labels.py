@@ -37,19 +37,21 @@ count = 0
 print("翻訳を開始します。")
 # 各言語で翻訳
 for code, language in locales.items():
+    if code == "en":
+        continue
     output_path = f"{output_dir}/{code}.txt"
 
     translated_data = []
     for value in label_data:
         try:
-            translated_value = translator.translate(value, src='en', dest=code).text
+            translated_value = translator.translate(value, src="en", dest=code).text
             translated_data.append(translated_value)
         except Exception as e:
             print(f"{value}の{code}での翻訳中に例外が発生しました。: {e}")
             translated_data.append(f"失敗しました!: {e}")
 
     # ファイルに書き込む
-    with open(output_path, "w", encoding='utf-8') as out_file:
+    with open(output_path, "w", encoding="utf-8") as out_file:
         for value in translated_data:
             out_file.write(f"{value}\n")
 
