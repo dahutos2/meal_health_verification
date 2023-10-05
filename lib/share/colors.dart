@@ -24,30 +24,30 @@ class ColorsBase {
   const ColorsBase();
 
   Color get background => const Color(0xFFF3E5E5);
-  Color get initBackGround => const Color(0xFFE6BC5B);
+  Color get initBackGround => const Color(0xFFF3E5E5);
 }
 
 class ColorsHeader {
   const ColorsHeader();
 
-  Color get background => const Color(0xFFE6BC5B);
+  Color get background => const Color(0xFFFFFFFF);
 }
 
 class ColorsFooter {
   const ColorsFooter();
 
-  Color get background => const Color(0xFFE6BC5B);
-  Color get item => const Color(0xFFFFFFFF);
-  Color get disabledItem => const Color(0xFFAAAAAA);
-  Color get unselectedItem => const Color(0xFFFFFFFF);
+  Color get background => const Color(0xFFFFFFFF);
+  Color get unSelectedItem => const Color(0xFF333333);
+  Color get selectedItem => const Color(0xFFFF3B30);
 }
 
 class ColorsHome {
   const ColorsHome();
 
   Color get loadingBackground => const Color(0xFFAAAAAA);
-  Color get recommendImageTitle => const Color(0xFFFFFFFF);
-  Color get recommendMealName => const Color(0xFFFFFFFF);
+  Color get cameraAreaBorder => const Color(0xFFF3E5E5);
+  Color get cameraAreaBackground => const Color(0xFFFFFFFF);
+  Color get cameraAreaButtonBackGround => const Color(0xFF9E9E9E);
 }
 
 class ColorsCamera {
@@ -55,12 +55,13 @@ class ColorsCamera {
 
   Color get rect => const Color(0xFFFFFFFF);
   Color get errorBackGround => const Color(0xFF8E8E93);
-  Color get buttonBackGround => const Color(0x60FFFFFF);
+  Color get buttonBackGround => const Color(0xFF1C1C1E);
   Color get buttonBackGroundShadow => const Color(0x13747480);
-  Color get pauseCameraButtonActive => const Color(0xFF9E9E9E);
-  Color get pauseCameraButtonDisabled => const Color(0x13747480);
-  Color get resumeCameraButtonActive => const Color(0xFF9E9E9E);
-  Color get resumeCameraButtonDisabled => const Color(0x13747480);
+  Color get button => const Color(0x4D1C1C1E);
+  Color get buttonBlinking => const Color(0x4D1C1C1E);
+  Color get buttonInner => const Color(0xFFFFFFFF);
+  Color get buttonOuter => const Color(0xFFFFFFFF);
+  Color get buttonDisabled => const Color(0xFFFFFFFF);
 }
 
 class ColorsDataConfirm {

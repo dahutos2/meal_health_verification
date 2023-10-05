@@ -48,11 +48,8 @@ class _RecommendMealState extends ConsumerState<RecommendMeal> {
   @override
   Widget build(BuildContext context) {
     return _recommendText == null
-        ? Center(
-            child: SizedBox(
-                width: context.deviceWidth * 0.3,
-                height: context.deviceWidth * 0.3,
-                child: const ColorfulLoadPage()),
+        ? const Center(
+            child: ColorfulLoadPage(),
           )
         : SizedBox(
             width: context.deviceWidth,

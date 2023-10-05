@@ -49,6 +49,8 @@ max = len(locales)
 count = 0
 print("翻訳を開始します。")
 for code, language in locales.items():
+    if code == "ja":
+        continue
     output_path = f"{output_directory}/{code}.arb"
 
     # すでに存在してるかを確認する

@@ -9,7 +9,7 @@ class CameraPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => BasePage(
-        headerTitle: L10n.of(context)!.pageCameraHeaderTitle,
+        headerTitle: L10n.of(context)!.cameraHeaderTitle,
         body: const Camera(),
       );
 }

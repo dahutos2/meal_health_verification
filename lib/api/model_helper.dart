@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:flutter/widgets.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:tflite_flutter/tflite_flutter.dart';
 import 'package:flutter/services.dart';
@@ -22,9 +23,9 @@ class ModelHelper {
   Interpreter? get healthRating => _healthRating;
   Interpreter? get mealFeature => _mealFeature;
 
-  Future<void> init() async {
+  Future<void> init(Locale locale) async {
     _objectDetector = await _getObjectDetector();
-    _labelTexts = await _loadLabelTexts();
+    _labelTexts = await _loadLabelTexts(locale);
     _healthRating = await _getHealthRating();
     _mealFeature = await _getMealFeature();
   }
@@ -37,8 +38,9 @@ class ModelHelper {
     return await Interpreter.fromAsset('assets/ml/meal_feature.tflite');
   }
 
-  Future<List<String>> _loadLabelTexts() async {
-    final labelPath = await _getAssetsPath('assets/ml/detect_object.txt');
+  Future<List<String>> _loadLabelTexts(Locale locale) async {
+    final labelLocalePath = _getLocaleLabelPath(locale);
+    final labelPath = await _getAssetsPath(labelLocalePath);
     final file = File(labelPath);
     final contents = await file.readAsLines();
     return contents.where((line) => line.isNotEmpty).toList();
@@ -68,5 +70,37 @@ class ModelHelper {
           .asUint8List(byteData.offsetInBytes, byteData.lengthInBytes));
     }
     return file.path;
+  }
+
+  String _getLocaleLabelPath(Locale locale) {
+    final languageCode = locale.languageCode;
+    switch (languageCode) {
+      case 'en':
+        return 'assets/ml/en.txt';
+      case 'ja':
+        return 'assets/ml/ja.txt';
+      case 'de':
+        return 'assets/ml/de.txt';
+      case 'es':
+        return 'assets/ml/es.txt';
+      case 'fr':
+        return 'assets/ml/fr.txt';
+      case 'id':
+        return 'assets/ml/id.txt';
+      case 'ko':
+        return 'assets/ml/ko.txt';
+      case 'la':
+        return 'assets/ml/la.txt';
+      case 'ne':
+        return 'assets/ml/ne.txt';
+      case 'no':
+        return 'assets/ml/no.txt';
+      case 'pl':
+        return 'assets/ml/pl.txt';
+      case 'pt':
+        return 'assets/ml/pt.txt';
+      default:
+        return 'assets/ml/en.txt';
+    }
   }
 }

@@ -7,14 +7,19 @@ import 'share/share.dart';
 @immutable
 class AppInit {
   final GlobalKey<NavigatorState> navigatorKey;
+  final DbHelper dbHelper;
+  final ModelHelper modelHelper;
 
-  AppInit({
+  const AppInit({
     required this.navigatorKey,
-    required DbHelper dbHelper,
-    required ModelHelper modelHelper,
-  }) {
+    required this.dbHelper,
+    required this.modelHelper,
+  });
+
+  void init(Locale locale) {
     dbHelper.open().then((_) async {
-      await modelHelper.init();
+      await modelHelper.init(locale);
+      await Future.delayed(const Duration(seconds: 3));
       await navigatorKey.currentState?.pushAndRemoveUntil<void>(
         RouteType.whiteOut<dynamic>(nextPage: const HomePage()),
         (_) => false,

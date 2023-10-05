@@ -31,22 +31,14 @@ class RecommendedImage extends StatelessWidget {
             child: Text(
               L10n.of(context)!.recommendImageTitle,
               textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 24.0,
-                fontWeight: FontWeight.bold,
-                color: ColorType.home.recommendImageTitle,
-              ),
+              style: StyleType.home.recommendImageTitle,
             ),
           ),
           Center(
             child: Text(
               mealName(L10n.of(context)!),
               textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 50.0,
-                fontWeight: FontWeight.bold,
-                color: ColorType.home.recommendMealName,
-              ),
+              style: StyleType.home.recommendMealName,
             ),
           ),
         ],
