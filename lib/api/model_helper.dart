@@ -26,14 +26,18 @@ class ModelHelper {
   Future<void> init(Locale locale) async {
     _objectDetector = await _getObjectDetector();
     _labelTexts = await _loadLabelTexts(locale);
-    _healthRating = await _getHealthRating();
-    _mealFeature = await _getMealFeature();
+
+    // 健康度の算出にモデルは使用しないように変更
+    // _healthRating = await _getHealthRating();
+    // _mealFeature = await _getMealFeature();
   }
 
+  // ignore: unused_element
   Future<Interpreter> _getHealthRating() async {
     return Interpreter.fromAsset('assets/ml/health_rating.tflite');
   }
 
+  // ignore: unused_element
   Future<Interpreter> _getMealFeature() async {
     return await Interpreter.fromAsset('assets/ml/meal_feature.tflite');
   }
