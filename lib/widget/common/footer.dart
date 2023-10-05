@@ -46,6 +46,9 @@ class FooterView extends ConsumerWidget {
         child: IconButton(
           padding: EdgeInsets.zero,
           onPressed: () {
+            // 同じページの場合は何もしない
+            if (tabType.state.index == index) return;
+
             tabType.state = TabType.values[index];
             Navigator.of(context).pushAndRemoveUntil<void>(
                 RouteType.fadeIn(nextPage: pages[index]), (_) => false);
