@@ -48,6 +48,7 @@ class DbHelper {
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT NOT NULL,
             date DATE NOT NULL,
+            label_rating INTEGER NOT NULL,
             health_rating INTEGER NOT NULL
           )
         ''');

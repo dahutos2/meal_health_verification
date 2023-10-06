@@ -19,12 +19,14 @@ class MealService {
         data['id'] != null ? int.parse(data['id'].toString()) : null;
     final String name = data['name'].toString();
     final DateTime date = DateTime.parse(data['date'].toString());
+    final int labelRating = int.parse(data['label_rating'].toString());
     final int healthRating = int.parse(data['health_rating'].toString());
 
     return Meal(
       id: id,
       name: name,
       date: date,
+      labelRating: labelRating,
       healthRating: healthRating,
     );
   }
@@ -54,8 +56,13 @@ class MealService {
   Future<void> add(Meal meal) async {
     // 新しいエントリを追加
     await _dbHelper.rawInsert(
-      'INSERT INTO meals (name, date, health_rating) VALUES (?, ?, ?)',
-      <dynamic>[meal.name, meal.date.toIso8601String(), meal.healthRating],
+      'INSERT INTO meals (name, date, label_rating, health_rating) VALUES (?, ?, ?, ?)',
+      <dynamic>[
+        meal.name,
+        meal.date.toIso8601String(),
+        meal.labelRating,
+        meal.healthRating,
+      ],
     );
   }
 }

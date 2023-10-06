@@ -51,18 +51,38 @@ class RecommendNotifier with ChangeNotifier {
 
   Future<RecommendText> getRecommendText({required String label}) async {
     final meals = _meal.list ?? <Meal>[];
-    final healthRating = await _getHealthRating(meals: meals, label: label);
-    _meal.add(name: label, healthRating: healthRating);
+    final DateTime now = DateTime.now();
+    // 今回のラベルの度数を求める
+    final labelRate = _getLabelRating(label);
+    final healthRating =
+        _service.getHealthRating(meals: meals, rate: labelRate, now: now);
+    _meal.add(
+      name: label,
+      now: now,
+      labelRating: labelRate,
+      healthRating: healthRating,
+    );
     return _service.getRecommendText(healthRating);
   }
 
   Future<List<RecommendImage>> getRecommendImages() async {
     final meals = await _meal.findFirstWeek();
-    final healthRating = await _getHealthRating(meals: meals);
-    return _service.getRecommendImages(healthRating);
+    final labelRating = _service.getRecommendLabelRating(meals);
+    return _service.getRecommendImages(labelRating);
   }
 
-  Future<int> _getHealthRating({
+  /// ラベルの度数を取得する
+  int _getLabelRating(String label) {
+    final maxIndex = _model.labelTexts.length - 1;
+    final labelIndex = _model.labelTexts.indexOf(label);
+    final labelRateDouble = labelIndex / maxIndex;
+    // 0~100に収まるように正規化
+    return (labelRateDouble * 100).round();
+  }
+
+  // 健康度の算出ではモデルを使用しないように変更
+  // ignore: unused_element
+  Future<int> __getHealthRating({
     required List<Meal> meals,
     String label = '',
   }) async {
