@@ -118,6 +118,8 @@ class RecommendService {
   }
 
   int getRecommendLabelRating(List<Meal> meals) {
+    // 空の場合は異常値とする
+    if (meals.isEmpty) return -1;
     // ラベルの度数の平均を求める
     final labelRates = meals.map((meal) => meal.labelRating).toList();
     final mean =
