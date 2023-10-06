@@ -124,7 +124,8 @@ class RecommendService {
         labelRates.fold(0, (sum, rate) => sum + rate) / labelRates.length;
     // 1~0に正規化した標準偏差を求める
     final variance =
-        labelRates.fold(0.0, (sum, rate) => sum + pow(rate - mean, 2));
+        labelRates.fold(0.0, (sum, rate) => sum + pow(rate - mean, 2)) /
+            labelRates.length;
     final standardDeviation = sqrt(variance);
     final zScore = (standardDeviation - 0) / 1;
     final cdfValue = 0.5 * (1 + (zScore / sqrt(2)).erf());
@@ -152,7 +153,8 @@ class RecommendService {
     // 標準偏を求める
     // 度数が偏っている場合は、平均との差が小さいので値が小さくなる
     final variance =
-        labelRates.fold(0.0, (sum, rate) => sum + pow(rate - mean, 2));
+        labelRates.fold(0.0, (sum, rate) => sum + pow(rate - mean, 2)) /
+            labelRates.length;
     final standardDeviation = sqrt(variance);
 
     // 標準偏差を0~100に正規化する
