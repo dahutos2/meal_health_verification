@@ -39,7 +39,6 @@ class ModelService {
     final standardDeviation = sqrt(variance);
 
     // 標準偏差を0~1に正規化する
-    // 標準偏差は分布が中心に偏るので、標準正規分布と仮定する
 
     // Zスコアの計算
     // ここでは平均=0, 標準偏差=1の正規分布を仮定(標準正規分布)
