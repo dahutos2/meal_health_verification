@@ -158,7 +158,7 @@ $
 $\mathbf{x} = P \mathbf{y} \quad \frac{\partial \mathbf{x}}{\partial \mathbf{y}} = P
 $
 
-$D'_x = \left\{ (y_1, \dots, y_N) \in P^\top([0,100]^N)\middle| \ y_1^2 + \dots + y_{N-1}^2 \leq Nx^2 \right\}
+$D'_x = \left\{ (y_1, \dots, y_N) \in P^\top([0,100]^N)\,|\,\ y_1^2 + \dots + y_{N-1}^2 \leq Nx^2 \right\}
 $
 
 $\int_{D_x} dx_1 \dots dx_N = \int_{D_x} |P| dy_1 \dots dy_N
