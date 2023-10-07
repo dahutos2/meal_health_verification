@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'api/api.dart';
-import 'page/page.dart';
-import 'share/share.dart';
+import 'infrastructure/api/index.dart';
+import 'presentation/view/index.dart';
 
 @immutable
 class AppInit {

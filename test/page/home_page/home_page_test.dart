@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:meal_health_verification/index.dart';
+
+import 'package:meal_health_verification/presentation/view/index.dart';
 
 void main() {
   ProviderScope homeWidget(Widget widget) {
