@@ -6,7 +6,9 @@ import 'package:flutter/services.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import 'index.dart';
+import 'di_container.dart';
+import 'init.dart';
+import 'presentation/view/index.dart';
 
 final GlobalKey<NavigatorState> _navigatorKey = GlobalKey<NavigatorState>();
 
