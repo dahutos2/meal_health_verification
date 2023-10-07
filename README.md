@@ -4,29 +4,38 @@
 - マージはプルリクエストを通じてのみ許可。
 - プルリクエスト作成時には自動テストと静的解析が行われる。
 ## アーキテクチャ概要
-- `lib`ディレクトリ内構成: 
-  - `l10n`
-    - 多言語対応
-  - `api`
-    - データベース・モデルなどの外部との通信 
-  - `extension`
-    - クラスの拡張機能 
-  - `notifier`
-    - 状態管理
-  - `page`
-    - ページのWidget 
-  - `service`
-    -  アプリのコアな機能
-  - `share`
-    - 色などの画面要素の定義 
-  - `widget`
-    - ページへの配置用のWidget 
-  - `index.dart`
-    - export用のファイル 
-  - `init.dart`
-    - 初期化処理 
-  - `main.dart`
-    - エントリーポイント 
+DDD ✖️ オニオンアーキテクチャ
+![image](./source/images/onion_architecture.avif)
+### DI (Dependency Injection)
+- **di_container.dart**: DIコンテナの定義
+### Domain Layer
+- **exception**: カスタム例外やリソースに関する定義
+- **extensions**: カスタム拡張メソッドの集まり
+- **model**: ドメインオブジェクトの定義
+- **repository**: リポジトリインターフェイスの定義
+- **service**: ドメインサービスの定義
+### Infrastructure Layer
+- **api**: 外部サービスやデータアクセスのヘルパー
+- **repository_sql**: SQLベースのリポジトリの実装
+### L10n (Localization)
+- **arb files**: 多言語対応のためのARBファイル
+### Presentation Layer
+- **view**: UIの実装
+  - **extensions**: UIの拡張メソッド
+  - **page**: 画面のコンポーネント
+  - **share**: 共有されるUIリソース
+  - **widget**: 再利用可能なUIコンポーネント
+- **view_model**: UIのロジックや状態を管理する層
+  - **data**: 画面に表示するデータクラスの定義
+  - **notifier**: 状態管理のためのNotifierの定義
+
+### Use Case Layer
+- **dto**: Data Transfer Objectsの定義。
+- **use_cases**: ビジネスロジックの定義。
+
+### 補足
+`index.dart`ファイルは各ディレクトリの内容を統合的にインポートするためのファイルです。
+
 ## 機能概要
 ### おすすめ料理機能
 - ユーザーの健康状態を考慮して、3つのおすすめ料理を表示。
