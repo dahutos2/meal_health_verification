@@ -26,55 +26,57 @@
 \(= \frac{1}{N} \sum_{k=1}^{N} x_k^2 - \left( \frac{1}{N} \sum_{k=1}^{N} x_k \right)^2 \)
 \(= \frac{1}{N^2} \left( (N-1) \sum_{k=1}^{N} x_k^2 - \sum_{i \neq j} x_i x_j \right) \)
 
-\(= \frac{1}{N} (x_1, \dots, x_N) 
-\begin{bmatrix}
+\(= \frac{1}{N} (x_1, \dots, x_N)
+\begin{pmatrix}
 N-1 & -1 & \dots & -1 \\
 -1 & \ddots & \ddots & \vdots \\
 \vdots & \ddots & \ddots & -1 \\
 -1 & \dots & -1 & N-1 \\
-\end{bmatrix}
-\begin{bmatrix}
+\end{pmatrix}
+\begin{pmatrix}
 x_1 \\
 \vdots \\
 x_N \\
-\end{bmatrix}
+\end{pmatrix}
 \)となります。
 
-\(A \coloneqq \begin{bmatrix}
+\(A \coloneqq \begin{pmatrix}
 N-1 & -1 & \dots & -1 \\
 -1 & \ddots & \ddots & \vdots \\
 \vdots & \ddots & \ddots & -1 \\
 -1 & \dots & -1 & N-1 \\
-\end{bmatrix}
+\end{pmatrix}
 \) とすると
 
-\(\text{det}(\lambda E_N - A) 
-= \text{det} 
-\begin{bmatrix}
+\(\text{det}(\lambda E_N - A)
+= \text{det}
+\begin{pmatrix}
 \lambda+1-N & & 1 \\
  & \ddots \\
 1 & & \lambda+1-N \\
-\end{bmatrix}
+\end{pmatrix}
 \)
 
 \( \lambda \neq N-1\) なら
 
-\(= \text{det} 
-\begin{bmatrix}
-\lambda+1-N & 1 & \dots & 1 \\
-N - \lambda & \lambda -N & & \\
-\vdots & & \ddots & \\
-N - \lambda & & & \lambda-N \\
-\end{bmatrix}
+\(= \text{det}
+\begin{pmatrix}
+\; \lambda+1-N & 1 & \dots & & 1 \\
+\; N-\lambda & \lambda-N & & \text{\huge{0}} &\\
+\; \vdots & & \ddots & & \\
+\; & \text{\huge{0}} & & \ddots & \\
+\; N-\lambda & & & & \lambda-N \\
+\end{pmatrix}
 \)
 
-\(= \text{det} 
-\begin{bmatrix}
-\lambda & 1 & \dots & 1 \\
-0 & \lambda-N & & \\
-\vdots & & \ddots & \\
-0 & & & \lambda-N \\
-\end{bmatrix}
+\(= \text{det}
+\begin{pmatrix}
+\; \lambda & 1 & \dots & & 1 \\
+\; 0 & \lambda-N & & \text{\huge{0}} &\\
+\; \vdots & & \ddots & & \\
+\; & \text{\huge{0}} & & \ddots & \\
+\; 0 & & & & \lambda-N \\
+\end{pmatrix}
 \)
 
 \( = \lambda (\lambda-N)^{N-1} \)
@@ -85,48 +87,48 @@ N - \lambda & & & \lambda-N \\
 \)
 
 \( B = P^\top A P =
-\begin{bmatrix}
-N & & & \\
-& \ddots & & & \\
-& & N & &\\
-& & & 0\\
-\end{bmatrix}
+\begin{pmatrix}
+\; N & & & \text{\huge{0}}\\
+\; & \ddots & & & \\
+\; & & N & &\\
+\; \text{\huge{0}} & & & 0\\
+\end{pmatrix}
 \text{となるような} P \text{が存在します}
 \)
 
-\( \text{従って、} 
-\begin{bmatrix}
+\( \text{従って、}
+\begin{pmatrix} 
 y_1 \\
 \vdots \\
 y_N \\
-\end{bmatrix}
+\end{pmatrix}
 = P^\top 
-\begin{bmatrix}
+\begin{pmatrix}
 x_1 \\
 \vdots \\
 x_N \\
-\end{bmatrix}
+\end{pmatrix}
 \text{とすると}
 \)
 
 \(f(x_1, \dots, x_N) \)
 
 \(= \frac{1}{N^2} (x_1, \dots, x_N) P (P^\top A P) P^\top 
-\begin{bmatrix}
+\begin{pmatrix}
 x_1 \\
 \vdots \\
 x_N \\
-\end{bmatrix}
+\end{pmatrix}
 \)
 
 \(
-= \frac{1}{N^2} 
-(y_1, \dots, y_N) B 
-\begin{bmatrix}
+= \frac{1}{N^2}
+(y_1, \dots, y_N) B
+\begin{pmatrix}
 y_1 \\
 \vdots \\
 y_N \\
-\end{bmatrix}
+\end{pmatrix}
 \)
 
 \(
