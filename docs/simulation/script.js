@@ -38,7 +38,7 @@ function calculate() {
         data: {
             labels: labels,
             datasets: [{
-                label: '標準偏差の分布',
+                label: '頻度',
                 data: chartData,
                 backgroundColor: 'rgba(75, 192, 192, 0.2)',
                 borderColor: 'rgba(75, 192, 192, 1)',
@@ -61,7 +61,7 @@ function calculate() {
                     beginAtZero: true,
                     title: {
                         display: true,
-                        text: '回数'
+                        text: '頻度'
                     }
                 }
             }
