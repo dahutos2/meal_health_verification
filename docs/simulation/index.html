@@ -12,18 +12,19 @@
 <body>
     <header>
         <h1>標準偏差のシミュレーション</h1>
-        <a href="index.html" class="back-button">メインメニューに戻る</a>
+        <a href="../index.html" class="back-button">メインメニューに戻る</a>
     </header>
-    <section>
-        <label for="length">長さ N: </label>
-        <input type="number" id="length" min="1" max="100" value="50">
-        <label for="times">回数 K: </label>
-        <input type="number" id="times" min="100" max="10000" value="1000">
-        <button onclick="calculate()">計算</button>
-    </section>
-    <div id="progress">進捗: 0%</div>
-    <canvas id="chart"></canvas>
-    <script src="script.js"></script>
+    <div id="simulation_content">
+        <section>
+            <label for="length">データセットの長さ: </label>
+            <input type="number" id="length" min="1" max="100" value="10" step="1">
+            <label for="times">試行回数: </label>
+            <input type="number" id="times" min="100" max="10000" value="10000" step="100">
+            <button onclick="calculate()">計算</button>
+        </section>
+        <canvas id="chart"></canvas>
+        <script src="script.js"></script>
+    </div>
 </body>
 
 </html>
