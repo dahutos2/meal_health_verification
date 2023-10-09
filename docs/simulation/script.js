@@ -67,4 +67,18 @@ function calculate() {
             }
         }
     });
+    const chartElement = document.getElementById('chart');
+    chartElement.scrollIntoView({ behavior: 'smooth' });
 }
+
+document.getElementById('length').addEventListener('input', function (e) {
+    const value = parseInt(e.target.value, 10);
+    if (value < 1) e.target.value = 1;
+    if (value > 100) e.target.value = 100;
+});
+
+document.getElementById('times').addEventListener('input', function (e) {
+    const value = parseInt(e.target.value, 10);
+    if (value < 100) e.target.value = 100;
+    if (value > 10000) e.target.value = 10000;
+});
