@@ -12,6 +12,19 @@ header {
     padding: 10px 0;
 }
 
+.back-button {
+    float: right;
+    /* ボタンを右に配置 */
+    margin: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 section {
     margin: 20px;
 }
