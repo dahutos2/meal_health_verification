@@ -49,11 +49,12 @@ function calculate() {
         options: {
             scales: {
                 x: {
-                    min: 0,
-                    max: 50,
                     title: {
                         display: true,
                         text: '標準偏差'
+                    },
+                    ticks: {
+                        maxTicksLimit: 51,
                     }
                 },
                 y: {
