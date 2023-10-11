@@ -55,45 +55,56 @@ class _DetectImageState extends ConsumerState<DetectImage> {
       _image = image;
       _detectedObjects = objects;
     });
+
+    // この処理で非同期操作をステートの変更後に行う
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      await _showRecommendDialog();
+    });
   }
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        PauseCamera(
+    return LayoutBuilder(
+      builder: (BuildContext context, BoxConstraints constraints) {
+        return PauseCamera(
           changeImageFile: _getDetectedObjects,
           onLoading: onLoading,
           onLoaded: onLoaded,
-          stackWidget: CustomPaint(
-            foregroundPainter: _DetectedObjectsPainter(
-              detectedObjects: _detectedObjects,
-              getLabel: ref.read(recommendNotifierProvider).getLabel,
-              width: _image?.width ?? 0,
-              height: _image?.height ?? 0,
-            ),
-            child: _image != null ? Image.memory(_image!.bytes) : null,
-          ),
-        ),
-        Expanded(
-          child: !_isLoading
-              ? _detectedObjects.isEmpty
-                  ? Center(
-                      child: Text(
-                        L10n.of(context)!.startDetectImageText,
-                        softWrap: true,
-                        textAlign: TextAlign.center,
-                        style: StyleType.camera.startDetectImageText,
-                      ),
-                    )
-                  : RecommendMeal(
-                      detectedObjects: _detectedObjects,
-                    )
-              : const Center(
+          aspectRatio: constraints.maxWidth / constraints.maxHeight,
+          stackWidget: _isLoading && _detectedObjects.isEmpty
+              ? const Center(
                   child: ColorfulLoadPage(),
+                )
+              : CustomPaint(
+                  foregroundPainter: _DetectedObjectsPainter(
+                    detectedObjects: _detectedObjects,
+                    getLabel: ref.read(recommendNotifierProvider).getLabel,
+                    width: _image?.width ?? 0,
+                    height: _image?.height ?? 0,
+                  ),
+                  child: _image != null ? Image.memory(_image!.bytes) : null,
                 ),
-        ),
-      ],
+        );
+      },
+    );
+  }
+
+  Future<void> _showRecommendDialog() async {
+    await showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+            content: _detectedObjects.isEmpty
+                ? Text(
+                    L10n.of(context)!.startDetectImageText,
+                    softWrap: true,
+                    textAlign: TextAlign.center,
+                    style: StyleType.camera.startDetectImageText,
+                  )
+                : RecommendMeal(
+                    detectedObjects: _detectedObjects,
+                  ));
+      },
     );
   }
 }
@@ -113,6 +124,9 @@ class _DetectedObjectsPainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
+    // データがないまたは、デフォルト値の場合は何もしない
+    if (detectedObjects.isEmpty || size.isEmpty) return;
+
     final paintOuter = Paint()
       ..color = Colors.white
       ..style = PaintingStyle.stroke

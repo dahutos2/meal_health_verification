@@ -55,7 +55,6 @@ class _PauseCameraState extends State<PauseCamera> {
   bool _isCameraReady = false;
   bool _isNotScanning = true;
   bool _isPause = false;
-  bool _isSucceeded = false;
 
   @override
   void initState() {
@@ -98,7 +97,7 @@ class _PauseCameraState extends State<PauseCamera> {
 
     _controller = CameraController(
       _cameras[0],
-      ResolutionPreset.max,
+      ResolutionPreset.high,
       imageFormatGroup: ImageFormatGroup.bgra8888,
     );
 
@@ -128,7 +127,7 @@ class _PauseCameraState extends State<PauseCamera> {
     }
     setState(() {
       _isNotScanning = false;
-      _isSucceeded = false;
+      _isPause = true;
     });
     // この処理で非同期操作をステートの変更後に行う
     WidgetsBinding.instance.addPostFrameCallback((_) async {
@@ -169,9 +168,6 @@ class _PauseCameraState extends State<PauseCamera> {
           height: image.height,
         ),
       );
-      setState(() {
-        _isSucceeded = true;
-      });
     } finally {
       if (widget.onLoaded != null && mounted) {
         widget.onLoaded!();
@@ -179,7 +175,6 @@ class _PauseCameraState extends State<PauseCamera> {
 
       setState(() {
         _isNotScanning = true;
-        _isPause = true;
       });
     }
   }
@@ -206,21 +201,21 @@ class _PauseCameraState extends State<PauseCamera> {
                   _controller!.value.isInitialized
               ? AspectRatio(
                   aspectRatio: widget.aspectRatio,
-                  child: _isPause && _isSucceeded && widget.stackWidget != null
-                      ? widget.stackWidget
-                      : Stack(
-                          children: [
-                            ClipRect(
-                              child: Transform.scale(
-                                scale: _controller!.value.aspectRatio *
-                                    widget.aspectRatio,
-                                child: Center(
-                                  child: CameraPreview(_controller!),
-                                ),
-                              ),
-                            )
-                          ],
+                  child: Stack(
+                    children: [
+                      ClipRect(
+                        child: Transform.scale(
+                          scale: _controller!.value.aspectRatio *
+                              widget.aspectRatio,
+                          child: Center(
+                            child: CameraPreview(_controller!),
+                          ),
                         ),
+                      ),
+                      if (widget.stackWidget != null && _isPause)
+                        widget.stackWidget!
+                    ],
+                  ),
                 )
               : ColoredBox(
                   color: ColorType.camera.errorBackGround,
@@ -256,7 +251,7 @@ class _PauseCameraState extends State<PauseCamera> {
                 children: [
                   PauseCameraButton(
                     isEnabled: _isCameraReady && _isNotScanning,
-                    isPause: _isPause,
+                    isPause: _isPause && _isNotScanning,
                     startRecording: _startRecording,
                     resumeCamera: _resumeCamera,
                   ),
