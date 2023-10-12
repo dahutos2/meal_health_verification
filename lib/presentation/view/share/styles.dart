@@ -61,11 +61,37 @@ class StylesCamera {
         fontWeight: FontWeight.bold,
       );
   TextStyle get errorText => const TextStyle(color: Color(0xFFFFFFFF));
-  TextStyle get startDetectImageText =>
-      const TextStyle(color: Color(0xFF8E8E93));
+  TextStyle get startDetectImageText => const TextStyle(
+        fontSize: 16,
+        color: Color(0xFF000000),
+      );
   TextStyle get recommendText => const TextStyle(
         fontSize: 16,
-        color: Colors.black,
+        color: Color(0xFF000000),
+        fontWeight: FontWeight.bold,
+      );
+  TextStyle get recommendConfirmText => const TextStyle(
+        fontSize: 16,
+        color: Color(0xFFFFFFFF),
+        fontWeight: FontWeight.bold,
+      );
+  TextStyle get recommendCancelText => const TextStyle(
+        fontSize: 14,
+        color: Color(0xFF2196F3),
+        fontWeight: FontWeight.bold,
+      );
+  TextStyle get errorCaptureText => const TextStyle(
+        fontSize: 20,
+        fontWeight: FontWeight.w600,
+        color: Color(0xFF424242),
+      );
+  TextStyle get errorCaptureDescription => const TextStyle(
+        fontSize: 16,
+        color: Color(0xFF757575),
+      );
+  TextStyle get errorOKText => const TextStyle(
+        fontSize: 16,
+        color: Color(0xFF2196F3),
       );
 }
 

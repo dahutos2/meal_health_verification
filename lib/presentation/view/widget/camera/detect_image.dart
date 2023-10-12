@@ -92,14 +92,62 @@ class _DetectImageState extends ConsumerState<DetectImage> {
   Future<void> _showRecommendDialog() async {
     await showDialog(
       context: context,
+      barrierDismissible: false,
       builder: (BuildContext context) {
         return AlertDialog(
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(8.0),
+            ),
+            contentPadding: const EdgeInsets.all(10.0),
             content: _detectedObjects.isEmpty
-                ? Text(
-                    L10n.of(context)!.startDetectImageText,
-                    softWrap: true,
-                    textAlign: TextAlign.center,
-                    style: StyleType.camera.startDetectImageText,
+                ? Column(
+                    mainAxisSize: MainAxisSize.min,
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      IconType.camera.error,
+                      const SizedBox(height: 15),
+                      Text(
+                        L10n.of(context)!.captureDetectImageErrorText,
+                        style: StyleType.camera.errorCaptureText,
+                        textAlign: TextAlign.center,
+                      ),
+                      const SizedBox(height: 20),
+                      Text(
+                        L10n.of(context)!.captureDetectImageErrorDescription,
+                        style: StyleType.camera.errorCaptureDescription,
+                        textAlign: TextAlign.center,
+                      ),
+                      const SizedBox(height: 10),
+                      Align(
+                        alignment: Alignment.bottomRight,
+                        child: TextButton(
+                          onPressed: () {
+                            Navigator.of(context).pop();
+                          },
+                          style: ButtonStyle(
+                            foregroundColor:
+                                MaterialStateProperty.resolveWith<Color?>(
+                              (Set<MaterialState> states) {
+                                if (states.contains(MaterialState.pressed)) {
+                                  return ColorType.camera.errorOK;
+                                }
+                                return ColorType.camera.errorOKPressed;
+                              },
+                            ),
+                            overlayColor:
+                                MaterialStateProperty.resolveWith<Color?>(
+                              (Set<MaterialState> states) {
+                                return Colors.transparent;
+                              },
+                            ),
+                          ),
+                          child: Text(
+                            L10n.of(context)!.captureDetectImageErrorOK,
+                            style: StyleType.camera.errorOKText,
+                          ),
+                        ),
+                      ),
+                    ],
                   )
                 : RecommendMeal(
                     detectedObjects: _detectedObjects,

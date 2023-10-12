@@ -46,29 +46,64 @@ class _RecommendMealState extends ConsumerState<RecommendMeal> {
         ? const Center(
             child: ColorfulLoadPage(),
           )
-        : SizedBox(
-            width: context.deviceWidth,
-            child: Stack(
-              alignment: AlignmentDirectional.bottomCenter,
-              children: [
-                Padding(
-                  padding: EdgeInsets.only(right: context.deviceWidth / 2),
-                  child: Lottie.asset(
-                    _recommendText!.lottiePath,
-                    repeat: true,
-                    width: context.deviceWidth * 0.3,
-                    height: context.deviceWidth * 0.3,
+        : Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Lottie.asset(
+                _recommendText!.lottiePath,
+                repeat: true,
+                width: context.deviceWidth * 0.25,
+                height: context.deviceWidth * 0.25,
+              ),
+              Text(
+                _recommendText!.value(L10n.of(context)!),
+                textAlign: TextAlign.center,
+                style: StyleType.camera.recommendText,
+              ),
+              const SizedBox(height: 15.0),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: ColorType.camera.recommendButton,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0),
+                  ),
+                  shadowColor: Colors.transparent,
+                ),
+                child: Text(
+                  L10n.of(context)!.recommendConfirmText,
+                  style: StyleType.camera.recommendConfirmText,
+                ),
+              ),
+              TextButton(
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+                style: ButtonStyle(
+                  foregroundColor: MaterialStateProperty.resolveWith<Color?>(
+                    (Set<MaterialState> states) {
+                      if (states.contains(MaterialState.pressed)) {
+                        return ColorType.camera.recommendConfirmPressed;
+                      }
+                      return ColorType.camera.recommendConfirm;
+                    },
+                  ),
+                  overlayColor: MaterialStateProperty.resolveWith<Color?>(
+                    (Set<MaterialState> states) {
+                      // リップル効果を非表示に
+                      return Colors.transparent;
+                    },
                   ),
                 ),
-                Positioned(
-                  top: 10,
-                  left: context.deviceWidth / 3,
-                  child: SpeechBubble(
-                    text: _recommendText!.value(L10n.of(context)!),
-                  ),
+                child: Text(
+                  L10n.of(context)!.recommendCancelText,
+                  style: StyleType.camera.recommendCancelText,
                 ),
-              ],
-            ),
+              ),
+            ],
           );
   }
 }
@@ -82,53 +117,4 @@ int _getLabelIndex(List<DetectedObject> detectedObjects) {
   }
 
   return -1;
-}
-
-class SpeechBubble extends StatelessWidget {
-  final String text;
-
-  const SpeechBubble({
-    super.key,
-    required this.text,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return CustomPaint(
-      painter: SpeechBubblePainter(),
-      child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5)
-            .copyWith(bottom: 10),
-        child: Text(
-          text,
-          style: StyleType.camera.recommendText,
-        ),
-      ),
-    );
-  }
-}
-
-class SpeechBubblePainter extends CustomPainter {
-  @override
-  void paint(Canvas canvas, Size size) {
-    final Paint paint = Paint()
-      ..color = Colors.white
-      ..style = PaintingStyle.fill;
-
-    final Path path = Path()
-      ..moveTo(0, 0)
-      ..lineTo(size.width, 0)
-      ..lineTo(size.width, size.height)
-      ..lineTo(10, size.height)
-      ..lineTo(0, size.height + 20)
-      ..lineTo(0, size.height)
-      ..close();
-
-    canvas.drawPath(path, paint);
-  }
-
-  @override
-  bool shouldRepaint(CustomPainter oldDelegate) {
-    return false;
-  }
 }
