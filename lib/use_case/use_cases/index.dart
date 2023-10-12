@@ -4,3 +4,4 @@ export 'get_first_week_meals/get_first_week_meals.dart';
 export 'get_meals_by_date_range/get_meals_by_date_range.dart';
 export 'get_label/get_label.dart';
 export 'get_detect_objects/get_detect_objects.dart';
+export 'remove_last_meal/remove_last_meal.dart';

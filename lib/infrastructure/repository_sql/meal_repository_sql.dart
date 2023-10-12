@@ -51,6 +51,19 @@ class MealRepositorySql implements IMealRepository {
   }
 
   @override
+  Future<Meal?> findLast() async {
+    var list = await _dbHelper.rawQuery(
+      'SELECT * FROM $dbMeals ORDER BY $dbId DESC LIMIT 1',
+    );
+
+    if (list == null || list.isEmpty) {
+      return null;
+    }
+
+    return toMeal(list.first);
+  }
+
+  @override
   Future<void> save(Meal meal) async {
     // 新しいエントリを追加
     await _dbHelper.rawInsert(
@@ -61,6 +74,14 @@ class MealRepositorySql implements IMealRepository {
         meal.labelRating.value,
         meal.healthRating.value,
       ],
+    );
+  }
+
+  @override
+  Future<void> remove(Meal meal) async {
+    await _dbHelper.rawDelete(
+      'DELETE FROM $dbMeals WHERE $dbId = ?',
+      <int?>[meal.id],
     );
   }
 }

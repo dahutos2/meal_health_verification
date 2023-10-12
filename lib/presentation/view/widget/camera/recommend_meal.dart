@@ -81,6 +81,7 @@ class _RecommendMealState extends ConsumerState<RecommendMeal> {
               TextButton(
                 onPressed: () {
                   Navigator.of(context).pop();
+                  ref.read(mealNotifierProvider).removeLast();
                 },
                 style: ButtonStyle(
                   foregroundColor: MaterialStateProperty.resolveWith<Color?>(
