@@ -56,6 +56,11 @@ class _PauseCameraState extends State<PauseCamera> {
   bool _isNotScanning = true;
   bool _isPause = false;
 
+  double _zoomLevel = 1.0;
+  double? _previousScale = 1;
+  final double _minZoomLevel = 1.0;
+  final double _maxZoomLevel = 8.0;
+
   @override
   void initState() {
     super.initState();
@@ -119,6 +124,36 @@ class _PauseCameraState extends State<PauseCamera> {
         _isCameraReady = false;
       }
     });
+  }
+
+  void _handleScaleUpdate(ScaleUpdateDetails details) {
+    if (_previousScale == null) return;
+
+    double scaleChange = _computeScaleChange(details.scale, _previousScale!);
+
+    setState(() {
+      _zoomLevel =
+          (_zoomLevel + scaleChange).clamp(_minZoomLevel, _maxZoomLevel);
+    });
+
+    _controller?.setZoomLevel(_zoomLevel);
+    _previousScale = details.scale;
+  }
+
+  double _computeScaleChange(double currentScale, double previousScale) {
+    double scaleDifference = currentScale - previousScale;
+
+    // 変化率の基準値
+    double baseRate = 0.05;
+
+    // ズームインの場合
+    if (scaleDifference > 0) {
+      return baseRate;
+    }
+    // ズームアウトの場合
+    else {
+      return -baseRate;
+    }
   }
 
   Future<void> _startRecording() async {
@@ -208,7 +243,26 @@ class _PauseCameraState extends State<PauseCamera> {
                           scale: _controller!.value.aspectRatio *
                               widget.aspectRatio,
                           child: Center(
-                            child: CameraPreview(_controller!),
+                            child: GestureDetector(
+                              onScaleUpdate: _handleScaleUpdate,
+                              child: CameraPreview(_controller!),
+                            ),
+                          ),
+                        ),
+                      ),
+                      Positioned(
+                        bottom: 80,
+                        left: MediaQuery.of(context).size.width * 0.5 - 30,
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 10, vertical: 5),
+                          decoration: BoxDecoration(
+                            color: Colors.black.withOpacity(0.5),
+                            borderRadius: BorderRadius.circular(15),
+                          ),
+                          child: Text(
+                            '${_zoomLevel.toStringAsFixed(1)} ×',
+                            style: StyleType.camera.zoomRateText,
                           ),
                         ),
                       ),

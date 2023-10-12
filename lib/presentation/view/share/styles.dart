@@ -60,7 +60,14 @@ class StylesCamera {
         fontSize: 14,
         fontWeight: FontWeight.bold,
       );
-  TextStyle get errorText => const TextStyle(color: Color(0xFFFFFFFF));
+  TextStyle get errorText => const TextStyle(
+        color: Color(0xFFFFFFFF),
+      );
+  TextStyle get zoomRateText => const TextStyle(
+        color: Color(0xFFFFFFFF),
+        fontWeight: FontWeight.bold,
+        fontSize: 14,
+      );
   TextStyle get startDetectImageText => const TextStyle(
         fontSize: 16,
         color: Color(0xFF000000),
