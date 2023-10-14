@@ -87,7 +87,7 @@ def main():
 
     # 各言語で翻訳
     for code, language in locales.items():
-        if code == {base_code}:
+        if code == base_code:
             continue
         input_path = f"{input_dir}/{code}.json"
         output_path = f"{output_dir}/{code}.txt"
