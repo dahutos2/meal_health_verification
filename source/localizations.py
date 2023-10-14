@@ -5,9 +5,11 @@ from googletrans import Translator, LANGUAGES
 import sys
 
 
-def load_existing_file(filename):
-    with open(filename, "r", encoding="utf-8") as file:
-        return json.load(file)
+def load_file(filename):
+    if os.path.exists(filename):
+        with open(filename, "r") as json_file:
+            return json.load(json_file)
+    return {}
 
 
 def merge_translations(existing_data, new_data, target):
@@ -61,7 +63,7 @@ def main():
 
     # 基本とするファイルを読み込み
     base_code = "ja"
-    base_data = load_existing_file(f"{output_directory}/{base_code}.arb")
+    base_data = load_file(f"{output_directory}/{base_code}.arb")
 
     print(f"{base_code}.arbファイルの読み込みが完了しました。")
 
@@ -70,11 +72,8 @@ def main():
             continue
         output_path = f"{output_directory}/{code}.arb"
 
-        # すでに存在してるかを確認する
-        if os.path.exists(output_path):
-            existing_data = load_existing_file(output_path)
-        else:
-            existing_data = {}
+        # すでに存在するデータを取得する
+        existing_data = load_file(output_path)
 
         translated_data = {}
         for key, value in base_data.items():
@@ -101,7 +100,7 @@ def main():
                 try:
                     translated_data[key] = translator.translate(
                         value,
-                        src="ja",
+                        src=base_code,
                         dest=code,
                     ).text
                 except Exception as e:
