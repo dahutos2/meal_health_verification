@@ -1,0 +1,3005 @@
+[
+    {
+        "background": "背景"
+    },
+    {
+        "tench": "テンチ"
+    },
+    {
+        "goldfish": "金魚"
+    },
+    {
+        "great white shark": "ホホジロザメ"
+    },
+    {
+        "tiger shark": "イタチザメ"
+    },
+    {
+        "hammerhead": "シュモクザメ"
+    },
+    {
+        "electric ray": "電気線"
+    },
+    {
+        "stingray": "アカエイ"
+    },
+    {
+        "cock": "コック"
+    },
+    {
+        "hen": "鶏"
+    },
+    {
+        "ostrich": "ダチョウ"
+    },
+    {
+        "brambling": "いばら"
+    },
+    {
+        "goldfinch": "ゴシキヒワ"
+    },
+    {
+        "house finch": "イエフィンチ"
+    },
+    {
+        "junco": "ジュンコ"
+    },
+    {
+        "indigo bunting": "インディゴホオジロ"
+    },
+    {
+        "robin": "ロビン"
+    },
+    {
+        "bulbul": "ヒヨドリ"
+    },
+    {
+        "jay": "ジェイ"
+    },
+    {
+        "magpie": "カササギ"
+    },
+    {
+        "chickadee": "コガラ"
+    },
+    {
+        "water ouzel": "ウォーターウゼル"
+    },
+    {
+        "kite": "凧"
+    },
+    {
+        "bald eagle": "白頭ワシ"
+    },
+    {
+        "vulture": "ハゲワシ"
+    },
+    {
+        "great grey owl": "偉大な灰色のフクロウ"
+    },
+    {
+        "European fire salamander": "ヨーロッパファイアサラマンダー"
+    },
+    {
+        "common newt": "イモリ"
+    },
+    {
+        "eft": "左"
+    },
+    {
+        "spotted salamander": "マダラサンショウウオ"
+    },
+    {
+        "axolotl": "ウーパールートル"
+    },
+    {
+        "bullfrog": "ウシガエル"
+    },
+    {
+        "tree frog": "アマガエル"
+    },
+    {
+        "tailed frog": "尾のあるカエル"
+    },
+    {
+        "loggerhead": "アカウミガメ"
+    },
+    {
+        "leatherback turtle": "オサガメ"
+    },
+    {
+        "mud turtle": "泥亀"
+    },
+    {
+        "terrapin": "スッポン"
+    },
+    {
+        "box turtle": "ハコガメ"
+    },
+    {
+        "banded gecko": "縞模様のヤモリ"
+    },
+    {
+        "common iguana": "一般的なイグアナ"
+    },
+    {
+        "American chameleon": "アメリカのカメレオン"
+    },
+    {
+        "whiptail": "むちむち"
+    },
+    {
+        "agama": "アガマ"
+    },
+    {
+        "frilled lizard": "エリマキトカゲ"
+    },
+    {
+        "alligator lizard": "ワニトカゲ"
+    },
+    {
+        "Gila monster": "アメリカドモンスター"
+    },
+    {
+        "green lizard": "緑のトカゲ"
+    },
+    {
+        "African chameleon": "アフリカのカメレオン"
+    },
+    {
+        "Komodo dragon": "コモドドラゴン"
+    },
+    {
+        "African crocodile": "アフリカワニ"
+    },
+    {
+        "American alligator": "アメリカアリゲーター"
+    },
+    {
+        "triceratops": "トリケラトプス"
+    },
+    {
+        "thunder snake": "雷蛇"
+    },
+    {
+        "ringneck snake": "リングネックヘビ"
+    },
+    {
+        "hognose snake": "ブナヘビ"
+    },
+    {
+        "green snake": "緑の蛇"
+    },
+    {
+        "king snake": "王蛇"
+    },
+    {
+        "garter snake": "ガータースネーク"
+    },
+    {
+        "water snake": "水蛇"
+    },
+    {
+        "vine snake": "つるヘビ"
+    },
+    {
+        "night snake": "夜の蛇"
+    },
+    {
+        "boa constrictor": "ボアコンストリクター"
+    },
+    {
+        "rock python": "ロックパイソン"
+    },
+    {
+        "Indian cobra": "インドコブラ"
+    },
+    {
+        "green mamba": "グリーンマンバ"
+    },
+    {
+        "sea snake": "ウミヘビ"
+    },
+    {
+        "horned viper": "ツノマムシ"
+    },
+    {
+        "diamondback": "ダイヤモンドバック"
+    },
+    {
+        "sidewinder": "サイドワインダー"
+    },
+    {
+        "trilobite": "三葉虫"
+    },
+    {
+        "harvestman": "収穫者"
+    },
+    {
+        "scorpion": "サソリ"
+    },
+    {
+        "black and gold garden spider": "黒と金の庭の蜘蛛"
+    },
+    {
+        "barn spider": "納屋の蜘蛛"
+    },
+    {
+        "garden spider": "庭の蜘蛛"
+    },
+    {
+        "black widow": "ブラック・ウィドウ"
+    },
+    {
+        "tarantula": "タランチュラ"
+    },
+    {
+        "wolf spider": "オオカミグモ"
+    },
+    {
+        "tick": "カチカチ"
+    },
+    {
+        "centipede": "ムカデ"
+    },
+    {
+        "black grouse": "クロライチョウ"
+    },
+    {
+        "ptarmigan": "雷鳥"
+    },
+    {
+        "ruffed grouse": "エリマキライチョウ"
+    },
+    {
+        "prairie chicken": "プレーリーチキン"
+    },
+    {
+        "peacock": "孔雀"
+    },
+    {
+        "quail": "ウズラ"
+    },
+    {
+        "partridge": "ヤマウズラ"
+    },
+    {
+        "African grey": "アフリカングレー"
+    },
+    {
+        "macaw": "コンゴウインコ"
+    },
+    {
+        "sulphur-crested cockatoo": "キバタン"
+    },
+    {
+        "lorikeet": "インコ"
+    },
+    {
+        "coucal": "クーカル"
+    },
+    {
+        "bee eater": "蜂を食べる人"
+    },
+    {
+        "hornbill": "サイチョウ"
+    },
+    {
+        "hummingbird": "ハチドリ"
+    },
+    {
+        "jacamar": "ジャカマル"
+    },
+    {
+        "toucan": "オオハシ"
+    },
+    {
+        "drake": "ドレイク"
+    },
+    {
+        "red-breasted merganser": "アカハラムシのマーガンサー"
+    },
+    {
+        "goose": "ガチョウ"
+    },
+    {
+        "black swan": "黒い白鳥"
+    },
+    {
+        "tusker": "牙を持つ"
+    },
+    {
+        "echidna": "ハリモグラ"
+    },
+    {
+        "platypus": "カモノハシ"
+    },
+    {
+        "wallaby": "ワラビー"
+    },
+    {
+        "koala": "コアラ"
+    },
+    {
+        "wombat": "ウォンバット"
+    },
+    {
+        "jellyfish": "クラゲ"
+    },
+    {
+        "sea anemone": "イソギンチャク"
+    },
+    {
+        "brain coral": "脳サンゴ"
+    },
+    {
+        "flatworm": "扁形動物"
+    },
+    {
+        "nematode": "線虫"
+    },
+    {
+        "conch": "巻貝"
+    },
+    {
+        "snail": "カタツムリ"
+    },
+    {
+        "slug": "ナメクジ"
+    },
+    {
+        "sea slug": "ウミウシ"
+    },
+    {
+        "chiton": "キトン"
+    },
+    {
+        "chambered nautilus": "オウムガイ"
+    },
+    {
+        "Dungeness crab": "ダンジネスクラブ"
+    },
+    {
+        "rock crab": "岩ガニ"
+    },
+    {
+        "fiddler crab": "シオマネキ"
+    },
+    {
+        "king crab": "タラバガニ"
+    },
+    {
+        "American lobster": "アメリカンロブスター"
+    },
+    {
+        "spiny lobster": "伊勢海老"
+    },
+    {
+        "crayfish": "ザリガニ"
+    },
+    {
+        "hermit crab": "ヤドカリ"
+    },
+    {
+        "isopod": "等脚類"
+    },
+    {
+        "white stork": "コウノトリ"
+    },
+    {
+        "black stork": "コウノトリ"
+    },
+    {
+        "spoonbill": "ヘラサギ"
+    },
+    {
+        "flamingo": "フラミンゴ"
+    },
+    {
+        "little blue heron": "小さな青サギ"
+    },
+    {
+        "American egret": "アメリカサギ"
+    },
+    {
+        "bittern": "にがり"
+    },
+    {
+        "crane": "クレーン"
+    },
+    {
+        "limpkin": "リンプキン"
+    },
+    {
+        "European gallinule": "ヨーロッパガリヌール"
+    },
+    {
+        "American coot": "アメリカオオバン"
+    },
+    {
+        "bustard": "バスタード"
+    },
+    {
+        "ruddy turnstone": "血色の良いターンストーン"
+    },
+    {
+        "red-backed sandpiper": "アカハシシギ"
+    },
+    {
+        "redshank": "アカアシシギ"
+    },
+    {
+        "dowitcher": "ドーウィッチャー"
+    },
+    {
+        "oystercatcher": "ミヤコドリ"
+    },
+    {
+        "pelican": "ペリカン"
+    },
+    {
+        "king penguin": "キングペンギン"
+    },
+    {
+        "albatross": "アルバトロス"
+    },
+    {
+        "grey whale": "コククジラ"
+    },
+    {
+        "killer whale": "シャチ"
+    },
+    {
+        "dugong": "ジュゴン"
+    },
+    {
+        "sea lion": "アシカ"
+    },
+    {
+        "Chihuahua": "チワワ"
+    },
+    {
+        "Japanese spaniel": "狆"
+    },
+    {
+        "Maltese dog": "マルチーズ犬"
+    },
+    {
+        "Pekinese": "狆"
+    },
+    {
+        "Shih-Tzu": "シーズー"
+    },
+    {
+        "Blenheim spaniel": "ブレナム・スパニエル"
+    },
+    {
+        "papillon": "パピヨン"
+    },
+    {
+        "toy terrier": "トイテリア"
+    },
+    {
+        "Rhodesian ridgeback": "ローデシアン・リッジバック"
+    },
+    {
+        "Afghan hound": "アフガンハウンド"
+    },
+    {
+        "basset": "バセット"
+    },
+    {
+        "beagle": "ビーグル"
+    },
+    {
+        "bloodhound": "ブラッドハウンド"
+    },
+    {
+        "bluetick": "ブルーティック"
+    },
+    {
+        "black-and-tan coonhound": "ブラック・アンド・タン・クーンハウンド"
+    },
+    {
+        "Walker hound": "ウォーカーハウンド"
+    },
+    {
+        "English foxhound": "イングリッシュ・フォックスハウンド"
+    },
+    {
+        "redbone": "レッドボーン"
+    },
+    {
+        "borzoi": "ボルゾイ"
+    },
+    {
+        "Irish wolfhound": "アイリッシュ・ウルフハウンド"
+    },
+    {
+        "Italian greyhound": "イタリアン・グレーハウンド"
+    },
+    {
+        "whippet": "ウィペット"
+    },
+    {
+        "Ibizan hound": "イビザンハウンド"
+    },
+    {
+        "Norwegian elkhound": "ノルウェーエルクハウンド"
+    },
+    {
+        "otterhound": "オッターハウンド"
+    },
+    {
+        "Saluki": "サルーキ"
+    },
+    {
+        "Scottish deerhound": "スコットランドのディアハウンド"
+    },
+    {
+        "Weimaraner": "ワイマラナー"
+    },
+    {
+        "Staffordshire bullterrier": "スタッフォードシャーブルテリア"
+    },
+    {
+        "American Staffordshire terrier": "アメリカン・スタッフォードシャー・テリア"
+    },
+    {
+        "Bedlington terrier": "ベドリントン・テリア"
+    },
+    {
+        "Border terrier": "ボーダーテリア"
+    },
+    {
+        "Kerry blue terrier": "ケリーブルーテリア"
+    },
+    {
+        "Irish terrier": "アイリッシュ テリア"
+    },
+    {
+        "Norfolk terrier": "ノーフォークテリア"
+    },
+    {
+        "Norwich terrier": "ノリッチテリア"
+    },
+    {
+        "Yorkshire terrier": "ヨークシャーテリア"
+    },
+    {
+        "wire-haired fox terrier": "ワイヤーヘアのフォックステリア"
+    },
+    {
+        "Lakeland terrier": "レイクランドテリア"
+    },
+    {
+        "Sealyham terrier": "シーリハムテリア"
+    },
+    {
+        "Airedale": "エアデール"
+    },
+    {
+        "cairn": "ケルン"
+    },
+    {
+        "Australian terrier": "オーストラリアンテリア"
+    },
+    {
+        "Dandie Dinmont": "ダンディ・ディンモント"
+    },
+    {
+        "Boston bull": "ボストン雄牛"
+    },
+    {
+        "miniature schnauzer": "ミニチュアシュナウザー"
+    },
+    {
+        "giant schnauzer": "ジャイアントシュナウザー"
+    },
+    {
+        "standard schnauzer": "スタンダードシュナウザー"
+    },
+    {
+        "Scotch terrier": "スコッチテリア"
+    },
+    {
+        "Tibetan terrier": "チベタンテリア"
+    },
+    {
+        "silky terrier": "シルキーテリア"
+    },
+    {
+        "soft-coated wheaten terrier": "ソフトコーテッドウィーテンテリア"
+    },
+    {
+        "West Highland white terrier": "ウエストハイランドホワイトテリア"
+    },
+    {
+        "Lhasa": "ラサ"
+    },
+    {
+        "flat-coated retriever": "フラットコーテッドレトリバー"
+    },
+    {
+        "curly-coated retriever": "カーリーコーテッドレトリバー"
+    },
+    {
+        "golden retriever": "ゴールデンレトリバー"
+    },
+    {
+        "Labrador retriever": "ラブラドール・レトリバー"
+    },
+    {
+        "Chesapeake Bay retriever": "チェサピークベイレトリバー"
+    },
+    {
+        "German short-haired pointer": "ジャーマンショートヘアポインター"
+    },
+    {
+        "vizsla": "ヴィズラ"
+    },
+    {
+        "English setter": "イングリッシュセッター"
+    },
+    {
+        "Irish setter": "アイリッシュセッター"
+    },
+    {
+        "Gordon setter": "ゴードン・セッター"
+    },
+    {
+        "Brittany spaniel": "ブリタニー・スパニエル"
+    },
+    {
+        "clumber": "クランバー"
+    },
+    {
+        "English springer": "イングリッシュスプリンガー"
+    },
+    {
+        "Welsh springer spaniel": "ウェールズ・スプリンガー・スパニエル"
+    },
+    {
+        "cocker spaniel": "コッカースパニエル"
+    },
+    {
+        "Sussex spaniel": "サセックス・スパニエル"
+    },
+    {
+        "Irish water spaniel": "アイリッシュ・ウォーター・スパニエル"
+    },
+    {
+        "kuvasz": "クヴァシュ"
+    },
+    {
+        "schipperke": "シッパーキ"
+    },
+    {
+        "groenendael": "グローネンダール"
+    },
+    {
+        "malinois": "マリノア"
+    },
+    {
+        "briard": "ブリアード"
+    },
+    {
+        "kelpie": "ケルピー"
+    },
+    {
+        "komondor": "コモンドール"
+    },
+    {
+        "Old English sheepdog": "オールド・イングリッシュ・シープドッグ"
+    },
+    {
+        "Shetland sheepdog": "シェットランド・シープドッグ"
+    },
+    {
+        "collie": "コリー"
+    },
+    {
+        "Border collie": "ボーダーコリー"
+    },
+    {
+        "Bouvier des Flandres": "ブービエ デ フランドル"
+    },
+    {
+        "Rottweiler": "ロットワイラー"
+    },
+    {
+        "German shepherd": "ジャーマンシェパード"
+    },
+    {
+        "Doberman": "ドーベルマン"
+    },
+    {
+        "miniature pinscher": "ミニチュアピンシャー"
+    },
+    {
+        "Greater Swiss Mountain dog": "グレーター スイス マウンテン ドッグ"
+    },
+    {
+        "Bernese mountain dog": "バーニーズ・マウンテン・ドッグ"
+    },
+    {
+        "Appenzeller": "アッペンツェル"
+    },
+    {
+        "EntleBucher": "エントルブッチャー"
+    },
+    {
+        "boxer": "ボクサー"
+    },
+    {
+        "bull mastiff": "ブルマスティフ"
+    },
+    {
+        "Tibetan mastiff": "チベタン・マスティフ"
+    },
+    {
+        "French bulldog": "フレンチ・ブルドッグ"
+    },
+    {
+        "Great Dane": "グレートデーン"
+    },
+    {
+        "Saint Bernard": "セントバーナード"
+    },
+    {
+        "Eskimo dog": "エスキモー犬"
+    },
+    {
+        "malamute": "マラミュート"
+    },
+    {
+        "Siberian husky": "シベリアンハスキー"
+    },
+    {
+        "dalmatian": "ダルメシアン"
+    },
+    {
+        "affenpinscher": "アッフェンピンシャー"
+    },
+    {
+        "basenji": "バセンジー"
+    },
+    {
+        "pug": "パグ"
+    },
+    {
+        "Leonberg": "レオンバーグ"
+    },
+    {
+        "Newfoundland": "ニューファンドランド"
+    },
+    {
+        "Great Pyrenees": "グレート ピレネー"
+    },
+    {
+        "Samoyed": "サモエド"
+    },
+    {
+        "Pomeranian": "ポメラニアン"
+    },
+    {
+        "chow": "チョウ"
+    },
+    {
+        "keeshond": "キースホンド"
+    },
+    {
+        "Brabancon griffon": "ブラバンコングリフォン"
+    },
+    {
+        "Pembroke": "ペンブローク"
+    },
+    {
+        "Cardigan": "カーディガン"
+    },
+    {
+        "toy poodle": "トイプードル"
+    },
+    {
+        "miniature poodle": "ミニチュアプードル"
+    },
+    {
+        "standard poodle": "スタンダードプードル"
+    },
+    {
+        "Mexican hairless": "メキシコの無毛"
+    },
+    {
+        "timber wolf": "シンリンオオカミ"
+    },
+    {
+        "white wolf": "白いオオカミ"
+    },
+    {
+        "red wolf": "レッドウルフ"
+    },
+    {
+        "coyote": "コヨーテ"
+    },
+    {
+        "dingo": "ディンゴ"
+    },
+    {
+        "dhole": "ドール"
+    },
+    {
+        "African hunting dog": "アフリカの狩猟犬"
+    },
+    {
+        "hyena": "ハイエナ"
+    },
+    {
+        "red fox": "アカギツネ"
+    },
+    {
+        "kit fox": "キットキツネ"
+    },
+    {
+        "Arctic fox": "ホッキョクギツネ"
+    },
+    {
+        "grey fox": "灰色のキツネ"
+    },
+    {
+        "tabby": "ぶち"
+    },
+    {
+        "tiger cat": "トラ猫"
+    },
+    {
+        "Persian cat": "ペルシャ猫"
+    },
+    {
+        "Siamese cat": "シャム猫"
+    },
+    {
+        "Egyptian cat": "エジプトの猫"
+    },
+    {
+        "cougar": "クーガー"
+    },
+    {
+        "lynx": "オオヤマネコ"
+    },
+    {
+        "leopard": "ヒョウ"
+    },
+    {
+        "snow leopard": "ユキヒョウ"
+    },
+    {
+        "jaguar": "ジャガー"
+    },
+    {
+        "lion": "ライオン"
+    },
+    {
+        "tiger": "虎"
+    },
+    {
+        "cheetah": "チーター"
+    },
+    {
+        "brown bear": "ヒグマ"
+    },
+    {
+        "American black bear": "アメリカツキノワグマ"
+    },
+    {
+        "ice bear": "アイスベア"
+    },
+    {
+        "sloth bear": "ナマケグマ"
+    },
+    {
+        "mongoose": "マングース"
+    },
+    {
+        "meerkat": "ミーアキャット"
+    },
+    {
+        "tiger beetle": "ハンミョウ"
+    },
+    {
+        "ladybug": "てんとう虫"
+    },
+    {
+        "ground beetle": "オサムシ"
+    },
+    {
+        "long-horned beetle": "カミキリムシ"
+    },
+    {
+        "leaf beetle": "ハムシ"
+    },
+    {
+        "dung beetle": "フンコロガシ"
+    },
+    {
+        "rhinoceros beetle": "カブトムシ"
+    },
+    {
+        "weevil": "ゾウムシ"
+    },
+    {
+        "fly": "飛ぶ"
+    },
+    {
+        "bee": "蜂"
+    },
+    {
+        "ant": "蟻"
+    },
+    {
+        "grasshopper": "バッタ"
+    },
+    {
+        "cricket": "クリケット"
+    },
+    {
+        "walking stick": "ステッキ"
+    },
+    {
+        "cockroach": "ゴキブリ"
+    },
+    {
+        "mantis": "カマキリ"
+    },
+    {
+        "cicada": "蝉"
+    },
+    {
+        "leafhopper": "ヨコバイ"
+    },
+    {
+        "lacewing": "クサカゲロウ"
+    },
+    {
+        "dragonfly": "トンボ"
+    },
+    {
+        "damselfly": "イトトンボ"
+    },
+    {
+        "admiral": "提督"
+    },
+    {
+        "ringlet": "リングレット"
+    },
+    {
+        "monarch": "君主"
+    },
+    {
+        "cabbage butterfly": "モンシロチョウ"
+    },
+    {
+        "sulphur butterfly": "硫黄蝶"
+    },
+    {
+        "lycaenid": "シジミ類"
+    },
+    {
+        "starfish": "ヒトデ"
+    },
+    {
+        "sea urchin": "うに"
+    },
+    {
+        "sea cucumber": "ナマコ"
+    },
+    {
+        "wood rabbit": "木のウサギ"
+    },
+    {
+        "hare": "野ウサギ"
+    },
+    {
+        "Angora": "アンゴラ"
+    },
+    {
+        "hamster": "ハムスター"
+    },
+    {
+        "porcupine": "ヤマアラシ"
+    },
+    {
+        "fox squirrel": "キツネリス"
+    },
+    {
+        "marmot": "マーモット"
+    },
+    {
+        "beaver": "ビーバー"
+    },
+    {
+        "guinea pig": "モルモット"
+    },
+    {
+        "sorrel": "栗色"
+    },
+    {
+        "zebra": "シマウマ"
+    },
+    {
+        "hog": "豚"
+    },
+    {
+        "wild boar": "イノシシ"
+    },
+    {
+        "warthog": "イボイノシシ"
+    },
+    {
+        "hippopotamus": "カバ"
+    },
+    {
+        "ox": "牛"
+    },
+    {
+        "water buffalo": "水牛"
+    },
+    {
+        "bison": "バイソン"
+    },
+    {
+        "ram": "ラム"
+    },
+    {
+        "bighorn": "オオツノ"
+    },
+    {
+        "ibex": "アイベックス"
+    },
+    {
+        "hartebeest": "ハーテビースト"
+    },
+    {
+        "impala": "インパラ"
+    },
+    {
+        "gazelle": "ガゼル"
+    },
+    {
+        "Arabian camel": "アラビアのラクダ"
+    },
+    {
+        "llama": "ラマ"
+    },
+    {
+        "weasel": "イタチ"
+    },
+    {
+        "mink": "ミンク"
+    },
+    {
+        "polecat": "ケナガイタチ"
+    },
+    {
+        "black-footed ferret": "クロアシフェレット"
+    },
+    {
+        "otter": "カワウソ"
+    },
+    {
+        "skunk": "スカンク"
+    },
+    {
+        "badger": "狸"
+    },
+    {
+        "armadillo": "アルマジロ"
+    },
+    {
+        "three-toed sloth": "三つ指ナマケモノ"
+    },
+    {
+        "orangutan": "オランウータン"
+    },
+    {
+        "gorilla": "ゴリラ"
+    },
+    {
+        "chimpanzee": "チンパンジー"
+    },
+    {
+        "gibbon": "テナガザル"
+    },
+    {
+        "siamang": "シャマン"
+    },
+    {
+        "guenon": "グノン"
+    },
+    {
+        "patas": "パタス"
+    },
+    {
+        "baboon": "ヒヒ"
+    },
+    {
+        "macaque": "サル"
+    },
+    {
+        "langur": "ラングール"
+    },
+    {
+        "colobus": "コロブス"
+    },
+    {
+        "proboscis monkey": "テングザル"
+    },
+    {
+        "marmoset": "マーモセット"
+    },
+    {
+        "capuchin": "オマキザル"
+    },
+    {
+        "howler monkey": "ホエザル"
+    },
+    {
+        "titi": "ティティ"
+    },
+    {
+        "spider monkey": "クモザル"
+    },
+    {
+        "squirrel monkey": "リスザル"
+    },
+    {
+        "Madagascar cat": "マダガスカル猫"
+    },
+    {
+        "indri": "インドリ"
+    },
+    {
+        "Indian elephant": "インド象"
+    },
+    {
+        "African elephant": "アフリカゾウ"
+    },
+    {
+        "lesser panda": "レッサーパンダ"
+    },
+    {
+        "giant panda": "ジャイアントパンダ"
+    },
+    {
+        "barracouta": "バラクータ"
+    },
+    {
+        "eel": "うなぎ"
+    },
+    {
+        "coho": "コホー"
+    },
+    {
+        "rock beauty": "岩の美しさ"
+    },
+    {
+        "anemone fish": "クマノミ"
+    },
+    {
+        "sturgeon": "チョウザメ"
+    },
+    {
+        "gar": "ガー"
+    },
+    {
+        "lionfish": "ミノカサゴ"
+    },
+    {
+        "puffer": "フグ"
+    },
+    {
+        "abacus": "そろばん"
+    },
+    {
+        "abaya": "アバヤ"
+    },
+    {
+        "academic gown": "アカデミックガウン"
+    },
+    {
+        "accordion": "アコーディオン"
+    },
+    {
+        "acoustic guitar": "アコースティックギター"
+    },
+    {
+        "aircraft carrier": "空母"
+    },
+    {
+        "airliner": "旅客機"
+    },
+    {
+        "airship": "飛行船"
+    },
+    {
+        "altar": "祭壇"
+    },
+    {
+        "ambulance": "救急車"
+    },
+    {
+        "amphibian": "両生類"
+    },
+    {
+        "analog clock": "アナログ時計"
+    },
+    {
+        "apiary": "養蜂場"
+    },
+    {
+        "apron": "エプロン"
+    },
+    {
+        "ashcan": "アシュカン"
+    },
+    {
+        "assault rifle": "アサルトライフル"
+    },
+    {
+        "backpack": "バックパック"
+    },
+    {
+        "bakery": "ベーカリー"
+    },
+    {
+        "balance beam": "平均台"
+    },
+    {
+        "balloon": "バルーン"
+    },
+    {
+        "ballpoint": "ボールペン"
+    },
+    {
+        "Band Aid": "バンドエイド"
+    },
+    {
+        "banjo": "バンジョー"
+    },
+    {
+        "bannister": "手すり"
+    },
+    {
+        "barbell": "バーベル"
+    },
+    {
+        "barber chair": "理容室の椅子"
+    },
+    {
+        "barbershop": "理髪店"
+    },
+    {
+        "barn": "納屋"
+    },
+    {
+        "barometer": "バロメーター"
+    },
+    {
+        "barrel": "たる"
+    },
+    {
+        "barrow": "手押し車"
+    },
+    {
+        "baseball": "野球"
+    },
+    {
+        "basketball": "バスケットボール"
+    },
+    {
+        "bassinet": "かご型ベッド"
+    },
+    {
+        "bassoon": "ファゴット"
+    },
+    {
+        "bathing cap": "入浴キャップ"
+    },
+    {
+        "bath towel": "バスタオル"
+    },
+    {
+        "bathtub": "バスタブ"
+    },
+    {
+        "beach wagon": "ビーチワゴン"
+    },
+    {
+        "beacon": "ビーコン"
+    },
+    {
+        "beaker": "ビーカー"
+    },
+    {
+        "bearskin": "熊の皮"
+    },
+    {
+        "beer bottle": "ビール瓶"
+    },
+    {
+        "beer glass": "ビールグラス"
+    },
+    {
+        "bell cote": "ベルコート"
+    },
+    {
+        "bib": "よだれかけ"
+    },
+    {
+        "bicycle-built-for-two": "自転車2人乗り"
+    },
+    {
+        "bikini": "ビキニ"
+    },
+    {
+        "binder": "バインダー"
+    },
+    {
+        "binoculars": "双眼鏡"
+    },
+    {
+        "birdhouse": "巣箱"
+    },
+    {
+        "boathouse": "ボートハウス"
+    },
+    {
+        "bobsled": "ボブスレー"
+    },
+    {
+        "bolo tie": "ボロタイ"
+    },
+    {
+        "bonnet": "ボンネット"
+    },
+    {
+        "bookcase": "本棚"
+    },
+    {
+        "bookshop": "書店"
+    },
+    {
+        "bottlecap": "瓶のキャップ"
+    },
+    {
+        "bow": "弓"
+    },
+    {
+        "bow tie": "ちょうネクタイ"
+    },
+    {
+        "brass": "真鍮"
+    },
+    {
+        "brassiere": "ブラジャー"
+    },
+    {
+        "breakwater": "防波堤"
+    },
+    {
+        "breastplate": "胸当て"
+    },
+    {
+        "broom": "ほうき"
+    },
+    {
+        "bucket": "バケツ"
+    },
+    {
+        "buckle": "バックル"
+    },
+    {
+        "bulletproof vest": "防弾チョッキ"
+    },
+    {
+        "bullet train": "新幹線"
+    },
+    {
+        "butcher shop": "精肉店"
+    },
+    {
+        "cab": "タクシー"
+    },
+    {
+        "caldron": "大釜"
+    },
+    {
+        "candle": "キャンドル"
+    },
+    {
+        "cannon": "大砲"
+    },
+    {
+        "canoe": "カヌー"
+    },
+    {
+        "can opener": "缶切り"
+    },
+    {
+        "cardigan": "カーディガン"
+    },
+    {
+        "car mirror": "車のミラー"
+    },
+    {
+        "carousel": "カルーセル"
+    },
+    {
+        "carpenter's kit": "大工さんのキット"
+    },
+    {
+        "carton": "カートン"
+    },
+    {
+        "car wheel": "車の車輪"
+    },
+    {
+        "cash machine": "現金自動預け払い機"
+    },
+    {
+        "cassette": "カセット"
+    },
+    {
+        "cassette player": "カセット・プレーヤー"
+    },
+    {
+        "castle": "城"
+    },
+    {
+        "catamaran": "カタマラン"
+    },
+    {
+        "CD player": "CDプレーヤー"
+    },
+    {
+        "cello": "チェロ"
+    },
+    {
+        "cellular telephone": "携帯電話"
+    },
+    {
+        "chain": "鎖"
+    },
+    {
+        "chainlink fence": "金網フェンス"
+    },
+    {
+        "chain mail": "チェーンメール"
+    },
+    {
+        "chain saw": "チェーンソー"
+    },
+    {
+        "chest": "胸"
+    },
+    {
+        "chiffonier": "シフォニエ"
+    },
+    {
+        "chime": "チャイム"
+    },
+    {
+        "china cabinet": "チャイナキャビネット"
+    },
+    {
+        "Christmas stocking": "クリスマスの靴下"
+    },
+    {
+        "church": "教会"
+    },
+    {
+        "cinema": "シネマ"
+    },
+    {
+        "cleaver": "包丁"
+    },
+    {
+        "cliff dwelling": "崖の住居"
+    },
+    {
+        "cloak": "マント"
+    },
+    {
+        "clog": "詰まる"
+    },
+    {
+        "cocktail shaker": "カクテルシェーカー"
+    },
+    {
+        "coffee mug": "コーヒーマグカップ"
+    },
+    {
+        "coffeepot": "コーヒーポット"
+    },
+    {
+        "coil": "コイル"
+    },
+    {
+        "combination lock": "コンビネーションロック"
+    },
+    {
+        "computer keyboard": "キーボード"
+    },
+    {
+        "confectionery": "菓子類"
+    },
+    {
+        "container ship": "コンテナ船"
+    },
+    {
+        "convertible": "コンバーチブル"
+    },
+    {
+        "corkscrew": "コルク抜き"
+    },
+    {
+        "cornet": "コルネット"
+    },
+    {
+        "cowboy boot": "カウボーイブーツ"
+    },
+    {
+        "cowboy hat": "カウボーイハット"
+    },
+    {
+        "cradle": "ゆりかご"
+    },
+    {
+        "crane": "クレーン"
+    },
+    {
+        "crash helmet": "クラッシュヘルメット"
+    },
+    {
+        "crate": "木箱"
+    },
+    {
+        "crib": "ベビーベッド"
+    },
+    {
+        "Crock Pot": "クロックポット"
+    },
+    {
+        "croquet ball": "クロッケーボール"
+    },
+    {
+        "crutch": "松葉杖"
+    },
+    {
+        "cuirass": "胸当て"
+    },
+    {
+        "dam": "ダム"
+    },
+    {
+        "desk": "机"
+    },
+    {
+        "desktop computer": "デスクトップコンピューター"
+    },
+    {
+        "dial telephone": "ダイヤル電話"
+    },
+    {
+        "diaper": "おむつ"
+    },
+    {
+        "digital clock": "デジタル時計"
+    },
+    {
+        "digital watch": "デジタル腕時計"
+    },
+    {
+        "dining table": "ダイニングテーブル"
+    },
+    {
+        "dishrag": "ぼろぼろ"
+    },
+    {
+        "dishwasher": "食器洗い機"
+    },
+    {
+        "disk brake": "ディスクブレーキ"
+    },
+    {
+        "dock": "ドック"
+    },
+    {
+        "dogsled": "犬ぞり"
+    },
+    {
+        "dome": "ドーム"
+    },
+    {
+        "doormat": "玄関マット"
+    },
+    {
+        "drilling platform": "掘削プラットフォーム"
+    },
+    {
+        "drum": "ドラム"
+    },
+    {
+        "drumstick": "ドラムスティック"
+    },
+    {
+        "dumbbell": "ダンベル"
+    },
+    {
+        "Dutch oven": "ダッチオーブン"
+    },
+    {
+        "electric fan": "扇風機"
+    },
+    {
+        "electric guitar": "エレキギター"
+    },
+    {
+        "electric locomotive": "電気機関車"
+    },
+    {
+        "entertainment center": "エンターテイメントセンター"
+    },
+    {
+        "envelope": "封筒"
+    },
+    {
+        "espresso maker": "エスプレッソメーカー"
+    },
+    {
+        "face powder": "フェースパウダー"
+    },
+    {
+        "feather boa": "フェザーボア"
+    },
+    {
+        "file": "ファイル"
+    },
+    {
+        "fireboat": "消防船"
+    },
+    {
+        "fire engine": "消防車"
+    },
+    {
+        "fire screen": "防火スクリーン"
+    },
+    {
+        "flagpole": "旗竿"
+    },
+    {
+        "flute": "フルート"
+    },
+    {
+        "folding chair": "折りたたみ椅子"
+    },
+    {
+        "football helmet": "フットボールヘルメット"
+    },
+    {
+        "forklift": "フォークリフト"
+    },
+    {
+        "fountain": "噴水"
+    },
+    {
+        "fountain pen": "万年筆"
+    },
+    {
+        "four-poster": "四柱式"
+    },
+    {
+        "freight car": "貨車"
+    },
+    {
+        "French horn": "フレンチホルン"
+    },
+    {
+        "frying pan": "フライパン"
+    },
+    {
+        "fur coat": "毛皮のコート"
+    },
+    {
+        "garbage truck": "ごみ収集車"
+    },
+    {
+        "gasmask": "ガスマスク"
+    },
+    {
+        "gas pump": "ガスポンプ"
+    },
+    {
+        "goblet": "ゴブレット"
+    },
+    {
+        "go-kart": "ゴーカート"
+    },
+    {
+        "golf ball": "ゴルフボール"
+    },
+    {
+        "golfcart": "ゴルフカート"
+    },
+    {
+        "gondola": "ゴンドラ"
+    },
+    {
+        "gong": "ゴング"
+    },
+    {
+        "gown": "ガウン"
+    },
+    {
+        "grand piano": "グランドピアノ"
+    },
+    {
+        "greenhouse": "温室"
+    },
+    {
+        "grille": "グリル"
+    },
+    {
+        "grocery store": "食料品店"
+    },
+    {
+        "guillotine": "ギロチン"
+    },
+    {
+        "hair slide": "ヘアスライド"
+    },
+    {
+        "hair spray": "ヘアスプレー"
+    },
+    {
+        "half track": "ハーフトラック"
+    },
+    {
+        "hammer": "ハンマー"
+    },
+    {
+        "hamper": "妨げる"
+    },
+    {
+        "hand blower": "ハンドブロワー"
+    },
+    {
+        "hand-held computer": "携帯情報端末"
+    },
+    {
+        "handkerchief": "ハンカチ"
+    },
+    {
+        "hard disc": "ハードディスク"
+    },
+    {
+        "harmonica": "ハーモニカ"
+    },
+    {
+        "harp": "ハープ"
+    },
+    {
+        "harvester": "収穫機"
+    },
+    {
+        "hatchet": "手斧"
+    },
+    {
+        "holster": "ホルスター"
+    },
+    {
+        "home theater": "ホームシアター"
+    },
+    {
+        "honeycomb": "ハニカム"
+    },
+    {
+        "hook": "針"
+    },
+    {
+        "hoopskirt": "フープスカート"
+    },
+    {
+        "horizontal bar": "水平バー"
+    },
+    {
+        "horse cart": "馬車"
+    },
+    {
+        "hourglass": "砂時計"
+    },
+    {
+        "iPod": "iPod"
+    },
+    {
+        "iron": "鉄"
+    },
+    {
+        "jack-o'-lantern": "ジャック・オ・ランタン"
+    },
+    {
+        "jean": "ジャン"
+    },
+    {
+        "jeep": "ジープ"
+    },
+    {
+        "jersey": "ジャージー"
+    },
+    {
+        "jigsaw puzzle": "ジグソーパズル"
+    },
+    {
+        "jinrikisha": "人力車"
+    },
+    {
+        "joystick": "ジョイスティック"
+    },
+    {
+        "kimono": "着物"
+    },
+    {
+        "knee pad": "膝パッド"
+    },
+    {
+        "knot": "結び目"
+    },
+    {
+        "lab coat": "白衣"
+    },
+    {
+        "ladle": "柄杓"
+    },
+    {
+        "lampshade": "ランプシェード"
+    },
+    {
+        "laptop": "ラップトップ"
+    },
+    {
+        "lawn mower": "芝刈り機"
+    },
+    {
+        "lens cap": "レンズキャップ"
+    },
+    {
+        "letter opener": "レターオープナー"
+    },
+    {
+        "library": "図書館"
+    },
+    {
+        "lifeboat": "救命ボート"
+    },
+    {
+        "lighter": "ライター"
+    },
+    {
+        "limousine": "リムジン"
+    },
+    {
+        "liner": "ライナー"
+    },
+    {
+        "lipstick": "口紅"
+    },
+    {
+        "Loafer": "ローファー"
+    },
+    {
+        "lotion": "ローション"
+    },
+    {
+        "loudspeaker": "スピーカー"
+    },
+    {
+        "loupe": "ルーペ"
+    },
+    {
+        "lumbermill": "製材所"
+    },
+    {
+        "magnetic compass": "方位磁針"
+    },
+    {
+        "mailbag": "郵袋"
+    },
+    {
+        "mailbox": "メールボックス"
+    },
+    {
+        "maillot": "マイヨ"
+    },
+    {
+        "maillot": "マイヨ"
+    },
+    {
+        "manhole cover": "マンホールの蓋"
+    },
+    {
+        "maraca": "マラカス"
+    },
+    {
+        "marimba": "マリンバ"
+    },
+    {
+        "mask": "マスク"
+    },
+    {
+        "matchstick": "マッチ棒"
+    },
+    {
+        "maypole": "メイポール"
+    },
+    {
+        "maze": "迷路"
+    },
+    {
+        "measuring cup": "計量カップ"
+    },
+    {
+        "medicine chest": "薬箱"
+    },
+    {
+        "megalith": "巨石"
+    },
+    {
+        "microphone": "マイクロフォン"
+    },
+    {
+        "microwave": "電子レンジ"
+    },
+    {
+        "military uniform": "軍服"
+    },
+    {
+        "milk can": "ミルク缶"
+    },
+    {
+        "minibus": "ミニバス"
+    },
+    {
+        "miniskirt": "ミニスカート"
+    },
+    {
+        "minivan": "ミニバン"
+    },
+    {
+        "missile": "ミサイル"
+    },
+    {
+        "mitten": "ミトン"
+    },
+    {
+        "mixing bowl": "ミキシングボウル"
+    },
+    {
+        "mobile home": "移動住宅"
+    },
+    {
+        "Model T": "モデルT"
+    },
+    {
+        "modem": "モデム"
+    },
+    {
+        "monastery": "修道院"
+    },
+    {
+        "monitor": "モニター"
+    },
+    {
+        "moped": "原付"
+    },
+    {
+        "mortar": "モルタル"
+    },
+    {
+        "mortarboard": "モルタルボード"
+    },
+    {
+        "mosque": "モスク"
+    },
+    {
+        "mosquito net": "蚊帳"
+    },
+    {
+        "motor scooter": "スクーター"
+    },
+    {
+        "mountain bike": "マウンテンバイク"
+    },
+    {
+        "mountain tent": "山のテント"
+    },
+    {
+        "mouse": "ねずみ"
+    },
+    {
+        "mousetrap": "ネズミ捕り"
+    },
+    {
+        "moving van": "移動バン"
+    },
+    {
+        "muzzle": "銃口"
+    },
+    {
+        "nail": "ネイル"
+    },
+    {
+        "neck brace": "ネックブレース"
+    },
+    {
+        "necklace": "ネックレス"
+    },
+    {
+        "nipple": "乳首"
+    },
+    {
+        "notebook": "ノート"
+    },
+    {
+        "obelisk": "オベリスク"
+    },
+    {
+        "oboe": "オーボエ"
+    },
+    {
+        "ocarina": "オカリナ"
+    },
+    {
+        "odometer": "オドメーター"
+    },
+    {
+        "oil filter": "オイルフィルター"
+    },
+    {
+        "organ": "器官"
+    },
+    {
+        "oscilloscope": "オシロスコープ"
+    },
+    {
+        "overskirt": "オーバースカート"
+    },
+    {
+        "oxcart": "牛車"
+    },
+    {
+        "oxygen mask": "酸素マスク"
+    },
+    {
+        "packet": "パケット"
+    },
+    {
+        "paddle": "パドル"
+    },
+    {
+        "paddlewheel": "パドルホイール"
+    },
+    {
+        "padlock": "南京錠"
+    },
+    {
+        "paintbrush": "絵筆"
+    },
+    {
+        "pajama": "パジャマ"
+    },
+    {
+        "palace": "宮殿"
+    },
+    {
+        "panpipe": "パンパイプ"
+    },
+    {
+        "paper towel": "ペーパータオル"
+    },
+    {
+        "parachute": "パラシュート"
+    },
+    {
+        "parallel bars": "平行棒"
+    },
+    {
+        "park bench": "公園のベンチ"
+    },
+    {
+        "parking meter": "パーキングメーター"
+    },
+    {
+        "passenger car": "乗用車"
+    },
+    {
+        "patio": "パティオ"
+    },
+    {
+        "pay-phone": "公衆電話"
+    },
+    {
+        "pedestal": "ペデスタル"
+    },
+    {
+        "pencil box": "筆箱"
+    },
+    {
+        "pencil sharpener": "鉛筆削り"
+    },
+    {
+        "perfume": "香水"
+    },
+    {
+        "Petri dish": "ペトリ皿"
+    },
+    {
+        "photocopier": "コピー機"
+    },
+    {
+        "pick": "選ぶ"
+    },
+    {
+        "pickelhaube": "ピッケルハウベ"
+    },
+    {
+        "picket fence": "杭柵"
+    },
+    {
+        "pickup": "選び出す"
+    },
+    {
+        "pier": "橋脚"
+    },
+    {
+        "piggy bank": "貯金箱"
+    },
+    {
+        "pill bottle": "錠剤瓶"
+    },
+    {
+        "pillow": "枕"
+    },
+    {
+        "ping-pong ball": "ピンポン球"
+    },
+    {
+        "pinwheel": "風車"
+    },
+    {
+        "pirate": "海賊"
+    },
+    {
+        "pitcher": "ピッチャー"
+    },
+    {
+        "plane": "飛行機"
+    },
+    {
+        "planetarium": "プラネタリウム"
+    },
+    {
+        "plastic bag": "ビニール袋"
+    },
+    {
+        "plate rack": "プレートラック"
+    },
+    {
+        "plow": "耕す"
+    },
+    {
+        "plunger": "プランジャー"
+    },
+    {
+        "Polaroid camera": "ポラロイドカメラ"
+    },
+    {
+        "pole": "ポール"
+    },
+    {
+        "police van": "警察のバン"
+    },
+    {
+        "poncho": "ポンチョ"
+    },
+    {
+        "pool table": "ビリヤード台"
+    },
+    {
+        "pop bottle": "ポップボトル"
+    },
+    {
+        "pot": "ポット"
+    },
+    {
+        "potter's wheel": "ろくろ"
+    },
+    {
+        "power drill": "電動ドリル"
+    },
+    {
+        "prayer rug": "祈りの敷物"
+    },
+    {
+        "printer": "プリンター"
+    },
+    {
+        "prison": "刑務所"
+    },
+    {
+        "projectile": "発射体"
+    },
+    {
+        "projector": "プロジェクター"
+    },
+    {
+        "puck": "パック"
+    },
+    {
+        "punching bag": "サンドバッグ"
+    },
+    {
+        "purse": "財布"
+    },
+    {
+        "quill": "羽ペン"
+    },
+    {
+        "quilt": "キルト"
+    },
+    {
+        "racer": "レーサー"
+    },
+    {
+        "racket": "ラケット"
+    },
+    {
+        "radiator": "ラジエーター"
+    },
+    {
+        "radio": "無線"
+    },
+    {
+        "radio telescope": "電波望遠鏡"
+    },
+    {
+        "rain barrel": "雨樽"
+    },
+    {
+        "recreational vehicle": "RV車"
+    },
+    {
+        "reel": "リール"
+    },
+    {
+        "reflex camera": "リフレックスカメラ"
+    },
+    {
+        "refrigerator": "冷蔵庫"
+    },
+    {
+        "remote control": "リモコン"
+    },
+    {
+        "restaurant": "レストラン"
+    },
+    {
+        "revolver": "リボルバー"
+    },
+    {
+        "rifle": "ライフル"
+    },
+    {
+        "rocking chair": "ロッキングチェア"
+    },
+    {
+        "rotisserie": "ロティサリー"
+    },
+    {
+        "rubber eraser": "消しゴム"
+    },
+    {
+        "rugby ball": "ラグビーボール"
+    },
+    {
+        "rule": "ルール"
+    },
+    {
+        "running shoe": "ランニングシューズ"
+    },
+    {
+        "safe": "安全"
+    },
+    {
+        "safety pin": "安全ピン"
+    },
+    {
+        "saltshaker": "ソルトシェイカー"
+    },
+    {
+        "sandal": "サンダル"
+    },
+    {
+        "sarong": "サロン"
+    },
+    {
+        "sax": "サックス"
+    },
+    {
+        "scabbard": "鞘"
+    },
+    {
+        "scale": "規模"
+    },
+    {
+        "school bus": "スクールバス"
+    },
+    {
+        "schooner": "スクーナー"
+    },
+    {
+        "scoreboard": "スコアボード"
+    },
+    {
+        "screen": "画面"
+    },
+    {
+        "screw": "スクリュー"
+    },
+    {
+        "screwdriver": "ドライバー"
+    },
+    {
+        "seat belt": "シートベルト"
+    },
+    {
+        "sewing machine": "ミシン"
+    },
+    {
+        "shield": "シールド"
+    },
+    {
+        "shoe shop": "靴屋"
+    },
+    {
+        "shoji": "障子"
+    },
+    {
+        "shopping basket": "買い物かご"
+    },
+    {
+        "shopping cart": "ショッピングカート"
+    },
+    {
+        "shovel": "シャベル"
+    },
+    {
+        "shower cap": "シャワーキャップ"
+    },
+    {
+        "shower curtain": "シャワーカーテン"
+    },
+    {
+        "ski": "スキー"
+    },
+    {
+        "ski mask": "目出し帽"
+    },
+    {
+        "sleeping bag": "寝袋"
+    },
+    {
+        "slide rule": "計算尺"
+    },
+    {
+        "sliding door": "引き戸"
+    },
+    {
+        "slot": "スロット"
+    },
+    {
+        "snorkel": "スノーケル"
+    },
+    {
+        "snowmobile": "スノーモービル"
+    },
+    {
+        "snowplow": "除雪機"
+    },
+    {
+        "soap dispenser": "ソープディスペンサー"
+    },
+    {
+        "soccer ball": "サッカーボール"
+    },
+    {
+        "sock": "靴下"
+    },
+    {
+        "solar dish": "ソーラーディッシュ"
+    },
+    {
+        "sombrero": "ソンブレロ"
+    },
+    {
+        "soup bowl": "スープボウル"
+    },
+    {
+        "space bar": "スペースキー"
+    },
+    {
+        "space heater": "スペースヒーター"
+    },
+    {
+        "space shuttle": "スペースシャトル"
+    },
+    {
+        "spatula": "スパチュラ"
+    },
+    {
+        "speedboat": "スピードボート"
+    },
+    {
+        "spider web": "蜘蛛の巣"
+    },
+    {
+        "spindle": "スピンドル"
+    },
+    {
+        "sports car": "スポーツカー"
+    },
+    {
+        "spotlight": "スポットライト"
+    },
+    {
+        "stage": "ステージ"
+    },
+    {
+        "steam locomotive": "蒸気機関車"
+    },
+    {
+        "steel arch bridge": "鋼製アーチ橋"
+    },
+    {
+        "steel drum": "スチールドラム"
+    },
+    {
+        "stethoscope": "聴診器"
+    },
+    {
+        "stole": "ストール"
+    },
+    {
+        "stone wall": "石垣"
+    },
+    {
+        "stopwatch": "ストップウォッチ"
+    },
+    {
+        "stove": "ストーブ"
+    },
+    {
+        "strainer": "ストレーナー"
+    },
+    {
+        "streetcar": "路面電車"
+    },
+    {
+        "stretcher": "担架"
+    },
+    {
+        "studio couch": "スタジオのソファ"
+    },
+    {
+        "stupa": "仏塔"
+    },
+    {
+        "submarine": "潜水艦"
+    },
+    {
+        "suit": "スーツ"
+    },
+    {
+        "sundial": "日時計"
+    },
+    {
+        "sunglass": "サングラス"
+    },
+    {
+        "sunglasses": "サングラス"
+    },
+    {
+        "sunscreen": "日焼け止め"
+    },
+    {
+        "suspension bridge": "吊り橋"
+    },
+    {
+        "swab": "綿棒"
+    },
+    {
+        "sweatshirt": "トレーナー"
+    },
+    {
+        "swimming trunks": "海パン"
+    },
+    {
+        "swing": "スイング"
+    },
+    {
+        "switch": "スイッチ"
+    },
+    {
+        "syringe": "注射器"
+    },
+    {
+        "table lamp": "電気スタンド"
+    },
+    {
+        "tank": "タンク"
+    },
+    {
+        "tape player": "テーププレーヤー"
+    },
+    {
+        "teapot": "ティーポット"
+    },
+    {
+        "teddy": "テディ"
+    },
+    {
+        "television": "テレビ"
+    },
+    {
+        "tennis ball": "テニスボール"
+    },
+    {
+        "thatch": "茅葺き"
+    },
+    {
+        "theater curtain": "劇場のカーテン"
+    },
+    {
+        "thimble": "指ぬき"
+    },
+    {
+        "thresher": "脱穀機"
+    },
+    {
+        "throne": "王位"
+    },
+    {
+        "tile roof": "瓦屋根"
+    },
+    {
+        "toaster": "トースター"
+    },
+    {
+        "tobacco shop": "タバコ屋"
+    },
+    {
+        "toilet seat": "便座"
+    },
+    {
+        "torch": "松明"
+    },
+    {
+        "totem pole": "トーテムポール"
+    },
+    {
+        "tow truck": "レッカー車"
+    },
+    {
+        "toyshop": "玩具屋"
+    },
+    {
+        "tractor": "トラクター"
+    },
+    {
+        "trailer truck": "トレーラートラック"
+    },
+    {
+        "tray": "トレイ"
+    },
+    {
+        "trench coat": "トレンチコート"
+    },
+    {
+        "tricycle": "三輪車"
+    },
+    {
+        "trimaran": "トリマラン"
+    },
+    {
+        "tripod": "三脚"
+    },
+    {
+        "triumphal arch": "凱旋門"
+    },
+    {
+        "trolleybus": "トロリーバス"
+    },
+    {
+        "trombone": "トロンボーン"
+    },
+    {
+        "tub": "浴槽"
+    },
+    {
+        "turnstile": "改札口"
+    },
+    {
+        "typewriter keyboard": "タイプライターのキーボード"
+    },
+    {
+        "umbrella": "傘"
+    },
+    {
+        "unicycle": "一輪車"
+    },
+    {
+        "upright": "直立"
+    },
+    {
+        "vacuum": "真空"
+    },
+    {
+        "vase": "花瓶"
+    },
+    {
+        "vault": "金庫室"
+    },
+    {
+        "velvet": "ベルベット"
+    },
+    {
+        "vending machine": "自動販売機"
+    },
+    {
+        "vestment": "祭服"
+    },
+    {
+        "viaduct": "高架橋"
+    },
+    {
+        "violin": "バイオリン"
+    },
+    {
+        "volleyball": "バレーボール"
+    },
+    {
+        "waffle iron": "ワッフル焼き型"
+    },
+    {
+        "wall clock": "壁時計"
+    },
+    {
+        "wallet": "財布"
+    },
+    {
+        "wardrobe": "ワードローブ"
+    },
+    {
+        "warplane": "戦闘機"
+    },
+    {
+        "washbasin": "洗面台"
+    },
+    {
+        "washer": "ワッシャー"
+    },
+    {
+        "water bottle": "水筒"
+    },
+    {
+        "water jug": "水差し"
+    },
+    {
+        "water tower": "給水塔"
+    },
+    {
+        "whiskey jug": "ウィスキージャグ"
+    },
+    {
+        "whistle": "ホイッスル"
+    },
+    {
+        "wig": "かつら"
+    },
+    {
+        "window screen": "ウインドウスクリーン"
+    },
+    {
+        "window shade": "ブラインド"
+    },
+    {
+        "Windsor tie": "ウィンザーネクタイ"
+    },
+    {
+        "wine bottle": "ワインボトル"
+    },
+    {
+        "wing": "羽"
+    },
+    {
+        "wok": "中華鍋"
+    },
+    {
+        "wooden spoon": "木製スプーン"
+    },
+    {
+        "wool": "ウール"
+    },
+    {
+        "worm fence": "ワームフェンス"
+    },
+    {
+        "wreck": "大破"
+    },
+    {
+        "yawl": "あくびをする"
+    },
+    {
+        "yurt": "パオ"
+    },
+    {
+        "web site": "Webサイト"
+    },
+    {
+        "comic book": "コミックブック"
+    },
+    {
+        "crossword puzzle": "クロスワードパズル"
+    },
+    {
+        "street sign": "道路標識"
+    },
+    {
+        "traffic light": "信号機"
+    },
+    {
+        "book jacket": "本のジャケット"
+    },
+    {
+        "menu": "メニュー"
+    },
+    {
+        "plate": "皿"
+    },
+    {
+        "guacamole": "グアカモーレ"
+    },
+    {
+        "consomme": "コンソメ"
+    },
+    {
+        "hot pot": "鍋"
+    },
+    {
+        "trifle": "些細な事"
+    },
+    {
+        "ice cream": "アイスクリーム"
+    },
+    {
+        "ice lolly": "アイスキャンディー"
+    },
+    {
+        "French loaf": "フランスパン"
+    },
+    {
+        "bagel": "ベーグル"
+    },
+    {
+        "pretzel": "プレッツェル"
+    },
+    {
+        "cheeseburger": "チーズバーガー"
+    },
+    {
+        "hotdog": "ホットドッグ"
+    },
+    {
+        "mashed potato": "マッシュポテト"
+    },
+    {
+        "head cabbage": "頭キャベツ"
+    },
+    {
+        "broccoli": "ブロッコリー"
+    },
+    {
+        "cauliflower": "カリフラワー"
+    },
+    {
+        "zucchini": "ズッキーニ"
+    },
+    {
+        "spaghetti squash": "スパゲッティスカッシュ"
+    },
+    {
+        "acorn squash": "どんぐりかぼちゃ"
+    },
+    {
+        "butternut squash": "バターナッツスカッシュ"
+    },
+    {
+        "cucumber": "キュウリ"
+    },
+    {
+        "artichoke": "アーティチョーク"
+    },
+    {
+        "bell pepper": "ピーマン"
+    },
+    {
+        "cardoon": "カルドン"
+    },
+    {
+        "mushroom": "キノコ"
+    },
+    {
+        "Granny Smith": "グラニースミス"
+    },
+    {
+        "strawberry": "いちご"
+    },
+    {
+        "orange": "オレンジ"
+    },
+    {
+        "lemon": "レモン"
+    },
+    {
+        "fig": "イチジク"
+    },
+    {
+        "pineapple": "パイナップル"
+    },
+    {
+        "banana": "バナナ"
+    },
+    {
+        "jackfruit": "パラミツ"
+    },
+    {
+        "custard apple": "カスタードアップル"
+    },
+    {
+        "pomegranate": "ザクロ"
+    },
+    {
+        "hay": "干し草"
+    },
+    {
+        "carbonara": "カルボナーラ"
+    },
+    {
+        "chocolate sauce": "チョコレートソース"
+    },
+    {
+        "dough": "生地"
+    },
+    {
+        "meat loaf": "ミートローフ"
+    },
+    {
+        "pizza": "ピザ"
+    },
+    {
+        "potpie": "ポットパイ"
+    },
+    {
+        "burrito": "ブリトー"
+    },
+    {
+        "red wine": "赤ワイン"
+    },
+    {
+        "espresso": "エスプレッソ"
+    },
+    {
+        "cup": "カップ"
+    },
+    {
+        "eggnog": "エッグノッグ"
+    },
+    {
+        "alp": "アルプス"
+    },
+    {
+        "bubble": "バブル"
+    },
+    {
+        "cliff": "崖"
+    },
+    {
+        "coral reef": "サンゴ礁"
+    },
+    {
+        "geyser": "間欠泉"
+    },
+    {
+        "lakeside": "湖畔"
+    },
+    {
+        "promontory": "岬"
+    },
+    {
+        "sandbar": "砂州"
+    },
+    {
+        "seashore": "海岸"
+    },
+    {
+        "valley": "谷"
+    },
+    {
+        "volcano": "火山"
+    },
+    {
+        "ballplayer": "野球選手"
+    },
+    {
+        "groom": "新郎"
+    },
+    {
+        "scuba diver": "スキューバダイバー"
+    },
+    {
+        "rapeseed": "菜種"
+    },
+    {
+        "daisy": "デイジー"
+    },
+    {
+        "yellow lady's slipper": "黄色の女性用スリッパ"
+    },
+    {
+        "corn": "トウモロコシ"
+    },
+    {
+        "acorn": "ドングリ"
+    },
+    {
+        "hip": "ヒップ"
+    },
+    {
+        "buckeye": "トチノキ"
+    },
+    {
+        "coral fungus": "サンゴ菌"
+    },
+    {
+        "agaric": "ベニテングタケ"
+    },
+    {
+        "gyromitra": "ジャイロミトラ"
+    },
+    {
+        "stinkhorn": "カメホーン"
+    },
+    {
+        "earthstar": "アーススター"
+    },
+    {
+        "hen-of-the-woods": "森の雌鶏"
+    },
+    {
+        "bolete": "ボレテ"
+    },
+    {
+        "ear": "耳"
+    },
+    {
+        "toilet tissue": "トイレットペーパー"
+    }
+]

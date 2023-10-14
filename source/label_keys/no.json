@@ -1,0 +1,3005 @@
+[
+    {
+        "background": "bakgrunn"
+    },
+    {
+        "tench": "suter"
+    },
+    {
+        "goldfish": "gullfisk"
+    },
+    {
+        "great white shark": "stor hvithai"
+    },
+    {
+        "tiger shark": "tigerhai"
+    },
+    {
+        "hammerhead": "hammerhode"
+    },
+    {
+        "electric ray": "elektrisk stråle"
+    },
+    {
+        "stingray": "rokke"
+    },
+    {
+        "cock": "kuk"
+    },
+    {
+        "hen": "høne"
+    },
+    {
+        "ostrich": "struts"
+    },
+    {
+        "brambling": "bramling"
+    },
+    {
+        "goldfinch": "gullfink"
+    },
+    {
+        "house finch": "husfink"
+    },
+    {
+        "junco": "junco"
+    },
+    {
+        "indigo bunting": "indigo-spurv"
+    },
+    {
+        "robin": "robin"
+    },
+    {
+        "bulbul": "bulbul"
+    },
+    {
+        "jay": "jay"
+    },
+    {
+        "magpie": "skjære"
+    },
+    {
+        "chickadee": "chickadee"
+    },
+    {
+        "water ouzel": "vann ouzel"
+    },
+    {
+        "kite": "Drage"
+    },
+    {
+        "bald eagle": "skallet ørn"
+    },
+    {
+        "vulture": "gribb"
+    },
+    {
+        "great grey owl": "stor grå ugle"
+    },
+    {
+        "European fire salamander": "Europeisk brannsalamander"
+    },
+    {
+        "common newt": "vanlig salamander"
+    },
+    {
+        "eft": "eft"
+    },
+    {
+        "spotted salamander": "flekket salamander"
+    },
+    {
+        "axolotl": "axolotl"
+    },
+    {
+        "bullfrog": "oksefrosk"
+    },
+    {
+        "tree frog": "trefrosk"
+    },
+    {
+        "tailed frog": "halefrosk"
+    },
+    {
+        "loggerhead": "tømmerhode"
+    },
+    {
+        "leatherback turtle": "lærskilpadde"
+    },
+    {
+        "mud turtle": "gjørme skilpadde"
+    },
+    {
+        "terrapin": "terrapin"
+    },
+    {
+        "box turtle": "boksskilpadde"
+    },
+    {
+        "banded gecko": "båndet gekko"
+    },
+    {
+        "common iguana": "vanlig iguan"
+    },
+    {
+        "American chameleon": "Amerikansk kameleon"
+    },
+    {
+        "whiptail": "piskehale"
+    },
+    {
+        "agama": "agama"
+    },
+    {
+        "frilled lizard": "frilled øgle"
+    },
+    {
+        "alligator lizard": "alligator øgle"
+    },
+    {
+        "Gila monster": "Gila monster"
+    },
+    {
+        "green lizard": "grønn øgle"
+    },
+    {
+        "African chameleon": "Afrikansk kameleon"
+    },
+    {
+        "Komodo dragon": "komodovaran"
+    },
+    {
+        "African crocodile": "afrikansk krokodille"
+    },
+    {
+        "American alligator": "Amerikansk alligator"
+    },
+    {
+        "triceratops": "triceratops"
+    },
+    {
+        "thunder snake": "tordenslange"
+    },
+    {
+        "ringneck snake": "ringneck slange"
+    },
+    {
+        "hognose snake": "hognose slange"
+    },
+    {
+        "green snake": "grønn slange"
+    },
+    {
+        "king snake": "kongeslange"
+    },
+    {
+        "garter snake": "strømpebåndsslange"
+    },
+    {
+        "water snake": "vannslange"
+    },
+    {
+        "vine snake": "vinranke slange"
+    },
+    {
+        "night snake": "nattslange"
+    },
+    {
+        "boa constrictor": "kvelerslange"
+    },
+    {
+        "rock python": "rock python"
+    },
+    {
+        "Indian cobra": "Indisk kobra"
+    },
+    {
+        "green mamba": "grønn mamba"
+    },
+    {
+        "sea snake": "sjøslange"
+    },
+    {
+        "horned viper": "hornhoggorm"
+    },
+    {
+        "diamondback": "diamantrygg"
+    },
+    {
+        "sidewinder": "sidevinder"
+    },
+    {
+        "trilobite": "trilobitt"
+    },
+    {
+        "harvestman": "innhøstingsmann"
+    },
+    {
+        "scorpion": "skorpion"
+    },
+    {
+        "black and gold garden spider": "svart og gull hageedderkopp"
+    },
+    {
+        "barn spider": "låveedderkopp"
+    },
+    {
+        "garden spider": "hage edderkopp"
+    },
+    {
+        "black widow": "sort enke"
+    },
+    {
+        "tarantula": "tarantell"
+    },
+    {
+        "wolf spider": "ulv edderkopp"
+    },
+    {
+        "tick": "sett kryss"
+    },
+    {
+        "centipede": "Skolopender"
+    },
+    {
+        "black grouse": "orrfugl"
+    },
+    {
+        "ptarmigan": "rype"
+    },
+    {
+        "ruffed grouse": "rufset rype"
+    },
+    {
+        "prairie chicken": "præriekylling"
+    },
+    {
+        "peacock": "påfugl"
+    },
+    {
+        "quail": "vaktel"
+    },
+    {
+        "partridge": "rapphøne"
+    },
+    {
+        "African grey": "afrikansk grå"
+    },
+    {
+        "macaw": "ara"
+    },
+    {
+        "sulphur-crested cockatoo": "svovelkakadue"
+    },
+    {
+        "lorikeet": "lorikeet"
+    },
+    {
+        "coucal": "coucal"
+    },
+    {
+        "bee eater": "biespiser"
+    },
+    {
+        "hornbill": "hornfugl"
+    },
+    {
+        "hummingbird": "kolibri"
+    },
+    {
+        "jacamar": "jacamar"
+    },
+    {
+        "toucan": "tukan"
+    },
+    {
+        "drake": "drake"
+    },
+    {
+        "red-breasted merganser": "rød-breasted merganser"
+    },
+    {
+        "goose": "gås"
+    },
+    {
+        "black swan": "svart svane"
+    },
+    {
+        "tusker": "tusker"
+    },
+    {
+        "echidna": "echidna"
+    },
+    {
+        "platypus": "nebbdyr"
+    },
+    {
+        "wallaby": "wallaby"
+    },
+    {
+        "koala": "koala"
+    },
+    {
+        "wombat": "vombat"
+    },
+    {
+        "jellyfish": "manet"
+    },
+    {
+        "sea anemone": "sjøanemone"
+    },
+    {
+        "brain coral": "hjerne korall"
+    },
+    {
+        "flatworm": "flatorm"
+    },
+    {
+        "nematode": "nematode"
+    },
+    {
+        "conch": "konkylie"
+    },
+    {
+        "snail": "snegl"
+    },
+    {
+        "slug": "mordersnegle"
+    },
+    {
+        "sea slug": "sjøsnegl"
+    },
+    {
+        "chiton": "chiton"
+    },
+    {
+        "chambered nautilus": "kammer nautilus"
+    },
+    {
+        "Dungeness crab": "Dungeness krabbe"
+    },
+    {
+        "rock crab": "steinkrabbe"
+    },
+    {
+        "fiddler crab": "spelemannskrabbe"
+    },
+    {
+        "king crab": "kongekrabbe"
+    },
+    {
+        "American lobster": "Amerikansk hummer"
+    },
+    {
+        "spiny lobster": "pigghummer"
+    },
+    {
+        "crayfish": "kreps"
+    },
+    {
+        "hermit crab": "eremittkreps"
+    },
+    {
+        "isopod": "isopod"
+    },
+    {
+        "white stork": "hvit stork"
+    },
+    {
+        "black stork": "svart stork"
+    },
+    {
+        "spoonbill": "skjestork"
+    },
+    {
+        "flamingo": "flamingo"
+    },
+    {
+        "little blue heron": "liten blå hegre"
+    },
+    {
+        "American egret": "Amerikansk egret"
+    },
+    {
+        "bittern": "bittern"
+    },
+    {
+        "crane": "kran"
+    },
+    {
+        "limpkin": "limpkin"
+    },
+    {
+        "European gallinule": "Europeisk gallinule"
+    },
+    {
+        "American coot": "amerikansk hønsehøne"
+    },
+    {
+        "bustard": "bustard"
+    },
+    {
+        "ruddy turnstone": "rødbrun vendestein"
+    },
+    {
+        "red-backed sandpiper": "rødrygget sandpipe"
+    },
+    {
+        "redshank": "rødbenk"
+    },
+    {
+        "dowitcher": "dowitcher"
+    },
+    {
+        "oystercatcher": "østerssnapp"
+    },
+    {
+        "pelican": "pelikan"
+    },
+    {
+        "king penguin": "kongepingvin"
+    },
+    {
+        "albatross": "albatross"
+    },
+    {
+        "grey whale": "gråhval"
+    },
+    {
+        "killer whale": "spekkhogger"
+    },
+    {
+        "dugong": "dugong"
+    },
+    {
+        "sea lion": "sjøløve"
+    },
+    {
+        "Chihuahua": "Chihuahua"
+    },
+    {
+        "Japanese spaniel": "Japansk spaniel"
+    },
+    {
+        "Maltese dog": "maltesisk hund"
+    },
+    {
+        "Pekinese": "Pekineser"
+    },
+    {
+        "Shih-Tzu": "Shih-Tzu"
+    },
+    {
+        "Blenheim spaniel": "Blenheim spaniel"
+    },
+    {
+        "papillon": "papillon"
+    },
+    {
+        "toy terrier": "toy terrier"
+    },
+    {
+        "Rhodesian ridgeback": "Rhodesian ridgeback"
+    },
+    {
+        "Afghan hound": "Afghansk hund"
+    },
+    {
+        "basset": "basset"
+    },
+    {
+        "beagle": "beagle"
+    },
+    {
+        "bloodhound": "blodhund"
+    },
+    {
+        "bluetick": "bluetick"
+    },
+    {
+        "black-and-tan coonhound": "svart-og-brun coonhound"
+    },
+    {
+        "Walker hound": "Walker-hund"
+    },
+    {
+        "English foxhound": "Engelsk revehund"
+    },
+    {
+        "redbone": "redbone"
+    },
+    {
+        "borzoi": "borzoi"
+    },
+    {
+        "Irish wolfhound": "Irsk ulvehund"
+    },
+    {
+        "Italian greyhound": "Italiensk mynde"
+    },
+    {
+        "whippet": "whippet"
+    },
+    {
+        "Ibizan hound": "Ibiza-hund"
+    },
+    {
+        "Norwegian elkhound": "Norsk elghund"
+    },
+    {
+        "otterhound": "oterhund"
+    },
+    {
+        "Saluki": "Saluki"
+    },
+    {
+        "Scottish deerhound": "Skotsk hjortehund"
+    },
+    {
+        "Weimaraner": "Weimaraner"
+    },
+    {
+        "Staffordshire bullterrier": "Staffordshire bullterrier"
+    },
+    {
+        "American Staffordshire terrier": "Amerikansk Staffordshire terrier"
+    },
+    {
+        "Bedlington terrier": "Bedlington terrier"
+    },
+    {
+        "Border terrier": "Border terrier"
+    },
+    {
+        "Kerry blue terrier": "Kerry blue terrier"
+    },
+    {
+        "Irish terrier": "Irsk terrier"
+    },
+    {
+        "Norfolk terrier": "Norfolk terrier"
+    },
+    {
+        "Norwich terrier": "Norwich terrier"
+    },
+    {
+        "Yorkshire terrier": "Yorkshire Terrier"
+    },
+    {
+        "wire-haired fox terrier": "trådhåret foxterrier"
+    },
+    {
+        "Lakeland terrier": "Lakeland terrier"
+    },
+    {
+        "Sealyham terrier": "Sealyham terrier"
+    },
+    {
+        "Airedale": "Airedale"
+    },
+    {
+        "cairn": "varde"
+    },
+    {
+        "Australian terrier": "australsk terrier"
+    },
+    {
+        "Dandie Dinmont": "Dandie Dinmont"
+    },
+    {
+        "Boston bull": "Boston okse"
+    },
+    {
+        "miniature schnauzer": "dvergschnauzer"
+    },
+    {
+        "giant schnauzer": "kjempeschnauzer"
+    },
+    {
+        "standard schnauzer": "standard schnauzer"
+    },
+    {
+        "Scotch terrier": "Scotch terrier"
+    },
+    {
+        "Tibetan terrier": "Tibetansk terrier"
+    },
+    {
+        "silky terrier": "silkeaktig terrier"
+    },
+    {
+        "soft-coated wheaten terrier": "mykbelagt wheaten terrier"
+    },
+    {
+        "West Highland white terrier": "West Highland white terrier"
+    },
+    {
+        "Lhasa": "Lhasa"
+    },
+    {
+        "flat-coated retriever": "flatbelagt retriever"
+    },
+    {
+        "curly-coated retriever": "krøllete retriever"
+    },
+    {
+        "golden retriever": "Golden retriever"
+    },
+    {
+        "Labrador retriever": "Labrador retriever"
+    },
+    {
+        "Chesapeake Bay retriever": "Chesapeake Bay retriever"
+    },
+    {
+        "German short-haired pointer": "Tysk korthåret peker"
+    },
+    {
+        "vizsla": "vizsla"
+    },
+    {
+        "English setter": "Engelsk setter"
+    },
+    {
+        "Irish setter": "Irsk setter"
+    },
+    {
+        "Gordon setter": "Gordon setter"
+    },
+    {
+        "Brittany spaniel": "Brittany spaniel"
+    },
+    {
+        "clumber": "klatre"
+    },
+    {
+        "English springer": "Engelsk springer"
+    },
+    {
+        "Welsh springer spaniel": "Welsh springer spaniel"
+    },
+    {
+        "cocker spaniel": "cocker spaniel"
+    },
+    {
+        "Sussex spaniel": "Sussex spaniel"
+    },
+    {
+        "Irish water spaniel": "Irsk vann spaniel"
+    },
+    {
+        "kuvasz": "kuvasz"
+    },
+    {
+        "schipperke": "schipperke"
+    },
+    {
+        "groenendael": "groenendael"
+    },
+    {
+        "malinois": "malinois"
+    },
+    {
+        "briard": "briard"
+    },
+    {
+        "kelpie": "kelpie"
+    },
+    {
+        "komondor": "komondor"
+    },
+    {
+        "Old English sheepdog": "Gammel engelsk fårehund"
+    },
+    {
+        "Shetland sheepdog": "Shetland sheepdog"
+    },
+    {
+        "collie": "collie"
+    },
+    {
+        "Border collie": "Border collie"
+    },
+    {
+        "Bouvier des Flandres": "Bouvier des Flandres"
+    },
+    {
+        "Rottweiler": "Rottweiler"
+    },
+    {
+        "German shepherd": "tysk gjeter"
+    },
+    {
+        "Doberman": "Dobermann"
+    },
+    {
+        "miniature pinscher": "dvergpinscher"
+    },
+    {
+        "Greater Swiss Mountain dog": "Sveitsisk fjellhund"
+    },
+    {
+        "Bernese mountain dog": "Berner sennenhund"
+    },
+    {
+        "Appenzeller": "Appenzeller"
+    },
+    {
+        "EntleBucher": "EntleBucher"
+    },
+    {
+        "boxer": "bokser"
+    },
+    {
+        "bull mastiff": "okse mastiff"
+    },
+    {
+        "Tibetan mastiff": "tibetansk mastiff"
+    },
+    {
+        "French bulldog": "fransk bulldog"
+    },
+    {
+        "Great Dane": "Flott dansk"
+    },
+    {
+        "Saint Bernard": "Saint Bernard"
+    },
+    {
+        "Eskimo dog": "Eskimo hund"
+    },
+    {
+        "malamute": "malamute"
+    },
+    {
+        "Siberian husky": "Sibirsk husky"
+    },
+    {
+        "dalmatian": "dalmatisk"
+    },
+    {
+        "affenpinscher": "affenpinscher"
+    },
+    {
+        "basenji": "basenji"
+    },
+    {
+        "pug": "mops"
+    },
+    {
+        "Leonberg": "Leonberg"
+    },
+    {
+        "Newfoundland": "Newfoundland"
+    },
+    {
+        "Great Pyrenees": "De store Pyreneene"
+    },
+    {
+        "Samoyed": "Samojed"
+    },
+    {
+        "Pomeranian": "Pomeranian"
+    },
+    {
+        "chow": "chow"
+    },
+    {
+        "keeshond": "keeshond"
+    },
+    {
+        "Brabancon griffon": "Brabancon griffon"
+    },
+    {
+        "Pembroke": "Pembroke"
+    },
+    {
+        "Cardigan": "Cardigan"
+    },
+    {
+        "toy poodle": "lekepuddel"
+    },
+    {
+        "miniature poodle": "miniatyrpuddel"
+    },
+    {
+        "standard poodle": "standard puddel"
+    },
+    {
+        "Mexican hairless": "Meksikansk hårløs"
+    },
+    {
+        "timber wolf": "tømmer ulv"
+    },
+    {
+        "white wolf": "hvit ulv"
+    },
+    {
+        "red wolf": "rød ulv"
+    },
+    {
+        "coyote": "prærieulv"
+    },
+    {
+        "dingo": "dingo"
+    },
+    {
+        "dhole": "dhole"
+    },
+    {
+        "African hunting dog": "Afrikansk jakthund"
+    },
+    {
+        "hyena": "hyene"
+    },
+    {
+        "red fox": "rødrev"
+    },
+    {
+        "kit fox": "kit rev"
+    },
+    {
+        "Arctic fox": "Arktisk rev"
+    },
+    {
+        "grey fox": "grå rev"
+    },
+    {
+        "tabby": "tabby"
+    },
+    {
+        "tiger cat": "tigerkatt"
+    },
+    {
+        "Persian cat": "Persisk katt"
+    },
+    {
+        "Siamese cat": "Siamesisk katt"
+    },
+    {
+        "Egyptian cat": "egyptisk katt"
+    },
+    {
+        "cougar": "Cougar"
+    },
+    {
+        "lynx": "gaupe"
+    },
+    {
+        "leopard": "leopard"
+    },
+    {
+        "snow leopard": "snøleopard"
+    },
+    {
+        "jaguar": "jaguar"
+    },
+    {
+        "lion": "løve"
+    },
+    {
+        "tiger": "tiger"
+    },
+    {
+        "cheetah": "gepard"
+    },
+    {
+        "brown bear": "brunbjørn"
+    },
+    {
+        "American black bear": "Amerikansk svartbjørn"
+    },
+    {
+        "ice bear": "isbjørn"
+    },
+    {
+        "sloth bear": "dovendyrbjørn"
+    },
+    {
+        "mongoose": "mangust"
+    },
+    {
+        "meerkat": "surikat"
+    },
+    {
+        "tiger beetle": "tigerbille"
+    },
+    {
+        "ladybug": "marihøne"
+    },
+    {
+        "ground beetle": "jordbille"
+    },
+    {
+        "long-horned beetle": "langhornet bille"
+    },
+    {
+        "leaf beetle": "bladbille"
+    },
+    {
+        "dung beetle": "møkkbille"
+    },
+    {
+        "rhinoceros beetle": "neshornbille"
+    },
+    {
+        "weevil": "snutebille"
+    },
+    {
+        "fly": "fly"
+    },
+    {
+        "bee": "Bie"
+    },
+    {
+        "ant": "maur"
+    },
+    {
+        "grasshopper": "gresshoppe"
+    },
+    {
+        "cricket": "siriss"
+    },
+    {
+        "walking stick": "gåstav"
+    },
+    {
+        "cockroach": "kakerlakk"
+    },
+    {
+        "mantis": "mantis"
+    },
+    {
+        "cicada": "sikader"
+    },
+    {
+        "leafhopper": "løvhopper"
+    },
+    {
+        "lacewing": "snøring"
+    },
+    {
+        "dragonfly": "øyenstikker"
+    },
+    {
+        "damselfly": "damselfly"
+    },
+    {
+        "admiral": "admiral"
+    },
+    {
+        "ringlet": "ringlet"
+    },
+    {
+        "monarch": "monark"
+    },
+    {
+        "cabbage butterfly": "kålsommerfugl"
+    },
+    {
+        "sulphur butterfly": "svovel sommerfugl"
+    },
+    {
+        "lycaenid": "lycaenid"
+    },
+    {
+        "starfish": "sjøstjerne"
+    },
+    {
+        "sea urchin": "Kråkebolle"
+    },
+    {
+        "sea cucumber": "sjøpølse"
+    },
+    {
+        "wood rabbit": "tre kanin"
+    },
+    {
+        "hare": "hare"
+    },
+    {
+        "Angora": "Angora"
+    },
+    {
+        "hamster": "hamster"
+    },
+    {
+        "porcupine": "pinnsvin"
+    },
+    {
+        "fox squirrel": "revekorn"
+    },
+    {
+        "marmot": "murmeldyr"
+    },
+    {
+        "beaver": "bever"
+    },
+    {
+        "guinea pig": "marsvin"
+    },
+    {
+        "sorrel": "sorrel"
+    },
+    {
+        "zebra": "sebra"
+    },
+    {
+        "hog": "svin"
+    },
+    {
+        "wild boar": "villsvin"
+    },
+    {
+        "warthog": "vortesvin"
+    },
+    {
+        "hippopotamus": "flodhest"
+    },
+    {
+        "ox": "okse"
+    },
+    {
+        "water buffalo": "vannbøffel"
+    },
+    {
+        "bison": "bison"
+    },
+    {
+        "ram": "RAM"
+    },
+    {
+        "bighorn": "stort horn"
+    },
+    {
+        "ibex": "steinbukk"
+    },
+    {
+        "hartebeest": "hartebeest"
+    },
+    {
+        "impala": "impala"
+    },
+    {
+        "gazelle": "gaselle"
+    },
+    {
+        "Arabian camel": "Arabisk kamel"
+    },
+    {
+        "llama": "lama"
+    },
+    {
+        "weasel": "vesle"
+    },
+    {
+        "mink": "mink"
+    },
+    {
+        "polecat": "stangkatt"
+    },
+    {
+        "black-footed ferret": "svartfot ilder"
+    },
+    {
+        "otter": "oter"
+    },
+    {
+        "skunk": "stinkdyr"
+    },
+    {
+        "badger": "grevling"
+    },
+    {
+        "armadillo": "beltedyr"
+    },
+    {
+        "three-toed sloth": "tretået dovendyr"
+    },
+    {
+        "orangutan": "orangutang"
+    },
+    {
+        "gorilla": "gorilla"
+    },
+    {
+        "chimpanzee": "sjimpanse"
+    },
+    {
+        "gibbon": "gibbon"
+    },
+    {
+        "siamang": "siamang"
+    },
+    {
+        "guenon": "guenon"
+    },
+    {
+        "patas": "patas"
+    },
+    {
+        "baboon": "bavian"
+    },
+    {
+        "macaque": "makak"
+    },
+    {
+        "langur": "langur"
+    },
+    {
+        "colobus": "colobus"
+    },
+    {
+        "proboscis monkey": "snabelape"
+    },
+    {
+        "marmoset": "silkeaper"
+    },
+    {
+        "capuchin": "kapusiner"
+    },
+    {
+        "howler monkey": "brøleape"
+    },
+    {
+        "titi": "titi"
+    },
+    {
+        "spider monkey": "edderkoppape"
+    },
+    {
+        "squirrel monkey": "ekorn ape"
+    },
+    {
+        "Madagascar cat": "Madagaskar katt"
+    },
+    {
+        "indri": "indri"
+    },
+    {
+        "Indian elephant": "Indisk elefant"
+    },
+    {
+        "African elephant": "Afrikansk elefant"
+    },
+    {
+        "lesser panda": "mindre panda"
+    },
+    {
+        "giant panda": "kjempepanda"
+    },
+    {
+        "barracouta": "barracouta"
+    },
+    {
+        "eel": "ål"
+    },
+    {
+        "coho": "coho"
+    },
+    {
+        "rock beauty": "rock skjønnhet"
+    },
+    {
+        "anemone fish": "anemone fisk"
+    },
+    {
+        "sturgeon": "størje"
+    },
+    {
+        "gar": "gar"
+    },
+    {
+        "lionfish": "løvefisk"
+    },
+    {
+        "puffer": "puffer"
+    },
+    {
+        "abacus": "kuleramme"
+    },
+    {
+        "abaya": "abaya"
+    },
+    {
+        "academic gown": "akademisk kjole"
+    },
+    {
+        "accordion": "trekkspill"
+    },
+    {
+        "acoustic guitar": "akustisk gitar"
+    },
+    {
+        "aircraft carrier": "hangarskip"
+    },
+    {
+        "airliner": "passasjerfly"
+    },
+    {
+        "airship": "luftskip"
+    },
+    {
+        "altar": "alter"
+    },
+    {
+        "ambulance": "ambulanse"
+    },
+    {
+        "amphibian": "amfibie"
+    },
+    {
+        "analog clock": "analog klokke"
+    },
+    {
+        "apiary": "bigård"
+    },
+    {
+        "apron": "forkle"
+    },
+    {
+        "ashcan": "askeboks"
+    },
+    {
+        "assault rifle": "angrepsgevær"
+    },
+    {
+        "backpack": "ryggsekk"
+    },
+    {
+        "bakery": "bakeri"
+    },
+    {
+        "balance beam": "Balanse stråle"
+    },
+    {
+        "balloon": "ballong"
+    },
+    {
+        "ballpoint": "kulepenn"
+    },
+    {
+        "Band Aid": "Plaster"
+    },
+    {
+        "banjo": "banjo"
+    },
+    {
+        "bannister": "rekk"
+    },
+    {
+        "barbell": "vektstang"
+    },
+    {
+        "barber chair": "frisørstol"
+    },
+    {
+        "barbershop": "frisør"
+    },
+    {
+        "barn": "låve"
+    },
+    {
+        "barometer": "barometer"
+    },
+    {
+        "barrel": "Tønne"
+    },
+    {
+        "barrow": "barrow"
+    },
+    {
+        "baseball": "baseball"
+    },
+    {
+        "basketball": "basketball"
+    },
+    {
+        "bassinet": "bassinet"
+    },
+    {
+        "bassoon": "fagott"
+    },
+    {
+        "bathing cap": "badehette"
+    },
+    {
+        "bath towel": "badehåndkle"
+    },
+    {
+        "bathtub": "badekar"
+    },
+    {
+        "beach wagon": "strandvogn"
+    },
+    {
+        "beacon": "fyrtårn"
+    },
+    {
+        "beaker": "begerglass"
+    },
+    {
+        "bearskin": "bjørneskinn"
+    },
+    {
+        "beer bottle": "ølflaske"
+    },
+    {
+        "beer glass": "ølglass"
+    },
+    {
+        "bell cote": "bell cote"
+    },
+    {
+        "bib": "smekke"
+    },
+    {
+        "bicycle-built-for-two": "sykkel-bygget-for-to"
+    },
+    {
+        "bikini": "bikini"
+    },
+    {
+        "binder": "binder"
+    },
+    {
+        "binoculars": "kikkert"
+    },
+    {
+        "birdhouse": "fuglehus"
+    },
+    {
+        "boathouse": "naust"
+    },
+    {
+        "bobsled": "bob"
+    },
+    {
+        "bolo tie": "bolo slips"
+    },
+    {
+        "bonnet": "panseret"
+    },
+    {
+        "bookcase": "bokhylle"
+    },
+    {
+        "bookshop": "bokhandel"
+    },
+    {
+        "bottlecap": "flaskekork"
+    },
+    {
+        "bow": "Bue"
+    },
+    {
+        "bow tie": "sløyfe"
+    },
+    {
+        "brass": "messing"
+    },
+    {
+        "brassiere": "brystholder"
+    },
+    {
+        "breakwater": "molo"
+    },
+    {
+        "breastplate": "brystplate"
+    },
+    {
+        "broom": "kost"
+    },
+    {
+        "bucket": "bøtte"
+    },
+    {
+        "buckle": "spenne"
+    },
+    {
+        "bulletproof vest": "skuddsikker vest"
+    },
+    {
+        "bullet train": "kuletog"
+    },
+    {
+        "butcher shop": "slakterbutikk"
+    },
+    {
+        "cab": "drosje"
+    },
+    {
+        "caldron": "gryte"
+    },
+    {
+        "candle": "stearinlys"
+    },
+    {
+        "cannon": "kanon"
+    },
+    {
+        "canoe": "kano"
+    },
+    {
+        "can opener": "boks åpner"
+    },
+    {
+        "cardigan": "cardigan"
+    },
+    {
+        "car mirror": "bilspeil"
+    },
+    {
+        "carousel": "karusell"
+    },
+    {
+        "carpenter's kit": "snekkersett"
+    },
+    {
+        "carton": "kartong"
+    },
+    {
+        "car wheel": "bilhjul"
+    },
+    {
+        "cash machine": "Minibank"
+    },
+    {
+        "cassette": "kassett"
+    },
+    {
+        "cassette player": "kassettspiller"
+    },
+    {
+        "castle": "borg"
+    },
+    {
+        "catamaran": "katamaran"
+    },
+    {
+        "CD player": "CD-spiller"
+    },
+    {
+        "cello": "cello"
+    },
+    {
+        "cellular telephone": "mobiltelefon"
+    },
+    {
+        "chain": "kjede"
+    },
+    {
+        "chainlink fence": "kjettinggjerde"
+    },
+    {
+        "chain mail": "kjedebrev"
+    },
+    {
+        "chain saw": "motorsag"
+    },
+    {
+        "chest": "bryst"
+    },
+    {
+        "chiffonier": "chiffonier"
+    },
+    {
+        "chime": "klokke"
+    },
+    {
+        "china cabinet": "kinesisk kabinett"
+    },
+    {
+        "Christmas stocking": "julestrømpe"
+    },
+    {
+        "church": "kirke"
+    },
+    {
+        "cinema": "kino"
+    },
+    {
+        "cleaver": "kjøttøks"
+    },
+    {
+        "cliff dwelling": "klippebolig"
+    },
+    {
+        "cloak": "kappe"
+    },
+    {
+        "clog": "tette"
+    },
+    {
+        "cocktail shaker": "cocktail shaker"
+    },
+    {
+        "coffee mug": "kaffekopp"
+    },
+    {
+        "coffeepot": "kaffekanne"
+    },
+    {
+        "coil": "Spole"
+    },
+    {
+        "combination lock": "kodelås"
+    },
+    {
+        "computer keyboard": "data-tastatur"
+    },
+    {
+        "confectionery": "konfekt"
+    },
+    {
+        "container ship": "containerskip"
+    },
+    {
+        "convertible": "cabriolet"
+    },
+    {
+        "corkscrew": "korketrekker"
+    },
+    {
+        "cornet": "kornett"
+    },
+    {
+        "cowboy boot": "cowboystøvel"
+    },
+    {
+        "cowboy hat": "Cowboyhatt"
+    },
+    {
+        "cradle": "vugge"
+    },
+    {
+        "crane": "kran"
+    },
+    {
+        "crash helmet": "Hjelm"
+    },
+    {
+        "crate": "kasse"
+    },
+    {
+        "crib": "krybbe"
+    },
+    {
+        "Crock Pot": "Crock Pot"
+    },
+    {
+        "croquet ball": "krokket ball"
+    },
+    {
+        "crutch": "krykke"
+    },
+    {
+        "cuirass": "kurass"
+    },
+    {
+        "dam": "demning"
+    },
+    {
+        "desk": "pulten"
+    },
+    {
+        "desktop computer": "stasjonær datamaskin"
+    },
+    {
+        "dial telephone": "ringe telefon"
+    },
+    {
+        "diaper": "bleie"
+    },
+    {
+        "digital clock": "digital klokke"
+    },
+    {
+        "digital watch": "digital klokke"
+    },
+    {
+        "dining table": "spisebord"
+    },
+    {
+        "dishrag": "dishrag"
+    },
+    {
+        "dishwasher": "oppvaskmaskin"
+    },
+    {
+        "disk brake": "skivebrems"
+    },
+    {
+        "dock": "Brygge"
+    },
+    {
+        "dogsled": "hundeslede"
+    },
+    {
+        "dome": "kuppel"
+    },
+    {
+        "doormat": "dørmatte"
+    },
+    {
+        "drilling platform": "boreplattform"
+    },
+    {
+        "drum": "tromme"
+    },
+    {
+        "drumstick": "trommestikke"
+    },
+    {
+        "dumbbell": "hantel"
+    },
+    {
+        "Dutch oven": "nederlandsk ovn"
+    },
+    {
+        "electric fan": "elektrisk vifte"
+    },
+    {
+        "electric guitar": "elektrisk gitar"
+    },
+    {
+        "electric locomotive": "elektrisk lokomotiv"
+    },
+    {
+        "entertainment center": "underholdningssenter"
+    },
+    {
+        "envelope": "konvolutt"
+    },
+    {
+        "espresso maker": "espressomaskin"
+    },
+    {
+        "face powder": "ansiktspudder"
+    },
+    {
+        "feather boa": "fjærboa"
+    },
+    {
+        "file": "fil"
+    },
+    {
+        "fireboat": "brannbåt"
+    },
+    {
+        "fire engine": "brannbil"
+    },
+    {
+        "fire screen": "brannskjerm"
+    },
+    {
+        "flagpole": "flaggstang"
+    },
+    {
+        "flute": "fløyte"
+    },
+    {
+        "folding chair": "sammenleggbar stol"
+    },
+    {
+        "football helmet": "fotball hjelm"
+    },
+    {
+        "forklift": "gaffeltruck"
+    },
+    {
+        "fountain": "fontene"
+    },
+    {
+        "fountain pen": "fyllepenn"
+    },
+    {
+        "four-poster": "himmelseng"
+    },
+    {
+        "freight car": "godsvogn"
+    },
+    {
+        "French horn": "Fransk horn"
+    },
+    {
+        "frying pan": "stekepanne"
+    },
+    {
+        "fur coat": "pelskåpe"
+    },
+    {
+        "garbage truck": "søppelbil"
+    },
+    {
+        "gasmask": "gassmaske"
+    },
+    {
+        "gas pump": "bensinpumpe"
+    },
+    {
+        "goblet": "beger"
+    },
+    {
+        "go-kart": "go kart"
+    },
+    {
+        "golf ball": "Golf ball"
+    },
+    {
+        "golfcart": "golfbil"
+    },
+    {
+        "gondola": "gondol"
+    },
+    {
+        "gong": "gong"
+    },
+    {
+        "gown": "kjole"
+    },
+    {
+        "grand piano": "flygel"
+    },
+    {
+        "greenhouse": "drivhus"
+    },
+    {
+        "grille": "rist"
+    },
+    {
+        "grocery store": "dagligvarebutikk"
+    },
+    {
+        "guillotine": "giljotin"
+    },
+    {
+        "hair slide": "hårglide"
+    },
+    {
+        "hair spray": "hår spray"
+    },
+    {
+        "half track": "halvspor"
+    },
+    {
+        "hammer": "hammer"
+    },
+    {
+        "hamper": "hemme"
+    },
+    {
+        "hand blower": "håndblåser"
+    },
+    {
+        "hand-held computer": "håndholdt datamaskin"
+    },
+    {
+        "handkerchief": "lommetørkle"
+    },
+    {
+        "hard disc": "harddisk"
+    },
+    {
+        "harmonica": "munnspill"
+    },
+    {
+        "harp": "harpe"
+    },
+    {
+        "harvester": "hogstmaskin"
+    },
+    {
+        "hatchet": "øks"
+    },
+    {
+        "holster": "hylster"
+    },
+    {
+        "home theater": "hjemmekino"
+    },
+    {
+        "honeycomb": "honningkake"
+    },
+    {
+        "hook": "krok"
+    },
+    {
+        "hoopskirt": "bøyleskjørt"
+    },
+    {
+        "horizontal bar": "horisontal stang"
+    },
+    {
+        "horse cart": "hestevogn"
+    },
+    {
+        "hourglass": "timeglass"
+    },
+    {
+        "iPod": "iPod"
+    },
+    {
+        "iron": "jern"
+    },
+    {
+        "jack-o'-lantern": "jack-o'-lanterne"
+    },
+    {
+        "jean": "jean"
+    },
+    {
+        "jeep": "jeep"
+    },
+    {
+        "jersey": "jersey"
+    },
+    {
+        "jigsaw puzzle": "puslespill"
+    },
+    {
+        "jinrikisha": "jinrikisha"
+    },
+    {
+        "joystick": "joystick"
+    },
+    {
+        "kimono": "kimono"
+    },
+    {
+        "knee pad": "knebeskytter"
+    },
+    {
+        "knot": "knute"
+    },
+    {
+        "lab coat": "labfrakk"
+    },
+    {
+        "ladle": "øse"
+    },
+    {
+        "lampshade": "lampeskjerm"
+    },
+    {
+        "laptop": "laptop"
+    },
+    {
+        "lawn mower": "gressklipper"
+    },
+    {
+        "lens cap": "Linsedeksel"
+    },
+    {
+        "letter opener": "Brevåpner"
+    },
+    {
+        "library": "bibliotek"
+    },
+    {
+        "lifeboat": "livbåt"
+    },
+    {
+        "lighter": "lighter"
+    },
+    {
+        "limousine": "limousin"
+    },
+    {
+        "liner": "liner"
+    },
+    {
+        "lipstick": "leppestift"
+    },
+    {
+        "Loafer": "Loafer"
+    },
+    {
+        "lotion": "krem"
+    },
+    {
+        "loudspeaker": "høyttaler"
+    },
+    {
+        "loupe": "lupe"
+    },
+    {
+        "lumbermill": "sagbruk"
+    },
+    {
+        "magnetic compass": "magnetisk kompass"
+    },
+    {
+        "mailbag": "postsekk"
+    },
+    {
+        "mailbox": "postkasse"
+    },
+    {
+        "maillot": "maillot"
+    },
+    {
+        "maillot": "maillot"
+    },
+    {
+        "manhole cover": "kumlokk"
+    },
+    {
+        "maraca": "maraca"
+    },
+    {
+        "marimba": "marimba"
+    },
+    {
+        "mask": "maske"
+    },
+    {
+        "matchstick": "fyrstikk"
+    },
+    {
+        "maypole": "majstang"
+    },
+    {
+        "maze": "labyrint"
+    },
+    {
+        "measuring cup": "desilitermål"
+    },
+    {
+        "medicine chest": "medisinskap"
+    },
+    {
+        "megalith": "megalitt"
+    },
+    {
+        "microphone": "mikrofon"
+    },
+    {
+        "microwave": "mikrobølgeovn"
+    },
+    {
+        "military uniform": "militær uniform"
+    },
+    {
+        "milk can": "melkeboks"
+    },
+    {
+        "minibus": "minibuss"
+    },
+    {
+        "miniskirt": "miniskjørt"
+    },
+    {
+        "minivan": "minivan"
+    },
+    {
+        "missile": "rakett"
+    },
+    {
+        "mitten": "vott"
+    },
+    {
+        "mixing bowl": "miksebolle"
+    },
+    {
+        "mobile home": "bobil"
+    },
+    {
+        "Model T": "Modell T"
+    },
+    {
+        "modem": "modem"
+    },
+    {
+        "monastery": "kloster"
+    },
+    {
+        "monitor": "Observere"
+    },
+    {
+        "moped": "moped"
+    },
+    {
+        "mortar": "mørtel"
+    },
+    {
+        "mortarboard": "mørtelplate"
+    },
+    {
+        "mosque": "moské"
+    },
+    {
+        "mosquito net": "myggnett"
+    },
+    {
+        "motor scooter": "motor scooter"
+    },
+    {
+        "mountain bike": "Terrengsykkel"
+    },
+    {
+        "mountain tent": "fjelltelt"
+    },
+    {
+        "mouse": "mus"
+    },
+    {
+        "mousetrap": "musefelle"
+    },
+    {
+        "moving van": "flyttebil"
+    },
+    {
+        "muzzle": "snuteparti"
+    },
+    {
+        "nail": "spiker"
+    },
+    {
+        "neck brace": "nakkekrage"
+    },
+    {
+        "necklace": "halskjede"
+    },
+    {
+        "nipple": "brystvorte"
+    },
+    {
+        "notebook": "notisbok"
+    },
+    {
+        "obelisk": "obelisk"
+    },
+    {
+        "oboe": "obo"
+    },
+    {
+        "ocarina": "ocarina"
+    },
+    {
+        "odometer": "kilometerteller"
+    },
+    {
+        "oil filter": "oljefilter"
+    },
+    {
+        "organ": "organ"
+    },
+    {
+        "oscilloscope": "oscilloskop"
+    },
+    {
+        "overskirt": "overskjørt"
+    },
+    {
+        "oxcart": "oksekjerre"
+    },
+    {
+        "oxygen mask": "oksygenmaske"
+    },
+    {
+        "packet": "pakke"
+    },
+    {
+        "paddle": "padle"
+    },
+    {
+        "paddlewheel": "padlehjul"
+    },
+    {
+        "padlock": "hengelås"
+    },
+    {
+        "paintbrush": "pensel"
+    },
+    {
+        "pajama": "pyjamas"
+    },
+    {
+        "palace": "slott"
+    },
+    {
+        "panpipe": "pannepipe"
+    },
+    {
+        "paper towel": "papirhåndkle"
+    },
+    {
+        "parachute": "fallskjerm"
+    },
+    {
+        "parallel bars": "parallelle stenger"
+    },
+    {
+        "park bench": "parkbenk"
+    },
+    {
+        "parking meter": "parkometer"
+    },
+    {
+        "passenger car": "passasjer bil"
+    },
+    {
+        "patio": "uteplass"
+    },
+    {
+        "pay-phone": "telefonkiosk"
+    },
+    {
+        "pedestal": "sokkel"
+    },
+    {
+        "pencil box": "blyantboks"
+    },
+    {
+        "pencil sharpener": "blyantspisser"
+    },
+    {
+        "perfume": "parfyme"
+    },
+    {
+        "Petri dish": "petriskål"
+    },
+    {
+        "photocopier": "kopimaskin"
+    },
+    {
+        "pick": "plukke"
+    },
+    {
+        "pickelhaube": "pickelhaube"
+    },
+    {
+        "picket fence": "stakittgjerde"
+    },
+    {
+        "pickup": "plukke opp"
+    },
+    {
+        "pier": "brygge"
+    },
+    {
+        "piggy bank": "grisebank"
+    },
+    {
+        "pill bottle": "pilleglass"
+    },
+    {
+        "pillow": "pute"
+    },
+    {
+        "ping-pong ball": "ping-pong ball"
+    },
+    {
+        "pinwheel": "pinwheel"
+    },
+    {
+        "pirate": "sjørøver"
+    },
+    {
+        "pitcher": "kaster"
+    },
+    {
+        "plane": "flyet"
+    },
+    {
+        "planetarium": "planetarium"
+    },
+    {
+        "plastic bag": "plastpose"
+    },
+    {
+        "plate rack": "tallerkenstativ"
+    },
+    {
+        "plow": "plog"
+    },
+    {
+        "plunger": "avløpspumpe"
+    },
+    {
+        "Polaroid camera": "Polaroid kamera"
+    },
+    {
+        "pole": "stang"
+    },
+    {
+        "police van": "politibil"
+    },
+    {
+        "poncho": "poncho"
+    },
+    {
+        "pool table": "biljardbord"
+    },
+    {
+        "pop bottle": "pop flaske"
+    },
+    {
+        "pot": "gryte"
+    },
+    {
+        "potter's wheel": "pottemakerhjul"
+    },
+    {
+        "power drill": "bormaskin"
+    },
+    {
+        "prayer rug": "bønneteppe"
+    },
+    {
+        "printer": "skriver"
+    },
+    {
+        "prison": "fengsel"
+    },
+    {
+        "projectile": "prosjektil"
+    },
+    {
+        "projector": "projektor"
+    },
+    {
+        "puck": "pukk"
+    },
+    {
+        "punching bag": "boksesekk"
+    },
+    {
+        "purse": "pung"
+    },
+    {
+        "quill": "fjærpenn"
+    },
+    {
+        "quilt": "quilt"
+    },
+    {
+        "racer": "racer"
+    },
+    {
+        "racket": "rekkert"
+    },
+    {
+        "radiator": "radiator"
+    },
+    {
+        "radio": "radio"
+    },
+    {
+        "radio telescope": "radioteleskop"
+    },
+    {
+        "rain barrel": "regntønne"
+    },
+    {
+        "recreational vehicle": "fritidskjøretøy"
+    },
+    {
+        "reel": "rulle"
+    },
+    {
+        "reflex camera": "reflekskamera"
+    },
+    {
+        "refrigerator": "kjøleskap"
+    },
+    {
+        "remote control": "fjernkontroll"
+    },
+    {
+        "restaurant": "restaurant"
+    },
+    {
+        "revolver": "revolver"
+    },
+    {
+        "rifle": "rifle"
+    },
+    {
+        "rocking chair": "gyngestol"
+    },
+    {
+        "rotisserie": "rotisseri"
+    },
+    {
+        "rubber eraser": "gummi viskelær"
+    },
+    {
+        "rugby ball": "rugby ball"
+    },
+    {
+        "rule": "regel"
+    },
+    {
+        "running shoe": "løpesko"
+    },
+    {
+        "safe": "sikker"
+    },
+    {
+        "safety pin": "sikkerhetsnål"
+    },
+    {
+        "saltshaker": "saltbøsse"
+    },
+    {
+        "sandal": "sandal"
+    },
+    {
+        "sarong": "sarong"
+    },
+    {
+        "sax": "saks"
+    },
+    {
+        "scabbard": "slire"
+    },
+    {
+        "scale": "skala"
+    },
+    {
+        "school bus": "skolebuss"
+    },
+    {
+        "schooner": "skonnert"
+    },
+    {
+        "scoreboard": "resultattavle"
+    },
+    {
+        "screen": "skjerm"
+    },
+    {
+        "screw": "skru"
+    },
+    {
+        "screwdriver": "skrujern"
+    },
+    {
+        "seat belt": "setebelte"
+    },
+    {
+        "sewing machine": "symaskin"
+    },
+    {
+        "shield": "skjold"
+    },
+    {
+        "shoe shop": "skobutikk"
+    },
+    {
+        "shoji": "shoji"
+    },
+    {
+        "shopping basket": "handlekurv"
+    },
+    {
+        "shopping cart": "handlevogn"
+    },
+    {
+        "shovel": "skuffe"
+    },
+    {
+        "shower cap": "dusjhette"
+    },
+    {
+        "shower curtain": "dusjforheng"
+    },
+    {
+        "ski": "ski"
+    },
+    {
+        "ski mask": "ski maske"
+    },
+    {
+        "sleeping bag": "sovepose"
+    },
+    {
+        "slide rule": "skyveregel"
+    },
+    {
+        "sliding door": "skyvedør"
+    },
+    {
+        "slot": "spor"
+    },
+    {
+        "snorkel": "snorkle"
+    },
+    {
+        "snowmobile": "snøscooter"
+    },
+    {
+        "snowplow": "snøplog"
+    },
+    {
+        "soap dispenser": "såpedispenser"
+    },
+    {
+        "soccer ball": "Fotball"
+    },
+    {
+        "sock": "sokk"
+    },
+    {
+        "solar dish": "solar parabol"
+    },
+    {
+        "sombrero": "sombrero"
+    },
+    {
+        "soup bowl": "suppebolle"
+    },
+    {
+        "space bar": "mellomromstasten"
+    },
+    {
+        "space heater": "romvarmer"
+    },
+    {
+        "space shuttle": "romskip"
+    },
+    {
+        "spatula": "stekespade"
+    },
+    {
+        "speedboat": "passbåt"
+    },
+    {
+        "spider web": "spindelvev"
+    },
+    {
+        "spindle": "spindel"
+    },
+    {
+        "sports car": "sportsbil"
+    },
+    {
+        "spotlight": "søkelyset"
+    },
+    {
+        "stage": "scene"
+    },
+    {
+        "steam locomotive": "damp Lokomotiv"
+    },
+    {
+        "steel arch bridge": "stålbuebro"
+    },
+    {
+        "steel drum": "ståltromme"
+    },
+    {
+        "stethoscope": "stetoskop"
+    },
+    {
+        "stole": "stjal"
+    },
+    {
+        "stone wall": "steinvegg"
+    },
+    {
+        "stopwatch": "stoppeklokke"
+    },
+    {
+        "stove": "komfyr"
+    },
+    {
+        "strainer": "sil"
+    },
+    {
+        "streetcar": "trikk"
+    },
+    {
+        "stretcher": "båre"
+    },
+    {
+        "studio couch": "studio sofa"
+    },
+    {
+        "stupa": "stupa"
+    },
+    {
+        "submarine": "undervannsbåt"
+    },
+    {
+        "suit": "dress"
+    },
+    {
+        "sundial": "solur"
+    },
+    {
+        "sunglass": "solbriller"
+    },
+    {
+        "sunglasses": "solbriller"
+    },
+    {
+        "sunscreen": "solkrem"
+    },
+    {
+        "suspension bridge": "hengebro"
+    },
+    {
+        "swab": "vattpinne"
+    },
+    {
+        "sweatshirt": "genser"
+    },
+    {
+        "swimming trunks": "badebukser"
+    },
+    {
+        "swing": "svinge"
+    },
+    {
+        "switch": "bytte om"
+    },
+    {
+        "syringe": "sprøyte"
+    },
+    {
+        "table lamp": "bordlampe"
+    },
+    {
+        "tank": "tank"
+    },
+    {
+        "tape player": "kassettspiller"
+    },
+    {
+        "teapot": "tekanne"
+    },
+    {
+        "teddy": "bamse"
+    },
+    {
+        "television": "fjernsyn"
+    },
+    {
+        "tennis ball": "tennisball"
+    },
+    {
+        "thatch": "tekke"
+    },
+    {
+        "theater curtain": "teatergardin"
+    },
+    {
+        "thimble": "fingerbøl"
+    },
+    {
+        "thresher": "tresker"
+    },
+    {
+        "throne": "trone"
+    },
+    {
+        "tile roof": "tegltak"
+    },
+    {
+        "toaster": "brødrister"
+    },
+    {
+        "tobacco shop": "tobakksbutikk"
+    },
+    {
+        "toilet seat": "toalettsete"
+    },
+    {
+        "torch": "lommelykt"
+    },
+    {
+        "totem pole": "Totem påle"
+    },
+    {
+        "tow truck": "bergingsbil"
+    },
+    {
+        "toyshop": "leketøysbutikk"
+    },
+    {
+        "tractor": "traktor"
+    },
+    {
+        "trailer truck": "trailer lastebil"
+    },
+    {
+        "tray": "brett"
+    },
+    {
+        "trench coat": "frakk"
+    },
+    {
+        "tricycle": "trehjulssykkel"
+    },
+    {
+        "trimaran": "trimaran"
+    },
+    {
+        "tripod": "stativ"
+    },
+    {
+        "triumphal arch": "triumfbue"
+    },
+    {
+        "trolleybus": "Trolleybuss"
+    },
+    {
+        "trombone": "trombone"
+    },
+    {
+        "tub": "badekar"
+    },
+    {
+        "turnstile": "Rotasjonsgrind"
+    },
+    {
+        "typewriter keyboard": "skrivemaskin tastatur"
+    },
+    {
+        "umbrella": "paraply"
+    },
+    {
+        "unicycle": "enhjuling"
+    },
+    {
+        "upright": "oppreist"
+    },
+    {
+        "vacuum": "vakuum"
+    },
+    {
+        "vase": "vase"
+    },
+    {
+        "vault": "hvelv"
+    },
+    {
+        "velvet": "fløyel"
+    },
+    {
+        "vending machine": "salgsautomat"
+    },
+    {
+        "vestment": "drakt"
+    },
+    {
+        "viaduct": "viadukt"
+    },
+    {
+        "violin": "fiolin"
+    },
+    {
+        "volleyball": "volleyball"
+    },
+    {
+        "waffle iron": "vaffeljern"
+    },
+    {
+        "wall clock": "veggur"
+    },
+    {
+        "wallet": "lommebok"
+    },
+    {
+        "wardrobe": "garderobe"
+    },
+    {
+        "warplane": "krigsfly"
+    },
+    {
+        "washbasin": "servant"
+    },
+    {
+        "washer": "vaskemaskin"
+    },
+    {
+        "water bottle": "vannflaske"
+    },
+    {
+        "water jug": "vann mugge"
+    },
+    {
+        "water tower": "vanntårn"
+    },
+    {
+        "whiskey jug": "whiskymugge"
+    },
+    {
+        "whistle": "plystre"
+    },
+    {
+        "wig": "parykk"
+    },
+    {
+        "window screen": "vindusskjerm"
+    },
+    {
+        "window shade": "vindusskygge"
+    },
+    {
+        "Windsor tie": "Windsor slips"
+    },
+    {
+        "wine bottle": "vinflaske"
+    },
+    {
+        "wing": "vinge"
+    },
+    {
+        "wok": "wok"
+    },
+    {
+        "wooden spoon": "treskje"
+    },
+    {
+        "wool": "ull"
+    },
+    {
+        "worm fence": "ormegjerde"
+    },
+    {
+        "wreck": "vrak"
+    },
+    {
+        "yawl": "yawl"
+    },
+    {
+        "yurt": "yurt"
+    },
+    {
+        "web site": "nettsted"
+    },
+    {
+        "comic book": "tegneserie"
+    },
+    {
+        "crossword puzzle": "kryssord"
+    },
+    {
+        "street sign": "gateskilt"
+    },
+    {
+        "traffic light": "trafikklys"
+    },
+    {
+        "book jacket": "bokjakke"
+    },
+    {
+        "menu": "Meny"
+    },
+    {
+        "plate": "tallerken"
+    },
+    {
+        "guacamole": "guacamole"
+    },
+    {
+        "consomme": "consomme"
+    },
+    {
+        "hot pot": "varm kjele"
+    },
+    {
+        "trifle": "bagatell"
+    },
+    {
+        "ice cream": "iskrem"
+    },
+    {
+        "ice lolly": "ispinne"
+    },
+    {
+        "French loaf": "Fransk brød"
+    },
+    {
+        "bagel": "bagel"
+    },
+    {
+        "pretzel": "kringle"
+    },
+    {
+        "cheeseburger": "osteburger"
+    },
+    {
+        "hotdog": "pølse"
+    },
+    {
+        "mashed potato": "potetmos"
+    },
+    {
+        "head cabbage": "hodekål"
+    },
+    {
+        "broccoli": "brokkoli"
+    },
+    {
+        "cauliflower": "blomkål"
+    },
+    {
+        "zucchini": "squash"
+    },
+    {
+        "spaghetti squash": "spaghetti squash"
+    },
+    {
+        "acorn squash": "eikenøtt squash"
+    },
+    {
+        "butternut squash": "butternut squash"
+    },
+    {
+        "cucumber": "agurk"
+    },
+    {
+        "artichoke": "artisjokk"
+    },
+    {
+        "bell pepper": "paprika"
+    },
+    {
+        "cardoon": "kardong"
+    },
+    {
+        "mushroom": "sopp"
+    },
+    {
+        "Granny Smith": "Granny smith"
+    },
+    {
+        "strawberry": "jordbær"
+    },
+    {
+        "orange": "oransje"
+    },
+    {
+        "lemon": "sitron"
+    },
+    {
+        "fig": "Fig"
+    },
+    {
+        "pineapple": "ananas"
+    },
+    {
+        "banana": "banan"
+    },
+    {
+        "jackfruit": "jackfrukt"
+    },
+    {
+        "custard apple": "vaniljesaus eple"
+    },
+    {
+        "pomegranate": "granateple"
+    },
+    {
+        "hay": "høy"
+    },
+    {
+        "carbonara": "carbonara"
+    },
+    {
+        "chocolate sauce": "sjokoladesaus"
+    },
+    {
+        "dough": "deig"
+    },
+    {
+        "meat loaf": "kjøttbrød"
+    },
+    {
+        "pizza": "pizza"
+    },
+    {
+        "potpie": "potpie"
+    },
+    {
+        "burrito": "burrito"
+    },
+    {
+        "red wine": "rødvin"
+    },
+    {
+        "espresso": "espresso"
+    },
+    {
+        "cup": "kopp"
+    },
+    {
+        "eggnog": "eggedosis"
+    },
+    {
+        "alp": "alp"
+    },
+    {
+        "bubble": "boble"
+    },
+    {
+        "cliff": "klippe"
+    },
+    {
+        "coral reef": "korallrev"
+    },
+    {
+        "geyser": "geysir"
+    },
+    {
+        "lakeside": "innsjøen"
+    },
+    {
+        "promontory": "nes"
+    },
+    {
+        "sandbar": "sandbanke"
+    },
+    {
+        "seashore": "kysten"
+    },
+    {
+        "valley": "dal"
+    },
+    {
+        "volcano": "vulkan"
+    },
+    {
+        "ballplayer": "ballspiller"
+    },
+    {
+        "groom": "brudgommen"
+    },
+    {
+        "scuba diver": "dykker"
+    },
+    {
+        "rapeseed": "raps"
+    },
+    {
+        "daisy": "Tusenfryd"
+    },
+    {
+        "yellow lady's slipper": "gul dametøffel"
+    },
+    {
+        "corn": "korn"
+    },
+    {
+        "acorn": "eikenøtt"
+    },
+    {
+        "hip": "hofte"
+    },
+    {
+        "buckeye": "buckeye"
+    },
+    {
+        "coral fungus": "korallsopp"
+    },
+    {
+        "agaric": "agaric"
+    },
+    {
+        "gyromitra": "gyromitra"
+    },
+    {
+        "stinkhorn": "stinkhorn"
+    },
+    {
+        "earthstar": "jordstjerne"
+    },
+    {
+        "hen-of-the-woods": "høne-av-skogen"
+    },
+    {
+        "bolete": "bolete"
+    },
+    {
+        "ear": "øre"
+    },
+    {
+        "toilet tissue": "toalettpapir"
+    }
+]

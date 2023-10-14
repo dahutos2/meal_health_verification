@@ -1,0 +1,3005 @@
+[
+    {
+        "background": "tło"
+    },
+    {
+        "tench": "lin"
+    },
+    {
+        "goldfish": "złota Rybka"
+    },
+    {
+        "great white shark": "Wielki biały rekin"
+    },
+    {
+        "tiger shark": "żarłacz tygrysi"
+    },
+    {
+        "hammerhead": "młotek"
+    },
+    {
+        "electric ray": "promień elektryczny"
+    },
+    {
+        "stingray": "płaszczka"
+    },
+    {
+        "cock": "kogut"
+    },
+    {
+        "hen": "kura"
+    },
+    {
+        "ostrich": "struś"
+    },
+    {
+        "brambling": "brambling"
+    },
+    {
+        "goldfinch": "szczygieł"
+    },
+    {
+        "house finch": "zięba domowa"
+    },
+    {
+        "junco": "Junco"
+    },
+    {
+        "indigo bunting": "chorągiewka w kolorze indygo"
+    },
+    {
+        "robin": "rudzik"
+    },
+    {
+        "bulbul": "Bulbul"
+    },
+    {
+        "jay": "sójka"
+    },
+    {
+        "magpie": "sroka"
+    },
+    {
+        "chickadee": "sikorka"
+    },
+    {
+        "water ouzel": "ouzel wodny"
+    },
+    {
+        "kite": "latawiec"
+    },
+    {
+        "bald eagle": "bielik"
+    },
+    {
+        "vulture": "sęp"
+    },
+    {
+        "great grey owl": "wielka szara sowa"
+    },
+    {
+        "European fire salamander": "Europejska salamandra plamista"
+    },
+    {
+        "common newt": "traszka zwyczajna"
+    },
+    {
+        "eft": "wynik"
+    },
+    {
+        "spotted salamander": "salamandra plamista"
+    },
+    {
+        "axolotl": "aksolotl"
+    },
+    {
+        "bullfrog": "żaba rycząca"
+    },
+    {
+        "tree frog": "żaba nadrzewna"
+    },
+    {
+        "tailed frog": "ogoniasta żaba"
+    },
+    {
+        "loggerhead": "dureń"
+    },
+    {
+        "leatherback turtle": "żółw skórzasty"
+    },
+    {
+        "mud turtle": "żółw błotny"
+    },
+    {
+        "terrapin": "żółw wodny"
+    },
+    {
+        "box turtle": "żółw pudełkowy"
+    },
+    {
+        "banded gecko": "gekon pasiasty"
+    },
+    {
+        "common iguana": "iguana pospolita"
+    },
+    {
+        "American chameleon": "Kameleon amerykański"
+    },
+    {
+        "whiptail": "bicz"
+    },
+    {
+        "agama": "agama"
+    },
+    {
+        "frilled lizard": "falbankowa jaszczurka"
+    },
+    {
+        "alligator lizard": "jaszczurka aligator"
+    },
+    {
+        "Gila monster": "Gila potwór"
+    },
+    {
+        "green lizard": "zielona jaszczurka"
+    },
+    {
+        "African chameleon": "Kameleon afrykański"
+    },
+    {
+        "Komodo dragon": "waran z Komodo"
+    },
+    {
+        "African crocodile": "Krokodyl afrykański"
+    },
+    {
+        "American alligator": "Aligator amerykański"
+    },
+    {
+        "triceratops": "triceratops"
+    },
+    {
+        "thunder snake": "wąż piorunowy"
+    },
+    {
+        "ringneck snake": "wąż pierścieniowy"
+    },
+    {
+        "hognose snake": "wąż hognose"
+    },
+    {
+        "green snake": "zielony wąż"
+    },
+    {
+        "king snake": "Król wąż"
+    },
+    {
+        "garter snake": "wąż podwiązkowy"
+    },
+    {
+        "water snake": "wąż wodny"
+    },
+    {
+        "vine snake": "wąż winny"
+    },
+    {
+        "night snake": "nocny wąż"
+    },
+    {
+        "boa constrictor": "boa dusiciel"
+    },
+    {
+        "rock python": "skalny pyton"
+    },
+    {
+        "Indian cobra": "Kobra indyjska"
+    },
+    {
+        "green mamba": "zielona mamba"
+    },
+    {
+        "sea snake": "wąż morski"
+    },
+    {
+        "horned viper": "rogata żmija"
+    },
+    {
+        "diamondback": "diamentowy grzbiet"
+    },
+    {
+        "sidewinder": "boczny wiatrak"
+    },
+    {
+        "trilobite": "trylobit"
+    },
+    {
+        "harvestman": "żniwiarz"
+    },
+    {
+        "scorpion": "Skorpion"
+    },
+    {
+        "black and gold garden spider": "czarno-złoty pająk ogrodowy"
+    },
+    {
+        "barn spider": "pająk stodoły"
+    },
+    {
+        "garden spider": "pająk ogrodowy"
+    },
+    {
+        "black widow": "czarna Wdowa"
+    },
+    {
+        "tarantula": "tarantula"
+    },
+    {
+        "wolf spider": "Wilczy Pająk"
+    },
+    {
+        "tick": "kleszcz"
+    },
+    {
+        "centipede": "skolopendra"
+    },
+    {
+        "black grouse": "cietrzew"
+    },
+    {
+        "ptarmigan": "pardwa"
+    },
+    {
+        "ruffed grouse": "cietrzew"
+    },
+    {
+        "prairie chicken": "preriowy kurczak"
+    },
+    {
+        "peacock": "paw"
+    },
+    {
+        "quail": "Przepiórka"
+    },
+    {
+        "partridge": "kuropatwa"
+    },
+    {
+        "African grey": "Afrykańska szarość"
+    },
+    {
+        "macaw": "ara"
+    },
+    {
+        "sulphur-crested cockatoo": "kakadu czubata siarkowa"
+    },
+    {
+        "lorikeet": "lorikeet"
+    },
+    {
+        "coucal": "kukal"
+    },
+    {
+        "bee eater": "zjadacz pszczół"
+    },
+    {
+        "hornbill": "dzioborożec"
+    },
+    {
+        "hummingbird": "koliber"
+    },
+    {
+        "jacamar": "jacamar"
+    },
+    {
+        "toucan": "tukan"
+    },
+    {
+        "drake": "kaczor"
+    },
+    {
+        "red-breasted merganser": "nurogęś czerwonopiersi"
+    },
+    {
+        "goose": "gęś"
+    },
+    {
+        "black swan": "czarny łabędź"
+    },
+    {
+        "tusker": "Tusk"
+    },
+    {
+        "echidna": "kolczatka"
+    },
+    {
+        "platypus": "dziobak"
+    },
+    {
+        "wallaby": "wallaby"
+    },
+    {
+        "koala": "koala"
+    },
+    {
+        "wombat": "wombat"
+    },
+    {
+        "jellyfish": "Meduza"
+    },
+    {
+        "sea anemone": "anemon morski"
+    },
+    {
+        "brain coral": "koral mózgowy"
+    },
+    {
+        "flatworm": "płaziniec"
+    },
+    {
+        "nematode": "nicień"
+    },
+    {
+        "conch": "koncha"
+    },
+    {
+        "snail": "ślimak"
+    },
+    {
+        "slug": "ślimak"
+    },
+    {
+        "sea slug": "ślimak morski"
+    },
+    {
+        "chiton": "chiton"
+    },
+    {
+        "chambered nautilus": "Nautilus komorowy"
+    },
+    {
+        "Dungeness crab": "kieszeniec magister"
+    },
+    {
+        "rock crab": "krab skalny"
+    },
+    {
+        "fiddler crab": "krab skrzypek"
+    },
+    {
+        "king crab": "Krab królewski"
+    },
+    {
+        "American lobster": "Homar amerykański"
+    },
+    {
+        "spiny lobster": "homar kolczasty"
+    },
+    {
+        "crayfish": "rak"
+    },
+    {
+        "hermit crab": "biernatek"
+    },
+    {
+        "isopod": "równonóg"
+    },
+    {
+        "white stork": "bocian biały"
+    },
+    {
+        "black stork": "bocian czarny"
+    },
+    {
+        "spoonbill": "warzęcha biała"
+    },
+    {
+        "flamingo": "flaming"
+    },
+    {
+        "little blue heron": "mała niebieska czapla"
+    },
+    {
+        "American egret": "Czapla amerykańska"
+    },
+    {
+        "bittern": "bąk"
+    },
+    {
+        "crane": "dźwig"
+    },
+    {
+        "limpkin": "bezwładny"
+    },
+    {
+        "European gallinule": "Galinula europejska"
+    },
+    {
+        "American coot": "Amerykańska łyska"
+    },
+    {
+        "bustard": "drop"
+    },
+    {
+        "ruddy turnstone": "rumiany kamień milowy"
+    },
+    {
+        "red-backed sandpiper": "brodziec czerwonogrzbiety"
+    },
+    {
+        "redshank": "krwawodziób"
+    },
+    {
+        "dowitcher": "wiedźmin"
+    },
+    {
+        "oystercatcher": "ostrygojad"
+    },
+    {
+        "pelican": "pelikan"
+    },
+    {
+        "king penguin": "pingwin królewski"
+    },
+    {
+        "albatross": "albatros"
+    },
+    {
+        "grey whale": "szary wieloryb"
+    },
+    {
+        "killer whale": "orka"
+    },
+    {
+        "dugong": "diugoń"
+    },
+    {
+        "sea lion": "Lew morski"
+    },
+    {
+        "Chihuahua": "Chihuahua"
+    },
+    {
+        "Japanese spaniel": "Spaniel japoński"
+    },
+    {
+        "Maltese dog": "Maltański pies"
+    },
+    {
+        "Pekinese": "pekińczyk"
+    },
+    {
+        "Shih-Tzu": "Shih-Tzu"
+    },
+    {
+        "Blenheim spaniel": "Spaniela z Blenheim"
+    },
+    {
+        "papillon": "papillon"
+    },
+    {
+        "toy terrier": "terier zabawkowy"
+    },
+    {
+        "Rhodesian ridgeback": "Rhodesian Ridgeback"
+    },
+    {
+        "Afghan hound": "Chart afgański"
+    },
+    {
+        "basset": "jamnik"
+    },
+    {
+        "beagle": "pies gończy"
+    },
+    {
+        "bloodhound": "ogar"
+    },
+    {
+        "bluetick": "błękitny"
+    },
+    {
+        "black-and-tan coonhound": "Coonhound czarno-podpalany"
+    },
+    {
+        "Walker hound": "Pies Walker"
+    },
+    {
+        "English foxhound": "Foxhound angielski"
+    },
+    {
+        "redbone": "czerwona kość"
+    },
+    {
+        "borzoi": "borzoj"
+    },
+    {
+        "Irish wolfhound": "Irlandzki wilczarz"
+    },
+    {
+        "Italian greyhound": "Charcik włoski"
+    },
+    {
+        "whippet": "chart wyścigowy"
+    },
+    {
+        "Ibizan hound": "Pies z Ibizy"
+    },
+    {
+        "Norwegian elkhound": "Elkhound norweski"
+    },
+    {
+        "otterhound": "ogar"
+    },
+    {
+        "Saluki": "Saluki"
+    },
+    {
+        "Scottish deerhound": "Szkocki jeleń"
+    },
+    {
+        "Weimaraner": "Wyżeł weimarski"
+    },
+    {
+        "Staffordshire bullterrier": "Bullterier Staffordshire"
+    },
+    {
+        "American Staffordshire terrier": "Amerykański Staffordshire Terrier"
+    },
+    {
+        "Bedlington terrier": "Bedlington terier"
+    },
+    {
+        "Border terrier": "Terier graniczny"
+    },
+    {
+        "Kerry blue terrier": "Kerry niebieski terier"
+    },
+    {
+        "Irish terrier": "Terier irlandzki"
+    },
+    {
+        "Norfolk terrier": "Terier z Norfolk"
+    },
+    {
+        "Norwich terrier": "Terier Norwich"
+    },
+    {
+        "Yorkshire terrier": "Yorkshire terier"
+    },
+    {
+        "wire-haired fox terrier": "foksterier szorstkowłosy"
+    },
+    {
+        "Lakeland terrier": "Terier Lakeland"
+    },
+    {
+        "Sealyham terrier": "Terier Sealyham"
+    },
+    {
+        "Airedale": "airedale terier"
+    },
+    {
+        "cairn": "kopiec"
+    },
+    {
+        "Australian terrier": "Terier australijski"
+    },
+    {
+        "Dandie Dinmont": "Dandie Dinmont"
+    },
+    {
+        "Boston bull": "Byk bostoński"
+    },
+    {
+        "miniature schnauzer": "sznaucer miniaturowy"
+    },
+    {
+        "giant schnauzer": "sznaucer olbrzymi"
+    },
+    {
+        "standard schnauzer": "standardowy sznaucer"
+    },
+    {
+        "Scotch terrier": "Terier szkocki"
+    },
+    {
+        "Tibetan terrier": "Terier tybetański"
+    },
+    {
+        "silky terrier": "jedwabisty terier"
+    },
+    {
+        "soft-coated wheaten terrier": "terier pszenny o miękkiej sierści"
+    },
+    {
+        "West Highland white terrier": "Biały terier West Highland"
+    },
+    {
+        "Lhasa": "Lhasa"
+    },
+    {
+        "flat-coated retriever": "płaskowłosy retriever"
+    },
+    {
+        "curly-coated retriever": "retriever z kędzierzawą sierścią"
+    },
+    {
+        "golden retriever": "Golden retriever"
+    },
+    {
+        "Labrador retriever": "Labrador retriever"
+    },
+    {
+        "Chesapeake Bay retriever": "Retriever z Zatoki Chesapeake"
+    },
+    {
+        "German short-haired pointer": "Wyżeł niemiecki krótkowłosy"
+    },
+    {
+        "vizsla": "vizsla"
+    },
+    {
+        "English setter": "Seter angielski"
+    },
+    {
+        "Irish setter": "Seter irlandzki"
+    },
+    {
+        "Gordon setter": "Rozgrywający Gordona"
+    },
+    {
+        "Brittany spaniel": "Spaniel bretoński"
+    },
+    {
+        "clumber": "wspinacz"
+    },
+    {
+        "English springer": "Angielski springer"
+    },
+    {
+        "Welsh springer spaniel": "Walijski springer spaniel"
+    },
+    {
+        "cocker spaniel": "cocker spaniela"
+    },
+    {
+        "Sussex spaniel": "Spaniela z Sussex"
+    },
+    {
+        "Irish water spaniel": "Irlandzki spaniel wodny"
+    },
+    {
+        "kuvasz": "kuvasz"
+    },
+    {
+        "schipperke": "schipperke"
+    },
+    {
+        "groenendael": "groenendael"
+    },
+    {
+        "malinois": "malinois"
+    },
+    {
+        "briard": "briard"
+    },
+    {
+        "kelpie": "topielec"
+    },
+    {
+        "komondor": "komondor"
+    },
+    {
+        "Old English sheepdog": "Owczarek staroangielski"
+    },
+    {
+        "Shetland sheepdog": "Owczarek szetlandzki"
+    },
+    {
+        "collie": "kollia"
+    },
+    {
+        "Border collie": "Border collie"
+    },
+    {
+        "Bouvier des Flandres": "Bouvier des Flandres"
+    },
+    {
+        "Rottweiler": "Rottweilera"
+    },
+    {
+        "German shepherd": "Owczarek niemiecki"
+    },
+    {
+        "Doberman": "Doberman"
+    },
+    {
+        "miniature pinscher": "pinczer miniaturowy"
+    },
+    {
+        "Greater Swiss Mountain dog": "Większy szwajcarski pies pasterski"
+    },
+    {
+        "Bernese mountain dog": "Berneński pies pasterski"
+    },
+    {
+        "Appenzeller": "Appenzellera"
+    },
+    {
+        "EntleBucher": "EntleBucher"
+    },
+    {
+        "boxer": "bokser"
+    },
+    {
+        "bull mastiff": "mastif byk"
+    },
+    {
+        "Tibetan mastiff": "Mastiff tybetański"
+    },
+    {
+        "French bulldog": "Buldog francuski"
+    },
+    {
+        "Great Dane": "Wielki Duńczyk"
+    },
+    {
+        "Saint Bernard": "święty Bernard"
+    },
+    {
+        "Eskimo dog": "Eskimoski pies"
+    },
+    {
+        "malamute": "malamut"
+    },
+    {
+        "Siberian husky": "Syberyjski husky"
+    },
+    {
+        "dalmatian": "dalmatyński"
+    },
+    {
+        "affenpinscher": "afenpinczer"
+    },
+    {
+        "basenji": "basenji"
+    },
+    {
+        "pug": "mops"
+    },
+    {
+        "Leonberg": "Leonberga"
+    },
+    {
+        "Newfoundland": "Nowa Fundlandia"
+    },
+    {
+        "Great Pyrenees": "Wielkie Pireneje"
+    },
+    {
+        "Samoyed": "Samojed"
+    },
+    {
+        "Pomeranian": "pomorski"
+    },
+    {
+        "chow": "jeść"
+    },
+    {
+        "keeshond": "keeshond"
+    },
+    {
+        "Brabancon griffon": "Gryf Brabancon"
+    },
+    {
+        "Pembroke": "Pembroke’a"
+    },
+    {
+        "Cardigan": "Sweter rozpinany"
+    },
+    {
+        "toy poodle": "pudel zabawka"
+    },
+    {
+        "miniature poodle": "miniaturowy pudel"
+    },
+    {
+        "standard poodle": "standardowy pudel"
+    },
+    {
+        "Mexican hairless": "Meksykański bezwłosy"
+    },
+    {
+        "timber wolf": "leśny wilk"
+    },
+    {
+        "white wolf": "biały Wilk"
+    },
+    {
+        "red wolf": "czerwony wilk"
+    },
+    {
+        "coyote": "kojot"
+    },
+    {
+        "dingo": "dingo"
+    },
+    {
+        "dhole": "dziura"
+    },
+    {
+        "African hunting dog": "Afrykański pies myśliwski"
+    },
+    {
+        "hyena": "hiena"
+    },
+    {
+        "red fox": "czerwony lis"
+    },
+    {
+        "kit fox": "zestaw lisa"
+    },
+    {
+        "Arctic fox": "Lis polarny"
+    },
+    {
+        "grey fox": "szary lis"
+    },
+    {
+        "tabby": "mora"
+    },
+    {
+        "tiger cat": "kot tygrysi"
+    },
+    {
+        "Persian cat": "Kot perski"
+    },
+    {
+        "Siamese cat": "Kot syjamski"
+    },
+    {
+        "Egyptian cat": "Kot egipski"
+    },
+    {
+        "cougar": "puma"
+    },
+    {
+        "lynx": "ryś"
+    },
+    {
+        "leopard": "lampart"
+    },
+    {
+        "snow leopard": "Pantera śnieżna"
+    },
+    {
+        "jaguar": "jaguar"
+    },
+    {
+        "lion": "Lew"
+    },
+    {
+        "tiger": "Tygrys"
+    },
+    {
+        "cheetah": "gepard"
+    },
+    {
+        "brown bear": "brązowy niedźwiedź"
+    },
+    {
+        "American black bear": "Amerykański czarny niedźwiedź"
+    },
+    {
+        "ice bear": "lodowy miś"
+    },
+    {
+        "sloth bear": "leniwy niedźwiedź"
+    },
+    {
+        "mongoose": "mangusta"
+    },
+    {
+        "meerkat": "Surykatka"
+    },
+    {
+        "tiger beetle": "chrząszcz tygrysi"
+    },
+    {
+        "ladybug": "biedronka"
+    },
+    {
+        "ground beetle": "chrząszcz ziemny"
+    },
+    {
+        "long-horned beetle": "długorogi chrząszcz"
+    },
+    {
+        "leaf beetle": "chrząszcz liściasty"
+    },
+    {
+        "dung beetle": "chrząszcz gnojowy"
+    },
+    {
+        "rhinoceros beetle": "chrząszcz nosorożec"
+    },
+    {
+        "weevil": "żołędziowiec"
+    },
+    {
+        "fly": "latać"
+    },
+    {
+        "bee": "pszczoła"
+    },
+    {
+        "ant": "Mrówka"
+    },
+    {
+        "grasshopper": "konik polny"
+    },
+    {
+        "cricket": "krykiet"
+    },
+    {
+        "walking stick": "kula inwalidzka"
+    },
+    {
+        "cockroach": "karaluch"
+    },
+    {
+        "mantis": "modliszka"
+    },
+    {
+        "cicada": "cykada"
+    },
+    {
+        "leafhopper": "skoczek po liściach"
+    },
+    {
+        "lacewing": "koronkowe"
+    },
+    {
+        "dragonfly": "ważka"
+    },
+    {
+        "damselfly": "damsko"
+    },
+    {
+        "admiral": "admirał"
+    },
+    {
+        "ringlet": "kółeczko"
+    },
+    {
+        "monarch": "monarcha"
+    },
+    {
+        "cabbage butterfly": "motyl kapuściany"
+    },
+    {
+        "sulphur butterfly": "siarkowy motyl"
+    },
+    {
+        "lycaenid": "lycaenid"
+    },
+    {
+        "starfish": "rozgwiazda"
+    },
+    {
+        "sea urchin": "jeżowiec"
+    },
+    {
+        "sea cucumber": "ogórek morski"
+    },
+    {
+        "wood rabbit": "królik drewniany"
+    },
+    {
+        "hare": "zając"
+    },
+    {
+        "Angora": "Angora"
+    },
+    {
+        "hamster": "chomik"
+    },
+    {
+        "porcupine": "jeżozwierz"
+    },
+    {
+        "fox squirrel": "wiewiórka lisa"
+    },
+    {
+        "marmot": "świstak"
+    },
+    {
+        "beaver": "bóbr"
+    },
+    {
+        "guinea pig": "świnka morska"
+    },
+    {
+        "sorrel": "szczaw"
+    },
+    {
+        "zebra": "zebra"
+    },
+    {
+        "hog": "wieprz"
+    },
+    {
+        "wild boar": "dzik"
+    },
+    {
+        "warthog": "Guziec"
+    },
+    {
+        "hippopotamus": "hipopotam"
+    },
+    {
+        "ox": "wół"
+    },
+    {
+        "water buffalo": "wodny bawół"
+    },
+    {
+        "bison": "bizon"
+    },
+    {
+        "ram": "Baran"
+    },
+    {
+        "bighorn": "duży róg"
+    },
+    {
+        "ibex": "koziorożec alpejski"
+    },
+    {
+        "hartebeest": "bawoliec"
+    },
+    {
+        "impala": "impala"
+    },
+    {
+        "gazelle": "gazela"
+    },
+    {
+        "Arabian camel": "Arabski wielbłąd"
+    },
+    {
+        "llama": "lama"
+    },
+    {
+        "weasel": "łasica"
+    },
+    {
+        "mink": "norki"
+    },
+    {
+        "polecat": "tchórz"
+    },
+    {
+        "black-footed ferret": "fretka czarnonoga"
+    },
+    {
+        "otter": "wydra"
+    },
+    {
+        "skunk": "skunks"
+    },
+    {
+        "badger": "borsuk"
+    },
+    {
+        "armadillo": "pancernik"
+    },
+    {
+        "three-toed sloth": "leniwiec trójpalczasty"
+    },
+    {
+        "orangutan": "orangutan"
+    },
+    {
+        "gorilla": "goryl"
+    },
+    {
+        "chimpanzee": "szympans"
+    },
+    {
+        "gibbon": "gibon"
+    },
+    {
+        "siamang": "siamang"
+    },
+    {
+        "guenon": "Gunon"
+    },
+    {
+        "patas": "paty"
+    },
+    {
+        "baboon": "pawian"
+    },
+    {
+        "macaque": "makak"
+    },
+    {
+        "langur": "langur"
+    },
+    {
+        "colobus": "colobus"
+    },
+    {
+        "proboscis monkey": "trąba małpa"
+    },
+    {
+        "marmoset": "pazurczatka"
+    },
+    {
+        "capuchin": "kapucyn"
+    },
+    {
+        "howler monkey": "wyjąca małpa"
+    },
+    {
+        "titi": "titi"
+    },
+    {
+        "spider monkey": "Pająk Małpa"
+    },
+    {
+        "squirrel monkey": "małpa wiewiórcza"
+    },
+    {
+        "Madagascar cat": "Kot Madagaskar"
+    },
+    {
+        "indri": "indri"
+    },
+    {
+        "Indian elephant": "Słoń indyjski"
+    },
+    {
+        "African elephant": "Słoń afrykański"
+    },
+    {
+        "lesser panda": "mniejsza panda"
+    },
+    {
+        "giant panda": "Panda wielka"
+    },
+    {
+        "barracouta": "barakuta"
+    },
+    {
+        "eel": "węgorz"
+    },
+    {
+        "coho": "coho"
+    },
+    {
+        "rock beauty": "rockowe piękno"
+    },
+    {
+        "anemone fish": "ryba anemonowa"
+    },
+    {
+        "sturgeon": "jesiotr"
+    },
+    {
+        "gar": "gar"
+    },
+    {
+        "lionfish": "pstra"
+    },
+    {
+        "puffer": "puchacz"
+    },
+    {
+        "abacus": "liczydło"
+    },
+    {
+        "abaya": "abaja"
+    },
+    {
+        "academic gown": "suknia akademicka"
+    },
+    {
+        "accordion": "akordeon"
+    },
+    {
+        "acoustic guitar": "gitara akustyczna"
+    },
+    {
+        "aircraft carrier": "lotniskowiec"
+    },
+    {
+        "airliner": "samolot pasażerski"
+    },
+    {
+        "airship": "sterowiec"
+    },
+    {
+        "altar": "ołtarz"
+    },
+    {
+        "ambulance": "ambulans"
+    },
+    {
+        "amphibian": "płaz"
+    },
+    {
+        "analog clock": "zegar analogowy"
+    },
+    {
+        "apiary": "pasieka"
+    },
+    {
+        "apron": "Fartuch"
+    },
+    {
+        "ashcan": "popielnik"
+    },
+    {
+        "assault rifle": "Karabin"
+    },
+    {
+        "backpack": "plecak"
+    },
+    {
+        "bakery": "piekarnia"
+    },
+    {
+        "balance beam": "równoważnia"
+    },
+    {
+        "balloon": "balon"
+    },
+    {
+        "ballpoint": "długopis"
+    },
+    {
+        "Band Aid": "Plaster"
+    },
+    {
+        "banjo": "banjo"
+    },
+    {
+        "bannister": "balustrada"
+    },
+    {
+        "barbell": "sztanga"
+    },
+    {
+        "barber chair": "krzesło fryzjerskie"
+    },
+    {
+        "barbershop": "fryzjer"
+    },
+    {
+        "barn": "stodoła"
+    },
+    {
+        "barometer": "barometr"
+    },
+    {
+        "barrel": "beczka"
+    },
+    {
+        "barrow": "kurhan"
+    },
+    {
+        "baseball": "baseball"
+    },
+    {
+        "basketball": "Koszykówka"
+    },
+    {
+        "bassinet": "kołyska pleciona"
+    },
+    {
+        "bassoon": "fagot"
+    },
+    {
+        "bathing cap": "czepek kąpielowy"
+    },
+    {
+        "bath towel": "ręcznik kąpielowy"
+    },
+    {
+        "bathtub": "wanna"
+    },
+    {
+        "beach wagon": "wóz plażowy"
+    },
+    {
+        "beacon": "latarnia morska"
+    },
+    {
+        "beaker": "zlewka"
+    },
+    {
+        "bearskin": "niedźwiedź"
+    },
+    {
+        "beer bottle": "butelka piwa"
+    },
+    {
+        "beer glass": "szklanka piwa"
+    },
+    {
+        "bell cote": "dzwonek"
+    },
+    {
+        "bib": "śliniaczek"
+    },
+    {
+        "bicycle-built-for-two": "rower zbudowany dla dwóch osób"
+    },
+    {
+        "bikini": "bikini"
+    },
+    {
+        "binder": "spoiwo"
+    },
+    {
+        "binoculars": "lornetka"
+    },
+    {
+        "birdhouse": "domek dla ptaków"
+    },
+    {
+        "boathouse": "hangar dla łodzi"
+    },
+    {
+        "bobsled": "bobsleje"
+    },
+    {
+        "bolo tie": "krawat bolo"
+    },
+    {
+        "bonnet": "czapeczka"
+    },
+    {
+        "bookcase": "półka na książki"
+    },
+    {
+        "bookshop": "księgarnia"
+    },
+    {
+        "bottlecap": "nakrętka od butelki"
+    },
+    {
+        "bow": "ukłon"
+    },
+    {
+        "bow tie": "muszka"
+    },
+    {
+        "brass": "mosiądz"
+    },
+    {
+        "brassiere": "biustonosz"
+    },
+    {
+        "breakwater": "falochron"
+    },
+    {
+        "breastplate": "napierśnik"
+    },
+    {
+        "broom": "miotła"
+    },
+    {
+        "bucket": "wiaderko"
+    },
+    {
+        "buckle": "klamra"
+    },
+    {
+        "bulletproof vest": "kamizelka kuloodporna"
+    },
+    {
+        "bullet train": "pociąg kulowy"
+    },
+    {
+        "butcher shop": "Rzeźnik"
+    },
+    {
+        "cab": "taksówka"
+    },
+    {
+        "caldron": "kocioł"
+    },
+    {
+        "candle": "świeca"
+    },
+    {
+        "cannon": "armata"
+    },
+    {
+        "canoe": "kajak"
+    },
+    {
+        "can opener": "otwieracz do puszek"
+    },
+    {
+        "cardigan": "sweter rozpinany"
+    },
+    {
+        "car mirror": "lusterko samochodowe"
+    },
+    {
+        "carousel": "karuzela"
+    },
+    {
+        "carpenter's kit": "zestaw stolarski"
+    },
+    {
+        "carton": "karton"
+    },
+    {
+        "car wheel": "Koło samochodowe"
+    },
+    {
+        "cash machine": "bankomat"
+    },
+    {
+        "cassette": "kaseta"
+    },
+    {
+        "cassette player": "magnetofon"
+    },
+    {
+        "castle": "zamek"
+    },
+    {
+        "catamaran": "katamaran"
+    },
+    {
+        "CD player": "odtwarzacz CD"
+    },
+    {
+        "cello": "wiolonczela"
+    },
+    {
+        "cellular telephone": "telefon komórkowy"
+    },
+    {
+        "chain": "łańcuch"
+    },
+    {
+        "chainlink fence": "ogrodzenie z siatki"
+    },
+    {
+        "chain mail": "kolczuga"
+    },
+    {
+        "chain saw": "Piła łańcuchowa"
+    },
+    {
+        "chest": "klatka piersiowa"
+    },
+    {
+        "chiffonier": "bieliźniarka"
+    },
+    {
+        "chime": "kurant"
+    },
+    {
+        "china cabinet": "chińska szafa"
+    },
+    {
+        "Christmas stocking": "Świąteczna skarpeta"
+    },
+    {
+        "church": "kościół"
+    },
+    {
+        "cinema": "kino"
+    },
+    {
+        "cleaver": "tasak"
+    },
+    {
+        "cliff dwelling": "mieszkanie na klifie"
+    },
+    {
+        "cloak": "płaszcz"
+    },
+    {
+        "clog": "zatkać"
+    },
+    {
+        "cocktail shaker": "szejker do koktajli"
+    },
+    {
+        "coffee mug": "kubek kawy"
+    },
+    {
+        "coffeepot": "dzbanek do kawy"
+    },
+    {
+        "coil": "cewka"
+    },
+    {
+        "combination lock": "zamek szyfrowy"
+    },
+    {
+        "computer keyboard": "klawiatura komputerowa"
+    },
+    {
+        "confectionery": "Cukiernia"
+    },
+    {
+        "container ship": "kontenerowiec"
+    },
+    {
+        "convertible": "zamienny"
+    },
+    {
+        "corkscrew": "korkociąg"
+    },
+    {
+        "cornet": "kornet"
+    },
+    {
+        "cowboy boot": "kowbojski but"
+    },
+    {
+        "cowboy hat": "kowbojski kapelusz"
+    },
+    {
+        "cradle": "kolebka"
+    },
+    {
+        "crane": "dźwig"
+    },
+    {
+        "crash helmet": "kask"
+    },
+    {
+        "crate": "skrzynia"
+    },
+    {
+        "crib": "kołyska"
+    },
+    {
+        "Crock Pot": "Garnek do garnka"
+    },
+    {
+        "croquet ball": "piłka do krokieta"
+    },
+    {
+        "crutch": "krocze"
+    },
+    {
+        "cuirass": "pancerz"
+    },
+    {
+        "dam": "zapora"
+    },
+    {
+        "desk": "biurko"
+    },
+    {
+        "desktop computer": "komputer stacjonarny"
+    },
+    {
+        "dial telephone": "wybieranie telefonu"
+    },
+    {
+        "diaper": "pielucha"
+    },
+    {
+        "digital clock": "zegar cyfrowy"
+    },
+    {
+        "digital watch": "zegarek cyfrowy"
+    },
+    {
+        "dining table": "stół obiadowy"
+    },
+    {
+        "dishrag": "ścierka do mycia naczyń"
+    },
+    {
+        "dishwasher": "zmywarka"
+    },
+    {
+        "disk brake": "hamulec tarczowy"
+    },
+    {
+        "dock": "dok"
+    },
+    {
+        "dogsled": "psich zaprzęgów"
+    },
+    {
+        "dome": "kopuła"
+    },
+    {
+        "doormat": "wycieraczka"
+    },
+    {
+        "drilling platform": "platforma wiertnicza"
+    },
+    {
+        "drum": "bęben"
+    },
+    {
+        "drumstick": "pałeczka do gry na bębnie"
+    },
+    {
+        "dumbbell": "hantle"
+    },
+    {
+        "Dutch oven": "piekarnik"
+    },
+    {
+        "electric fan": "wiatrak elektryczny"
+    },
+    {
+        "electric guitar": "gitara elektryczna"
+    },
+    {
+        "electric locomotive": "lokomotywa elektryczna"
+    },
+    {
+        "entertainment center": "Centrum rozrywki"
+    },
+    {
+        "envelope": "koperta"
+    },
+    {
+        "espresso maker": "ekspres do kawy"
+    },
+    {
+        "face powder": "puder do twarzy"
+    },
+    {
+        "feather boa": "boa z piór"
+    },
+    {
+        "file": "plik"
+    },
+    {
+        "fireboat": "łódź strażacka"
+    },
+    {
+        "fire engine": "wóz strażacki"
+    },
+    {
+        "fire screen": "ekran ognia"
+    },
+    {
+        "flagpole": "maszt flagowy"
+    },
+    {
+        "flute": "flet prosty"
+    },
+    {
+        "folding chair": "krzesło składane"
+    },
+    {
+        "football helmet": "kask piłkarski"
+    },
+    {
+        "forklift": "Wózek widłowy"
+    },
+    {
+        "fountain": "fontanna"
+    },
+    {
+        "fountain pen": "wieczne pióro"
+    },
+    {
+        "four-poster": "czteroplakatowy"
+    },
+    {
+        "freight car": "wagon towarowy"
+    },
+    {
+        "French horn": "Róg francuski"
+    },
+    {
+        "frying pan": "patelnia"
+    },
+    {
+        "fur coat": "futro"
+    },
+    {
+        "garbage truck": "śmieciarka"
+    },
+    {
+        "gasmask": "maska ​​gazowa"
+    },
+    {
+        "gas pump": "pompa gazowa"
+    },
+    {
+        "goblet": "czara"
+    },
+    {
+        "go-kart": "Gokart"
+    },
+    {
+        "golf ball": "piłka golfowa"
+    },
+    {
+        "golfcart": "wózek golfowy"
+    },
+    {
+        "gondola": "gondola"
+    },
+    {
+        "gong": "gong"
+    },
+    {
+        "gown": "suknia"
+    },
+    {
+        "grand piano": "fortepian"
+    },
+    {
+        "greenhouse": "szklarnia"
+    },
+    {
+        "grille": "krata"
+    },
+    {
+        "grocery store": "sklep spożywczy"
+    },
+    {
+        "guillotine": "gilotyna"
+    },
+    {
+        "hair slide": "wsuwka do włosów"
+    },
+    {
+        "hair spray": "lakier do włosów"
+    },
+    {
+        "half track": "Pół toru"
+    },
+    {
+        "hammer": "młotek"
+    },
+    {
+        "hamper": "utrudniać"
+    },
+    {
+        "hand blower": "dmuchawa ręczna"
+    },
+    {
+        "hand-held computer": "komputer ręczny"
+    },
+    {
+        "handkerchief": "chusteczka"
+    },
+    {
+        "hard disc": "dysk twardy"
+    },
+    {
+        "harmonica": "harmonijka"
+    },
+    {
+        "harp": "harfa"
+    },
+    {
+        "harvester": "żniwiarz"
+    },
+    {
+        "hatchet": "topór"
+    },
+    {
+        "holster": "kabura"
+    },
+    {
+        "home theater": "kino domowe"
+    },
+    {
+        "honeycomb": "plaster miodu"
+    },
+    {
+        "hook": "hak"
+    },
+    {
+        "hoopskirt": "spódnica w kształcie obręczy"
+    },
+    {
+        "horizontal bar": "poziomy pasek"
+    },
+    {
+        "horse cart": "wóz konny"
+    },
+    {
+        "hourglass": "klepsydra"
+    },
+    {
+        "iPod": "iPoda"
+    },
+    {
+        "iron": "żelazo"
+    },
+    {
+        "jack-o'-lantern": "latarnia z dyni"
+    },
+    {
+        "jean": "drelich"
+    },
+    {
+        "jeep": "jeep"
+    },
+    {
+        "jersey": "golf"
+    },
+    {
+        "jigsaw puzzle": "układanka"
+    },
+    {
+        "jinrikisha": "jinrikisha"
+    },
+    {
+        "joystick": "drążek sterowy"
+    },
+    {
+        "kimono": "kimono"
+    },
+    {
+        "knee pad": "nakolannik"
+    },
+    {
+        "knot": "węzeł"
+    },
+    {
+        "lab coat": "fartuch laboratoryjny"
+    },
+    {
+        "ladle": "chochla"
+    },
+    {
+        "lampshade": "klosz"
+    },
+    {
+        "laptop": "laptop"
+    },
+    {
+        "lawn mower": "Kosiarka"
+    },
+    {
+        "lens cap": "osłona obiektywu"
+    },
+    {
+        "letter opener": "otwieracz do listów"
+    },
+    {
+        "library": "biblioteka"
+    },
+    {
+        "lifeboat": "łódź ratunkowa"
+    },
+    {
+        "lighter": "zapalniczka"
+    },
+    {
+        "limousine": "limuzyna"
+    },
+    {
+        "liner": "liniowiec"
+    },
+    {
+        "lipstick": "pomadka"
+    },
+    {
+        "Loafer": "Próżniak"
+    },
+    {
+        "lotion": "płyn kosmetyczny"
+    },
+    {
+        "loudspeaker": "głośnik"
+    },
+    {
+        "loupe": "lupa"
+    },
+    {
+        "lumbermill": "Tartak"
+    },
+    {
+        "magnetic compass": "kompas magnetyczny"
+    },
+    {
+        "mailbag": "pocztówka"
+    },
+    {
+        "mailbox": "skrzynka pocztowa"
+    },
+    {
+        "maillot": "poczta"
+    },
+    {
+        "maillot": "poczta"
+    },
+    {
+        "manhole cover": "pokrywa studzienki"
+    },
+    {
+        "maraca": "marakas"
+    },
+    {
+        "marimba": "marimba"
+    },
+    {
+        "mask": "maska"
+    },
+    {
+        "matchstick": "zapałka"
+    },
+    {
+        "maypole": "słup majowy"
+    },
+    {
+        "maze": "Labirynt"
+    },
+    {
+        "measuring cup": "miarka"
+    },
+    {
+        "medicine chest": "apteczka"
+    },
+    {
+        "megalith": "megalit"
+    },
+    {
+        "microphone": "mikrofon"
+    },
+    {
+        "microwave": "kuchenka mikrofalowa"
+    },
+    {
+        "military uniform": "Mundur wojskowy"
+    },
+    {
+        "milk can": "puszka mleka"
+    },
+    {
+        "minibus": "minibus"
+    },
+    {
+        "miniskirt": "mini spódniczka"
+    },
+    {
+        "minivan": "minivan"
+    },
+    {
+        "missile": "pocisk"
+    },
+    {
+        "mitten": "rękawica"
+    },
+    {
+        "mixing bowl": "miska do mieszania"
+    },
+    {
+        "mobile home": "ruchomy dom"
+    },
+    {
+        "Model T": "Modelka T"
+    },
+    {
+        "modem": "modem"
+    },
+    {
+        "monastery": "klasztor"
+    },
+    {
+        "monitor": "monitor"
+    },
+    {
+        "moped": "motorower"
+    },
+    {
+        "mortar": "moździerz"
+    },
+    {
+        "mortarboard": "deska do zaprawy murarskiej"
+    },
+    {
+        "mosque": "Meczet"
+    },
+    {
+        "mosquito net": "siatka na komary"
+    },
+    {
+        "motor scooter": "skuter"
+    },
+    {
+        "mountain bike": "rower górski"
+    },
+    {
+        "mountain tent": "namiot górski"
+    },
+    {
+        "mouse": "mysz"
+    },
+    {
+        "mousetrap": "pułapka na myszy"
+    },
+    {
+        "moving van": "poruszający się Wan"
+    },
+    {
+        "muzzle": "pysk"
+    },
+    {
+        "nail": "gwóźdź"
+    },
+    {
+        "neck brace": "stabilizator szyi"
+    },
+    {
+        "necklace": "naszyjnik"
+    },
+    {
+        "nipple": "sutek"
+    },
+    {
+        "notebook": "zeszyt"
+    },
+    {
+        "obelisk": "obelisk"
+    },
+    {
+        "oboe": "obój"
+    },
+    {
+        "ocarina": "okaryna"
+    },
+    {
+        "odometer": "drogomierz"
+    },
+    {
+        "oil filter": "Filtr oleju"
+    },
+    {
+        "organ": "organ"
+    },
+    {
+        "oscilloscope": "oscyloskop"
+    },
+    {
+        "overskirt": "spódnica"
+    },
+    {
+        "oxcart": "wół"
+    },
+    {
+        "oxygen mask": "maska ​​tlenowa"
+    },
+    {
+        "packet": "paczka"
+    },
+    {
+        "paddle": "wiosłować"
+    },
+    {
+        "paddlewheel": "koło łopatkowe"
+    },
+    {
+        "padlock": "kłódka"
+    },
+    {
+        "paintbrush": "pędzel"
+    },
+    {
+        "pajama": "piżama"
+    },
+    {
+        "palace": "pałac"
+    },
+    {
+        "panpipe": "fajka panna"
+    },
+    {
+        "paper towel": "ręcznik papierowy"
+    },
+    {
+        "parachute": "spadochron"
+    },
+    {
+        "parallel bars": "równoległe pręty"
+    },
+    {
+        "park bench": "ławka w parku"
+    },
+    {
+        "parking meter": "Parkometr"
+    },
+    {
+        "passenger car": "Samochód osobowy"
+    },
+    {
+        "patio": "patio"
+    },
+    {
+        "pay-phone": "płatny telefon"
+    },
+    {
+        "pedestal": "piedestał"
+    },
+    {
+        "pencil box": "piórnik"
+    },
+    {
+        "pencil sharpener": "temperówka"
+    },
+    {
+        "perfume": "Perfumy"
+    },
+    {
+        "Petri dish": "szalka Petriego"
+    },
+    {
+        "photocopier": "kserokopiarka"
+    },
+    {
+        "pick": "wybierać"
+    },
+    {
+        "pickelhaube": "pickelhauba"
+    },
+    {
+        "picket fence": "Pikieta ogrodzenia"
+    },
+    {
+        "pickup": "ulec poprawie"
+    },
+    {
+        "pier": "molo"
+    },
+    {
+        "piggy bank": "świnka skarbonka"
+    },
+    {
+        "pill bottle": "butelka na pigułki"
+    },
+    {
+        "pillow": "poduszka"
+    },
+    {
+        "ping-pong ball": "piłeczka do ping-ponga"
+    },
+    {
+        "pinwheel": "wiatraczek"
+    },
+    {
+        "pirate": "pirat"
+    },
+    {
+        "pitcher": "dzban"
+    },
+    {
+        "plane": "samolot"
+    },
+    {
+        "planetarium": "planetarium"
+    },
+    {
+        "plastic bag": "plastikowa torba"
+    },
+    {
+        "plate rack": "stojak na naczynia"
+    },
+    {
+        "plow": "pług"
+    },
+    {
+        "plunger": "tłok nurnikowy"
+    },
+    {
+        "Polaroid camera": "aparat Polaroid"
+    },
+    {
+        "pole": "Polak"
+    },
+    {
+        "police van": "furgonetka policyjna"
+    },
+    {
+        "poncho": "ponczo"
+    },
+    {
+        "pool table": "stół bilardowy"
+    },
+    {
+        "pop bottle": "butelka popu"
+    },
+    {
+        "pot": "garnek"
+    },
+    {
+        "potter's wheel": "koło garncarskie"
+    },
+    {
+        "power drill": "wiertarka elektryczna"
+    },
+    {
+        "prayer rug": "dywanik modlitewny"
+    },
+    {
+        "printer": "drukarka"
+    },
+    {
+        "prison": "więzienie"
+    },
+    {
+        "projectile": "pocisk"
+    },
+    {
+        "projector": "projektor"
+    },
+    {
+        "puck": "krążek do hokeja"
+    },
+    {
+        "punching bag": "worek treningowy"
+    },
+    {
+        "purse": "torebka"
+    },
+    {
+        "quill": "lotka"
+    },
+    {
+        "quilt": "kołdra"
+    },
+    {
+        "racer": "biegacz"
+    },
+    {
+        "racket": "rakieta"
+    },
+    {
+        "radiator": "kaloryfer"
+    },
+    {
+        "radio": "radio"
+    },
+    {
+        "radio telescope": "Radio teleskop"
+    },
+    {
+        "rain barrel": "beczka na deszczówkę"
+    },
+    {
+        "recreational vehicle": "pojazd rekreacyjny"
+    },
+    {
+        "reel": "rolka"
+    },
+    {
+        "reflex camera": "lustrzanka"
+    },
+    {
+        "refrigerator": "lodówka"
+    },
+    {
+        "remote control": "pilot"
+    },
+    {
+        "restaurant": "restauracja"
+    },
+    {
+        "revolver": "rewolwer"
+    },
+    {
+        "rifle": "karabin"
+    },
+    {
+        "rocking chair": "bujane krzesło"
+    },
+    {
+        "rotisserie": "rożen"
+    },
+    {
+        "rubber eraser": "gumka do ścierania"
+    },
+    {
+        "rugby ball": "piłka do rugby"
+    },
+    {
+        "rule": "reguła"
+    },
+    {
+        "running shoe": "Buty do biegania"
+    },
+    {
+        "safe": "bezpieczna"
+    },
+    {
+        "safety pin": "Agrafka"
+    },
+    {
+        "saltshaker": "Solniczka"
+    },
+    {
+        "sandal": "sandał"
+    },
+    {
+        "sarong": "sarong"
+    },
+    {
+        "sax": "saksofon"
+    },
+    {
+        "scabbard": "pochwa miecza"
+    },
+    {
+        "scale": "skala"
+    },
+    {
+        "school bus": "autobus szkolny"
+    },
+    {
+        "schooner": "szkuner"
+    },
+    {
+        "scoreboard": "tablica wyników"
+    },
+    {
+        "screen": "ekran"
+    },
+    {
+        "screw": "śruba"
+    },
+    {
+        "screwdriver": "Śrubokręt"
+    },
+    {
+        "seat belt": "pasy bezpieczeństwa"
+    },
+    {
+        "sewing machine": "maszyna do szycia"
+    },
+    {
+        "shield": "tarcza"
+    },
+    {
+        "shoe shop": "sklep obuwniczy"
+    },
+    {
+        "shoji": "shoji"
+    },
+    {
+        "shopping basket": "koszyk na zakupy"
+    },
+    {
+        "shopping cart": "wózek sklepowy"
+    },
+    {
+        "shovel": "łopata"
+    },
+    {
+        "shower cap": "czepek"
+    },
+    {
+        "shower curtain": "zasłona prysznicowa"
+    },
+    {
+        "ski": "narty"
+    },
+    {
+        "ski mask": "maska ​​narciarska"
+    },
+    {
+        "sleeping bag": "śpiwór"
+    },
+    {
+        "slide rule": "suwak logarytmiczny"
+    },
+    {
+        "sliding door": "drzwi przesuwne"
+    },
+    {
+        "slot": "otwór"
+    },
+    {
+        "snorkel": "rurka do nurkowania"
+    },
+    {
+        "snowmobile": "skuter śnieżny"
+    },
+    {
+        "snowplow": "pług śnieżny"
+    },
+    {
+        "soap dispenser": "dozownik mydła"
+    },
+    {
+        "soccer ball": "piłka nożna"
+    },
+    {
+        "sock": "skarpetka"
+    },
+    {
+        "solar dish": "naczynie słoneczne"
+    },
+    {
+        "sombrero": "sombrero"
+    },
+    {
+        "soup bowl": "miska zupy"
+    },
+    {
+        "space bar": "spacja"
+    },
+    {
+        "space heater": "grzejnik kosmiczny"
+    },
+    {
+        "space shuttle": "prom kosmiczny"
+    },
+    {
+        "spatula": "szpachelka"
+    },
+    {
+        "speedboat": "łódź motorowa"
+    },
+    {
+        "spider web": "pajęcza sieć"
+    },
+    {
+        "spindle": "wrzeciono"
+    },
+    {
+        "sports car": "samochód sportowy"
+    },
+    {
+        "spotlight": "reflektor"
+    },
+    {
+        "stage": "scena"
+    },
+    {
+        "steam locomotive": "Lokomotywa parowa"
+    },
+    {
+        "steel arch bridge": "stalowy most łukowy"
+    },
+    {
+        "steel drum": "stalowy bęben"
+    },
+    {
+        "stethoscope": "stetoskop"
+    },
+    {
+        "stole": "Ukradłem"
+    },
+    {
+        "stone wall": "Kamienna ściana"
+    },
+    {
+        "stopwatch": "stoper"
+    },
+    {
+        "stove": "kuchenka"
+    },
+    {
+        "strainer": "filtr"
+    },
+    {
+        "streetcar": "tramwaj"
+    },
+    {
+        "stretcher": "nosze"
+    },
+    {
+        "studio couch": "kanapa studyjna"
+    },
+    {
+        "stupa": "stupa"
+    },
+    {
+        "submarine": "Łódź podwodna"
+    },
+    {
+        "suit": "garnitur"
+    },
+    {
+        "sundial": "zegar słoneczny"
+    },
+    {
+        "sunglass": "okular przeciwsłoneczny"
+    },
+    {
+        "sunglasses": "okulary słoneczne"
+    },
+    {
+        "sunscreen": "krem do opalania"
+    },
+    {
+        "suspension bridge": "Most wiszący"
+    },
+    {
+        "swab": "wymaz"
+    },
+    {
+        "sweatshirt": "Bluza"
+    },
+    {
+        "swimming trunks": "kąpielówki"
+    },
+    {
+        "swing": "huśtać się"
+    },
+    {
+        "switch": "przełącznik"
+    },
+    {
+        "syringe": "strzykawka"
+    },
+    {
+        "table lamp": "lampa stołowa"
+    },
+    {
+        "tank": "czołg"
+    },
+    {
+        "tape player": "magnetofon"
+    },
+    {
+        "teapot": "czajniczek"
+    },
+    {
+        "teddy": "Miś"
+    },
+    {
+        "television": "telewizja"
+    },
+    {
+        "tennis ball": "piłka tenisowa"
+    },
+    {
+        "thatch": "strzecha"
+    },
+    {
+        "theater curtain": "kurtyna teatralna"
+    },
+    {
+        "thimble": "naparstek"
+    },
+    {
+        "thresher": "młocarnia"
+    },
+    {
+        "throne": "tron"
+    },
+    {
+        "tile roof": "dachówka"
+    },
+    {
+        "toaster": "opiekacz"
+    },
+    {
+        "tobacco shop": "sklep z tytoniem"
+    },
+    {
+        "toilet seat": "Deska sedesowa"
+    },
+    {
+        "torch": "latarka"
+    },
+    {
+        "totem pole": "słup totemu"
+    },
+    {
+        "tow truck": "laweta"
+    },
+    {
+        "toyshop": "sklep z zabawkami"
+    },
+    {
+        "tractor": "ciągnik"
+    },
+    {
+        "trailer truck": "Ciężarówka z przyczepą"
+    },
+    {
+        "tray": "taca"
+    },
+    {
+        "trench coat": "trencz"
+    },
+    {
+        "tricycle": "trycykl"
+    },
+    {
+        "trimaran": "trimaran"
+    },
+    {
+        "tripod": "statyw"
+    },
+    {
+        "triumphal arch": "Łuk triumfalny"
+    },
+    {
+        "trolleybus": "trolejbusowy"
+    },
+    {
+        "trombone": "puzon"
+    },
+    {
+        "tub": "wanna"
+    },
+    {
+        "turnstile": "bramka"
+    },
+    {
+        "typewriter keyboard": "klawiatura maszyny do pisania"
+    },
+    {
+        "umbrella": "parasol"
+    },
+    {
+        "unicycle": "monocykl"
+    },
+    {
+        "upright": "pionowo"
+    },
+    {
+        "vacuum": "próżnia"
+    },
+    {
+        "vase": "wazon"
+    },
+    {
+        "vault": "sklepienie"
+    },
+    {
+        "velvet": "aksamit"
+    },
+    {
+        "vending machine": "automat do sprzedaży"
+    },
+    {
+        "vestment": "ornat"
+    },
+    {
+        "viaduct": "wiadukt"
+    },
+    {
+        "violin": "skrzypce"
+    },
+    {
+        "volleyball": "Siatkówka"
+    },
+    {
+        "waffle iron": "gofrownica"
+    },
+    {
+        "wall clock": "zegar ścienny"
+    },
+    {
+        "wallet": "portfel"
+    },
+    {
+        "wardrobe": "szafa"
+    },
+    {
+        "warplane": "samolot bojowy"
+    },
+    {
+        "washbasin": "umywalka"
+    },
+    {
+        "washer": "pralka"
+    },
+    {
+        "water bottle": "butelka wody"
+    },
+    {
+        "water jug": "dzban wody"
+    },
+    {
+        "water tower": "wieża ciśnień"
+    },
+    {
+        "whiskey jug": "dzbanek whisky"
+    },
+    {
+        "whistle": "gwizdać"
+    },
+    {
+        "wig": "peruka"
+    },
+    {
+        "window screen": "ekran okna"
+    },
+    {
+        "window shade": "roleta"
+    },
+    {
+        "Windsor tie": "Krawat Windsor"
+    },
+    {
+        "wine bottle": "butelka wina"
+    },
+    {
+        "wing": "skrzydło"
+    },
+    {
+        "wok": "wok"
+    },
+    {
+        "wooden spoon": "drewniana łyżka"
+    },
+    {
+        "wool": "wełna"
+    },
+    {
+        "worm fence": "ogrodzenie robaka"
+    },
+    {
+        "wreck": "wrak"
+    },
+    {
+        "yawl": "wyć"
+    },
+    {
+        "yurt": "jurta"
+    },
+    {
+        "web site": "strona internetowa"
+    },
+    {
+        "comic book": "komiks"
+    },
+    {
+        "crossword puzzle": "krzyżówka"
+    },
+    {
+        "street sign": "znak drogowy"
+    },
+    {
+        "traffic light": "sygnalizacja świetlna"
+    },
+    {
+        "book jacket": "kurtka książkowa"
+    },
+    {
+        "menu": "menu"
+    },
+    {
+        "plate": "płyta"
+    },
+    {
+        "guacamole": "guacamole"
+    },
+    {
+        "consomme": "consommé"
+    },
+    {
+        "hot pot": "gorący garnek"
+    },
+    {
+        "trifle": "drobiazg"
+    },
+    {
+        "ice cream": "lody"
+    },
+    {
+        "ice lolly": "Lodowy lizak"
+    },
+    {
+        "French loaf": "bagietka"
+    },
+    {
+        "bagel": "bajgiel"
+    },
+    {
+        "pretzel": "precel"
+    },
+    {
+        "cheeseburger": "cheeseburger"
+    },
+    {
+        "hotdog": "hotdog"
+    },
+    {
+        "mashed potato": "tłuczone ziemniaki"
+    },
+    {
+        "head cabbage": "kapusta głowiasta"
+    },
+    {
+        "broccoli": "brokuły"
+    },
+    {
+        "cauliflower": "kalafior"
+    },
+    {
+        "zucchini": "cukinia"
+    },
+    {
+        "spaghetti squash": "dynia spaghetti"
+    },
+    {
+        "acorn squash": "dynia żołędziowa"
+    },
+    {
+        "butternut squash": "dynia piżmowa"
+    },
+    {
+        "cucumber": "ogórek"
+    },
+    {
+        "artichoke": "karczoch"
+    },
+    {
+        "bell pepper": "papryka"
+    },
+    {
+        "cardoon": "karczek"
+    },
+    {
+        "mushroom": "Grzyb"
+    },
+    {
+        "Granny Smith": "Babcia Smith"
+    },
+    {
+        "strawberry": "truskawka"
+    },
+    {
+        "orange": "Pomarańczowy"
+    },
+    {
+        "lemon": "cytrynowy"
+    },
+    {
+        "fig": "Figa"
+    },
+    {
+        "pineapple": "Ananas"
+    },
+    {
+        "banana": "banan"
+    },
+    {
+        "jackfruit": "chlebowiec różnolistny"
+    },
+    {
+        "custard apple": "kremowe jabłko"
+    },
+    {
+        "pomegranate": "granat"
+    },
+    {
+        "hay": "siano"
+    },
+    {
+        "carbonara": "carbonara"
+    },
+    {
+        "chocolate sauce": "sos czekoladowy"
+    },
+    {
+        "dough": "ciasto"
+    },
+    {
+        "meat loaf": "Pieczeń mięsna"
+    },
+    {
+        "pizza": "Pizza"
+    },
+    {
+        "potpie": "garnek"
+    },
+    {
+        "burrito": "burrito"
+    },
+    {
+        "red wine": "czerwone wino"
+    },
+    {
+        "espresso": "Espresso"
+    },
+    {
+        "cup": "filiżanka"
+    },
+    {
+        "eggnog": "jajeczny"
+    },
+    {
+        "alp": "turnia"
+    },
+    {
+        "bubble": "bańka"
+    },
+    {
+        "cliff": "Klif"
+    },
+    {
+        "coral reef": "Rafa koralowa"
+    },
+    {
+        "geyser": "gejzer"
+    },
+    {
+        "lakeside": "nad jeziorem"
+    },
+    {
+        "promontory": "cypel"
+    },
+    {
+        "sandbar": "ławica piasku"
+    },
+    {
+        "seashore": "pobrzeże"
+    },
+    {
+        "valley": "dolina"
+    },
+    {
+        "volcano": "wulkan"
+    },
+    {
+        "ballplayer": "gracz w piłkę"
+    },
+    {
+        "groom": "pan młody"
+    },
+    {
+        "scuba diver": "nurek"
+    },
+    {
+        "rapeseed": "rzepak"
+    },
+    {
+        "daisy": "stokrotka"
+    },
+    {
+        "yellow lady's slipper": "żółty pantofel damski"
+    },
+    {
+        "corn": "kukurydza"
+    },
+    {
+        "acorn": "żołądź"
+    },
+    {
+        "hip": "biodro"
+    },
+    {
+        "buckeye": "buckeye"
+    },
+    {
+        "coral fungus": "grzyb koralowy"
+    },
+    {
+        "agaric": "bedłka"
+    },
+    {
+        "gyromitra": "żyromitra"
+    },
+    {
+        "stinkhorn": "śmierdzący róg"
+    },
+    {
+        "earthstar": "gwiazda ziemi"
+    },
+    {
+        "hen-of-the-woods": "kura-leśna"
+    },
+    {
+        "bolete": "podgrzybek"
+    },
+    {
+        "ear": "ucho"
+    },
+    {
+        "toilet tissue": "papier toaletowy"
+    }
+]

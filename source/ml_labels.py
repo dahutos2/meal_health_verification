@@ -2,6 +2,7 @@ import json
 import sys
 import csv
 import os
+import copy
 from googletrans import Translator, LANGUAGES
 
 
@@ -13,25 +14,25 @@ def load_text_file(filename):
 def load_existing_json_file(input_path, output_path, base_text):
     if os.path.exists(input_path):
         with open(input_path, "r") as json_file:
-            return json.load(json_file)
+            loaded_data = json.load(json_file)
+            return [
+                (list(item.keys())[0], list(item.values())[0]) for item in loaded_data
+            ]
 
     if not os.path.exists(output_path):
-        return {}
+        return []
 
     # データがない場合は、textをもとに作成する
     text_data = load_text_file(output_path)
-    return {base: text for base, text in zip(base_text, text_data)}
+    return [(base, text) for base, text in zip(base_text, text_data)]
 
 
-def merge_translations(existing_data, new_data, target):
-    for key, value in new_data.items():
-        if (
-            key not in existing_data
-            or "失敗しました!:" in existing_data[key]
-            or key in target
-        ):
-            existing_data[key] = value
-    return existing_data
+def save_json_data(data, filename):
+    # タプルのリストを指定された形式のリストに変換
+    data = [{item[0]: item[1]} for item in data]
+
+    with open(filename, "w") as file:
+        json.dump(data, file, indent=4, ensure_ascii=False)
 
 
 def main():
@@ -68,13 +69,12 @@ def main():
     base_code = "en"
     base_text_data = load_text_file(f"{output_dir}/{base_code}.txt")
 
-    # Json形式のデータに変換
-    base_json_data = {item: item for item in base_text_data}
+    # Json形式のデータと探索用のdicを作成
+    base_json_data = [(item, item) for item in base_text_data]
 
     # Jsonファイルのディレクトリ
     input_dir = "source/label_keys/"
-    with open(f"{input_dir}/{base_code}.json", "w") as json_file:
-        json.dump(base_json_data, json_file, indent=4, ensure_ascii=False)
+    save_json_data(base_json_data, f"{input_dir}/{base_code}.json")
 
     print(f"ml/{base_code}.txtファイルの読み込みが完了しました。")
 
@@ -99,37 +99,33 @@ def main():
             base_text_data,
         )
 
-        translated_data = {}
-        for key, value in base_json_data.items():
+        data_dict = {t[0]: idx for idx, t in enumerate(existing_data)}
+
+        translated_data = copy.deepcopy(base_json_data)
+        for idx, value in enumerate(base_text_data):
             if (
-                key in existing_data
-                and "失敗しました!:" not in existing_data[key]
-                and key not in target
+                value in data_dict
+                and "失敗しました!:" not in existing_data[data_dict[value]][1]
+                and value not in target
             ):
-                translated_data[key] = existing_data[key]
+                translated_data[idx] = existing_data[data_dict[value]]
             else:
                 try:
-                    translated_data[key] = translator.translate(
+                    translated_item = translator.translate(
                         value,
                         src=base_code,
                         dest=code,
                     ).text
+                    translated_data[idx] = (value, translated_item)
                 except Exception as e:
-                    print(f"{key}の{code}での翻訳中に例外が発生しました。: {e}")
-                    translated_data[key] = f"失敗しました!: {e}"
-
-        merged_data = merge_translations(existing_data, translated_data, target)
-
-        ordered_data = {
-            key: merged_data[key] for key in base_json_data if key in merged_data
-        }
+                    print(f"{value}の{code}での翻訳中に例外が発生しました。: {e}")
+                    translated_data[idx] = (value, f"失敗しました!: {e}")
 
         # Jsonデータを更新する
-        with open(input_path, "w") as file:
-            json.dump(ordered_data, file, indent=4, ensure_ascii=False)
+        save_json_data(translated_data, input_path)
 
         # ファイルに書き込む
-        text_data = [value for _, value in ordered_data.items()]
+        text_data = [value for _, value in translated_data]
         with open(output_path, "w", encoding="utf-8") as out_file:
             for value in text_data:
                 out_file.write(f"{value}\n")

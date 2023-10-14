@@ -1,0 +1,3005 @@
+[
+    {
+        "background": "배경"
+    },
+    {
+        "tench": "텐치"
+    },
+    {
+        "goldfish": "금붕어"
+    },
+    {
+        "great white shark": "백상아리"
+    },
+    {
+        "tiger shark": "범 상어"
+    },
+    {
+        "hammerhead": "귀상어"
+    },
+    {
+        "electric ray": "전기 광선"
+    },
+    {
+        "stingray": "가오리"
+    },
+    {
+        "cock": "수탉"
+    },
+    {
+        "hen": "암탉"
+    },
+    {
+        "ostrich": "타조"
+    },
+    {
+        "brambling": "불평"
+    },
+    {
+        "goldfinch": "금화"
+    },
+    {
+        "house finch": "집 핀치"
+    },
+    {
+        "junco": "준코"
+    },
+    {
+        "indigo bunting": "인디고 깃발"
+    },
+    {
+        "robin": "남자 이름"
+    },
+    {
+        "bulbul": "벌불"
+    },
+    {
+        "jay": "어치"
+    },
+    {
+        "magpie": "까치"
+    },
+    {
+        "chickadee": "총칭"
+    },
+    {
+        "water ouzel": "물 우젤"
+    },
+    {
+        "kite": "연"
+    },
+    {
+        "bald eagle": "대머리 독수리"
+    },
+    {
+        "vulture": "무자비한 사람"
+    },
+    {
+        "great grey owl": "큰 회색 올빼미"
+    },
+    {
+        "European fire salamander": "유럽의 불 도롱뇽"
+    },
+    {
+        "common newt": "일반적인 영원"
+    },
+    {
+        "eft": "동부"
+    },
+    {
+        "spotted salamander": "점박이 도롱뇽"
+    },
+    {
+        "axolotl": "아홀로틀"
+    },
+    {
+        "bullfrog": "황소개구리"
+    },
+    {
+        "tree frog": "청개구리"
+    },
+    {
+        "tailed frog": "꼬리 개구리"
+    },
+    {
+        "loggerhead": "얼간이"
+    },
+    {
+        "leatherback turtle": "장수거북"
+    },
+    {
+        "mud turtle": "진흙거북"
+    },
+    {
+        "terrapin": "테라핀"
+    },
+    {
+        "box turtle": "상자거북"
+    },
+    {
+        "banded gecko": "줄무늬 도마뱀붙이"
+    },
+    {
+        "common iguana": "일반적인 이구아나"
+    },
+    {
+        "American chameleon": "아메리칸 카멜레온"
+    },
+    {
+        "whiptail": "채찍꼬리"
+    },
+    {
+        "agama": "아가마"
+    },
+    {
+        "frilled lizard": "주름진 도마뱀"
+    },
+    {
+        "alligator lizard": "악어 도마뱀"
+    },
+    {
+        "Gila monster": "길라 몬스터"
+    },
+    {
+        "green lizard": "녹색 도마뱀"
+    },
+    {
+        "African chameleon": "아프리카 카멜레온"
+    },
+    {
+        "Komodo dragon": "코모도 왕 도마뱀"
+    },
+    {
+        "African crocodile": "아프리카 악어"
+    },
+    {
+        "American alligator": "미국 악어"
+    },
+    {
+        "triceratops": "트리케라톱스"
+    },
+    {
+        "thunder snake": "천둥뱀"
+    },
+    {
+        "ringneck snake": "고리 목 뱀"
+    },
+    {
+        "hognose snake": "뱀의 뱀"
+    },
+    {
+        "green snake": "녹색 뱀"
+    },
+    {
+        "king snake": "왕뱀"
+    },
+    {
+        "garter snake": "가터스 뱀"
+    },
+    {
+        "water snake": "물뱀"
+    },
+    {
+        "vine snake": "덩굴뱀"
+    },
+    {
+        "night snake": "밤뱀"
+    },
+    {
+        "boa constrictor": "보아뱀"
+    },
+    {
+        "rock python": "바위 비단뱀"
+    },
+    {
+        "Indian cobra": "인디언 코브라"
+    },
+    {
+        "green mamba": "그린 맘바"
+    },
+    {
+        "sea snake": "바다뱀"
+    },
+    {
+        "horned viper": "뿔 독사"
+    },
+    {
+        "diamondback": "다이아몬드백"
+    },
+    {
+        "sidewinder": "사이드와인더"
+    },
+    {
+        "trilobite": "삼엽충"
+    },
+    {
+        "harvestman": "수확하는 사람"
+    },
+    {
+        "scorpion": "투석기"
+    },
+    {
+        "black and gold garden spider": "검정색과 금색 정원 거미"
+    },
+    {
+        "barn spider": "헛간 거미"
+    },
+    {
+        "garden spider": "정원 거미"
+    },
+    {
+        "black widow": "흑인 과부"
+    },
+    {
+        "tarantula": "타란툴라 거미"
+    },
+    {
+        "wolf spider": "늑대 거미"
+    },
+    {
+        "tick": "진드기"
+    },
+    {
+        "centipede": "지네"
+    },
+    {
+        "black grouse": "검은뇌조"
+    },
+    {
+        "ptarmigan": "멧닭"
+    },
+    {
+        "ruffed grouse": "목도리뇌조"
+    },
+    {
+        "prairie chicken": "프레리 치킨"
+    },
+    {
+        "peacock": "공작"
+    },
+    {
+        "quail": "메추라기"
+    },
+    {
+        "partridge": "자고"
+    },
+    {
+        "African grey": "아프리칸 그레이"
+    },
+    {
+        "macaw": "앵무새"
+    },
+    {
+        "sulphur-crested cockatoo": "유황 볏 앵무새"
+    },
+    {
+        "lorikeet": "진훙 잉꼬"
+    },
+    {
+        "coucal": "쿠칼"
+    },
+    {
+        "bee eater": "꿀벌 먹는 사람"
+    },
+    {
+        "hornbill": "코뿔새"
+    },
+    {
+        "hummingbird": "벌새"
+    },
+    {
+        "jacamar": "자카마르"
+    },
+    {
+        "toucan": "큰부리새"
+    },
+    {
+        "drake": "드레이크"
+    },
+    {
+        "red-breasted merganser": "붉은 가슴 상인"
+    },
+    {
+        "goose": "거위"
+    },
+    {
+        "black swan": "검은 백조"
+    },
+    {
+        "tusker": "엄니"
+    },
+    {
+        "echidna": "바늘두더지"
+    },
+    {
+        "platypus": "오리너구리"
+    },
+    {
+        "wallaby": "왈라비"
+    },
+    {
+        "koala": "코알라"
+    },
+    {
+        "wombat": "웜뱃"
+    },
+    {
+        "jellyfish": "해파리"
+    },
+    {
+        "sea anemone": "말미잘"
+    },
+    {
+        "brain coral": "뇌 산호"
+    },
+    {
+        "flatworm": "편형동물"
+    },
+    {
+        "nematode": "선충류"
+    },
+    {
+        "conch": "조가비"
+    },
+    {
+        "snail": "달팽이"
+    },
+    {
+        "slug": "강타"
+    },
+    {
+        "sea slug": "바다 슬러그"
+    },
+    {
+        "chiton": "키톤"
+    },
+    {
+        "chambered nautilus": "챔버형 노틸러스"
+    },
+    {
+        "Dungeness crab": "던저니스 크랩"
+    },
+    {
+        "rock crab": "바위게"
+    },
+    {
+        "fiddler crab": "피들러 크랩"
+    },
+    {
+        "king crab": "왕게"
+    },
+    {
+        "American lobster": "아메리칸 랍스터"
+    },
+    {
+        "spiny lobster": "가시 랍스터"
+    },
+    {
+        "crayfish": "왕새우"
+    },
+    {
+        "hermit crab": "소라게"
+    },
+    {
+        "isopod": "등각류"
+    },
+    {
+        "white stork": "흰 황새"
+    },
+    {
+        "black stork": "검은 황새"
+    },
+    {
+        "spoonbill": "저어새"
+    },
+    {
+        "flamingo": "플라밍고"
+    },
+    {
+        "little blue heron": "작은 블루 헤론"
+    },
+    {
+        "American egret": "미국 백로"
+    },
+    {
+        "bittern": "간수"
+    },
+    {
+        "crane": "두루미"
+    },
+    {
+        "limpkin": "림프킨"
+    },
+    {
+        "European gallinule": "유럽 ​​갈리눌"
+    },
+    {
+        "American coot": "아메리칸 쿠트"
+    },
+    {
+        "bustard": "버스타드"
+    },
+    {
+        "ruddy turnstone": "붉게 변하는 돌"
+    },
+    {
+        "red-backed sandpiper": "붉은등도요새"
+    },
+    {
+        "redshank": "붉은생크"
+    },
+    {
+        "dowitcher": "마술사"
+    },
+    {
+        "oystercatcher": "굴잡이"
+    },
+    {
+        "pelican": "펠리컨"
+    },
+    {
+        "king penguin": "킹 펭귄"
+    },
+    {
+        "albatross": "신천옹"
+    },
+    {
+        "grey whale": "회색고래"
+    },
+    {
+        "killer whale": "범고래"
+    },
+    {
+        "dugong": "듀공"
+    },
+    {
+        "sea lion": "바다 사자"
+    },
+    {
+        "Chihuahua": "치와와"
+    },
+    {
+        "Japanese spaniel": "일본 발바리"
+    },
+    {
+        "Maltese dog": "말티즈 개"
+    },
+    {
+        "Pekinese": "북경 사람"
+    },
+    {
+        "Shih-Tzu": "시츄"
+    },
+    {
+        "Blenheim spaniel": "블레넘 스파니엘"
+    },
+    {
+        "papillon": "빠삐용"
+    },
+    {
+        "toy terrier": "장난감 테리어"
+    },
+    {
+        "Rhodesian ridgeback": "로디지안 리지백"
+    },
+    {
+        "Afghan hound": "아프간 하운드"
+    },
+    {
+        "basset": "바셋"
+    },
+    {
+        "beagle": "비글"
+    },
+    {
+        "bloodhound": "집요한 추적자"
+    },
+    {
+        "bluetick": "청진드기"
+    },
+    {
+        "black-and-tan coonhound": "블랙앤탄 쿤하운드"
+    },
+    {
+        "Walker hound": "워커 하운드"
+    },
+    {
+        "English foxhound": "잉글리시 폭스하운드"
+    },
+    {
+        "redbone": "레드본"
+    },
+    {
+        "borzoi": "보르조이"
+    },
+    {
+        "Irish wolfhound": "아이리쉬 울프하운드"
+    },
+    {
+        "Italian greyhound": "이탈리아 그레이하운드"
+    },
+    {
+        "whippet": "경전차"
+    },
+    {
+        "Ibizan hound": "이비잔 하운드"
+    },
+    {
+        "Norwegian elkhound": "노르웨이 엘크하운드"
+    },
+    {
+        "otterhound": "수달하운드"
+    },
+    {
+        "Saluki": "살루키"
+    },
+    {
+        "Scottish deerhound": "스코틀랜드 디어하운드"
+    },
+    {
+        "Weimaraner": "바이마라너"
+    },
+    {
+        "Staffordshire bullterrier": "스태퍼드셔 불테리어"
+    },
+    {
+        "American Staffordshire terrier": "아메리칸 스태퍼드셔 테리어"
+    },
+    {
+        "Bedlington terrier": "베들링턴 테리어"
+    },
+    {
+        "Border terrier": "보더 테리어"
+    },
+    {
+        "Kerry blue terrier": "케리 블루 테리어"
+    },
+    {
+        "Irish terrier": "아이리쉬 테리어"
+    },
+    {
+        "Norfolk terrier": "노퍽 테리어"
+    },
+    {
+        "Norwich terrier": "노리치 테리어"
+    },
+    {
+        "Yorkshire terrier": "요크셔 테리어"
+    },
+    {
+        "wire-haired fox terrier": "털이 많은 여우 테리어"
+    },
+    {
+        "Lakeland terrier": "레이크랜드 테리어"
+    },
+    {
+        "Sealyham terrier": "씰리햄 테리어"
+    },
+    {
+        "Airedale": "에어데일"
+    },
+    {
+        "cairn": "케른"
+    },
+    {
+        "Australian terrier": "오스트레일리안 테리어"
+    },
+    {
+        "Dandie Dinmont": "댄디 딘몬트"
+    },
+    {
+        "Boston bull": "보스턴 황소"
+    },
+    {
+        "miniature schnauzer": "미니어처 슈나우저"
+    },
+    {
+        "giant schnauzer": "자이언트 슈나우저"
+    },
+    {
+        "standard schnauzer": "스탠다드 슈나우저"
+    },
+    {
+        "Scotch terrier": "스카치 테리어"
+    },
+    {
+        "Tibetan terrier": "티베트 테리어"
+    },
+    {
+        "silky terrier": "실키 테리어"
+    },
+    {
+        "soft-coated wheaten terrier": "소프트 코팅 휘튼 테리어"
+    },
+    {
+        "West Highland white terrier": "웨스트 하이랜드 화이트 테리어"
+    },
+    {
+        "Lhasa": "라사"
+    },
+    {
+        "flat-coated retriever": "평면 코팅 리트리버"
+    },
+    {
+        "curly-coated retriever": "곱슬머리 리트리버"
+    },
+    {
+        "golden retriever": "골든 리트리버"
+    },
+    {
+        "Labrador retriever": "래브라도 리트리버"
+    },
+    {
+        "Chesapeake Bay retriever": "체서피크 베이 리트리버"
+    },
+    {
+        "German short-haired pointer": "저먼 쇼트헤어 포인터"
+    },
+    {
+        "vizsla": "비즐라"
+    },
+    {
+        "English setter": "잉글리쉬 세터"
+    },
+    {
+        "Irish setter": "아이리쉬 세터"
+    },
+    {
+        "Gordon setter": "고든 세터"
+    },
+    {
+        "Brittany spaniel": "브리타니 스패니얼"
+    },
+    {
+        "clumber": "어지러운 사람"
+    },
+    {
+        "English springer": "잉글리쉬 스프링거"
+    },
+    {
+        "Welsh springer spaniel": "웨일스 스프링거 스파니엘"
+    },
+    {
+        "cocker spaniel": "코카스파니엘"
+    },
+    {
+        "Sussex spaniel": "서식스 스파니엘"
+    },
+    {
+        "Irish water spaniel": "아이리시 워터 스파니엘"
+    },
+    {
+        "kuvasz": "쿠바츠"
+    },
+    {
+        "schipperke": "시퍼키"
+    },
+    {
+        "groenendael": "그로넨달"
+    },
+    {
+        "malinois": "말리노이즈"
+    },
+    {
+        "briard": "브리아드"
+    },
+    {
+        "kelpie": "켈피"
+    },
+    {
+        "komondor": "코몬도르"
+    },
+    {
+        "Old English sheepdog": "올드 잉글리쉬 쉽독"
+    },
+    {
+        "Shetland sheepdog": "셰틀랜드 양치기"
+    },
+    {
+        "collie": "콜리"
+    },
+    {
+        "Border collie": "보더 콜리"
+    },
+    {
+        "Bouvier des Flandres": "부비에 데 플랑드르"
+    },
+    {
+        "Rottweiler": "로트와일러"
+    },
+    {
+        "German shepherd": "독일 셰퍼드"
+    },
+    {
+        "Doberman": "도베르만"
+    },
+    {
+        "miniature pinscher": "미니어처 핀셔"
+    },
+    {
+        "Greater Swiss Mountain dog": "그레이터 스위스 마운틴 독"
+    },
+    {
+        "Bernese mountain dog": "베르니즈 마운틴독"
+    },
+    {
+        "Appenzeller": "아펜젤러"
+    },
+    {
+        "EntleBucher": "엔틀부처"
+    },
+    {
+        "boxer": "복서"
+    },
+    {
+        "bull mastiff": "불 마스티프"
+    },
+    {
+        "Tibetan mastiff": "티베탄 마스티프"
+    },
+    {
+        "French bulldog": "프랑스 불독"
+    },
+    {
+        "Great Dane": "그레이트 데인"
+    },
+    {
+        "Saint Bernard": "세인트 버나드"
+    },
+    {
+        "Eskimo dog": "에스키모 개"
+    },
+    {
+        "malamute": "말라뮤트"
+    },
+    {
+        "Siberian husky": "시베리안 허스키"
+    },
+    {
+        "dalmatian": "달마시안"
+    },
+    {
+        "affenpinscher": "아펜핀셔"
+    },
+    {
+        "basenji": "바센지"
+    },
+    {
+        "pug": "이긴 흙"
+    },
+    {
+        "Leonberg": "레온베르크"
+    },
+    {
+        "Newfoundland": "뉴펀들랜드"
+    },
+    {
+        "Great Pyrenees": "그레이트 피레네 산맥"
+    },
+    {
+        "Samoyed": "사모예드"
+    },
+    {
+        "Pomeranian": "포메라니안"
+    },
+    {
+        "chow": "음식"
+    },
+    {
+        "keeshond": "케이스혼드"
+    },
+    {
+        "Brabancon griffon": "브라반콘 그리폰"
+    },
+    {
+        "Pembroke": "펨브로크"
+    },
+    {
+        "Cardigan": "카디건"
+    },
+    {
+        "toy poodle": "토이 푸들"
+    },
+    {
+        "miniature poodle": "미니어처 푸들"
+    },
+    {
+        "standard poodle": "스탠다드 푸들"
+    },
+    {
+        "Mexican hairless": "멕시코 털이없는"
+    },
+    {
+        "timber wolf": "목재늑대"
+    },
+    {
+        "white wolf": "흰 늑대"
+    },
+    {
+        "red wolf": "붉은 늑대"
+    },
+    {
+        "coyote": "코요테"
+    },
+    {
+        "dingo": "들개"
+    },
+    {
+        "dhole": "돌"
+    },
+    {
+        "African hunting dog": "아프리카 사냥개"
+    },
+    {
+        "hyena": "하이에나"
+    },
+    {
+        "red fox": "붉은 여우"
+    },
+    {
+        "kit fox": "키트 여우"
+    },
+    {
+        "Arctic fox": "북극 여우"
+    },
+    {
+        "grey fox": "회색 여우"
+    },
+    {
+        "tabby": "태비"
+    },
+    {
+        "tiger cat": "호랑이 고양이"
+    },
+    {
+        "Persian cat": "페르시아 고양이"
+    },
+    {
+        "Siamese cat": "샴 고양이"
+    },
+    {
+        "Egyptian cat": "이집트 고양이"
+    },
+    {
+        "cougar": "쿠거"
+    },
+    {
+        "lynx": "스라소니"
+    },
+    {
+        "leopard": "표범"
+    },
+    {
+        "snow leopard": "눈표범"
+    },
+    {
+        "jaguar": "재규어"
+    },
+    {
+        "lion": "사자"
+    },
+    {
+        "tiger": "호랑이"
+    },
+    {
+        "cheetah": "치타"
+    },
+    {
+        "brown bear": "갈색 곰"
+    },
+    {
+        "American black bear": "미국 흑곰"
+    },
+    {
+        "ice bear": "아이스베어"
+    },
+    {
+        "sloth bear": "나무늘보곰"
+    },
+    {
+        "mongoose": "몽구스"
+    },
+    {
+        "meerkat": "미어캣"
+    },
+    {
+        "tiger beetle": "호랑이 딱정벌레"
+    },
+    {
+        "ladybug": "무당벌레"
+    },
+    {
+        "ground beetle": "땅 딱정벌레"
+    },
+    {
+        "long-horned beetle": "긴뿔딱정벌레"
+    },
+    {
+        "leaf beetle": "잎벌레"
+    },
+    {
+        "dung beetle": "쇠똥구리"
+    },
+    {
+        "rhinoceros beetle": "코뿔소 딱정벌레"
+    },
+    {
+        "weevil": "바구미"
+    },
+    {
+        "fly": "파리"
+    },
+    {
+        "bee": "벌"
+    },
+    {
+        "ant": "개미"
+    },
+    {
+        "grasshopper": "메뚜기"
+    },
+    {
+        "cricket": "크리켓"
+    },
+    {
+        "walking stick": "지팡이"
+    },
+    {
+        "cockroach": "바퀴벌레"
+    },
+    {
+        "mantis": "사마귀"
+    },
+    {
+        "cicada": "매미"
+    },
+    {
+        "leafhopper": "멸구"
+    },
+    {
+        "lacewing": "풀잠자리"
+    },
+    {
+        "dragonfly": "잠자리"
+    },
+    {
+        "damselfly": "멍청한"
+    },
+    {
+        "admiral": "해군 대장"
+    },
+    {
+        "ringlet": "작은 고리"
+    },
+    {
+        "monarch": "군주"
+    },
+    {
+        "cabbage butterfly": "양배추나비"
+    },
+    {
+        "sulphur butterfly": "유황나비"
+    },
+    {
+        "lycaenid": "라이케네이드"
+    },
+    {
+        "starfish": "불가사리"
+    },
+    {
+        "sea urchin": "성게"
+    },
+    {
+        "sea cucumber": "해삼"
+    },
+    {
+        "wood rabbit": "나무 토끼"
+    },
+    {
+        "hare": "토끼"
+    },
+    {
+        "Angora": "앙고라"
+    },
+    {
+        "hamster": "햄스터"
+    },
+    {
+        "porcupine": "호저"
+    },
+    {
+        "fox squirrel": "여우 다람쥐"
+    },
+    {
+        "marmot": "마모트"
+    },
+    {
+        "beaver": "비버"
+    },
+    {
+        "guinea pig": "기니피그"
+    },
+    {
+        "sorrel": "밤색"
+    },
+    {
+        "zebra": "얼룩말"
+    },
+    {
+        "hog": "돼지"
+    },
+    {
+        "wild boar": "야생 멧돼지"
+    },
+    {
+        "warthog": "멧돼지"
+    },
+    {
+        "hippopotamus": "하마"
+    },
+    {
+        "ox": "황소"
+    },
+    {
+        "water buffalo": "물소"
+    },
+    {
+        "bison": "바이슨"
+    },
+    {
+        "ram": "램"
+    },
+    {
+        "bighorn": "큰뿔양"
+    },
+    {
+        "ibex": "아이벡스"
+    },
+    {
+        "hartebeest": "하테비스트"
+    },
+    {
+        "impala": "임팔라"
+    },
+    {
+        "gazelle": "가젤 영양"
+    },
+    {
+        "Arabian camel": "아라비아 낙타"
+    },
+    {
+        "llama": "야마"
+    },
+    {
+        "weasel": "족제비"
+    },
+    {
+        "mink": "밍크"
+    },
+    {
+        "polecat": "족제비"
+    },
+    {
+        "black-footed ferret": "검은발 족제비"
+    },
+    {
+        "otter": "수달"
+    },
+    {
+        "skunk": "스컹크"
+    },
+    {
+        "badger": "오소리"
+    },
+    {
+        "armadillo": "아르마딜로"
+    },
+    {
+        "three-toed sloth": "세 발가락 나무늘보"
+    },
+    {
+        "orangutan": "오랑우탄"
+    },
+    {
+        "gorilla": "고릴라"
+    },
+    {
+        "chimpanzee": "침팬지"
+    },
+    {
+        "gibbon": "긴팔원숭이"
+    },
+    {
+        "siamang": "시아망"
+    },
+    {
+        "guenon": "게논"
+    },
+    {
+        "patas": "파타스"
+    },
+    {
+        "baboon": "비비"
+    },
+    {
+        "macaque": "원숭이"
+    },
+    {
+        "langur": "랑구르"
+    },
+    {
+        "colobus": "콜로부스"
+    },
+    {
+        "proboscis monkey": "코 원숭이"
+    },
+    {
+        "marmoset": "마모셋"
+    },
+    {
+        "capuchin": "카푸친"
+    },
+    {
+        "howler monkey": "짖는 원숭이"
+    },
+    {
+        "titi": "티티"
+    },
+    {
+        "spider monkey": "거미 원숭이"
+    },
+    {
+        "squirrel monkey": "다람쥐원숭이"
+    },
+    {
+        "Madagascar cat": "마다가스카르 고양이"
+    },
+    {
+        "indri": "인드리"
+    },
+    {
+        "Indian elephant": "인도코끼리"
+    },
+    {
+        "African elephant": "아프리카코끼리"
+    },
+    {
+        "lesser panda": "레서 팬더"
+    },
+    {
+        "giant panda": "자이언트 팬더"
+    },
+    {
+        "barracouta": "바라쿠타"
+    },
+    {
+        "eel": "뱀장어"
+    },
+    {
+        "coho": "코호"
+    },
+    {
+        "rock beauty": "록 뷰티"
+    },
+    {
+        "anemone fish": "말미잘"
+    },
+    {
+        "sturgeon": "철갑상어"
+    },
+    {
+        "gar": "가르"
+    },
+    {
+        "lionfish": "사자상어"
+    },
+    {
+        "puffer": "복어"
+    },
+    {
+        "abacus": "주판"
+    },
+    {
+        "abaya": "아바야"
+    },
+    {
+        "academic gown": "학업 가운"
+    },
+    {
+        "accordion": "아코디언"
+    },
+    {
+        "acoustic guitar": "어쿠스틱 기타"
+    },
+    {
+        "aircraft carrier": "항공모함"
+    },
+    {
+        "airliner": "여객기"
+    },
+    {
+        "airship": "비행선"
+    },
+    {
+        "altar": "제단"
+    },
+    {
+        "ambulance": "구급차"
+    },
+    {
+        "amphibian": "수륙 양용 비행기"
+    },
+    {
+        "analog clock": "아날로그 시계"
+    },
+    {
+        "apiary": "양봉장"
+    },
+    {
+        "apron": "앞치마"
+    },
+    {
+        "ashcan": "재떨이"
+    },
+    {
+        "assault rifle": "돌격 소총"
+    },
+    {
+        "backpack": "배낭"
+    },
+    {
+        "bakery": "빵집"
+    },
+    {
+        "balance beam": "저울대"
+    },
+    {
+        "balloon": "풍선"
+    },
+    {
+        "ballpoint": "볼펜"
+    },
+    {
+        "Band Aid": "반창고"
+    },
+    {
+        "banjo": "밴조"
+    },
+    {
+        "bannister": "난간"
+    },
+    {
+        "barbell": "바벨"
+    },
+    {
+        "barber chair": "이발사"
+    },
+    {
+        "barbershop": "이발소"
+    },
+    {
+        "barn": "외양간"
+    },
+    {
+        "barometer": "기압계"
+    },
+    {
+        "barrel": "통"
+    },
+    {
+        "barrow": "손수레"
+    },
+    {
+        "baseball": "야구"
+    },
+    {
+        "basketball": "농구"
+    },
+    {
+        "bassinet": "요람"
+    },
+    {
+        "bassoon": "바순"
+    },
+    {
+        "bathing cap": "목욕모자"
+    },
+    {
+        "bath towel": "목욕 수건"
+    },
+    {
+        "bathtub": "목욕통"
+    },
+    {
+        "beach wagon": "해변 왜건"
+    },
+    {
+        "beacon": "봉홧불"
+    },
+    {
+        "beaker": "굽 ​​달린 큰 컵"
+    },
+    {
+        "bearskin": "곰 가죽 옷"
+    },
+    {
+        "beer bottle": "맥주병"
+    },
+    {
+        "beer glass": "맥주잔"
+    },
+    {
+        "bell cote": "벨 코트"
+    },
+    {
+        "bib": "턱받이"
+    },
+    {
+        "bicycle-built-for-two": "2인용 자전거"
+    },
+    {
+        "bikini": "비키니"
+    },
+    {
+        "binder": "접합재"
+    },
+    {
+        "binoculars": "쌍안경"
+    },
+    {
+        "birdhouse": "새집"
+    },
+    {
+        "boathouse": "보트 하우스"
+    },
+    {
+        "bobsled": "봅슬레이"
+    },
+    {
+        "bolo tie": "볼로넥타이"
+    },
+    {
+        "bonnet": "보닛"
+    },
+    {
+        "bookcase": "책장"
+    },
+    {
+        "bookshop": "서점"
+    },
+    {
+        "bottlecap": "병 뚜껑"
+    },
+    {
+        "bow": "절하다"
+    },
+    {
+        "bow tie": "나비 넥타이"
+    },
+    {
+        "brass": "놋쇠"
+    },
+    {
+        "brassiere": "브래지어"
+    },
+    {
+        "breakwater": "방파제"
+    },
+    {
+        "breastplate": "흉갑"
+    },
+    {
+        "broom": "비"
+    },
+    {
+        "bucket": "버킷"
+    },
+    {
+        "buckle": "버클"
+    },
+    {
+        "bulletproof vest": "방탄 조끼"
+    },
+    {
+        "bullet train": "초고속 열차"
+    },
+    {
+        "butcher shop": "푸줏간"
+    },
+    {
+        "cab": "택시"
+    },
+    {
+        "caldron": "가마솥"
+    },
+    {
+        "candle": "양초"
+    },
+    {
+        "cannon": "대포"
+    },
+    {
+        "canoe": "카누"
+    },
+    {
+        "can opener": "병따개"
+    },
+    {
+        "cardigan": "카디건"
+    },
+    {
+        "car mirror": "자동차 거울"
+    },
+    {
+        "carousel": "회전목마"
+    },
+    {
+        "carpenter's kit": "목수의 키트"
+    },
+    {
+        "carton": "판지 상자"
+    },
+    {
+        "car wheel": "자동차 바퀴"
+    },
+    {
+        "cash machine": "현금 지급기"
+    },
+    {
+        "cassette": "카세트"
+    },
+    {
+        "cassette player": "카세트 플레이어"
+    },
+    {
+        "castle": "성"
+    },
+    {
+        "catamaran": "뗏목"
+    },
+    {
+        "CD player": "CD 플레이어"
+    },
+    {
+        "cello": "첼로"
+    },
+    {
+        "cellular telephone": "휴대전화"
+    },
+    {
+        "chain": "체인"
+    },
+    {
+        "chainlink fence": "체인 링크 울타리"
+    },
+    {
+        "chain mail": "체인 메일"
+    },
+    {
+        "chain saw": "체인톱"
+    },
+    {
+        "chest": "가슴"
+    },
+    {
+        "chiffonier": "서랍장"
+    },
+    {
+        "chime": "차임"
+    },
+    {
+        "china cabinet": "중국 캐비닛"
+    },
+    {
+        "Christmas stocking": "크리스마스 스타킹"
+    },
+    {
+        "church": "교회"
+    },
+    {
+        "cinema": "영화"
+    },
+    {
+        "cleaver": "고기 베는 큰 칼"
+    },
+    {
+        "cliff dwelling": "절벽 주거"
+    },
+    {
+        "cloak": "망토"
+    },
+    {
+        "clog": "나막신"
+    },
+    {
+        "cocktail shaker": "칵테일 셰이커"
+    },
+    {
+        "coffee mug": "커피 머그잔"
+    },
+    {
+        "coffeepot": "커피 포트"
+    },
+    {
+        "coil": "코일"
+    },
+    {
+        "combination lock": "조합 잠금"
+    },
+    {
+        "computer keyboard": "컴퓨터 키보드"
+    },
+    {
+        "confectionery": "과자"
+    },
+    {
+        "container ship": "컨테이너 선박"
+    },
+    {
+        "convertible": "바꾸어 말할 수 있는"
+    },
+    {
+        "corkscrew": "빙빙 돌리다"
+    },
+    {
+        "cornet": "코넷"
+    },
+    {
+        "cowboy boot": "카우보이 부츠"
+    },
+    {
+        "cowboy hat": "카우보이 모자"
+    },
+    {
+        "cradle": "요람"
+    },
+    {
+        "crane": "두루미"
+    },
+    {
+        "crash helmet": "충돌 헬멧"
+    },
+    {
+        "crate": "나무 상자"
+    },
+    {
+        "crib": "어린이 침대"
+    },
+    {
+        "Crock Pot": "돼 먹지 못한 냄비"
+    },
+    {
+        "croquet ball": "크로케 공"
+    },
+    {
+        "crutch": "버팀목"
+    },
+    {
+        "cuirass": "동체 갑옷"
+    },
+    {
+        "dam": "댐"
+    },
+    {
+        "desk": "책상"
+    },
+    {
+        "desktop computer": "데스크톱 컴퓨터"
+    },
+    {
+        "dial telephone": "전화를 걸다"
+    },
+    {
+        "diaper": "기저귀"
+    },
+    {
+        "digital clock": "디지털 시계"
+    },
+    {
+        "digital watch": "디지털 시계"
+    },
+    {
+        "dining table": "식탁"
+    },
+    {
+        "dishrag": "행주"
+    },
+    {
+        "dishwasher": "식기 세척기"
+    },
+    {
+        "disk brake": "디스크 브레이크"
+    },
+    {
+        "dock": "독"
+    },
+    {
+        "dogsled": "개 썰매"
+    },
+    {
+        "dome": "둥근 천장"
+    },
+    {
+        "doormat": "현관 매트"
+    },
+    {
+        "drilling platform": "드릴링 플랫폼"
+    },
+    {
+        "drum": "북"
+    },
+    {
+        "drumstick": "북채"
+    },
+    {
+        "dumbbell": "아령"
+    },
+    {
+        "Dutch oven": "고기 굽는 그릇"
+    },
+    {
+        "electric fan": "선풍기"
+    },
+    {
+        "electric guitar": "전자 기타"
+    },
+    {
+        "electric locomotive": "전기 기관차"
+    },
+    {
+        "entertainment center": "엔터테인먼트 센터"
+    },
+    {
+        "envelope": "봉투"
+    },
+    {
+        "espresso maker": "에스프레소 메이커"
+    },
+    {
+        "face powder": "페이스 파우더"
+    },
+    {
+        "feather boa": "깃털 보아"
+    },
+    {
+        "file": "파일"
+    },
+    {
+        "fireboat": "소방서"
+    },
+    {
+        "fire engine": "소방차"
+    },
+    {
+        "fire screen": "화재 스크린"
+    },
+    {
+        "flagpole": "깃대"
+    },
+    {
+        "flute": "플루트"
+    },
+    {
+        "folding chair": "접는 의자"
+    },
+    {
+        "football helmet": "축구 헬멧"
+    },
+    {
+        "forklift": "지게차"
+    },
+    {
+        "fountain": "분수"
+    },
+    {
+        "fountain pen": "만년필"
+    },
+    {
+        "four-poster": "네 포스터"
+    },
+    {
+        "freight car": "화물차"
+    },
+    {
+        "French horn": "프렌치 호른"
+    },
+    {
+        "frying pan": "프라이팬"
+    },
+    {
+        "fur coat": "모피 코트"
+    },
+    {
+        "garbage truck": "쓰레기 차"
+    },
+    {
+        "gasmask": "방독면"
+    },
+    {
+        "gas pump": "가스 펌프"
+    },
+    {
+        "goblet": "고블릿"
+    },
+    {
+        "go-kart": "고카트"
+    },
+    {
+        "golf ball": "골프 공"
+    },
+    {
+        "golfcart": "골프 카트"
+    },
+    {
+        "gondola": "곤돌라"
+    },
+    {
+        "gong": "징"
+    },
+    {
+        "gown": "겉옷"
+    },
+    {
+        "grand piano": "그랜드 피아노"
+    },
+    {
+        "greenhouse": "온실"
+    },
+    {
+        "grille": "그릴"
+    },
+    {
+        "grocery store": "식료품점"
+    },
+    {
+        "guillotine": "기요틴"
+    },
+    {
+        "hair slide": "헤어 슬라이드"
+    },
+    {
+        "hair spray": "헤어 스프레이"
+    },
+    {
+        "half track": "하프 트랙"
+    },
+    {
+        "hammer": "망치"
+    },
+    {
+        "hamper": "광주리"
+    },
+    {
+        "hand blower": "손 송풍기"
+    },
+    {
+        "hand-held computer": "휴대용 컴퓨터"
+    },
+    {
+        "handkerchief": "손수건"
+    },
+    {
+        "hard disc": "하드 디스크"
+    },
+    {
+        "harmonica": "하모니카"
+    },
+    {
+        "harp": "하프"
+    },
+    {
+        "harvester": "수확기"
+    },
+    {
+        "hatchet": "자귀"
+    },
+    {
+        "holster": "홀스터"
+    },
+    {
+        "home theater": "홈 시어터"
+    },
+    {
+        "honeycomb": "벌집"
+    },
+    {
+        "hook": "훅"
+    },
+    {
+        "hoopskirt": "후프스커트"
+    },
+    {
+        "horizontal bar": "수평 막대"
+    },
+    {
+        "horse cart": "말 카트"
+    },
+    {
+        "hourglass": "모래시계"
+    },
+    {
+        "iPod": "아이팟"
+    },
+    {
+        "iron": "철"
+    },
+    {
+        "jack-o'-lantern": "잭 오 랜턴"
+    },
+    {
+        "jean": "여자 이름"
+    },
+    {
+        "jeep": "지프"
+    },
+    {
+        "jersey": "저지"
+    },
+    {
+        "jigsaw puzzle": "직소 퍼즐"
+    },
+    {
+        "jinrikisha": "진리키샤"
+    },
+    {
+        "joystick": "조종간"
+    },
+    {
+        "kimono": "키모노"
+    },
+    {
+        "knee pad": "무릎 패드"
+    },
+    {
+        "knot": "매듭"
+    },
+    {
+        "lab coat": "실험복"
+    },
+    {
+        "ladle": "국자"
+    },
+    {
+        "lampshade": "갓"
+    },
+    {
+        "laptop": "랩탑"
+    },
+    {
+        "lawn mower": "잔디 깎는 기계"
+    },
+    {
+        "lens cap": "렌즈 캡"
+    },
+    {
+        "letter opener": "편지 오프너"
+    },
+    {
+        "library": "도서관"
+    },
+    {
+        "lifeboat": "구명정"
+    },
+    {
+        "lighter": "거룻배"
+    },
+    {
+        "limousine": "리무진"
+    },
+    {
+        "liner": "정기선"
+    },
+    {
+        "lipstick": "립스틱"
+    },
+    {
+        "Loafer": "로퍼"
+    },
+    {
+        "lotion": "외용 물약"
+    },
+    {
+        "loudspeaker": "확성기"
+    },
+    {
+        "loupe": "루페"
+    },
+    {
+        "lumbermill": "제재소"
+    },
+    {
+        "magnetic compass": "자기 나침반"
+    },
+    {
+        "mailbag": "우편낭"
+    },
+    {
+        "mailbox": "사서함"
+    },
+    {
+        "maillot": "타이츠"
+    },
+    {
+        "maillot": "타이츠"
+    },
+    {
+        "manhole cover": "맨홀 뚜껑"
+    },
+    {
+        "maraca": "마라카"
+    },
+    {
+        "marimba": "마림바"
+    },
+    {
+        "mask": "마스크"
+    },
+    {
+        "matchstick": "성냥개비"
+    },
+    {
+        "maypole": "메이폴"
+    },
+    {
+        "maze": "미로"
+    },
+    {
+        "measuring cup": "계량컵"
+    },
+    {
+        "medicine chest": "구급약 상자"
+    },
+    {
+        "megalith": "거석"
+    },
+    {
+        "microphone": "마이크로폰"
+    },
+    {
+        "microwave": "마이크로파"
+    },
+    {
+        "military uniform": "군복"
+    },
+    {
+        "milk can": "우유 캔"
+    },
+    {
+        "minibus": "소형 버스"
+    },
+    {
+        "miniskirt": "미니스커트"
+    },
+    {
+        "minivan": "미니밴"
+    },
+    {
+        "missile": "미사일"
+    },
+    {
+        "mitten": "벙어리 장갑"
+    },
+    {
+        "mixing bowl": "믹싱볼"
+    },
+    {
+        "mobile home": "이동식 주택"
+    },
+    {
+        "Model T": "모델 T"
+    },
+    {
+        "modem": "모뎀"
+    },
+    {
+        "monastery": "수도원"
+    },
+    {
+        "monitor": "감시 장치"
+    },
+    {
+        "moped": "모터 달린 자전거"
+    },
+    {
+        "mortar": "박격포"
+    },
+    {
+        "mortarboard": "각모"
+    },
+    {
+        "mosque": "사원"
+    },
+    {
+        "mosquito net": "모기장"
+    },
+    {
+        "motor scooter": "모터 스쿠터"
+    },
+    {
+        "mountain bike": "산악 자전거"
+    },
+    {
+        "mountain tent": "산 텐트"
+    },
+    {
+        "mouse": "생쥐"
+    },
+    {
+        "mousetrap": "쥐덫"
+    },
+    {
+        "moving van": "움직이는 밴"
+    },
+    {
+        "muzzle": "포구"
+    },
+    {
+        "nail": "못"
+    },
+    {
+        "neck brace": "목걸이"
+    },
+    {
+        "necklace": "목걸이"
+    },
+    {
+        "nipple": "젖꼭지"
+    },
+    {
+        "notebook": "공책"
+    },
+    {
+        "obelisk": "오벨리스크"
+    },
+    {
+        "oboe": "오보에"
+    },
+    {
+        "ocarina": "오카리나"
+    },
+    {
+        "odometer": "주행 거리계"
+    },
+    {
+        "oil filter": "오일 필터"
+    },
+    {
+        "organ": "오르간"
+    },
+    {
+        "oscilloscope": "오실로스코프"
+    },
+    {
+        "overskirt": "오버스커트"
+    },
+    {
+        "oxcart": "우차"
+    },
+    {
+        "oxygen mask": "산소 마스크"
+    },
+    {
+        "packet": "패킷"
+    },
+    {
+        "paddle": "외륜"
+    },
+    {
+        "paddlewheel": "외륜"
+    },
+    {
+        "padlock": "맹꽁이 자물쇠"
+    },
+    {
+        "paintbrush": "화필"
+    },
+    {
+        "pajama": "잠옷"
+    },
+    {
+        "palace": "궁전"
+    },
+    {
+        "panpipe": "팬파이프"
+    },
+    {
+        "paper towel": "종이 타월"
+    },
+    {
+        "parachute": "낙하산"
+    },
+    {
+        "parallel bars": "수평 한 막대"
+    },
+    {
+        "park bench": "공원 벤치"
+    },
+    {
+        "parking meter": "주차료 징수 기"
+    },
+    {
+        "passenger car": "승용차"
+    },
+    {
+        "patio": "안마당"
+    },
+    {
+        "pay-phone": "공중전화"
+    },
+    {
+        "pedestal": "받침대"
+    },
+    {
+        "pencil box": "필통"
+    },
+    {
+        "pencil sharpener": "연필 깎기"
+    },
+    {
+        "perfume": "향수"
+    },
+    {
+        "Petri dish": "페트리 접시"
+    },
+    {
+        "photocopier": "복사기"
+    },
+    {
+        "pick": "선택하다"
+    },
+    {
+        "pickelhaube": "피클하우베"
+    },
+    {
+        "picket fence": "울타리"
+    },
+    {
+        "pickup": "찾다"
+    },
+    {
+        "pier": "교각"
+    },
+    {
+        "piggy bank": "돼지 저금통"
+    },
+    {
+        "pill bottle": "약병"
+    },
+    {
+        "pillow": "베개"
+    },
+    {
+        "ping-pong ball": "탁구공"
+    },
+    {
+        "pinwheel": "바람개비"
+    },
+    {
+        "pirate": "해적"
+    },
+    {
+        "pitcher": "피처"
+    },
+    {
+        "plane": "비행기"
+    },
+    {
+        "planetarium": "별자리 투영기"
+    },
+    {
+        "plastic bag": "비닐 봉투"
+    },
+    {
+        "plate rack": "접시걸이"
+    },
+    {
+        "plow": "쟁기"
+    },
+    {
+        "plunger": "플런저"
+    },
+    {
+        "Polaroid camera": "폴라로이드 카메라"
+    },
+    {
+        "pole": "폴"
+    },
+    {
+        "police van": "경찰 밴"
+    },
+    {
+        "poncho": "판초"
+    },
+    {
+        "pool table": "당구대"
+    },
+    {
+        "pop bottle": "팝병"
+    },
+    {
+        "pot": "냄비"
+    },
+    {
+        "potter's wheel": "물레"
+    },
+    {
+        "power drill": "파워 드릴"
+    },
+    {
+        "prayer rug": "기도 깔개"
+    },
+    {
+        "printer": "인쇄기"
+    },
+    {
+        "prison": "감옥"
+    },
+    {
+        "projectile": "발사체"
+    },
+    {
+        "projector": "영사기"
+    },
+    {
+        "puck": "퍽"
+    },
+    {
+        "punching bag": "샌드백"
+    },
+    {
+        "purse": "지갑"
+    },
+    {
+        "quill": "깃"
+    },
+    {
+        "quilt": "이불"
+    },
+    {
+        "racer": "경주자"
+    },
+    {
+        "racket": "라켓"
+    },
+    {
+        "radiator": "라디에이터"
+    },
+    {
+        "radio": "라디오"
+    },
+    {
+        "radio telescope": "전파 망원경"
+    },
+    {
+        "rain barrel": "빗물통"
+    },
+    {
+        "recreational vehicle": "레저 용 차량"
+    },
+    {
+        "reel": "릴"
+    },
+    {
+        "reflex camera": "리플렉스 카메라"
+    },
+    {
+        "refrigerator": "냉장고"
+    },
+    {
+        "remote control": "리모콘"
+    },
+    {
+        "restaurant": "식당"
+    },
+    {
+        "revolver": "리볼버"
+    },
+    {
+        "rifle": "소총"
+    },
+    {
+        "rocking chair": "흔들 의자"
+    },
+    {
+        "rotisserie": "불고기집"
+    },
+    {
+        "rubber eraser": "고무 지우개"
+    },
+    {
+        "rugby ball": "럭비 공"
+    },
+    {
+        "rule": "규칙"
+    },
+    {
+        "running shoe": "운동화"
+    },
+    {
+        "safe": "안전한"
+    },
+    {
+        "safety pin": "안전핀"
+    },
+    {
+        "saltshaker": "소금 통"
+    },
+    {
+        "sandal": "샌들"
+    },
+    {
+        "sarong": "사롱"
+    },
+    {
+        "sax": "색소폰"
+    },
+    {
+        "scabbard": "집"
+    },
+    {
+        "scale": "규모"
+    },
+    {
+        "school bus": "학교 버스"
+    },
+    {
+        "schooner": "큰 조끼"
+    },
+    {
+        "scoreboard": "점수판"
+    },
+    {
+        "screen": "화면"
+    },
+    {
+        "screw": "나사"
+    },
+    {
+        "screwdriver": "드라이버"
+    },
+    {
+        "seat belt": "안전 벨트"
+    },
+    {
+        "sewing machine": "재봉틀"
+    },
+    {
+        "shield": "방패"
+    },
+    {
+        "shoe shop": "신발 가게"
+    },
+    {
+        "shoji": "미닫이"
+    },
+    {
+        "shopping basket": "쇼핑 바구니"
+    },
+    {
+        "shopping cart": "쇼핑 카트"
+    },
+    {
+        "shovel": "삽"
+    },
+    {
+        "shower cap": "샤워 캡"
+    },
+    {
+        "shower curtain": "샤워 커튼"
+    },
+    {
+        "ski": "스키"
+    },
+    {
+        "ski mask": "스키 마스크"
+    },
+    {
+        "sleeping bag": "침낭"
+    },
+    {
+        "slide rule": "규칙을 비껴나 가다"
+    },
+    {
+        "sliding door": "미닫이 문"
+    },
+    {
+        "slot": "슬롯"
+    },
+    {
+        "snorkel": "스노클"
+    },
+    {
+        "snowmobile": "설상차"
+    },
+    {
+        "snowplow": "제설기"
+    },
+    {
+        "soap dispenser": "비누 디스펜서"
+    },
+    {
+        "soccer ball": "축구 공"
+    },
+    {
+        "sock": "양말"
+    },
+    {
+        "solar dish": "태양 접시"
+    },
+    {
+        "sombrero": "솜브레로"
+    },
+    {
+        "soup bowl": "수프 그릇"
+    },
+    {
+        "space bar": "스페이스 바"
+    },
+    {
+        "space heater": "공간 히터"
+    },
+    {
+        "space shuttle": "우주 왕복선"
+    },
+    {
+        "spatula": "주걱"
+    },
+    {
+        "speedboat": "쾌속정"
+    },
+    {
+        "spider web": "거미줄"
+    },
+    {
+        "spindle": "축"
+    },
+    {
+        "sports car": "스포츠카"
+    },
+    {
+        "spotlight": "스포트라이트"
+    },
+    {
+        "stage": "단계"
+    },
+    {
+        "steam locomotive": "증기 기관차"
+    },
+    {
+        "steel arch bridge": "강철 아치교"
+    },
+    {
+        "steel drum": "스틸 드럼"
+    },
+    {
+        "stethoscope": "청진기"
+    },
+    {
+        "stole": "스톨"
+    },
+    {
+        "stone wall": "돌담"
+    },
+    {
+        "stopwatch": "스톱워치"
+    },
+    {
+        "stove": "난로"
+    },
+    {
+        "strainer": "거르는 사람"
+    },
+    {
+        "streetcar": "시가 전차"
+    },
+    {
+        "stretcher": "들것"
+    },
+    {
+        "studio couch": "스튜디오 소파"
+    },
+    {
+        "stupa": "해골"
+    },
+    {
+        "submarine": "잠수함"
+    },
+    {
+        "suit": "정장"
+    },
+    {
+        "sundial": "해시계"
+    },
+    {
+        "sunglass": "선글래스"
+    },
+    {
+        "sunglasses": "색안경"
+    },
+    {
+        "sunscreen": "자외선 차단제"
+    },
+    {
+        "suspension bridge": "현수교"
+    },
+    {
+        "swab": "미련퉁이"
+    },
+    {
+        "sweatshirt": "스웨트 셔츠"
+    },
+    {
+        "swimming trunks": "수영복"
+    },
+    {
+        "swing": "그네"
+    },
+    {
+        "switch": "스위치"
+    },
+    {
+        "syringe": "주사기"
+    },
+    {
+        "table lamp": "테이블 램프"
+    },
+    {
+        "tank": "탱크"
+    },
+    {
+        "tape player": "테이프 플레이어"
+    },
+    {
+        "teapot": "찻주전자"
+    },
+    {
+        "teddy": "테디"
+    },
+    {
+        "television": "텔레비전"
+    },
+    {
+        "tennis ball": "테니스 공"
+    },
+    {
+        "thatch": "갈 지풍"
+    },
+    {
+        "theater curtain": "극장 커튼"
+    },
+    {
+        "thimble": "골무"
+    },
+    {
+        "thresher": "탈곡기"
+    },
+    {
+        "throne": "왕좌"
+    },
+    {
+        "tile roof": "기와지붕"
+    },
+    {
+        "toaster": "토스터에"
+    },
+    {
+        "tobacco shop": "담배 가게"
+    },
+    {
+        "toilet seat": "변기"
+    },
+    {
+        "torch": "토치"
+    },
+    {
+        "totem pole": "토템폴"
+    },
+    {
+        "tow truck": "견인차"
+    },
+    {
+        "toyshop": "장난감 가게"
+    },
+    {
+        "tractor": "트랙터"
+    },
+    {
+        "trailer truck": "트레일러 트럭"
+    },
+    {
+        "tray": "쟁반"
+    },
+    {
+        "trench coat": "트렌치 코트"
+    },
+    {
+        "tricycle": "세발자전거"
+    },
+    {
+        "trimaran": "삼동선"
+    },
+    {
+        "tripod": "삼각대"
+    },
+    {
+        "triumphal arch": "개선문"
+    },
+    {
+        "trolleybus": "무궤도 전차"
+    },
+    {
+        "trombone": "트롬본"
+    },
+    {
+        "tub": "통"
+    },
+    {
+        "turnstile": "개찰구"
+    },
+    {
+        "typewriter keyboard": "타자기 키보드"
+    },
+    {
+        "umbrella": "우산"
+    },
+    {
+        "unicycle": "외발자전거"
+    },
+    {
+        "upright": "똑바로"
+    },
+    {
+        "vacuum": "진공"
+    },
+    {
+        "vase": "꽃병"
+    },
+    {
+        "vault": "둥근 천장"
+    },
+    {
+        "velvet": "벨벳"
+    },
+    {
+        "vending machine": "자판기"
+    },
+    {
+        "vestment": "의복"
+    },
+    {
+        "viaduct": "육교"
+    },
+    {
+        "violin": "바이올린"
+    },
+    {
+        "volleyball": "배구"
+    },
+    {
+        "waffle iron": "와플 아이언"
+    },
+    {
+        "wall clock": "벽 시계"
+    },
+    {
+        "wallet": "지갑"
+    },
+    {
+        "wardrobe": "옷장"
+    },
+    {
+        "warplane": "전투기"
+    },
+    {
+        "washbasin": "세면기"
+    },
+    {
+        "washer": "세탁기"
+    },
+    {
+        "water bottle": "물 병"
+    },
+    {
+        "water jug": "물병"
+    },
+    {
+        "water tower": "급수탑"
+    },
+    {
+        "whiskey jug": "위스키 주전자"
+    },
+    {
+        "whistle": "휘파람"
+    },
+    {
+        "wig": "가발"
+    },
+    {
+        "window screen": "윈도우 화면"
+    },
+    {
+        "window shade": "창문 그늘"
+    },
+    {
+        "Windsor tie": "윈저 넥타이"
+    },
+    {
+        "wine bottle": "와인 병"
+    },
+    {
+        "wing": "날개"
+    },
+    {
+        "wok": "웍"
+    },
+    {
+        "wooden spoon": "나무 숟가락"
+    },
+    {
+        "wool": "양모"
+    },
+    {
+        "worm fence": "벌레 울타리"
+    },
+    {
+        "wreck": "난파선"
+    },
+    {
+        "yawl": "개의 구슬프게 짖는 소리"
+    },
+    {
+        "yurt": "유르트"
+    },
+    {
+        "web site": "웹사이트"
+    },
+    {
+        "comic book": "만화책"
+    },
+    {
+        "crossword puzzle": "크로스워드 퍼즐"
+    },
+    {
+        "street sign": "도로 표지판"
+    },
+    {
+        "traffic light": "신호등"
+    },
+    {
+        "book jacket": "책 자켓"
+    },
+    {
+        "menu": "메뉴"
+    },
+    {
+        "plate": "그릇"
+    },
+    {
+        "guacamole": "과카몰리"
+    },
+    {
+        "consomme": "콩소메"
+    },
+    {
+        "hot pot": "뜨거운 냄비"
+    },
+    {
+        "trifle": "시시한 것"
+    },
+    {
+        "ice cream": "아이스크림"
+    },
+    {
+        "ice lolly": "아이스 롤리"
+    },
+    {
+        "French loaf": "프렌치빵"
+    },
+    {
+        "bagel": "베이글"
+    },
+    {
+        "pretzel": "프레첼"
+    },
+    {
+        "cheeseburger": "치즈버거"
+    },
+    {
+        "hotdog": "핫도그"
+    },
+    {
+        "mashed potato": "으깬 감자"
+    },
+    {
+        "head cabbage": "머리 양배추"
+    },
+    {
+        "broccoli": "브로콜리"
+    },
+    {
+        "cauliflower": "콜리플라워"
+    },
+    {
+        "zucchini": "서양 호박"
+    },
+    {
+        "spaghetti squash": "스파게티 스쿼시"
+    },
+    {
+        "acorn squash": "도토리 스쿼시"
+    },
+    {
+        "butternut squash": "버터넛 스쿼시"
+    },
+    {
+        "cucumber": "오이"
+    },
+    {
+        "artichoke": "아티초크"
+    },
+    {
+        "bell pepper": "피망"
+    },
+    {
+        "cardoon": "카둔"
+    },
+    {
+        "mushroom": "버섯"
+    },
+    {
+        "Granny Smith": "스미스 할머니"
+    },
+    {
+        "strawberry": "딸기"
+    },
+    {
+        "orange": "주황색"
+    },
+    {
+        "lemon": "레몬"
+    },
+    {
+        "fig": "무화과"
+    },
+    {
+        "pineapple": "파인애플"
+    },
+    {
+        "banana": "바나나"
+    },
+    {
+        "jackfruit": "잭푸르트"
+    },
+    {
+        "custard apple": "커스터드 애플"
+    },
+    {
+        "pomegranate": "석류"
+    },
+    {
+        "hay": "건초"
+    },
+    {
+        "carbonara": "카르보나라"
+    },
+    {
+        "chocolate sauce": "초콜릿 소스"
+    },
+    {
+        "dough": "반죽"
+    },
+    {
+        "meat loaf": "떡갈비"
+    },
+    {
+        "pizza": "피자"
+    },
+    {
+        "potpie": "파이"
+    },
+    {
+        "burrito": "부리토"
+    },
+    {
+        "red wine": "적포도주"
+    },
+    {
+        "espresso": "에스프레소"
+    },
+    {
+        "cup": "컵"
+    },
+    {
+        "eggnog": "에그노그"
+    },
+    {
+        "alp": "높은 산"
+    },
+    {
+        "bubble": "거품"
+    },
+    {
+        "cliff": "낭떠러지"
+    },
+    {
+        "coral reef": "산호초"
+    },
+    {
+        "geyser": "간헐천"
+    },
+    {
+        "lakeside": "호숫가"
+    },
+    {
+        "promontory": "...곶"
+    },
+    {
+        "sandbar": "사주"
+    },
+    {
+        "seashore": "해변"
+    },
+    {
+        "valley": "골짜기"
+    },
+    {
+        "volcano": "화산"
+    },
+    {
+        "ballplayer": "야구선수"
+    },
+    {
+        "groom": "신랑"
+    },
+    {
+        "scuba diver": "스쿠버 다이버"
+    },
+    {
+        "rapeseed": "유채"
+    },
+    {
+        "daisy": "데이지"
+    },
+    {
+        "yellow lady's slipper": "노란 여성용 슬리퍼"
+    },
+    {
+        "corn": "옥수수"
+    },
+    {
+        "acorn": "도토리"
+    },
+    {
+        "hip": "잘 알고 있기"
+    },
+    {
+        "buckeye": "벅아이"
+    },
+    {
+        "coral fungus": "산호 곰팡이"
+    },
+    {
+        "agaric": "아가린"
+    },
+    {
+        "gyromitra": "자이로미트라"
+    },
+    {
+        "stinkhorn": "악취가 나는"
+    },
+    {
+        "earthstar": "지구의 별"
+    },
+    {
+        "hen-of-the-woods": "숲속의 암탉"
+    },
+    {
+        "bolete": "볼레트"
+    },
+    {
+        "ear": "귀"
+    },
+    {
+        "toilet tissue": "화장지"
+    }
+]
