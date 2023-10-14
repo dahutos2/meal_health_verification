@@ -32,7 +32,10 @@ def save_json_data(data, filename):
     json_data = [{key: value} for key, value in data]
     json_str = (
         "[\n"
-        + ",\n".join("    " + json.dumps(d, separators=(",", ": ")) for d in json_data)
+        + ",\n".join(
+            "    " + json.dumps(d, separators=(",", ": "), ensure_ascii=False)
+            for d in json_data
+        )
         + "\n]"
     )
 
