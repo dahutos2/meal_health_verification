@@ -34,6 +34,8 @@
     "captureDetectImageErrorOK": "OK",
     "recommendConfirmText": "Confirm",
     "recommendCancelText": "Discard the current image and retake the image.",
+    "recommendVisibleText": "display",
+    "recommendHideText": "hidden",
     "dataConfirmLabel": "confirmation",
     "recommendBadText": "Be a little more conscious of your health\nIsn't that good?",
     "recommendNormalText": "It feels good, but\nLet's go one step further!",
@@ -41,7 +43,5 @@
     "showErrorDialogTitle": "Error occurred",
     "showErrorDialogOK": "OK",
     "lastWeek": "last week",
-    "nextWeek": "next week",
-    "recommendVisibleText": "display",
-    "recommendHideText": "hidden"
+    "nextWeek": "next week"
 }

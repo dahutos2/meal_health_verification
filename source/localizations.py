@@ -26,7 +26,7 @@ def main():
     # -o 引数として指定した 変数を上書きする
     print(f"引数: {sys.argv}")
     target = []
-    if len(sys.argv) > 2 and sys.argv[1] in "-o":
+    if len(sys.argv) > 2 and sys.argv[1] == "-o":
         for arg in sys.argv[2:]:
             target.append(arg)
 
@@ -35,18 +35,6 @@ def main():
     current_directory = os.getcwd()
 
     print(f"pythonでの現在のディレクトリ: {current_directory}")
-
-    # 出力先ディレクトリを指定
-    output_directory = "lib/l10n/"
-
-    # ファイルの読み込み
-    with open("lib/l10n/ja.arb", "r") as file:
-        data = json.load(file)
-
-    print("ja.arbファイルの読み込みが完了しました。")
-
-    # トランスレータの初期化
-    translator = Translator()
 
     # CSVファイルからlocalesの情報を読み込む
     locales = {}
@@ -64,8 +52,21 @@ def main():
     max_len = len(locales)
     count = 0
     print("翻訳を開始します。")
+
+    # トランスレータの初期化
+    translator = Translator()
+
+    # 出力先ディレクトリを指定
+    output_directory = "lib/l10n/"
+
+    # 基本とするファイルを読み込み
+    base_code = "ja"
+    base_data = load_existing_file(f"{output_directory}/{base_code}.arb")
+
+    print(f"{base_code}.arbファイルの読み込みが完了しました。")
+
     for code, language in locales.items():
-        if code == "ja":
+        if code == base_code:
             continue
         output_path = f"{output_directory}/{code}.arb"
 
@@ -76,7 +77,7 @@ def main():
             existing_data = {}
 
         translated_data = {}
-        for key, value in data.items():
+        for key, value in base_data.items():
             if (
                 key in existing_data
                 and "失敗しました!:" not in existing_data[key]
@@ -87,7 +88,7 @@ def main():
                 try:
                     translated_description = translator.translate(
                         value["description"],
-                        src="ja",
+                        src=base_code,
                         dest=code,
                     ).text
                     translated_data[key] = {"description": translated_description}
@@ -111,8 +112,12 @@ def main():
 
         merged_data = merge_translations(existing_data, translated_data, target)
 
+        ordered_data = {
+            key: merged_data[key] for key in base_data if key in merged_data
+        }
+
         with open(output_path, "w") as file:
-            json.dump(merged_data, file, indent=4, ensure_ascii=False)
+            json.dump(ordered_data, file, indent=4, ensure_ascii=False)
 
         print(f"{code}.arb: {language}の作成が完了しました。")
         count += 1

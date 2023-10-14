@@ -34,6 +34,8 @@
     "captureDetectImageErrorOK": "ठिक छ",
     "recommendConfirmText": "पुष्टि गर्नुहोस्",
     "recommendCancelText": "हालको छवि खारेज गर्नुहोस् र छवि पुन: लिनुहोस्।",
+    "recommendVisibleText": "प्रदर्शन",
+    "recommendHideText": "लुकेको",
     "dataConfirmLabel": "पुष्टिकरण",
     "recommendBadText": "आफ्नो स्वास्थ्यप्रति अलि बढी सचेत हुनुहोस्\nत्यो राम्रो छैन?",
     "recommendNormalText": "यो राम्रो लाग्छ, तर\nएक कदम अगाडि जाऔं!",
@@ -41,7 +43,5 @@
     "showErrorDialogTitle": "त्रुटि भयो",
     "showErrorDialogOK": "ठिक छ",
     "lastWeek": "गएको हप्ता",
-    "nextWeek": "अर्को हप्ता",
-    "recommendVisibleText": "प्रदर्शन",
-    "recommendHideText": "लुकेको"
+    "nextWeek": "अर्को हप्ता"
 }

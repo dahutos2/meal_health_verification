@@ -34,6 +34,8 @@
     "captureDetectImageErrorOK": "OK",
     "recommendConfirmText": "Confirm",
     "recommendCancelText": "Relinquere imaginem hodiernam et imaginem recipiendi.",
+    "recommendVisibleText": "ostentus",
+    "recommendHideText": "absconditus",
     "dataConfirmLabel": "confirmatio",
     "recommendBadText": "Esto paulo plus conscius valetudinis tuae\nEstne bonum?",
     "recommendNormalText": "Sentit bonum, sed\nEamus ultra gradum!",
@@ -41,7 +43,5 @@
     "showErrorDialogTitle": "Error occurrit",
     "showErrorDialogOK": "OK",
     "lastWeek": "Ultima septimana",
-    "nextWeek": "altera septimana",
-    "recommendVisibleText": "ostentus",
-    "recommendHideText": "absconditus"
+    "nextWeek": "altera septimana"
 }

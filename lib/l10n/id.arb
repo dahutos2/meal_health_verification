@@ -34,6 +34,8 @@
     "captureDetectImageErrorOK": "OKE",
     "recommendConfirmText": "Mengonfirmasi",
     "recommendCancelText": "Buang gambar saat ini dan ambil kembali gambar tersebut.",
+    "recommendVisibleText": "menampilkan",
+    "recommendHideText": "tersembunyi",
     "dataConfirmLabel": "konfirmasi",
     "recommendBadText": "Jadilah sedikit lebih sadar akan kesehatan Anda\nBukankah itu bagus?",
     "recommendNormalText": "Rasanya enak, tapi\nAyo melangkah lebih jauh!",
@@ -41,7 +43,5 @@
     "showErrorDialogTitle": "Terjadi kesalahan",
     "showErrorDialogOK": "OKE",
     "lastWeek": "minggu lalu",
-    "nextWeek": "minggu depan",
-    "recommendVisibleText": "menampilkan",
-    "recommendHideText": "tersembunyi"
+    "nextWeek": "minggu depan"
 }

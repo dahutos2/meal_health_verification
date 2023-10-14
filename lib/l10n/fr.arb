@@ -34,6 +34,8 @@
     "captureDetectImageErrorOK": "D'ACCORD",
     "recommendConfirmText": "Confirmer",
     "recommendCancelText": "Supprimez l’image actuelle et reprenez l’image.",
+    "recommendVisibleText": "afficher",
+    "recommendHideText": "caché",
     "dataConfirmLabel": "confirmation",
     "recommendBadText": "Soyez un peu plus soucieux de votre santé\nN'est-ce pas bon ?",
     "recommendNormalText": "Ça fait du bien, mais\nAllons encore plus loin !",
@@ -41,7 +43,5 @@
     "showErrorDialogTitle": "Erreur est survenue",
     "showErrorDialogOK": "D'ACCORD",
     "lastWeek": "la semaine dernière",
-    "nextWeek": "la semaine prochaine",
-    "recommendVisibleText": "afficher",
-    "recommendHideText": "caché"
+    "nextWeek": "la semaine prochaine"
 }

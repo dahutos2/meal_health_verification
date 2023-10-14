@@ -34,6 +34,8 @@
     "captureDetectImageErrorOK": "OK",
     "recommendConfirmText": "Bestätigen",
     "recommendCancelText": "Verwerfen Sie das aktuelle Bild und nehmen Sie das Bild erneut auf.",
+    "recommendVisibleText": "Anzeige",
+    "recommendHideText": "versteckt",
     "dataConfirmLabel": "Bestätigung",
     "recommendBadText": "Gehen Sie etwas bewusster mit Ihrer Gesundheit um\nIst das nicht gut?",
     "recommendNormalText": "Es fühlt sich gut an, aber\nGehen wir noch einen Schritt weiter!",
@@ -41,7 +43,5 @@
     "showErrorDialogTitle": "Ein Fehler ist aufgetreten",
     "showErrorDialogOK": "OK",
     "lastWeek": "letzte Woche",
-    "nextWeek": "nächste Woche",
-    "recommendVisibleText": "Anzeige",
-    "recommendHideText": "versteckt"
+    "nextWeek": "nächste Woche"
 }

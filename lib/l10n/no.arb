@@ -34,6 +34,8 @@
     "captureDetectImageErrorOK": "OK",
     "recommendConfirmText": "Bekrefte",
     "recommendCancelText": "Kast det gjeldende bildet og ta bildet på nytt.",
+    "recommendVisibleText": "vise",
+    "recommendHideText": "skjult",
     "dataConfirmLabel": "bekreftelse",
     "recommendBadText": "Vær litt mer bevisst på helsen din\nEr ikke det bra?",
     "recommendNormalText": "Det føles bra, men\nLa oss gå ett skritt videre!",
@@ -41,7 +43,5 @@
     "showErrorDialogTitle": "Feil oppsto",
     "showErrorDialogOK": "OK",
     "lastWeek": "forrige uke",
-    "nextWeek": "neste uke",
-    "recommendVisibleText": "vise",
-    "recommendHideText": "skjult"
+    "nextWeek": "neste uke"
 }

@@ -34,6 +34,8 @@
     "captureDetectImageErrorOK": "오 K",
     "recommendConfirmText": "확정",
     "recommendCancelText": "이번 이미지를 버리고 다시 촬영",
+    "recommendVisibleText": "표시",
+    "recommendHideText": "숨기기",
     "dataConfirmLabel": "확인",
     "recommendBadText": "좀 더 건강을 의식해도\n좋은 것이 아닐까요?",
     "recommendNormalText": "좋은 느낌이지만,\n한 걸음 더 노력합시다!",
@@ -41,7 +43,5 @@
     "showErrorDialogTitle": "오류 발생",
     "showErrorDialogOK": "오 K",
     "lastWeek": "지난주",
-    "nextWeek": "다음 주",
-    "recommendVisibleText": "표시",
-    "recommendHideText": "숨기기"
+    "nextWeek": "다음 주"
 }
