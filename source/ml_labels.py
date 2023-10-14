@@ -28,11 +28,16 @@ def load_existing_json_file(input_path, output_path, base_text):
 
 
 def save_json_data(data, filename):
-    # タプルのリストを指定された形式のリストに変換
-    data = [{item[0]: item[1]} for item in data]
+    # タプルのリストをJsonに保存する形式に変換
+    json_data = [{key: value} for key, value in data]
+    json_str = (
+        "[\n"
+        + ",\n".join("    " + json.dumps(d, separators=(",", ": ")) for d in json_data)
+        + "\n]"
+    )
 
     with open(filename, "w") as file:
-        json.dump(data, file, indent=4, ensure_ascii=False)
+        file.write(json_str)
 
 
 def main():
@@ -67,14 +72,14 @@ def main():
 
     # 基本とするファイルを読み込み
     base_code = "en"
-    base_text_data = load_text_file(f"{output_dir}/{base_code}.txt")
+    base_text_data = load_text_file(f"{output_dir}{base_code}.txt")
 
     # Json形式のデータと探索用のdicを作成
     base_json_data = [(item, item) for item in base_text_data]
 
     # Jsonファイルのディレクトリ
     input_dir = "source/label_keys/"
-    save_json_data(base_json_data, f"{input_dir}/{base_code}.json")
+    save_json_data(base_json_data, f"{input_dir}{base_code}.json")
 
     print(f"ml/{base_code}.txtファイルの読み込みが完了しました。")
 
@@ -89,8 +94,8 @@ def main():
     for code, language in locales.items():
         if code == base_code:
             continue
-        input_path = f"{input_dir}/{code}.json"
-        output_path = f"{output_dir}/{code}.txt"
+        input_path = f"{input_dir}{code}.json"
+        output_path = f"{output_dir}{code}.txt"
 
         # すでに存在するデータを取得する
         existing_data = load_existing_json_file(

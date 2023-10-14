@@ -1,3005 +1,1003 @@
 [
-    {
-        "background": "배경"
-    },
-    {
-        "tench": "텐치"
-    },
-    {
-        "goldfish": "금붕어"
-    },
-    {
-        "great white shark": "백상아리"
-    },
-    {
-        "tiger shark": "범 상어"
-    },
-    {
-        "hammerhead": "귀상어"
-    },
-    {
-        "electric ray": "전기 광선"
-    },
-    {
-        "stingray": "가오리"
-    },
-    {
-        "cock": "수탉"
-    },
-    {
-        "hen": "암탉"
-    },
-    {
-        "ostrich": "타조"
-    },
-    {
-        "brambling": "불평"
-    },
-    {
-        "goldfinch": "금화"
-    },
-    {
-        "house finch": "집 핀치"
-    },
-    {
-        "junco": "준코"
-    },
-    {
-        "indigo bunting": "인디고 깃발"
-    },
-    {
-        "robin": "남자 이름"
-    },
-    {
-        "bulbul": "벌불"
-    },
-    {
-        "jay": "어치"
-    },
-    {
-        "magpie": "까치"
-    },
-    {
-        "chickadee": "총칭"
-    },
-    {
-        "water ouzel": "물 우젤"
-    },
-    {
-        "kite": "연"
-    },
-    {
-        "bald eagle": "대머리 독수리"
-    },
-    {
-        "vulture": "무자비한 사람"
-    },
-    {
-        "great grey owl": "큰 회색 올빼미"
-    },
-    {
-        "European fire salamander": "유럽의 불 도롱뇽"
-    },
-    {
-        "common newt": "일반적인 영원"
-    },
-    {
-        "eft": "동부"
-    },
-    {
-        "spotted salamander": "점박이 도롱뇽"
-    },
-    {
-        "axolotl": "아홀로틀"
-    },
-    {
-        "bullfrog": "황소개구리"
-    },
-    {
-        "tree frog": "청개구리"
-    },
-    {
-        "tailed frog": "꼬리 개구리"
-    },
-    {
-        "loggerhead": "얼간이"
-    },
-    {
-        "leatherback turtle": "장수거북"
-    },
-    {
-        "mud turtle": "진흙거북"
-    },
-    {
-        "terrapin": "테라핀"
-    },
-    {
-        "box turtle": "상자거북"
-    },
-    {
-        "banded gecko": "줄무늬 도마뱀붙이"
-    },
-    {
-        "common iguana": "일반적인 이구아나"
-    },
-    {
-        "American chameleon": "아메리칸 카멜레온"
-    },
-    {
-        "whiptail": "채찍꼬리"
-    },
-    {
-        "agama": "아가마"
-    },
-    {
-        "frilled lizard": "주름진 도마뱀"
-    },
-    {
-        "alligator lizard": "악어 도마뱀"
-    },
-    {
-        "Gila monster": "길라 몬스터"
-    },
-    {
-        "green lizard": "녹색 도마뱀"
-    },
-    {
-        "African chameleon": "아프리카 카멜레온"
-    },
-    {
-        "Komodo dragon": "코모도 왕 도마뱀"
-    },
-    {
-        "African crocodile": "아프리카 악어"
-    },
-    {
-        "American alligator": "미국 악어"
-    },
-    {
-        "triceratops": "트리케라톱스"
-    },
-    {
-        "thunder snake": "천둥뱀"
-    },
-    {
-        "ringneck snake": "고리 목 뱀"
-    },
-    {
-        "hognose snake": "뱀의 뱀"
-    },
-    {
-        "green snake": "녹색 뱀"
-    },
-    {
-        "king snake": "왕뱀"
-    },
-    {
-        "garter snake": "가터스 뱀"
-    },
-    {
-        "water snake": "물뱀"
-    },
-    {
-        "vine snake": "덩굴뱀"
-    },
-    {
-        "night snake": "밤뱀"
-    },
-    {
-        "boa constrictor": "보아뱀"
-    },
-    {
-        "rock python": "바위 비단뱀"
-    },
-    {
-        "Indian cobra": "인디언 코브라"
-    },
-    {
-        "green mamba": "그린 맘바"
-    },
-    {
-        "sea snake": "바다뱀"
-    },
-    {
-        "horned viper": "뿔 독사"
-    },
-    {
-        "diamondback": "다이아몬드백"
-    },
-    {
-        "sidewinder": "사이드와인더"
-    },
-    {
-        "trilobite": "삼엽충"
-    },
-    {
-        "harvestman": "수확하는 사람"
-    },
-    {
-        "scorpion": "투석기"
-    },
-    {
-        "black and gold garden spider": "검정색과 금색 정원 거미"
-    },
-    {
-        "barn spider": "헛간 거미"
-    },
-    {
-        "garden spider": "정원 거미"
-    },
-    {
-        "black widow": "흑인 과부"
-    },
-    {
-        "tarantula": "타란툴라 거미"
-    },
-    {
-        "wolf spider": "늑대 거미"
-    },
-    {
-        "tick": "진드기"
-    },
-    {
-        "centipede": "지네"
-    },
-    {
-        "black grouse": "검은뇌조"
-    },
-    {
-        "ptarmigan": "멧닭"
-    },
-    {
-        "ruffed grouse": "목도리뇌조"
-    },
-    {
-        "prairie chicken": "프레리 치킨"
-    },
-    {
-        "peacock": "공작"
-    },
-    {
-        "quail": "메추라기"
-    },
-    {
-        "partridge": "자고"
-    },
-    {
-        "African grey": "아프리칸 그레이"
-    },
-    {
-        "macaw": "앵무새"
-    },
-    {
-        "sulphur-crested cockatoo": "유황 볏 앵무새"
-    },
-    {
-        "lorikeet": "진훙 잉꼬"
-    },
-    {
-        "coucal": "쿠칼"
-    },
-    {
-        "bee eater": "꿀벌 먹는 사람"
-    },
-    {
-        "hornbill": "코뿔새"
-    },
-    {
-        "hummingbird": "벌새"
-    },
-    {
-        "jacamar": "자카마르"
-    },
-    {
-        "toucan": "큰부리새"
-    },
-    {
-        "drake": "드레이크"
-    },
-    {
-        "red-breasted merganser": "붉은 가슴 상인"
-    },
-    {
-        "goose": "거위"
-    },
-    {
-        "black swan": "검은 백조"
-    },
-    {
-        "tusker": "엄니"
-    },
-    {
-        "echidna": "바늘두더지"
-    },
-    {
-        "platypus": "오리너구리"
-    },
-    {
-        "wallaby": "왈라비"
-    },
-    {
-        "koala": "코알라"
-    },
-    {
-        "wombat": "웜뱃"
-    },
-    {
-        "jellyfish": "해파리"
-    },
-    {
-        "sea anemone": "말미잘"
-    },
-    {
-        "brain coral": "뇌 산호"
-    },
-    {
-        "flatworm": "편형동물"
-    },
-    {
-        "nematode": "선충류"
-    },
-    {
-        "conch": "조가비"
-    },
-    {
-        "snail": "달팽이"
-    },
-    {
-        "slug": "강타"
-    },
-    {
-        "sea slug": "바다 슬러그"
-    },
-    {
-        "chiton": "키톤"
-    },
-    {
-        "chambered nautilus": "챔버형 노틸러스"
-    },
-    {
-        "Dungeness crab": "던저니스 크랩"
-    },
-    {
-        "rock crab": "바위게"
-    },
-    {
-        "fiddler crab": "피들러 크랩"
-    },
-    {
-        "king crab": "왕게"
-    },
-    {
-        "American lobster": "아메리칸 랍스터"
-    },
-    {
-        "spiny lobster": "가시 랍스터"
-    },
-    {
-        "crayfish": "왕새우"
-    },
-    {
-        "hermit crab": "소라게"
-    },
-    {
-        "isopod": "등각류"
-    },
-    {
-        "white stork": "흰 황새"
-    },
-    {
-        "black stork": "검은 황새"
-    },
-    {
-        "spoonbill": "저어새"
-    },
-    {
-        "flamingo": "플라밍고"
-    },
-    {
-        "little blue heron": "작은 블루 헤론"
-    },
-    {
-        "American egret": "미국 백로"
-    },
-    {
-        "bittern": "간수"
-    },
-    {
-        "crane": "두루미"
-    },
-    {
-        "limpkin": "림프킨"
-    },
-    {
-        "European gallinule": "유럽 ​​갈리눌"
-    },
-    {
-        "American coot": "아메리칸 쿠트"
-    },
-    {
-        "bustard": "버스타드"
-    },
-    {
-        "ruddy turnstone": "붉게 변하는 돌"
-    },
-    {
-        "red-backed sandpiper": "붉은등도요새"
-    },
-    {
-        "redshank": "붉은생크"
-    },
-    {
-        "dowitcher": "마술사"
-    },
-    {
-        "oystercatcher": "굴잡이"
-    },
-    {
-        "pelican": "펠리컨"
-    },
-    {
-        "king penguin": "킹 펭귄"
-    },
-    {
-        "albatross": "신천옹"
-    },
-    {
-        "grey whale": "회색고래"
-    },
-    {
-        "killer whale": "범고래"
-    },
-    {
-        "dugong": "듀공"
-    },
-    {
-        "sea lion": "바다 사자"
-    },
-    {
-        "Chihuahua": "치와와"
-    },
-    {
-        "Japanese spaniel": "일본 발바리"
-    },
-    {
-        "Maltese dog": "말티즈 개"
-    },
-    {
-        "Pekinese": "북경 사람"
-    },
-    {
-        "Shih-Tzu": "시츄"
-    },
-    {
-        "Blenheim spaniel": "블레넘 스파니엘"
-    },
-    {
-        "papillon": "빠삐용"
-    },
-    {
-        "toy terrier": "장난감 테리어"
-    },
-    {
-        "Rhodesian ridgeback": "로디지안 리지백"
-    },
-    {
-        "Afghan hound": "아프간 하운드"
-    },
-    {
-        "basset": "바셋"
-    },
-    {
-        "beagle": "비글"
-    },
-    {
-        "bloodhound": "집요한 추적자"
-    },
-    {
-        "bluetick": "청진드기"
-    },
-    {
-        "black-and-tan coonhound": "블랙앤탄 쿤하운드"
-    },
-    {
-        "Walker hound": "워커 하운드"
-    },
-    {
-        "English foxhound": "잉글리시 폭스하운드"
-    },
-    {
-        "redbone": "레드본"
-    },
-    {
-        "borzoi": "보르조이"
-    },
-    {
-        "Irish wolfhound": "아이리쉬 울프하운드"
-    },
-    {
-        "Italian greyhound": "이탈리아 그레이하운드"
-    },
-    {
-        "whippet": "경전차"
-    },
-    {
-        "Ibizan hound": "이비잔 하운드"
-    },
-    {
-        "Norwegian elkhound": "노르웨이 엘크하운드"
-    },
-    {
-        "otterhound": "수달하운드"
-    },
-    {
-        "Saluki": "살루키"
-    },
-    {
-        "Scottish deerhound": "스코틀랜드 디어하운드"
-    },
-    {
-        "Weimaraner": "바이마라너"
-    },
-    {
-        "Staffordshire bullterrier": "스태퍼드셔 불테리어"
-    },
-    {
-        "American Staffordshire terrier": "아메리칸 스태퍼드셔 테리어"
-    },
-    {
-        "Bedlington terrier": "베들링턴 테리어"
-    },
-    {
-        "Border terrier": "보더 테리어"
-    },
-    {
-        "Kerry blue terrier": "케리 블루 테리어"
-    },
-    {
-        "Irish terrier": "아이리쉬 테리어"
-    },
-    {
-        "Norfolk terrier": "노퍽 테리어"
-    },
-    {
-        "Norwich terrier": "노리치 테리어"
-    },
-    {
-        "Yorkshire terrier": "요크셔 테리어"
-    },
-    {
-        "wire-haired fox terrier": "털이 많은 여우 테리어"
-    },
-    {
-        "Lakeland terrier": "레이크랜드 테리어"
-    },
-    {
-        "Sealyham terrier": "씰리햄 테리어"
-    },
-    {
-        "Airedale": "에어데일"
-    },
-    {
-        "cairn": "케른"
-    },
-    {
-        "Australian terrier": "오스트레일리안 테리어"
-    },
-    {
-        "Dandie Dinmont": "댄디 딘몬트"
-    },
-    {
-        "Boston bull": "보스턴 황소"
-    },
-    {
-        "miniature schnauzer": "미니어처 슈나우저"
-    },
-    {
-        "giant schnauzer": "자이언트 슈나우저"
-    },
-    {
-        "standard schnauzer": "스탠다드 슈나우저"
-    },
-    {
-        "Scotch terrier": "스카치 테리어"
-    },
-    {
-        "Tibetan terrier": "티베트 테리어"
-    },
-    {
-        "silky terrier": "실키 테리어"
-    },
-    {
-        "soft-coated wheaten terrier": "소프트 코팅 휘튼 테리어"
-    },
-    {
-        "West Highland white terrier": "웨스트 하이랜드 화이트 테리어"
-    },
-    {
-        "Lhasa": "라사"
-    },
-    {
-        "flat-coated retriever": "평면 코팅 리트리버"
-    },
-    {
-        "curly-coated retriever": "곱슬머리 리트리버"
-    },
-    {
-        "golden retriever": "골든 리트리버"
-    },
-    {
-        "Labrador retriever": "래브라도 리트리버"
-    },
-    {
-        "Chesapeake Bay retriever": "체서피크 베이 리트리버"
-    },
-    {
-        "German short-haired pointer": "저먼 쇼트헤어 포인터"
-    },
-    {
-        "vizsla": "비즐라"
-    },
-    {
-        "English setter": "잉글리쉬 세터"
-    },
-    {
-        "Irish setter": "아이리쉬 세터"
-    },
-    {
-        "Gordon setter": "고든 세터"
-    },
-    {
-        "Brittany spaniel": "브리타니 스패니얼"
-    },
-    {
-        "clumber": "어지러운 사람"
-    },
-    {
-        "English springer": "잉글리쉬 스프링거"
-    },
-    {
-        "Welsh springer spaniel": "웨일스 스프링거 스파니엘"
-    },
-    {
-        "cocker spaniel": "코카스파니엘"
-    },
-    {
-        "Sussex spaniel": "서식스 스파니엘"
-    },
-    {
-        "Irish water spaniel": "아이리시 워터 스파니엘"
-    },
-    {
-        "kuvasz": "쿠바츠"
-    },
-    {
-        "schipperke": "시퍼키"
-    },
-    {
-        "groenendael": "그로넨달"
-    },
-    {
-        "malinois": "말리노이즈"
-    },
-    {
-        "briard": "브리아드"
-    },
-    {
-        "kelpie": "켈피"
-    },
-    {
-        "komondor": "코몬도르"
-    },
-    {
-        "Old English sheepdog": "올드 잉글리쉬 쉽독"
-    },
-    {
-        "Shetland sheepdog": "셰틀랜드 양치기"
-    },
-    {
-        "collie": "콜리"
-    },
-    {
-        "Border collie": "보더 콜리"
-    },
-    {
-        "Bouvier des Flandres": "부비에 데 플랑드르"
-    },
-    {
-        "Rottweiler": "로트와일러"
-    },
-    {
-        "German shepherd": "독일 셰퍼드"
-    },
-    {
-        "Doberman": "도베르만"
-    },
-    {
-        "miniature pinscher": "미니어처 핀셔"
-    },
-    {
-        "Greater Swiss Mountain dog": "그레이터 스위스 마운틴 독"
-    },
-    {
-        "Bernese mountain dog": "베르니즈 마운틴독"
-    },
-    {
-        "Appenzeller": "아펜젤러"
-    },
-    {
-        "EntleBucher": "엔틀부처"
-    },
-    {
-        "boxer": "복서"
-    },
-    {
-        "bull mastiff": "불 마스티프"
-    },
-    {
-        "Tibetan mastiff": "티베탄 마스티프"
-    },
-    {
-        "French bulldog": "프랑스 불독"
-    },
-    {
-        "Great Dane": "그레이트 데인"
-    },
-    {
-        "Saint Bernard": "세인트 버나드"
-    },
-    {
-        "Eskimo dog": "에스키모 개"
-    },
-    {
-        "malamute": "말라뮤트"
-    },
-    {
-        "Siberian husky": "시베리안 허스키"
-    },
-    {
-        "dalmatian": "달마시안"
-    },
-    {
-        "affenpinscher": "아펜핀셔"
-    },
-    {
-        "basenji": "바센지"
-    },
-    {
-        "pug": "이긴 흙"
-    },
-    {
-        "Leonberg": "레온베르크"
-    },
-    {
-        "Newfoundland": "뉴펀들랜드"
-    },
-    {
-        "Great Pyrenees": "그레이트 피레네 산맥"
-    },
-    {
-        "Samoyed": "사모예드"
-    },
-    {
-        "Pomeranian": "포메라니안"
-    },
-    {
-        "chow": "음식"
-    },
-    {
-        "keeshond": "케이스혼드"
-    },
-    {
-        "Brabancon griffon": "브라반콘 그리폰"
-    },
-    {
-        "Pembroke": "펨브로크"
-    },
-    {
-        "Cardigan": "카디건"
-    },
-    {
-        "toy poodle": "토이 푸들"
-    },
-    {
-        "miniature poodle": "미니어처 푸들"
-    },
-    {
-        "standard poodle": "스탠다드 푸들"
-    },
-    {
-        "Mexican hairless": "멕시코 털이없는"
-    },
-    {
-        "timber wolf": "목재늑대"
-    },
-    {
-        "white wolf": "흰 늑대"
-    },
-    {
-        "red wolf": "붉은 늑대"
-    },
-    {
-        "coyote": "코요테"
-    },
-    {
-        "dingo": "들개"
-    },
-    {
-        "dhole": "돌"
-    },
-    {
-        "African hunting dog": "아프리카 사냥개"
-    },
-    {
-        "hyena": "하이에나"
-    },
-    {
-        "red fox": "붉은 여우"
-    },
-    {
-        "kit fox": "키트 여우"
-    },
-    {
-        "Arctic fox": "북극 여우"
-    },
-    {
-        "grey fox": "회색 여우"
-    },
-    {
-        "tabby": "태비"
-    },
-    {
-        "tiger cat": "호랑이 고양이"
-    },
-    {
-        "Persian cat": "페르시아 고양이"
-    },
-    {
-        "Siamese cat": "샴 고양이"
-    },
-    {
-        "Egyptian cat": "이집트 고양이"
-    },
-    {
-        "cougar": "쿠거"
-    },
-    {
-        "lynx": "스라소니"
-    },
-    {
-        "leopard": "표범"
-    },
-    {
-        "snow leopard": "눈표범"
-    },
-    {
-        "jaguar": "재규어"
-    },
-    {
-        "lion": "사자"
-    },
-    {
-        "tiger": "호랑이"
-    },
-    {
-        "cheetah": "치타"
-    },
-    {
-        "brown bear": "갈색 곰"
-    },
-    {
-        "American black bear": "미국 흑곰"
-    },
-    {
-        "ice bear": "아이스베어"
-    },
-    {
-        "sloth bear": "나무늘보곰"
-    },
-    {
-        "mongoose": "몽구스"
-    },
-    {
-        "meerkat": "미어캣"
-    },
-    {
-        "tiger beetle": "호랑이 딱정벌레"
-    },
-    {
-        "ladybug": "무당벌레"
-    },
-    {
-        "ground beetle": "땅 딱정벌레"
-    },
-    {
-        "long-horned beetle": "긴뿔딱정벌레"
-    },
-    {
-        "leaf beetle": "잎벌레"
-    },
-    {
-        "dung beetle": "쇠똥구리"
-    },
-    {
-        "rhinoceros beetle": "코뿔소 딱정벌레"
-    },
-    {
-        "weevil": "바구미"
-    },
-    {
-        "fly": "파리"
-    },
-    {
-        "bee": "벌"
-    },
-    {
-        "ant": "개미"
-    },
-    {
-        "grasshopper": "메뚜기"
-    },
-    {
-        "cricket": "크리켓"
-    },
-    {
-        "walking stick": "지팡이"
-    },
-    {
-        "cockroach": "바퀴벌레"
-    },
-    {
-        "mantis": "사마귀"
-    },
-    {
-        "cicada": "매미"
-    },
-    {
-        "leafhopper": "멸구"
-    },
-    {
-        "lacewing": "풀잠자리"
-    },
-    {
-        "dragonfly": "잠자리"
-    },
-    {
-        "damselfly": "멍청한"
-    },
-    {
-        "admiral": "해군 대장"
-    },
-    {
-        "ringlet": "작은 고리"
-    },
-    {
-        "monarch": "군주"
-    },
-    {
-        "cabbage butterfly": "양배추나비"
-    },
-    {
-        "sulphur butterfly": "유황나비"
-    },
-    {
-        "lycaenid": "라이케네이드"
-    },
-    {
-        "starfish": "불가사리"
-    },
-    {
-        "sea urchin": "성게"
-    },
-    {
-        "sea cucumber": "해삼"
-    },
-    {
-        "wood rabbit": "나무 토끼"
-    },
-    {
-        "hare": "토끼"
-    },
-    {
-        "Angora": "앙고라"
-    },
-    {
-        "hamster": "햄스터"
-    },
-    {
-        "porcupine": "호저"
-    },
-    {
-        "fox squirrel": "여우 다람쥐"
-    },
-    {
-        "marmot": "마모트"
-    },
-    {
-        "beaver": "비버"
-    },
-    {
-        "guinea pig": "기니피그"
-    },
-    {
-        "sorrel": "밤색"
-    },
-    {
-        "zebra": "얼룩말"
-    },
-    {
-        "hog": "돼지"
-    },
-    {
-        "wild boar": "야생 멧돼지"
-    },
-    {
-        "warthog": "멧돼지"
-    },
-    {
-        "hippopotamus": "하마"
-    },
-    {
-        "ox": "황소"
-    },
-    {
-        "water buffalo": "물소"
-    },
-    {
-        "bison": "바이슨"
-    },
-    {
-        "ram": "램"
-    },
-    {
-        "bighorn": "큰뿔양"
-    },
-    {
-        "ibex": "아이벡스"
-    },
-    {
-        "hartebeest": "하테비스트"
-    },
-    {
-        "impala": "임팔라"
-    },
-    {
-        "gazelle": "가젤 영양"
-    },
-    {
-        "Arabian camel": "아라비아 낙타"
-    },
-    {
-        "llama": "야마"
-    },
-    {
-        "weasel": "족제비"
-    },
-    {
-        "mink": "밍크"
-    },
-    {
-        "polecat": "족제비"
-    },
-    {
-        "black-footed ferret": "검은발 족제비"
-    },
-    {
-        "otter": "수달"
-    },
-    {
-        "skunk": "스컹크"
-    },
-    {
-        "badger": "오소리"
-    },
-    {
-        "armadillo": "아르마딜로"
-    },
-    {
-        "three-toed sloth": "세 발가락 나무늘보"
-    },
-    {
-        "orangutan": "오랑우탄"
-    },
-    {
-        "gorilla": "고릴라"
-    },
-    {
-        "chimpanzee": "침팬지"
-    },
-    {
-        "gibbon": "긴팔원숭이"
-    },
-    {
-        "siamang": "시아망"
-    },
-    {
-        "guenon": "게논"
-    },
-    {
-        "patas": "파타스"
-    },
-    {
-        "baboon": "비비"
-    },
-    {
-        "macaque": "원숭이"
-    },
-    {
-        "langur": "랑구르"
-    },
-    {
-        "colobus": "콜로부스"
-    },
-    {
-        "proboscis monkey": "코 원숭이"
-    },
-    {
-        "marmoset": "마모셋"
-    },
-    {
-        "capuchin": "카푸친"
-    },
-    {
-        "howler monkey": "짖는 원숭이"
-    },
-    {
-        "titi": "티티"
-    },
-    {
-        "spider monkey": "거미 원숭이"
-    },
-    {
-        "squirrel monkey": "다람쥐원숭이"
-    },
-    {
-        "Madagascar cat": "마다가스카르 고양이"
-    },
-    {
-        "indri": "인드리"
-    },
-    {
-        "Indian elephant": "인도코끼리"
-    },
-    {
-        "African elephant": "아프리카코끼리"
-    },
-    {
-        "lesser panda": "레서 팬더"
-    },
-    {
-        "giant panda": "자이언트 팬더"
-    },
-    {
-        "barracouta": "바라쿠타"
-    },
-    {
-        "eel": "뱀장어"
-    },
-    {
-        "coho": "코호"
-    },
-    {
-        "rock beauty": "록 뷰티"
-    },
-    {
-        "anemone fish": "말미잘"
-    },
-    {
-        "sturgeon": "철갑상어"
-    },
-    {
-        "gar": "가르"
-    },
-    {
-        "lionfish": "사자상어"
-    },
-    {
-        "puffer": "복어"
-    },
-    {
-        "abacus": "주판"
-    },
-    {
-        "abaya": "아바야"
-    },
-    {
-        "academic gown": "학업 가운"
-    },
-    {
-        "accordion": "아코디언"
-    },
-    {
-        "acoustic guitar": "어쿠스틱 기타"
-    },
-    {
-        "aircraft carrier": "항공모함"
-    },
-    {
-        "airliner": "여객기"
-    },
-    {
-        "airship": "비행선"
-    },
-    {
-        "altar": "제단"
-    },
-    {
-        "ambulance": "구급차"
-    },
-    {
-        "amphibian": "수륙 양용 비행기"
-    },
-    {
-        "analog clock": "아날로그 시계"
-    },
-    {
-        "apiary": "양봉장"
-    },
-    {
-        "apron": "앞치마"
-    },
-    {
-        "ashcan": "재떨이"
-    },
-    {
-        "assault rifle": "돌격 소총"
-    },
-    {
-        "backpack": "배낭"
-    },
-    {
-        "bakery": "빵집"
-    },
-    {
-        "balance beam": "저울대"
-    },
-    {
-        "balloon": "풍선"
-    },
-    {
-        "ballpoint": "볼펜"
-    },
-    {
-        "Band Aid": "반창고"
-    },
-    {
-        "banjo": "밴조"
-    },
-    {
-        "bannister": "난간"
-    },
-    {
-        "barbell": "바벨"
-    },
-    {
-        "barber chair": "이발사"
-    },
-    {
-        "barbershop": "이발소"
-    },
-    {
-        "barn": "외양간"
-    },
-    {
-        "barometer": "기압계"
-    },
-    {
-        "barrel": "통"
-    },
-    {
-        "barrow": "손수레"
-    },
-    {
-        "baseball": "야구"
-    },
-    {
-        "basketball": "농구"
-    },
-    {
-        "bassinet": "요람"
-    },
-    {
-        "bassoon": "바순"
-    },
-    {
-        "bathing cap": "목욕모자"
-    },
-    {
-        "bath towel": "목욕 수건"
-    },
-    {
-        "bathtub": "목욕통"
-    },
-    {
-        "beach wagon": "해변 왜건"
-    },
-    {
-        "beacon": "봉홧불"
-    },
-    {
-        "beaker": "굽 ​​달린 큰 컵"
-    },
-    {
-        "bearskin": "곰 가죽 옷"
-    },
-    {
-        "beer bottle": "맥주병"
-    },
-    {
-        "beer glass": "맥주잔"
-    },
-    {
-        "bell cote": "벨 코트"
-    },
-    {
-        "bib": "턱받이"
-    },
-    {
-        "bicycle-built-for-two": "2인용 자전거"
-    },
-    {
-        "bikini": "비키니"
-    },
-    {
-        "binder": "접합재"
-    },
-    {
-        "binoculars": "쌍안경"
-    },
-    {
-        "birdhouse": "새집"
-    },
-    {
-        "boathouse": "보트 하우스"
-    },
-    {
-        "bobsled": "봅슬레이"
-    },
-    {
-        "bolo tie": "볼로넥타이"
-    },
-    {
-        "bonnet": "보닛"
-    },
-    {
-        "bookcase": "책장"
-    },
-    {
-        "bookshop": "서점"
-    },
-    {
-        "bottlecap": "병 뚜껑"
-    },
-    {
-        "bow": "절하다"
-    },
-    {
-        "bow tie": "나비 넥타이"
-    },
-    {
-        "brass": "놋쇠"
-    },
-    {
-        "brassiere": "브래지어"
-    },
-    {
-        "breakwater": "방파제"
-    },
-    {
-        "breastplate": "흉갑"
-    },
-    {
-        "broom": "비"
-    },
-    {
-        "bucket": "버킷"
-    },
-    {
-        "buckle": "버클"
-    },
-    {
-        "bulletproof vest": "방탄 조끼"
-    },
-    {
-        "bullet train": "초고속 열차"
-    },
-    {
-        "butcher shop": "푸줏간"
-    },
-    {
-        "cab": "택시"
-    },
-    {
-        "caldron": "가마솥"
-    },
-    {
-        "candle": "양초"
-    },
-    {
-        "cannon": "대포"
-    },
-    {
-        "canoe": "카누"
-    },
-    {
-        "can opener": "병따개"
-    },
-    {
-        "cardigan": "카디건"
-    },
-    {
-        "car mirror": "자동차 거울"
-    },
-    {
-        "carousel": "회전목마"
-    },
-    {
-        "carpenter's kit": "목수의 키트"
-    },
-    {
-        "carton": "판지 상자"
-    },
-    {
-        "car wheel": "자동차 바퀴"
-    },
-    {
-        "cash machine": "현금 지급기"
-    },
-    {
-        "cassette": "카세트"
-    },
-    {
-        "cassette player": "카세트 플레이어"
-    },
-    {
-        "castle": "성"
-    },
-    {
-        "catamaran": "뗏목"
-    },
-    {
-        "CD player": "CD 플레이어"
-    },
-    {
-        "cello": "첼로"
-    },
-    {
-        "cellular telephone": "휴대전화"
-    },
-    {
-        "chain": "체인"
-    },
-    {
-        "chainlink fence": "체인 링크 울타리"
-    },
-    {
-        "chain mail": "체인 메일"
-    },
-    {
-        "chain saw": "체인톱"
-    },
-    {
-        "chest": "가슴"
-    },
-    {
-        "chiffonier": "서랍장"
-    },
-    {
-        "chime": "차임"
-    },
-    {
-        "china cabinet": "중국 캐비닛"
-    },
-    {
-        "Christmas stocking": "크리스마스 스타킹"
-    },
-    {
-        "church": "교회"
-    },
-    {
-        "cinema": "영화"
-    },
-    {
-        "cleaver": "고기 베는 큰 칼"
-    },
-    {
-        "cliff dwelling": "절벽 주거"
-    },
-    {
-        "cloak": "망토"
-    },
-    {
-        "clog": "나막신"
-    },
-    {
-        "cocktail shaker": "칵테일 셰이커"
-    },
-    {
-        "coffee mug": "커피 머그잔"
-    },
-    {
-        "coffeepot": "커피 포트"
-    },
-    {
-        "coil": "코일"
-    },
-    {
-        "combination lock": "조합 잠금"
-    },
-    {
-        "computer keyboard": "컴퓨터 키보드"
-    },
-    {
-        "confectionery": "과자"
-    },
-    {
-        "container ship": "컨테이너 선박"
-    },
-    {
-        "convertible": "바꾸어 말할 수 있는"
-    },
-    {
-        "corkscrew": "빙빙 돌리다"
-    },
-    {
-        "cornet": "코넷"
-    },
-    {
-        "cowboy boot": "카우보이 부츠"
-    },
-    {
-        "cowboy hat": "카우보이 모자"
-    },
-    {
-        "cradle": "요람"
-    },
-    {
-        "crane": "두루미"
-    },
-    {
-        "crash helmet": "충돌 헬멧"
-    },
-    {
-        "crate": "나무 상자"
-    },
-    {
-        "crib": "어린이 침대"
-    },
-    {
-        "Crock Pot": "돼 먹지 못한 냄비"
-    },
-    {
-        "croquet ball": "크로케 공"
-    },
-    {
-        "crutch": "버팀목"
-    },
-    {
-        "cuirass": "동체 갑옷"
-    },
-    {
-        "dam": "댐"
-    },
-    {
-        "desk": "책상"
-    },
-    {
-        "desktop computer": "데스크톱 컴퓨터"
-    },
-    {
-        "dial telephone": "전화를 걸다"
-    },
-    {
-        "diaper": "기저귀"
-    },
-    {
-        "digital clock": "디지털 시계"
-    },
-    {
-        "digital watch": "디지털 시계"
-    },
-    {
-        "dining table": "식탁"
-    },
-    {
-        "dishrag": "행주"
-    },
-    {
-        "dishwasher": "식기 세척기"
-    },
-    {
-        "disk brake": "디스크 브레이크"
-    },
-    {
-        "dock": "독"
-    },
-    {
-        "dogsled": "개 썰매"
-    },
-    {
-        "dome": "둥근 천장"
-    },
-    {
-        "doormat": "현관 매트"
-    },
-    {
-        "drilling platform": "드릴링 플랫폼"
-    },
-    {
-        "drum": "북"
-    },
-    {
-        "drumstick": "북채"
-    },
-    {
-        "dumbbell": "아령"
-    },
-    {
-        "Dutch oven": "고기 굽는 그릇"
-    },
-    {
-        "electric fan": "선풍기"
-    },
-    {
-        "electric guitar": "전자 기타"
-    },
-    {
-        "electric locomotive": "전기 기관차"
-    },
-    {
-        "entertainment center": "엔터테인먼트 센터"
-    },
-    {
-        "envelope": "봉투"
-    },
-    {
-        "espresso maker": "에스프레소 메이커"
-    },
-    {
-        "face powder": "페이스 파우더"
-    },
-    {
-        "feather boa": "깃털 보아"
-    },
-    {
-        "file": "파일"
-    },
-    {
-        "fireboat": "소방서"
-    },
-    {
-        "fire engine": "소방차"
-    },
-    {
-        "fire screen": "화재 스크린"
-    },
-    {
-        "flagpole": "깃대"
-    },
-    {
-        "flute": "플루트"
-    },
-    {
-        "folding chair": "접는 의자"
-    },
-    {
-        "football helmet": "축구 헬멧"
-    },
-    {
-        "forklift": "지게차"
-    },
-    {
-        "fountain": "분수"
-    },
-    {
-        "fountain pen": "만년필"
-    },
-    {
-        "four-poster": "네 포스터"
-    },
-    {
-        "freight car": "화물차"
-    },
-    {
-        "French horn": "프렌치 호른"
-    },
-    {
-        "frying pan": "프라이팬"
-    },
-    {
-        "fur coat": "모피 코트"
-    },
-    {
-        "garbage truck": "쓰레기 차"
-    },
-    {
-        "gasmask": "방독면"
-    },
-    {
-        "gas pump": "가스 펌프"
-    },
-    {
-        "goblet": "고블릿"
-    },
-    {
-        "go-kart": "고카트"
-    },
-    {
-        "golf ball": "골프 공"
-    },
-    {
-        "golfcart": "골프 카트"
-    },
-    {
-        "gondola": "곤돌라"
-    },
-    {
-        "gong": "징"
-    },
-    {
-        "gown": "겉옷"
-    },
-    {
-        "grand piano": "그랜드 피아노"
-    },
-    {
-        "greenhouse": "온실"
-    },
-    {
-        "grille": "그릴"
-    },
-    {
-        "grocery store": "식료품점"
-    },
-    {
-        "guillotine": "기요틴"
-    },
-    {
-        "hair slide": "헤어 슬라이드"
-    },
-    {
-        "hair spray": "헤어 스프레이"
-    },
-    {
-        "half track": "하프 트랙"
-    },
-    {
-        "hammer": "망치"
-    },
-    {
-        "hamper": "광주리"
-    },
-    {
-        "hand blower": "손 송풍기"
-    },
-    {
-        "hand-held computer": "휴대용 컴퓨터"
-    },
-    {
-        "handkerchief": "손수건"
-    },
-    {
-        "hard disc": "하드 디스크"
-    },
-    {
-        "harmonica": "하모니카"
-    },
-    {
-        "harp": "하프"
-    },
-    {
-        "harvester": "수확기"
-    },
-    {
-        "hatchet": "자귀"
-    },
-    {
-        "holster": "홀스터"
-    },
-    {
-        "home theater": "홈 시어터"
-    },
-    {
-        "honeycomb": "벌집"
-    },
-    {
-        "hook": "훅"
-    },
-    {
-        "hoopskirt": "후프스커트"
-    },
-    {
-        "horizontal bar": "수평 막대"
-    },
-    {
-        "horse cart": "말 카트"
-    },
-    {
-        "hourglass": "모래시계"
-    },
-    {
-        "iPod": "아이팟"
-    },
-    {
-        "iron": "철"
-    },
-    {
-        "jack-o'-lantern": "잭 오 랜턴"
-    },
-    {
-        "jean": "여자 이름"
-    },
-    {
-        "jeep": "지프"
-    },
-    {
-        "jersey": "저지"
-    },
-    {
-        "jigsaw puzzle": "직소 퍼즐"
-    },
-    {
-        "jinrikisha": "진리키샤"
-    },
-    {
-        "joystick": "조종간"
-    },
-    {
-        "kimono": "키모노"
-    },
-    {
-        "knee pad": "무릎 패드"
-    },
-    {
-        "knot": "매듭"
-    },
-    {
-        "lab coat": "실험복"
-    },
-    {
-        "ladle": "국자"
-    },
-    {
-        "lampshade": "갓"
-    },
-    {
-        "laptop": "랩탑"
-    },
-    {
-        "lawn mower": "잔디 깎는 기계"
-    },
-    {
-        "lens cap": "렌즈 캡"
-    },
-    {
-        "letter opener": "편지 오프너"
-    },
-    {
-        "library": "도서관"
-    },
-    {
-        "lifeboat": "구명정"
-    },
-    {
-        "lighter": "거룻배"
-    },
-    {
-        "limousine": "리무진"
-    },
-    {
-        "liner": "정기선"
-    },
-    {
-        "lipstick": "립스틱"
-    },
-    {
-        "Loafer": "로퍼"
-    },
-    {
-        "lotion": "외용 물약"
-    },
-    {
-        "loudspeaker": "확성기"
-    },
-    {
-        "loupe": "루페"
-    },
-    {
-        "lumbermill": "제재소"
-    },
-    {
-        "magnetic compass": "자기 나침반"
-    },
-    {
-        "mailbag": "우편낭"
-    },
-    {
-        "mailbox": "사서함"
-    },
-    {
-        "maillot": "타이츠"
-    },
-    {
-        "maillot": "타이츠"
-    },
-    {
-        "manhole cover": "맨홀 뚜껑"
-    },
-    {
-        "maraca": "마라카"
-    },
-    {
-        "marimba": "마림바"
-    },
-    {
-        "mask": "마스크"
-    },
-    {
-        "matchstick": "성냥개비"
-    },
-    {
-        "maypole": "메이폴"
-    },
-    {
-        "maze": "미로"
-    },
-    {
-        "measuring cup": "계량컵"
-    },
-    {
-        "medicine chest": "구급약 상자"
-    },
-    {
-        "megalith": "거석"
-    },
-    {
-        "microphone": "마이크로폰"
-    },
-    {
-        "microwave": "마이크로파"
-    },
-    {
-        "military uniform": "군복"
-    },
-    {
-        "milk can": "우유 캔"
-    },
-    {
-        "minibus": "소형 버스"
-    },
-    {
-        "miniskirt": "미니스커트"
-    },
-    {
-        "minivan": "미니밴"
-    },
-    {
-        "missile": "미사일"
-    },
-    {
-        "mitten": "벙어리 장갑"
-    },
-    {
-        "mixing bowl": "믹싱볼"
-    },
-    {
-        "mobile home": "이동식 주택"
-    },
-    {
-        "Model T": "모델 T"
-    },
-    {
-        "modem": "모뎀"
-    },
-    {
-        "monastery": "수도원"
-    },
-    {
-        "monitor": "감시 장치"
-    },
-    {
-        "moped": "모터 달린 자전거"
-    },
-    {
-        "mortar": "박격포"
-    },
-    {
-        "mortarboard": "각모"
-    },
-    {
-        "mosque": "사원"
-    },
-    {
-        "mosquito net": "모기장"
-    },
-    {
-        "motor scooter": "모터 스쿠터"
-    },
-    {
-        "mountain bike": "산악 자전거"
-    },
-    {
-        "mountain tent": "산 텐트"
-    },
-    {
-        "mouse": "생쥐"
-    },
-    {
-        "mousetrap": "쥐덫"
-    },
-    {
-        "moving van": "움직이는 밴"
-    },
-    {
-        "muzzle": "포구"
-    },
-    {
-        "nail": "못"
-    },
-    {
-        "neck brace": "목걸이"
-    },
-    {
-        "necklace": "목걸이"
-    },
-    {
-        "nipple": "젖꼭지"
-    },
-    {
-        "notebook": "공책"
-    },
-    {
-        "obelisk": "오벨리스크"
-    },
-    {
-        "oboe": "오보에"
-    },
-    {
-        "ocarina": "오카리나"
-    },
-    {
-        "odometer": "주행 거리계"
-    },
-    {
-        "oil filter": "오일 필터"
-    },
-    {
-        "organ": "오르간"
-    },
-    {
-        "oscilloscope": "오실로스코프"
-    },
-    {
-        "overskirt": "오버스커트"
-    },
-    {
-        "oxcart": "우차"
-    },
-    {
-        "oxygen mask": "산소 마스크"
-    },
-    {
-        "packet": "패킷"
-    },
-    {
-        "paddle": "외륜"
-    },
-    {
-        "paddlewheel": "외륜"
-    },
-    {
-        "padlock": "맹꽁이 자물쇠"
-    },
-    {
-        "paintbrush": "화필"
-    },
-    {
-        "pajama": "잠옷"
-    },
-    {
-        "palace": "궁전"
-    },
-    {
-        "panpipe": "팬파이프"
-    },
-    {
-        "paper towel": "종이 타월"
-    },
-    {
-        "parachute": "낙하산"
-    },
-    {
-        "parallel bars": "수평 한 막대"
-    },
-    {
-        "park bench": "공원 벤치"
-    },
-    {
-        "parking meter": "주차료 징수 기"
-    },
-    {
-        "passenger car": "승용차"
-    },
-    {
-        "patio": "안마당"
-    },
-    {
-        "pay-phone": "공중전화"
-    },
-    {
-        "pedestal": "받침대"
-    },
-    {
-        "pencil box": "필통"
-    },
-    {
-        "pencil sharpener": "연필 깎기"
-    },
-    {
-        "perfume": "향수"
-    },
-    {
-        "Petri dish": "페트리 접시"
-    },
-    {
-        "photocopier": "복사기"
-    },
-    {
-        "pick": "선택하다"
-    },
-    {
-        "pickelhaube": "피클하우베"
-    },
-    {
-        "picket fence": "울타리"
-    },
-    {
-        "pickup": "찾다"
-    },
-    {
-        "pier": "교각"
-    },
-    {
-        "piggy bank": "돼지 저금통"
-    },
-    {
-        "pill bottle": "약병"
-    },
-    {
-        "pillow": "베개"
-    },
-    {
-        "ping-pong ball": "탁구공"
-    },
-    {
-        "pinwheel": "바람개비"
-    },
-    {
-        "pirate": "해적"
-    },
-    {
-        "pitcher": "피처"
-    },
-    {
-        "plane": "비행기"
-    },
-    {
-        "planetarium": "별자리 투영기"
-    },
-    {
-        "plastic bag": "비닐 봉투"
-    },
-    {
-        "plate rack": "접시걸이"
-    },
-    {
-        "plow": "쟁기"
-    },
-    {
-        "plunger": "플런저"
-    },
-    {
-        "Polaroid camera": "폴라로이드 카메라"
-    },
-    {
-        "pole": "폴"
-    },
-    {
-        "police van": "경찰 밴"
-    },
-    {
-        "poncho": "판초"
-    },
-    {
-        "pool table": "당구대"
-    },
-    {
-        "pop bottle": "팝병"
-    },
-    {
-        "pot": "냄비"
-    },
-    {
-        "potter's wheel": "물레"
-    },
-    {
-        "power drill": "파워 드릴"
-    },
-    {
-        "prayer rug": "기도 깔개"
-    },
-    {
-        "printer": "인쇄기"
-    },
-    {
-        "prison": "감옥"
-    },
-    {
-        "projectile": "발사체"
-    },
-    {
-        "projector": "영사기"
-    },
-    {
-        "puck": "퍽"
-    },
-    {
-        "punching bag": "샌드백"
-    },
-    {
-        "purse": "지갑"
-    },
-    {
-        "quill": "깃"
-    },
-    {
-        "quilt": "이불"
-    },
-    {
-        "racer": "경주자"
-    },
-    {
-        "racket": "라켓"
-    },
-    {
-        "radiator": "라디에이터"
-    },
-    {
-        "radio": "라디오"
-    },
-    {
-        "radio telescope": "전파 망원경"
-    },
-    {
-        "rain barrel": "빗물통"
-    },
-    {
-        "recreational vehicle": "레저 용 차량"
-    },
-    {
-        "reel": "릴"
-    },
-    {
-        "reflex camera": "리플렉스 카메라"
-    },
-    {
-        "refrigerator": "냉장고"
-    },
-    {
-        "remote control": "리모콘"
-    },
-    {
-        "restaurant": "식당"
-    },
-    {
-        "revolver": "리볼버"
-    },
-    {
-        "rifle": "소총"
-    },
-    {
-        "rocking chair": "흔들 의자"
-    },
-    {
-        "rotisserie": "불고기집"
-    },
-    {
-        "rubber eraser": "고무 지우개"
-    },
-    {
-        "rugby ball": "럭비 공"
-    },
-    {
-        "rule": "규칙"
-    },
-    {
-        "running shoe": "운동화"
-    },
-    {
-        "safe": "안전한"
-    },
-    {
-        "safety pin": "안전핀"
-    },
-    {
-        "saltshaker": "소금 통"
-    },
-    {
-        "sandal": "샌들"
-    },
-    {
-        "sarong": "사롱"
-    },
-    {
-        "sax": "색소폰"
-    },
-    {
-        "scabbard": "집"
-    },
-    {
-        "scale": "규모"
-    },
-    {
-        "school bus": "학교 버스"
-    },
-    {
-        "schooner": "큰 조끼"
-    },
-    {
-        "scoreboard": "점수판"
-    },
-    {
-        "screen": "화면"
-    },
-    {
-        "screw": "나사"
-    },
-    {
-        "screwdriver": "드라이버"
-    },
-    {
-        "seat belt": "안전 벨트"
-    },
-    {
-        "sewing machine": "재봉틀"
-    },
-    {
-        "shield": "방패"
-    },
-    {
-        "shoe shop": "신발 가게"
-    },
-    {
-        "shoji": "미닫이"
-    },
-    {
-        "shopping basket": "쇼핑 바구니"
-    },
-    {
-        "shopping cart": "쇼핑 카트"
-    },
-    {
-        "shovel": "삽"
-    },
-    {
-        "shower cap": "샤워 캡"
-    },
-    {
-        "shower curtain": "샤워 커튼"
-    },
-    {
-        "ski": "스키"
-    },
-    {
-        "ski mask": "스키 마스크"
-    },
-    {
-        "sleeping bag": "침낭"
-    },
-    {
-        "slide rule": "규칙을 비껴나 가다"
-    },
-    {
-        "sliding door": "미닫이 문"
-    },
-    {
-        "slot": "슬롯"
-    },
-    {
-        "snorkel": "스노클"
-    },
-    {
-        "snowmobile": "설상차"
-    },
-    {
-        "snowplow": "제설기"
-    },
-    {
-        "soap dispenser": "비누 디스펜서"
-    },
-    {
-        "soccer ball": "축구 공"
-    },
-    {
-        "sock": "양말"
-    },
-    {
-        "solar dish": "태양 접시"
-    },
-    {
-        "sombrero": "솜브레로"
-    },
-    {
-        "soup bowl": "수프 그릇"
-    },
-    {
-        "space bar": "스페이스 바"
-    },
-    {
-        "space heater": "공간 히터"
-    },
-    {
-        "space shuttle": "우주 왕복선"
-    },
-    {
-        "spatula": "주걱"
-    },
-    {
-        "speedboat": "쾌속정"
-    },
-    {
-        "spider web": "거미줄"
-    },
-    {
-        "spindle": "축"
-    },
-    {
-        "sports car": "스포츠카"
-    },
-    {
-        "spotlight": "스포트라이트"
-    },
-    {
-        "stage": "단계"
-    },
-    {
-        "steam locomotive": "증기 기관차"
-    },
-    {
-        "steel arch bridge": "강철 아치교"
-    },
-    {
-        "steel drum": "스틸 드럼"
-    },
-    {
-        "stethoscope": "청진기"
-    },
-    {
-        "stole": "스톨"
-    },
-    {
-        "stone wall": "돌담"
-    },
-    {
-        "stopwatch": "스톱워치"
-    },
-    {
-        "stove": "난로"
-    },
-    {
-        "strainer": "거르는 사람"
-    },
-    {
-        "streetcar": "시가 전차"
-    },
-    {
-        "stretcher": "들것"
-    },
-    {
-        "studio couch": "스튜디오 소파"
-    },
-    {
-        "stupa": "해골"
-    },
-    {
-        "submarine": "잠수함"
-    },
-    {
-        "suit": "정장"
-    },
-    {
-        "sundial": "해시계"
-    },
-    {
-        "sunglass": "선글래스"
-    },
-    {
-        "sunglasses": "색안경"
-    },
-    {
-        "sunscreen": "자외선 차단제"
-    },
-    {
-        "suspension bridge": "현수교"
-    },
-    {
-        "swab": "미련퉁이"
-    },
-    {
-        "sweatshirt": "스웨트 셔츠"
-    },
-    {
-        "swimming trunks": "수영복"
-    },
-    {
-        "swing": "그네"
-    },
-    {
-        "switch": "스위치"
-    },
-    {
-        "syringe": "주사기"
-    },
-    {
-        "table lamp": "테이블 램프"
-    },
-    {
-        "tank": "탱크"
-    },
-    {
-        "tape player": "테이프 플레이어"
-    },
-    {
-        "teapot": "찻주전자"
-    },
-    {
-        "teddy": "테디"
-    },
-    {
-        "television": "텔레비전"
-    },
-    {
-        "tennis ball": "테니스 공"
-    },
-    {
-        "thatch": "갈 지풍"
-    },
-    {
-        "theater curtain": "극장 커튼"
-    },
-    {
-        "thimble": "골무"
-    },
-    {
-        "thresher": "탈곡기"
-    },
-    {
-        "throne": "왕좌"
-    },
-    {
-        "tile roof": "기와지붕"
-    },
-    {
-        "toaster": "토스터에"
-    },
-    {
-        "tobacco shop": "담배 가게"
-    },
-    {
-        "toilet seat": "변기"
-    },
-    {
-        "torch": "토치"
-    },
-    {
-        "totem pole": "토템폴"
-    },
-    {
-        "tow truck": "견인차"
-    },
-    {
-        "toyshop": "장난감 가게"
-    },
-    {
-        "tractor": "트랙터"
-    },
-    {
-        "trailer truck": "트레일러 트럭"
-    },
-    {
-        "tray": "쟁반"
-    },
-    {
-        "trench coat": "트렌치 코트"
-    },
-    {
-        "tricycle": "세발자전거"
-    },
-    {
-        "trimaran": "삼동선"
-    },
-    {
-        "tripod": "삼각대"
-    },
-    {
-        "triumphal arch": "개선문"
-    },
-    {
-        "trolleybus": "무궤도 전차"
-    },
-    {
-        "trombone": "트롬본"
-    },
-    {
-        "tub": "통"
-    },
-    {
-        "turnstile": "개찰구"
-    },
-    {
-        "typewriter keyboard": "타자기 키보드"
-    },
-    {
-        "umbrella": "우산"
-    },
-    {
-        "unicycle": "외발자전거"
-    },
-    {
-        "upright": "똑바로"
-    },
-    {
-        "vacuum": "진공"
-    },
-    {
-        "vase": "꽃병"
-    },
-    {
-        "vault": "둥근 천장"
-    },
-    {
-        "velvet": "벨벳"
-    },
-    {
-        "vending machine": "자판기"
-    },
-    {
-        "vestment": "의복"
-    },
-    {
-        "viaduct": "육교"
-    },
-    {
-        "violin": "바이올린"
-    },
-    {
-        "volleyball": "배구"
-    },
-    {
-        "waffle iron": "와플 아이언"
-    },
-    {
-        "wall clock": "벽 시계"
-    },
-    {
-        "wallet": "지갑"
-    },
-    {
-        "wardrobe": "옷장"
-    },
-    {
-        "warplane": "전투기"
-    },
-    {
-        "washbasin": "세면기"
-    },
-    {
-        "washer": "세탁기"
-    },
-    {
-        "water bottle": "물 병"
-    },
-    {
-        "water jug": "물병"
-    },
-    {
-        "water tower": "급수탑"
-    },
-    {
-        "whiskey jug": "위스키 주전자"
-    },
-    {
-        "whistle": "휘파람"
-    },
-    {
-        "wig": "가발"
-    },
-    {
-        "window screen": "윈도우 화면"
-    },
-    {
-        "window shade": "창문 그늘"
-    },
-    {
-        "Windsor tie": "윈저 넥타이"
-    },
-    {
-        "wine bottle": "와인 병"
-    },
-    {
-        "wing": "날개"
-    },
-    {
-        "wok": "웍"
-    },
-    {
-        "wooden spoon": "나무 숟가락"
-    },
-    {
-        "wool": "양모"
-    },
-    {
-        "worm fence": "벌레 울타리"
-    },
-    {
-        "wreck": "난파선"
-    },
-    {
-        "yawl": "개의 구슬프게 짖는 소리"
-    },
-    {
-        "yurt": "유르트"
-    },
-    {
-        "web site": "웹사이트"
-    },
-    {
-        "comic book": "만화책"
-    },
-    {
-        "crossword puzzle": "크로스워드 퍼즐"
-    },
-    {
-        "street sign": "도로 표지판"
-    },
-    {
-        "traffic light": "신호등"
-    },
-    {
-        "book jacket": "책 자켓"
-    },
-    {
-        "menu": "메뉴"
-    },
-    {
-        "plate": "그릇"
-    },
-    {
-        "guacamole": "과카몰리"
-    },
-    {
-        "consomme": "콩소메"
-    },
-    {
-        "hot pot": "뜨거운 냄비"
-    },
-    {
-        "trifle": "시시한 것"
-    },
-    {
-        "ice cream": "아이스크림"
-    },
-    {
-        "ice lolly": "아이스 롤리"
-    },
-    {
-        "French loaf": "프렌치빵"
-    },
-    {
-        "bagel": "베이글"
-    },
-    {
-        "pretzel": "프레첼"
-    },
-    {
-        "cheeseburger": "치즈버거"
-    },
-    {
-        "hotdog": "핫도그"
-    },
-    {
-        "mashed potato": "으깬 감자"
-    },
-    {
-        "head cabbage": "머리 양배추"
-    },
-    {
-        "broccoli": "브로콜리"
-    },
-    {
-        "cauliflower": "콜리플라워"
-    },
-    {
-        "zucchini": "서양 호박"
-    },
-    {
-        "spaghetti squash": "스파게티 스쿼시"
-    },
-    {
-        "acorn squash": "도토리 스쿼시"
-    },
-    {
-        "butternut squash": "버터넛 스쿼시"
-    },
-    {
-        "cucumber": "오이"
-    },
-    {
-        "artichoke": "아티초크"
-    },
-    {
-        "bell pepper": "피망"
-    },
-    {
-        "cardoon": "카둔"
-    },
-    {
-        "mushroom": "버섯"
-    },
-    {
-        "Granny Smith": "스미스 할머니"
-    },
-    {
-        "strawberry": "딸기"
-    },
-    {
-        "orange": "주황색"
-    },
-    {
-        "lemon": "레몬"
-    },
-    {
-        "fig": "무화과"
-    },
-    {
-        "pineapple": "파인애플"
-    },
-    {
-        "banana": "바나나"
-    },
-    {
-        "jackfruit": "잭푸르트"
-    },
-    {
-        "custard apple": "커스터드 애플"
-    },
-    {
-        "pomegranate": "석류"
-    },
-    {
-        "hay": "건초"
-    },
-    {
-        "carbonara": "카르보나라"
-    },
-    {
-        "chocolate sauce": "초콜릿 소스"
-    },
-    {
-        "dough": "반죽"
-    },
-    {
-        "meat loaf": "떡갈비"
-    },
-    {
-        "pizza": "피자"
-    },
-    {
-        "potpie": "파이"
-    },
-    {
-        "burrito": "부리토"
-    },
-    {
-        "red wine": "적포도주"
-    },
-    {
-        "espresso": "에스프레소"
-    },
-    {
-        "cup": "컵"
-    },
-    {
-        "eggnog": "에그노그"
-    },
-    {
-        "alp": "높은 산"
-    },
-    {
-        "bubble": "거품"
-    },
-    {
-        "cliff": "낭떠러지"
-    },
-    {
-        "coral reef": "산호초"
-    },
-    {
-        "geyser": "간헐천"
-    },
-    {
-        "lakeside": "호숫가"
-    },
-    {
-        "promontory": "...곶"
-    },
-    {
-        "sandbar": "사주"
-    },
-    {
-        "seashore": "해변"
-    },
-    {
-        "valley": "골짜기"
-    },
-    {
-        "volcano": "화산"
-    },
-    {
-        "ballplayer": "야구선수"
-    },
-    {
-        "groom": "신랑"
-    },
-    {
-        "scuba diver": "스쿠버 다이버"
-    },
-    {
-        "rapeseed": "유채"
-    },
-    {
-        "daisy": "데이지"
-    },
-    {
-        "yellow lady's slipper": "노란 여성용 슬리퍼"
-    },
-    {
-        "corn": "옥수수"
-    },
-    {
-        "acorn": "도토리"
-    },
-    {
-        "hip": "잘 알고 있기"
-    },
-    {
-        "buckeye": "벅아이"
-    },
-    {
-        "coral fungus": "산호 곰팡이"
-    },
-    {
-        "agaric": "아가린"
-    },
-    {
-        "gyromitra": "자이로미트라"
-    },
-    {
-        "stinkhorn": "악취가 나는"
-    },
-    {
-        "earthstar": "지구의 별"
-    },
-    {
-        "hen-of-the-woods": "숲속의 암탉"
-    },
-    {
-        "bolete": "볼레트"
-    },
-    {
-        "ear": "귀"
-    },
-    {
-        "toilet tissue": "화장지"
-    }
+    {"background": "\ubc30\uacbd"},
+    {"tench": "\ud150\uce58"},
+    {"goldfish": "\uae08\ubd95\uc5b4"},
+    {"great white shark": "\ubc31\uc0c1\uc544\ub9ac"},
+    {"tiger shark": "\ubc94 \uc0c1\uc5b4"},
+    {"hammerhead": "\uadc0\uc0c1\uc5b4"},
+    {"electric ray": "\uc804\uae30 \uad11\uc120"},
+    {"stingray": "\uac00\uc624\ub9ac"},
+    {"cock": "\uc218\ud0c9"},
+    {"hen": "\uc554\ud0c9"},
+    {"ostrich": "\ud0c0\uc870"},
+    {"brambling": "\ubd88\ud3c9"},
+    {"goldfinch": "\uae08\ud654"},
+    {"house finch": "\uc9d1 \ud540\uce58"},
+    {"junco": "\uc900\ucf54"},
+    {"indigo bunting": "\uc778\ub514\uace0 \uae43\ubc1c"},
+    {"robin": "\ub0a8\uc790 \uc774\ub984"},
+    {"bulbul": "\ubc8c\ubd88"},
+    {"jay": "\uc5b4\uce58"},
+    {"magpie": "\uae4c\uce58"},
+    {"chickadee": "\ucd1d\uce6d"},
+    {"water ouzel": "\ubb3c \uc6b0\uc824"},
+    {"kite": "\uc5f0"},
+    {"bald eagle": "\ub300\uba38\ub9ac \ub3c5\uc218\ub9ac"},
+    {"vulture": "\ubb34\uc790\ube44\ud55c \uc0ac\ub78c"},
+    {"great grey owl": "\ud070 \ud68c\uc0c9 \uc62c\ube7c\ubbf8"},
+    {"European fire salamander": "\uc720\ub7fd\uc758 \ubd88 \ub3c4\ub871\ub1fd"},
+    {"common newt": "\uc77c\ubc18\uc801\uc778 \uc601\uc6d0"},
+    {"eft": "\ub3d9\ubd80"},
+    {"spotted salamander": "\uc810\ubc15\uc774 \ub3c4\ub871\ub1fd"},
+    {"axolotl": "\uc544\ud640\ub85c\ud2c0"},
+    {"bullfrog": "\ud669\uc18c\uac1c\uad6c\ub9ac"},
+    {"tree frog": "\uccad\uac1c\uad6c\ub9ac"},
+    {"tailed frog": "\uaf2c\ub9ac \uac1c\uad6c\ub9ac"},
+    {"loggerhead": "\uc5bc\uac04\uc774"},
+    {"leatherback turtle": "\uc7a5\uc218\uac70\ubd81"},
+    {"mud turtle": "\uc9c4\ud759\uac70\ubd81"},
+    {"terrapin": "\ud14c\ub77c\ud540"},
+    {"box turtle": "\uc0c1\uc790\uac70\ubd81"},
+    {"banded gecko": "\uc904\ubb34\ub2ac \ub3c4\ub9c8\ubc40\ubd99\uc774"},
+    {"common iguana": "\uc77c\ubc18\uc801\uc778 \uc774\uad6c\uc544\ub098"},
+    {"American chameleon": "\uc544\uba54\ub9ac\uce78 \uce74\uba5c\ub808\uc628"},
+    {"whiptail": "\ucc44\ucc0d\uaf2c\ub9ac"},
+    {"agama": "\uc544\uac00\ub9c8"},
+    {"frilled lizard": "\uc8fc\ub984\uc9c4 \ub3c4\ub9c8\ubc40"},
+    {"alligator lizard": "\uc545\uc5b4 \ub3c4\ub9c8\ubc40"},
+    {"Gila monster": "\uae38\ub77c \ubaac\uc2a4\ud130"},
+    {"green lizard": "\ub179\uc0c9 \ub3c4\ub9c8\ubc40"},
+    {"African chameleon": "\uc544\ud504\ub9ac\uce74 \uce74\uba5c\ub808\uc628"},
+    {"Komodo dragon": "\ucf54\ubaa8\ub3c4 \uc655 \ub3c4\ub9c8\ubc40"},
+    {"African crocodile": "\uc544\ud504\ub9ac\uce74 \uc545\uc5b4"},
+    {"American alligator": "\ubbf8\uad6d \uc545\uc5b4"},
+    {"triceratops": "\ud2b8\ub9ac\ucf00\ub77c\ud1b1\uc2a4"},
+    {"thunder snake": "\ucc9c\ub465\ubc40"},
+    {"ringneck snake": "\uace0\ub9ac \ubaa9 \ubc40"},
+    {"hognose snake": "\ubc40\uc758 \ubc40"},
+    {"green snake": "\ub179\uc0c9 \ubc40"},
+    {"king snake": "\uc655\ubc40"},
+    {"garter snake": "\uac00\ud130\uc2a4 \ubc40"},
+    {"water snake": "\ubb3c\ubc40"},
+    {"vine snake": "\ub369\uad74\ubc40"},
+    {"night snake": "\ubc24\ubc40"},
+    {"boa constrictor": "\ubcf4\uc544\ubc40"},
+    {"rock python": "\ubc14\uc704 \ube44\ub2e8\ubc40"},
+    {"Indian cobra": "\uc778\ub514\uc5b8 \ucf54\ube0c\ub77c"},
+    {"green mamba": "\uadf8\ub9b0 \ub9d8\ubc14"},
+    {"sea snake": "\ubc14\ub2e4\ubc40"},
+    {"horned viper": "\ubfd4 \ub3c5\uc0ac"},
+    {"diamondback": "\ub2e4\uc774\uc544\ubaac\ub4dc\ubc31"},
+    {"sidewinder": "\uc0ac\uc774\ub4dc\uc640\uc778\ub354"},
+    {"trilobite": "\uc0bc\uc5fd\ucda9"},
+    {"harvestman": "\uc218\ud655\ud558\ub294 \uc0ac\ub78c"},
+    {"scorpion": "\ud22c\uc11d\uae30"},
+    {"black and gold garden spider": "\uac80\uc815\uc0c9\uacfc \uae08\uc0c9 \uc815\uc6d0 \uac70\ubbf8"},
+    {"barn spider": "\ud5db\uac04 \uac70\ubbf8"},
+    {"garden spider": "\uc815\uc6d0 \uac70\ubbf8"},
+    {"black widow": "\ud751\uc778 \uacfc\ubd80"},
+    {"tarantula": "\ud0c0\ub780\ud234\ub77c \uac70\ubbf8"},
+    {"wolf spider": "\ub291\ub300 \uac70\ubbf8"},
+    {"tick": "\uc9c4\ub4dc\uae30"},
+    {"centipede": "\uc9c0\ub124"},
+    {"black grouse": "\uac80\uc740\ub1cc\uc870"},
+    {"ptarmigan": "\uba67\ub2ed"},
+    {"ruffed grouse": "\ubaa9\ub3c4\ub9ac\ub1cc\uc870"},
+    {"prairie chicken": "\ud504\ub808\ub9ac \uce58\ud0a8"},
+    {"peacock": "\uacf5\uc791"},
+    {"quail": "\uba54\ucd94\ub77c\uae30"},
+    {"partridge": "\uc790\uace0"},
+    {"African grey": "\uc544\ud504\ub9ac\uce78 \uadf8\ub808\uc774"},
+    {"macaw": "\uc575\ubb34\uc0c8"},
+    {"sulphur-crested cockatoo": "\uc720\ud669 \ubccf \uc575\ubb34\uc0c8"},
+    {"lorikeet": "\uc9c4\ud6d9 \uc789\uaf2c"},
+    {"coucal": "\ucfe0\uce7c"},
+    {"bee eater": "\uafc0\ubc8c \uba39\ub294 \uc0ac\ub78c"},
+    {"hornbill": "\ucf54\ubfd4\uc0c8"},
+    {"hummingbird": "\ubc8c\uc0c8"},
+    {"jacamar": "\uc790\uce74\ub9c8\ub974"},
+    {"toucan": "\ud070\ubd80\ub9ac\uc0c8"},
+    {"drake": "\ub4dc\ub808\uc774\ud06c"},
+    {"red-breasted merganser": "\ubd89\uc740 \uac00\uc2b4 \uc0c1\uc778"},
+    {"goose": "\uac70\uc704"},
+    {"black swan": "\uac80\uc740 \ubc31\uc870"},
+    {"tusker": "\uc5c4\ub2c8"},
+    {"echidna": "\ubc14\ub298\ub450\ub354\uc9c0"},
+    {"platypus": "\uc624\ub9ac\ub108\uad6c\ub9ac"},
+    {"wallaby": "\uc648\ub77c\ube44"},
+    {"koala": "\ucf54\uc54c\ub77c"},
+    {"wombat": "\uc6dc\ubc43"},
+    {"jellyfish": "\ud574\ud30c\ub9ac"},
+    {"sea anemone": "\ub9d0\ubbf8\uc798"},
+    {"brain coral": "\ub1cc \uc0b0\ud638"},
+    {"flatworm": "\ud3b8\ud615\ub3d9\ubb3c"},
+    {"nematode": "\uc120\ucda9\ub958"},
+    {"conch": "\uc870\uac00\ube44"},
+    {"snail": "\ub2ec\ud33d\uc774"},
+    {"slug": "\uac15\ud0c0"},
+    {"sea slug": "\ubc14\ub2e4 \uc2ac\ub7ec\uadf8"},
+    {"chiton": "\ud0a4\ud1a4"},
+    {"chambered nautilus": "\ucc54\ubc84\ud615 \ub178\ud2f8\ub7ec\uc2a4"},
+    {"Dungeness crab": "\ub358\uc800\ub2c8\uc2a4 \ud06c\ub7a9"},
+    {"rock crab": "\ubc14\uc704\uac8c"},
+    {"fiddler crab": "\ud53c\ub4e4\ub7ec \ud06c\ub7a9"},
+    {"king crab": "\uc655\uac8c"},
+    {"American lobster": "\uc544\uba54\ub9ac\uce78 \ub78d\uc2a4\ud130"},
+    {"spiny lobster": "\uac00\uc2dc \ub78d\uc2a4\ud130"},
+    {"crayfish": "\uc655\uc0c8\uc6b0"},
+    {"hermit crab": "\uc18c\ub77c\uac8c"},
+    {"isopod": "\ub4f1\uac01\ub958"},
+    {"white stork": "\ud770 \ud669\uc0c8"},
+    {"black stork": "\uac80\uc740 \ud669\uc0c8"},
+    {"spoonbill": "\uc800\uc5b4\uc0c8"},
+    {"flamingo": "\ud50c\ub77c\ubc0d\uace0"},
+    {"little blue heron": "\uc791\uc740 \ube14\ub8e8 \ud5e4\ub860"},
+    {"American egret": "\ubbf8\uad6d \ubc31\ub85c"},
+    {"bittern": "\uac04\uc218"},
+    {"crane": "\ub450\ub8e8\ubbf8"},
+    {"limpkin": "\ub9bc\ud504\ud0a8"},
+    {"European gallinule": "\uc720\ub7fd \u200b\u200b\uac08\ub9ac\ub20c"},
+    {"American coot": "\uc544\uba54\ub9ac\uce78 \ucfe0\ud2b8"},
+    {"bustard": "\ubc84\uc2a4\ud0c0\ub4dc"},
+    {"ruddy turnstone": "\ubd89\uac8c \ubcc0\ud558\ub294 \ub3cc"},
+    {"red-backed sandpiper": "\ubd89\uc740\ub4f1\ub3c4\uc694\uc0c8"},
+    {"redshank": "\ubd89\uc740\uc0dd\ud06c"},
+    {"dowitcher": "\ub9c8\uc220\uc0ac"},
+    {"oystercatcher": "\uad74\uc7a1\uc774"},
+    {"pelican": "\ud3a0\ub9ac\ucee8"},
+    {"king penguin": "\ud0b9 \ud3ad\uadc4"},
+    {"albatross": "\uc2e0\ucc9c\uc639"},
+    {"grey whale": "\ud68c\uc0c9\uace0\ub798"},
+    {"killer whale": "\ubc94\uace0\ub798"},
+    {"dugong": "\ub4c0\uacf5"},
+    {"sea lion": "\ubc14\ub2e4 \uc0ac\uc790"},
+    {"Chihuahua": "\uce58\uc640\uc640"},
+    {"Japanese spaniel": "\uc77c\ubcf8 \ubc1c\ubc14\ub9ac"},
+    {"Maltese dog": "\ub9d0\ud2f0\uc988 \uac1c"},
+    {"Pekinese": "\ubd81\uacbd \uc0ac\ub78c"},
+    {"Shih-Tzu": "\uc2dc\uce04"},
+    {"Blenheim spaniel": "\ube14\ub808\ub118 \uc2a4\ud30c\ub2c8\uc5d8"},
+    {"papillon": "\ube60\uc090\uc6a9"},
+    {"toy terrier": "\uc7a5\ub09c\uac10 \ud14c\ub9ac\uc5b4"},
+    {"Rhodesian ridgeback": "\ub85c\ub514\uc9c0\uc548 \ub9ac\uc9c0\ubc31"},
+    {"Afghan hound": "\uc544\ud504\uac04 \ud558\uc6b4\ub4dc"},
+    {"basset": "\ubc14\uc14b"},
+    {"beagle": "\ube44\uae00"},
+    {"bloodhound": "\uc9d1\uc694\ud55c \ucd94\uc801\uc790"},
+    {"bluetick": "\uccad\uc9c4\ub4dc\uae30"},
+    {"black-and-tan coonhound": "\ube14\ub799\uc564\ud0c4 \ucfe4\ud558\uc6b4\ub4dc"},
+    {"Walker hound": "\uc6cc\ucee4 \ud558\uc6b4\ub4dc"},
+    {"English foxhound": "\uc789\uae00\ub9ac\uc2dc \ud3ed\uc2a4\ud558\uc6b4\ub4dc"},
+    {"redbone": "\ub808\ub4dc\ubcf8"},
+    {"borzoi": "\ubcf4\ub974\uc870\uc774"},
+    {"Irish wolfhound": "\uc544\uc774\ub9ac\uc26c \uc6b8\ud504\ud558\uc6b4\ub4dc"},
+    {"Italian greyhound": "\uc774\ud0c8\ub9ac\uc544 \uadf8\ub808\uc774\ud558\uc6b4\ub4dc"},
+    {"whippet": "\uacbd\uc804\ucc28"},
+    {"Ibizan hound": "\uc774\ube44\uc794 \ud558\uc6b4\ub4dc"},
+    {"Norwegian elkhound": "\ub178\ub974\uc6e8\uc774 \uc5d8\ud06c\ud558\uc6b4\ub4dc"},
+    {"otterhound": "\uc218\ub2ec\ud558\uc6b4\ub4dc"},
+    {"Saluki": "\uc0b4\ub8e8\ud0a4"},
+    {"Scottish deerhound": "\uc2a4\ucf54\ud2c0\ub79c\ub4dc \ub514\uc5b4\ud558\uc6b4\ub4dc"},
+    {"Weimaraner": "\ubc14\uc774\ub9c8\ub77c\ub108"},
+    {"Staffordshire bullterrier": "\uc2a4\ud0dc\ud37c\ub4dc\uc154 \ubd88\ud14c\ub9ac\uc5b4"},
+    {"American Staffordshire terrier": "\uc544\uba54\ub9ac\uce78 \uc2a4\ud0dc\ud37c\ub4dc\uc154 \ud14c\ub9ac\uc5b4"},
+    {"Bedlington terrier": "\ubca0\ub4e4\ub9c1\ud134 \ud14c\ub9ac\uc5b4"},
+    {"Border terrier": "\ubcf4\ub354 \ud14c\ub9ac\uc5b4"},
+    {"Kerry blue terrier": "\ucf00\ub9ac \ube14\ub8e8 \ud14c\ub9ac\uc5b4"},
+    {"Irish terrier": "\uc544\uc774\ub9ac\uc26c \ud14c\ub9ac\uc5b4"},
+    {"Norfolk terrier": "\ub178\ud37d \ud14c\ub9ac\uc5b4"},
+    {"Norwich terrier": "\ub178\ub9ac\uce58 \ud14c\ub9ac\uc5b4"},
+    {"Yorkshire terrier": "\uc694\ud06c\uc154 \ud14c\ub9ac\uc5b4"},
+    {"wire-haired fox terrier": "\ud138\uc774 \ub9ce\uc740 \uc5ec\uc6b0 \ud14c\ub9ac\uc5b4"},
+    {"Lakeland terrier": "\ub808\uc774\ud06c\ub79c\ub4dc \ud14c\ub9ac\uc5b4"},
+    {"Sealyham terrier": "\uc530\ub9ac\ud584 \ud14c\ub9ac\uc5b4"},
+    {"Airedale": "\uc5d0\uc5b4\ub370\uc77c"},
+    {"cairn": "\ucf00\ub978"},
+    {"Australian terrier": "\uc624\uc2a4\ud2b8\ub808\uc77c\ub9ac\uc548 \ud14c\ub9ac\uc5b4"},
+    {"Dandie Dinmont": "\ub304\ub514 \ub518\ubaac\ud2b8"},
+    {"Boston bull": "\ubcf4\uc2a4\ud134 \ud669\uc18c"},
+    {"miniature schnauzer": "\ubbf8\ub2c8\uc5b4\ucc98 \uc288\ub098\uc6b0\uc800"},
+    {"giant schnauzer": "\uc790\uc774\uc5b8\ud2b8 \uc288\ub098\uc6b0\uc800"},
+    {"standard schnauzer": "\uc2a4\ud0e0\ub2e4\ub4dc \uc288\ub098\uc6b0\uc800"},
+    {"Scotch terrier": "\uc2a4\uce74\uce58 \ud14c\ub9ac\uc5b4"},
+    {"Tibetan terrier": "\ud2f0\ubca0\ud2b8 \ud14c\ub9ac\uc5b4"},
+    {"silky terrier": "\uc2e4\ud0a4 \ud14c\ub9ac\uc5b4"},
+    {"soft-coated wheaten terrier": "\uc18c\ud504\ud2b8 \ucf54\ud305 \ud718\ud2bc \ud14c\ub9ac\uc5b4"},
+    {"West Highland white terrier": "\uc6e8\uc2a4\ud2b8 \ud558\uc774\ub79c\ub4dc \ud654\uc774\ud2b8 \ud14c\ub9ac\uc5b4"},
+    {"Lhasa": "\ub77c\uc0ac"},
+    {"flat-coated retriever": "\ud3c9\uba74 \ucf54\ud305 \ub9ac\ud2b8\ub9ac\ubc84"},
+    {"curly-coated retriever": "\uacf1\uc2ac\uba38\ub9ac \ub9ac\ud2b8\ub9ac\ubc84"},
+    {"golden retriever": "\uace8\ub4e0 \ub9ac\ud2b8\ub9ac\ubc84"},
+    {"Labrador retriever": "\ub798\ube0c\ub77c\ub3c4 \ub9ac\ud2b8\ub9ac\ubc84"},
+    {"Chesapeake Bay retriever": "\uccb4\uc11c\ud53c\ud06c \ubca0\uc774 \ub9ac\ud2b8\ub9ac\ubc84"},
+    {"German short-haired pointer": "\uc800\uba3c \uc1fc\ud2b8\ud5e4\uc5b4 \ud3ec\uc778\ud130"},
+    {"vizsla": "\ube44\uc990\ub77c"},
+    {"English setter": "\uc789\uae00\ub9ac\uc26c \uc138\ud130"},
+    {"Irish setter": "\uc544\uc774\ub9ac\uc26c \uc138\ud130"},
+    {"Gordon setter": "\uace0\ub4e0 \uc138\ud130"},
+    {"Brittany spaniel": "\ube0c\ub9ac\ud0c0\ub2c8 \uc2a4\ud328\ub2c8\uc5bc"},
+    {"clumber": "\uc5b4\uc9c0\ub7ec\uc6b4 \uc0ac\ub78c"},
+    {"English springer": "\uc789\uae00\ub9ac\uc26c \uc2a4\ud504\ub9c1\uac70"},
+    {"Welsh springer spaniel": "\uc6e8\uc77c\uc2a4 \uc2a4\ud504\ub9c1\uac70 \uc2a4\ud30c\ub2c8\uc5d8"},
+    {"cocker spaniel": "\ucf54\uce74\uc2a4\ud30c\ub2c8\uc5d8"},
+    {"Sussex spaniel": "\uc11c\uc2dd\uc2a4 \uc2a4\ud30c\ub2c8\uc5d8"},
+    {"Irish water spaniel": "\uc544\uc774\ub9ac\uc2dc \uc6cc\ud130 \uc2a4\ud30c\ub2c8\uc5d8"},
+    {"kuvasz": "\ucfe0\ubc14\uce20"},
+    {"schipperke": "\uc2dc\ud37c\ud0a4"},
+    {"groenendael": "\uadf8\ub85c\ub128\ub2ec"},
+    {"malinois": "\ub9d0\ub9ac\ub178\uc774\uc988"},
+    {"briard": "\ube0c\ub9ac\uc544\ub4dc"},
+    {"kelpie": "\ucf08\ud53c"},
+    {"komondor": "\ucf54\ubaac\ub3c4\ub974"},
+    {"Old English sheepdog": "\uc62c\ub4dc \uc789\uae00\ub9ac\uc26c \uc27d\ub3c5"},
+    {"Shetland sheepdog": "\uc170\ud2c0\ub79c\ub4dc \uc591\uce58\uae30"},
+    {"collie": "\ucf5c\ub9ac"},
+    {"Border collie": "\ubcf4\ub354 \ucf5c\ub9ac"},
+    {"Bouvier des Flandres": "\ubd80\ube44\uc5d0 \ub370 \ud50c\ub791\ub4dc\ub974"},
+    {"Rottweiler": "\ub85c\ud2b8\uc640\uc77c\ub7ec"},
+    {"German shepherd": "\ub3c5\uc77c \uc170\ud37c\ub4dc"},
+    {"Doberman": "\ub3c4\ubca0\ub974\ub9cc"},
+    {"miniature pinscher": "\ubbf8\ub2c8\uc5b4\ucc98 \ud540\uc154"},
+    {"Greater Swiss Mountain dog": "\uadf8\ub808\uc774\ud130 \uc2a4\uc704\uc2a4 \ub9c8\uc6b4\ud2f4 \ub3c5"},
+    {"Bernese mountain dog": "\ubca0\ub974\ub2c8\uc988 \ub9c8\uc6b4\ud2f4\ub3c5"},
+    {"Appenzeller": "\uc544\ud39c\uc824\ub7ec"},
+    {"EntleBucher": "\uc5d4\ud2c0\ubd80\ucc98"},
+    {"boxer": "\ubcf5\uc11c"},
+    {"bull mastiff": "\ubd88 \ub9c8\uc2a4\ud2f0\ud504"},
+    {"Tibetan mastiff": "\ud2f0\ubca0\ud0c4 \ub9c8\uc2a4\ud2f0\ud504"},
+    {"French bulldog": "\ud504\ub791\uc2a4 \ubd88\ub3c5"},
+    {"Great Dane": "\uadf8\ub808\uc774\ud2b8 \ub370\uc778"},
+    {"Saint Bernard": "\uc138\uc778\ud2b8 \ubc84\ub098\ub4dc"},
+    {"Eskimo dog": "\uc5d0\uc2a4\ud0a4\ubaa8 \uac1c"},
+    {"malamute": "\ub9d0\ub77c\ubba4\ud2b8"},
+    {"Siberian husky": "\uc2dc\ubca0\ub9ac\uc548 \ud5c8\uc2a4\ud0a4"},
+    {"dalmatian": "\ub2ec\ub9c8\uc2dc\uc548"},
+    {"affenpinscher": "\uc544\ud39c\ud540\uc154"},
+    {"basenji": "\ubc14\uc13c\uc9c0"},
+    {"pug": "\uc774\uae34 \ud759"},
+    {"Leonberg": "\ub808\uc628\ubca0\ub974\ud06c"},
+    {"Newfoundland": "\ub274\ud380\ub4e4\ub79c\ub4dc"},
+    {"Great Pyrenees": "\uadf8\ub808\uc774\ud2b8 \ud53c\ub808\ub124 \uc0b0\ub9e5"},
+    {"Samoyed": "\uc0ac\ubaa8\uc608\ub4dc"},
+    {"Pomeranian": "\ud3ec\uba54\ub77c\ub2c8\uc548"},
+    {"chow": "\uc74c\uc2dd"},
+    {"keeshond": "\ucf00\uc774\uc2a4\ud63c\ub4dc"},
+    {"Brabancon griffon": "\ube0c\ub77c\ubc18\ucf58 \uadf8\ub9ac\ud3f0"},
+    {"Pembroke": "\ud3a8\ube0c\ub85c\ud06c"},
+    {"Cardigan": "\uce74\ub514\uac74"},
+    {"toy poodle": "\ud1a0\uc774 \ud478\ub4e4"},
+    {"miniature poodle": "\ubbf8\ub2c8\uc5b4\ucc98 \ud478\ub4e4"},
+    {"standard poodle": "\uc2a4\ud0e0\ub2e4\ub4dc \ud478\ub4e4"},
+    {"Mexican hairless": "\uba55\uc2dc\ucf54 \ud138\uc774\uc5c6\ub294"},
+    {"timber wolf": "\ubaa9\uc7ac\ub291\ub300"},
+    {"white wolf": "\ud770 \ub291\ub300"},
+    {"red wolf": "\ubd89\uc740 \ub291\ub300"},
+    {"coyote": "\ucf54\uc694\ud14c"},
+    {"dingo": "\ub4e4\uac1c"},
+    {"dhole": "\ub3cc"},
+    {"African hunting dog": "\uc544\ud504\ub9ac\uce74 \uc0ac\ub0e5\uac1c"},
+    {"hyena": "\ud558\uc774\uc5d0\ub098"},
+    {"red fox": "\ubd89\uc740 \uc5ec\uc6b0"},
+    {"kit fox": "\ud0a4\ud2b8 \uc5ec\uc6b0"},
+    {"Arctic fox": "\ubd81\uadf9 \uc5ec\uc6b0"},
+    {"grey fox": "\ud68c\uc0c9 \uc5ec\uc6b0"},
+    {"tabby": "\ud0dc\ube44"},
+    {"tiger cat": "\ud638\ub791\uc774 \uace0\uc591\uc774"},
+    {"Persian cat": "\ud398\ub974\uc2dc\uc544 \uace0\uc591\uc774"},
+    {"Siamese cat": "\uc0f4 \uace0\uc591\uc774"},
+    {"Egyptian cat": "\uc774\uc9d1\ud2b8 \uace0\uc591\uc774"},
+    {"cougar": "\ucfe0\uac70"},
+    {"lynx": "\uc2a4\ub77c\uc18c\ub2c8"},
+    {"leopard": "\ud45c\ubc94"},
+    {"snow leopard": "\ub208\ud45c\ubc94"},
+    {"jaguar": "\uc7ac\uaddc\uc5b4"},
+    {"lion": "\uc0ac\uc790"},
+    {"tiger": "\ud638\ub791\uc774"},
+    {"cheetah": "\uce58\ud0c0"},
+    {"brown bear": "\uac08\uc0c9 \uacf0"},
+    {"American black bear": "\ubbf8\uad6d \ud751\uacf0"},
+    {"ice bear": "\uc544\uc774\uc2a4\ubca0\uc5b4"},
+    {"sloth bear": "\ub098\ubb34\ub298\ubcf4\uacf0"},
+    {"mongoose": "\ubabd\uad6c\uc2a4"},
+    {"meerkat": "\ubbf8\uc5b4\ucea3"},
+    {"tiger beetle": "\ud638\ub791\uc774 \ub531\uc815\ubc8c\ub808"},
+    {"ladybug": "\ubb34\ub2f9\ubc8c\ub808"},
+    {"ground beetle": "\ub545 \ub531\uc815\ubc8c\ub808"},
+    {"long-horned beetle": "\uae34\ubfd4\ub531\uc815\ubc8c\ub808"},
+    {"leaf beetle": "\uc78e\ubc8c\ub808"},
+    {"dung beetle": "\uc1e0\ub625\uad6c\ub9ac"},
+    {"rhinoceros beetle": "\ucf54\ubfd4\uc18c \ub531\uc815\ubc8c\ub808"},
+    {"weevil": "\ubc14\uad6c\ubbf8"},
+    {"fly": "\ud30c\ub9ac"},
+    {"bee": "\ubc8c"},
+    {"ant": "\uac1c\ubbf8"},
+    {"grasshopper": "\uba54\ub69c\uae30"},
+    {"cricket": "\ud06c\ub9ac\ucf13"},
+    {"walking stick": "\uc9c0\ud321\uc774"},
+    {"cockroach": "\ubc14\ud034\ubc8c\ub808"},
+    {"mantis": "\uc0ac\ub9c8\uadc0"},
+    {"cicada": "\ub9e4\ubbf8"},
+    {"leafhopper": "\uba78\uad6c"},
+    {"lacewing": "\ud480\uc7a0\uc790\ub9ac"},
+    {"dragonfly": "\uc7a0\uc790\ub9ac"},
+    {"damselfly": "\uba4d\uccad\ud55c"},
+    {"admiral": "\ud574\uad70 \ub300\uc7a5"},
+    {"ringlet": "\uc791\uc740 \uace0\ub9ac"},
+    {"monarch": "\uad70\uc8fc"},
+    {"cabbage butterfly": "\uc591\ubc30\ucd94\ub098\ube44"},
+    {"sulphur butterfly": "\uc720\ud669\ub098\ube44"},
+    {"lycaenid": "\ub77c\uc774\ucf00\ub124\uc774\ub4dc"},
+    {"starfish": "\ubd88\uac00\uc0ac\ub9ac"},
+    {"sea urchin": "\uc131\uac8c"},
+    {"sea cucumber": "\ud574\uc0bc"},
+    {"wood rabbit": "\ub098\ubb34 \ud1a0\ub07c"},
+    {"hare": "\ud1a0\ub07c"},
+    {"Angora": "\uc559\uace0\ub77c"},
+    {"hamster": "\ud584\uc2a4\ud130"},
+    {"porcupine": "\ud638\uc800"},
+    {"fox squirrel": "\uc5ec\uc6b0 \ub2e4\ub78c\uc950"},
+    {"marmot": "\ub9c8\ubaa8\ud2b8"},
+    {"beaver": "\ube44\ubc84"},
+    {"guinea pig": "\uae30\ub2c8\ud53c\uadf8"},
+    {"sorrel": "\ubc24\uc0c9"},
+    {"zebra": "\uc5bc\ub8e9\ub9d0"},
+    {"hog": "\ub3fc\uc9c0"},
+    {"wild boar": "\uc57c\uc0dd \uba67\ub3fc\uc9c0"},
+    {"warthog": "\uba67\ub3fc\uc9c0"},
+    {"hippopotamus": "\ud558\ub9c8"},
+    {"ox": "\ud669\uc18c"},
+    {"water buffalo": "\ubb3c\uc18c"},
+    {"bison": "\ubc14\uc774\uc2a8"},
+    {"ram": "\ub7a8"},
+    {"bighorn": "\ud070\ubfd4\uc591"},
+    {"ibex": "\uc544\uc774\ubca1\uc2a4"},
+    {"hartebeest": "\ud558\ud14c\ube44\uc2a4\ud2b8"},
+    {"impala": "\uc784\ud314\ub77c"},
+    {"gazelle": "\uac00\uc824 \uc601\uc591"},
+    {"Arabian camel": "\uc544\ub77c\ube44\uc544 \ub099\ud0c0"},
+    {"llama": "\uc57c\ub9c8"},
+    {"weasel": "\uc871\uc81c\ube44"},
+    {"mink": "\ubc0d\ud06c"},
+    {"polecat": "\uc871\uc81c\ube44"},
+    {"black-footed ferret": "\uac80\uc740\ubc1c \uc871\uc81c\ube44"},
+    {"otter": "\uc218\ub2ec"},
+    {"skunk": "\uc2a4\ucef9\ud06c"},
+    {"badger": "\uc624\uc18c\ub9ac"},
+    {"armadillo": "\uc544\ub974\ub9c8\ub51c\ub85c"},
+    {"three-toed sloth": "\uc138 \ubc1c\uac00\ub77d \ub098\ubb34\ub298\ubcf4"},
+    {"orangutan": "\uc624\ub791\uc6b0\ud0c4"},
+    {"gorilla": "\uace0\ub9b4\ub77c"},
+    {"chimpanzee": "\uce68\ud32c\uc9c0"},
+    {"gibbon": "\uae34\ud314\uc6d0\uc22d\uc774"},
+    {"siamang": "\uc2dc\uc544\ub9dd"},
+    {"guenon": "\uac8c\ub17c"},
+    {"patas": "\ud30c\ud0c0\uc2a4"},
+    {"baboon": "\ube44\ube44"},
+    {"macaque": "\uc6d0\uc22d\uc774"},
+    {"langur": "\ub791\uad6c\ub974"},
+    {"colobus": "\ucf5c\ub85c\ubd80\uc2a4"},
+    {"proboscis monkey": "\ucf54 \uc6d0\uc22d\uc774"},
+    {"marmoset": "\ub9c8\ubaa8\uc14b"},
+    {"capuchin": "\uce74\ud478\uce5c"},
+    {"howler monkey": "\uc9d6\ub294 \uc6d0\uc22d\uc774"},
+    {"titi": "\ud2f0\ud2f0"},
+    {"spider monkey": "\uac70\ubbf8 \uc6d0\uc22d\uc774"},
+    {"squirrel monkey": "\ub2e4\ub78c\uc950\uc6d0\uc22d\uc774"},
+    {"Madagascar cat": "\ub9c8\ub2e4\uac00\uc2a4\uce74\ub974 \uace0\uc591\uc774"},
+    {"indri": "\uc778\ub4dc\ub9ac"},
+    {"Indian elephant": "\uc778\ub3c4\ucf54\ub07c\ub9ac"},
+    {"African elephant": "\uc544\ud504\ub9ac\uce74\ucf54\ub07c\ub9ac"},
+    {"lesser panda": "\ub808\uc11c \ud32c\ub354"},
+    {"giant panda": "\uc790\uc774\uc5b8\ud2b8 \ud32c\ub354"},
+    {"barracouta": "\ubc14\ub77c\ucfe0\ud0c0"},
+    {"eel": "\ubc40\uc7a5\uc5b4"},
+    {"coho": "\ucf54\ud638"},
+    {"rock beauty": "\ub85d \ubdf0\ud2f0"},
+    {"anemone fish": "\ub9d0\ubbf8\uc798"},
+    {"sturgeon": "\ucca0\uac11\uc0c1\uc5b4"},
+    {"gar": "\uac00\ub974"},
+    {"lionfish": "\uc0ac\uc790\uc0c1\uc5b4"},
+    {"puffer": "\ubcf5\uc5b4"},
+    {"abacus": "\uc8fc\ud310"},
+    {"abaya": "\uc544\ubc14\uc57c"},
+    {"academic gown": "\ud559\uc5c5 \uac00\uc6b4"},
+    {"accordion": "\uc544\ucf54\ub514\uc5b8"},
+    {"acoustic guitar": "\uc5b4\ucfe0\uc2a4\ud2f1 \uae30\ud0c0"},
+    {"aircraft carrier": "\ud56d\uacf5\ubaa8\ud568"},
+    {"airliner": "\uc5ec\uac1d\uae30"},
+    {"airship": "\ube44\ud589\uc120"},
+    {"altar": "\uc81c\ub2e8"},
+    {"ambulance": "\uad6c\uae09\ucc28"},
+    {"amphibian": "\uc218\ub959 \uc591\uc6a9 \ube44\ud589\uae30"},
+    {"analog clock": "\uc544\ub0a0\ub85c\uadf8 \uc2dc\uacc4"},
+    {"apiary": "\uc591\ubd09\uc7a5"},
+    {"apron": "\uc55e\uce58\ub9c8"},
+    {"ashcan": "\uc7ac\ub5a8\uc774"},
+    {"assault rifle": "\ub3cc\uaca9 \uc18c\ucd1d"},
+    {"backpack": "\ubc30\ub0ad"},
+    {"bakery": "\ube75\uc9d1"},
+    {"balance beam": "\uc800\uc6b8\ub300"},
+    {"balloon": "\ud48d\uc120"},
+    {"ballpoint": "\ubcfc\ud39c"},
+    {"Band Aid": "\ubc18\ucc3d\uace0"},
+    {"banjo": "\ubc34\uc870"},
+    {"bannister": "\ub09c\uac04"},
+    {"barbell": "\ubc14\ubca8"},
+    {"barber chair": "\uc774\ubc1c\uc0ac"},
+    {"barbershop": "\uc774\ubc1c\uc18c"},
+    {"barn": "\uc678\uc591\uac04"},
+    {"barometer": "\uae30\uc555\uacc4"},
+    {"barrel": "\ud1b5"},
+    {"barrow": "\uc190\uc218\ub808"},
+    {"baseball": "\uc57c\uad6c"},
+    {"basketball": "\ub18d\uad6c"},
+    {"bassinet": "\uc694\ub78c"},
+    {"bassoon": "\ubc14\uc21c"},
+    {"bathing cap": "\ubaa9\uc695\ubaa8\uc790"},
+    {"bath towel": "\ubaa9\uc695 \uc218\uac74"},
+    {"bathtub": "\ubaa9\uc695\ud1b5"},
+    {"beach wagon": "\ud574\ubcc0 \uc65c\uac74"},
+    {"beacon": "\ubd09\ud667\ubd88"},
+    {"beaker": "\uad7d \u200b\u200b\ub2ec\ub9b0 \ud070 \ucef5"},
+    {"bearskin": "\uacf0 \uac00\uc8fd \uc637"},
+    {"beer bottle": "\ub9e5\uc8fc\ubcd1"},
+    {"beer glass": "\ub9e5\uc8fc\uc794"},
+    {"bell cote": "\ubca8 \ucf54\ud2b8"},
+    {"bib": "\ud131\ubc1b\uc774"},
+    {"bicycle-built-for-two": "2\uc778\uc6a9 \uc790\uc804\uac70"},
+    {"bikini": "\ube44\ud0a4\ub2c8"},
+    {"binder": "\uc811\ud569\uc7ac"},
+    {"binoculars": "\uc30d\uc548\uacbd"},
+    {"birdhouse": "\uc0c8\uc9d1"},
+    {"boathouse": "\ubcf4\ud2b8 \ud558\uc6b0\uc2a4"},
+    {"bobsled": "\ubd05\uc2ac\ub808\uc774"},
+    {"bolo tie": "\ubcfc\ub85c\ub125\ud0c0\uc774"},
+    {"bonnet": "\ubcf4\ub2db"},
+    {"bookcase": "\ucc45\uc7a5"},
+    {"bookshop": "\uc11c\uc810"},
+    {"bottlecap": "\ubcd1 \ub69c\uaed1"},
+    {"bow": "\uc808\ud558\ub2e4"},
+    {"bow tie": "\ub098\ube44 \ub125\ud0c0\uc774"},
+    {"brass": "\ub18b\uc1e0"},
+    {"brassiere": "\ube0c\ub798\uc9c0\uc5b4"},
+    {"breakwater": "\ubc29\ud30c\uc81c"},
+    {"breastplate": "\ud749\uac11"},
+    {"broom": "\ube44"},
+    {"bucket": "\ubc84\ud0b7"},
+    {"buckle": "\ubc84\ud074"},
+    {"bulletproof vest": "\ubc29\ud0c4 \uc870\ub07c"},
+    {"bullet train": "\ucd08\uace0\uc18d \uc5f4\ucc28"},
+    {"butcher shop": "\ud478\uc90f\uac04"},
+    {"cab": "\ud0dd\uc2dc"},
+    {"caldron": "\uac00\ub9c8\uc1a5"},
+    {"candle": "\uc591\ucd08"},
+    {"cannon": "\ub300\ud3ec"},
+    {"canoe": "\uce74\ub204"},
+    {"can opener": "\ubcd1\ub530\uac1c"},
+    {"cardigan": "\uce74\ub514\uac74"},
+    {"car mirror": "\uc790\ub3d9\ucc28 \uac70\uc6b8"},
+    {"carousel": "\ud68c\uc804\ubaa9\ub9c8"},
+    {"carpenter's kit": "\ubaa9\uc218\uc758 \ud0a4\ud2b8"},
+    {"carton": "\ud310\uc9c0 \uc0c1\uc790"},
+    {"car wheel": "\uc790\ub3d9\ucc28 \ubc14\ud034"},
+    {"cash machine": "\ud604\uae08 \uc9c0\uae09\uae30"},
+    {"cassette": "\uce74\uc138\ud2b8"},
+    {"cassette player": "\uce74\uc138\ud2b8 \ud50c\ub808\uc774\uc5b4"},
+    {"castle": "\uc131"},
+    {"catamaran": "\ub5cf\ubaa9"},
+    {"CD player": "CD \ud50c\ub808\uc774\uc5b4"},
+    {"cello": "\uccbc\ub85c"},
+    {"cellular telephone": "\ud734\ub300\uc804\ud654"},
+    {"chain": "\uccb4\uc778"},
+    {"chainlink fence": "\uccb4\uc778 \ub9c1\ud06c \uc6b8\ud0c0\ub9ac"},
+    {"chain mail": "\uccb4\uc778 \uba54\uc77c"},
+    {"chain saw": "\uccb4\uc778\ud1b1"},
+    {"chest": "\uac00\uc2b4"},
+    {"chiffonier": "\uc11c\ub78d\uc7a5"},
+    {"chime": "\ucc28\uc784"},
+    {"china cabinet": "\uc911\uad6d \uce90\ube44\ub2db"},
+    {"Christmas stocking": "\ud06c\ub9ac\uc2a4\ub9c8\uc2a4 \uc2a4\ud0c0\ud0b9"},
+    {"church": "\uad50\ud68c"},
+    {"cinema": "\uc601\ud654"},
+    {"cleaver": "\uace0\uae30 \ubca0\ub294 \ud070 \uce7c"},
+    {"cliff dwelling": "\uc808\ubcbd \uc8fc\uac70"},
+    {"cloak": "\ub9dd\ud1a0"},
+    {"clog": "\ub098\ub9c9\uc2e0"},
+    {"cocktail shaker": "\uce75\ud14c\uc77c \uc170\uc774\ucee4"},
+    {"coffee mug": "\ucee4\ud53c \uba38\uadf8\uc794"},
+    {"coffeepot": "\ucee4\ud53c \ud3ec\ud2b8"},
+    {"coil": "\ucf54\uc77c"},
+    {"combination lock": "\uc870\ud569 \uc7a0\uae08"},
+    {"computer keyboard": "\ucef4\ud4e8\ud130 \ud0a4\ubcf4\ub4dc"},
+    {"confectionery": "\uacfc\uc790"},
+    {"container ship": "\ucee8\ud14c\uc774\ub108 \uc120\ubc15"},
+    {"convertible": "\ubc14\uafb8\uc5b4 \ub9d0\ud560 \uc218 \uc788\ub294"},
+    {"corkscrew": "\ube59\ube59 \ub3cc\ub9ac\ub2e4"},
+    {"cornet": "\ucf54\ub137"},
+    {"cowboy boot": "\uce74\uc6b0\ubcf4\uc774 \ubd80\uce20"},
+    {"cowboy hat": "\uce74\uc6b0\ubcf4\uc774 \ubaa8\uc790"},
+    {"cradle": "\uc694\ub78c"},
+    {"crane": "\ub450\ub8e8\ubbf8"},
+    {"crash helmet": "\ucda9\ub3cc \ud5ec\uba67"},
+    {"crate": "\ub098\ubb34 \uc0c1\uc790"},
+    {"crib": "\uc5b4\ub9b0\uc774 \uce68\ub300"},
+    {"Crock Pot": "\ub3fc \uba39\uc9c0 \ubabb\ud55c \ub0c4\ube44"},
+    {"croquet ball": "\ud06c\ub85c\ucf00 \uacf5"},
+    {"crutch": "\ubc84\ud300\ubaa9"},
+    {"cuirass": "\ub3d9\uccb4 \uac11\uc637"},
+    {"dam": "\ub310"},
+    {"desk": "\ucc45\uc0c1"},
+    {"desktop computer": "\ub370\uc2a4\ud06c\ud1b1 \ucef4\ud4e8\ud130"},
+    {"dial telephone": "\uc804\ud654\ub97c \uac78\ub2e4"},
+    {"diaper": "\uae30\uc800\uadc0"},
+    {"digital clock": "\ub514\uc9c0\ud138 \uc2dc\uacc4"},
+    {"digital watch": "\ub514\uc9c0\ud138 \uc2dc\uacc4"},
+    {"dining table": "\uc2dd\ud0c1"},
+    {"dishrag": "\ud589\uc8fc"},
+    {"dishwasher": "\uc2dd\uae30 \uc138\ucc99\uae30"},
+    {"disk brake": "\ub514\uc2a4\ud06c \ube0c\ub808\uc774\ud06c"},
+    {"dock": "\ub3c5"},
+    {"dogsled": "\uac1c \uc370\ub9e4"},
+    {"dome": "\ub465\uadfc \ucc9c\uc7a5"},
+    {"doormat": "\ud604\uad00 \ub9e4\ud2b8"},
+    {"drilling platform": "\ub4dc\ub9b4\ub9c1 \ud50c\ub7ab\ud3fc"},
+    {"drum": "\ubd81"},
+    {"drumstick": "\ubd81\ucc44"},
+    {"dumbbell": "\uc544\ub839"},
+    {"Dutch oven": "\uace0\uae30 \uad7d\ub294 \uadf8\ub987"},
+    {"electric fan": "\uc120\ud48d\uae30"},
+    {"electric guitar": "\uc804\uc790 \uae30\ud0c0"},
+    {"electric locomotive": "\uc804\uae30 \uae30\uad00\ucc28"},
+    {"entertainment center": "\uc5d4\ud130\ud14c\uc778\uba3c\ud2b8 \uc13c\ud130"},
+    {"envelope": "\ubd09\ud22c"},
+    {"espresso maker": "\uc5d0\uc2a4\ud504\ub808\uc18c \uba54\uc774\ucee4"},
+    {"face powder": "\ud398\uc774\uc2a4 \ud30c\uc6b0\ub354"},
+    {"feather boa": "\uae43\ud138 \ubcf4\uc544"},
+    {"file": "\ud30c\uc77c"},
+    {"fireboat": "\uc18c\ubc29\uc11c"},
+    {"fire engine": "\uc18c\ubc29\ucc28"},
+    {"fire screen": "\ud654\uc7ac \uc2a4\ud06c\ub9b0"},
+    {"flagpole": "\uae43\ub300"},
+    {"flute": "\ud50c\ub8e8\ud2b8"},
+    {"folding chair": "\uc811\ub294 \uc758\uc790"},
+    {"football helmet": "\ucd95\uad6c \ud5ec\uba67"},
+    {"forklift": "\uc9c0\uac8c\ucc28"},
+    {"fountain": "\ubd84\uc218"},
+    {"fountain pen": "\ub9cc\ub144\ud544"},
+    {"four-poster": "\ub124 \ud3ec\uc2a4\ud130"},
+    {"freight car": "\ud654\ubb3c\ucc28"},
+    {"French horn": "\ud504\ub80c\uce58 \ud638\ub978"},
+    {"frying pan": "\ud504\ub77c\uc774\ud32c"},
+    {"fur coat": "\ubaa8\ud53c \ucf54\ud2b8"},
+    {"garbage truck": "\uc4f0\ub808\uae30 \ucc28"},
+    {"gasmask": "\ubc29\ub3c5\uba74"},
+    {"gas pump": "\uac00\uc2a4 \ud38c\ud504"},
+    {"goblet": "\uace0\ube14\ub9bf"},
+    {"go-kart": "\uace0\uce74\ud2b8"},
+    {"golf ball": "\uace8\ud504 \uacf5"},
+    {"golfcart": "\uace8\ud504 \uce74\ud2b8"},
+    {"gondola": "\uace4\ub3cc\ub77c"},
+    {"gong": "\uc9d5"},
+    {"gown": "\uac89\uc637"},
+    {"grand piano": "\uadf8\ub79c\ub4dc \ud53c\uc544\ub178"},
+    {"greenhouse": "\uc628\uc2e4"},
+    {"grille": "\uadf8\ub9b4"},
+    {"grocery store": "\uc2dd\ub8cc\ud488\uc810"},
+    {"guillotine": "\uae30\uc694\ud2f4"},
+    {"hair slide": "\ud5e4\uc5b4 \uc2ac\ub77c\uc774\ub4dc"},
+    {"hair spray": "\ud5e4\uc5b4 \uc2a4\ud504\ub808\uc774"},
+    {"half track": "\ud558\ud504 \ud2b8\ub799"},
+    {"hammer": "\ub9dd\uce58"},
+    {"hamper": "\uad11\uc8fc\ub9ac"},
+    {"hand blower": "\uc190 \uc1a1\ud48d\uae30"},
+    {"hand-held computer": "\ud734\ub300\uc6a9 \ucef4\ud4e8\ud130"},
+    {"handkerchief": "\uc190\uc218\uac74"},
+    {"hard disc": "\ud558\ub4dc \ub514\uc2a4\ud06c"},
+    {"harmonica": "\ud558\ubaa8\ub2c8\uce74"},
+    {"harp": "\ud558\ud504"},
+    {"harvester": "\uc218\ud655\uae30"},
+    {"hatchet": "\uc790\uadc0"},
+    {"holster": "\ud640\uc2a4\ud130"},
+    {"home theater": "\ud648 \uc2dc\uc5b4\ud130"},
+    {"honeycomb": "\ubc8c\uc9d1"},
+    {"hook": "\ud6c5"},
+    {"hoopskirt": "\ud6c4\ud504\uc2a4\ucee4\ud2b8"},
+    {"horizontal bar": "\uc218\ud3c9 \ub9c9\ub300"},
+    {"horse cart": "\ub9d0 \uce74\ud2b8"},
+    {"hourglass": "\ubaa8\ub798\uc2dc\uacc4"},
+    {"iPod": "\uc544\uc774\ud31f"},
+    {"iron": "\ucca0"},
+    {"jack-o'-lantern": "\uc7ad \uc624 \ub79c\ud134"},
+    {"jean": "\uc5ec\uc790 \uc774\ub984"},
+    {"jeep": "\uc9c0\ud504"},
+    {"jersey": "\uc800\uc9c0"},
+    {"jigsaw puzzle": "\uc9c1\uc18c \ud37c\uc990"},
+    {"jinrikisha": "\uc9c4\ub9ac\ud0a4\uc0e4"},
+    {"joystick": "\uc870\uc885\uac04"},
+    {"kimono": "\ud0a4\ubaa8\ub178"},
+    {"knee pad": "\ubb34\ub98e \ud328\ub4dc"},
+    {"knot": "\ub9e4\ub4ed"},
+    {"lab coat": "\uc2e4\ud5d8\ubcf5"},
+    {"ladle": "\uad6d\uc790"},
+    {"lampshade": "\uac13"},
+    {"laptop": "\ub7a9\ud0d1"},
+    {"lawn mower": "\uc794\ub514 \uae4e\ub294 \uae30\uacc4"},
+    {"lens cap": "\ub80c\uc988 \ucea1"},
+    {"letter opener": "\ud3b8\uc9c0 \uc624\ud504\ub108"},
+    {"library": "\ub3c4\uc11c\uad00"},
+    {"lifeboat": "\uad6c\uba85\uc815"},
+    {"lighter": "\uac70\ub8fb\ubc30"},
+    {"limousine": "\ub9ac\ubb34\uc9c4"},
+    {"liner": "\uc815\uae30\uc120"},
+    {"lipstick": "\ub9bd\uc2a4\ud2f1"},
+    {"Loafer": "\ub85c\ud37c"},
+    {"lotion": "\uc678\uc6a9 \ubb3c\uc57d"},
+    {"loudspeaker": "\ud655\uc131\uae30"},
+    {"loupe": "\ub8e8\ud398"},
+    {"lumbermill": "\uc81c\uc7ac\uc18c"},
+    {"magnetic compass": "\uc790\uae30 \ub098\uce68\ubc18"},
+    {"mailbag": "\uc6b0\ud3b8\ub0ad"},
+    {"mailbox": "\uc0ac\uc11c\ud568"},
+    {"maillot": "\ud0c0\uc774\uce20"},
+    {"maillot": "\ud0c0\uc774\uce20"},
+    {"manhole cover": "\ub9e8\ud640 \ub69c\uaed1"},
+    {"maraca": "\ub9c8\ub77c\uce74"},
+    {"marimba": "\ub9c8\ub9bc\ubc14"},
+    {"mask": "\ub9c8\uc2a4\ud06c"},
+    {"matchstick": "\uc131\ub0e5\uac1c\ube44"},
+    {"maypole": "\uba54\uc774\ud3f4"},
+    {"maze": "\ubbf8\ub85c"},
+    {"measuring cup": "\uacc4\ub7c9\ucef5"},
+    {"medicine chest": "\uad6c\uae09\uc57d \uc0c1\uc790"},
+    {"megalith": "\uac70\uc11d"},
+    {"microphone": "\ub9c8\uc774\ud06c\ub85c\ud3f0"},
+    {"microwave": "\ub9c8\uc774\ud06c\ub85c\ud30c"},
+    {"military uniform": "\uad70\ubcf5"},
+    {"milk can": "\uc6b0\uc720 \uce94"},
+    {"minibus": "\uc18c\ud615 \ubc84\uc2a4"},
+    {"miniskirt": "\ubbf8\ub2c8\uc2a4\ucee4\ud2b8"},
+    {"minivan": "\ubbf8\ub2c8\ubc34"},
+    {"missile": "\ubbf8\uc0ac\uc77c"},
+    {"mitten": "\ubc99\uc5b4\ub9ac \uc7a5\uac11"},
+    {"mixing bowl": "\ubbf9\uc2f1\ubcfc"},
+    {"mobile home": "\uc774\ub3d9\uc2dd \uc8fc\ud0dd"},
+    {"Model T": "\ubaa8\ub378 T"},
+    {"modem": "\ubaa8\ub380"},
+    {"monastery": "\uc218\ub3c4\uc6d0"},
+    {"monitor": "\uac10\uc2dc \uc7a5\uce58"},
+    {"moped": "\ubaa8\ud130 \ub2ec\ub9b0 \uc790\uc804\uac70"},
+    {"mortar": "\ubc15\uaca9\ud3ec"},
+    {"mortarboard": "\uac01\ubaa8"},
+    {"mosque": "\uc0ac\uc6d0"},
+    {"mosquito net": "\ubaa8\uae30\uc7a5"},
+    {"motor scooter": "\ubaa8\ud130 \uc2a4\ucfe0\ud130"},
+    {"mountain bike": "\uc0b0\uc545 \uc790\uc804\uac70"},
+    {"mountain tent": "\uc0b0 \ud150\ud2b8"},
+    {"mouse": "\uc0dd\uc950"},
+    {"mousetrap": "\uc950\ub36b"},
+    {"moving van": "\uc6c0\uc9c1\uc774\ub294 \ubc34"},
+    {"muzzle": "\ud3ec\uad6c"},
+    {"nail": "\ubabb"},
+    {"neck brace": "\ubaa9\uac78\uc774"},
+    {"necklace": "\ubaa9\uac78\uc774"},
+    {"nipple": "\uc816\uaf2d\uc9c0"},
+    {"notebook": "\uacf5\ucc45"},
+    {"obelisk": "\uc624\ubca8\ub9ac\uc2a4\ud06c"},
+    {"oboe": "\uc624\ubcf4\uc5d0"},
+    {"ocarina": "\uc624\uce74\ub9ac\ub098"},
+    {"odometer": "\uc8fc\ud589 \uac70\ub9ac\uacc4"},
+    {"oil filter": "\uc624\uc77c \ud544\ud130"},
+    {"organ": "\uc624\ub974\uac04"},
+    {"oscilloscope": "\uc624\uc2e4\ub85c\uc2a4\ucf54\ud504"},
+    {"overskirt": "\uc624\ubc84\uc2a4\ucee4\ud2b8"},
+    {"oxcart": "\uc6b0\ucc28"},
+    {"oxygen mask": "\uc0b0\uc18c \ub9c8\uc2a4\ud06c"},
+    {"packet": "\ud328\ud0b7"},
+    {"paddle": "\uc678\ub95c"},
+    {"paddlewheel": "\uc678\ub95c"},
+    {"padlock": "\ub9f9\uaf41\uc774 \uc790\ubb3c\uc1e0"},
+    {"paintbrush": "\ud654\ud544"},
+    {"pajama": "\uc7a0\uc637"},
+    {"palace": "\uad81\uc804"},
+    {"panpipe": "\ud32c\ud30c\uc774\ud504"},
+    {"paper towel": "\uc885\uc774 \ud0c0\uc6d4"},
+    {"parachute": "\ub099\ud558\uc0b0"},
+    {"parallel bars": "\uc218\ud3c9 \ud55c \ub9c9\ub300"},
+    {"park bench": "\uacf5\uc6d0 \ubca4\uce58"},
+    {"parking meter": "\uc8fc\ucc28\ub8cc \uc9d5\uc218 \uae30"},
+    {"passenger car": "\uc2b9\uc6a9\ucc28"},
+    {"patio": "\uc548\ub9c8\ub2f9"},
+    {"pay-phone": "\uacf5\uc911\uc804\ud654"},
+    {"pedestal": "\ubc1b\uce68\ub300"},
+    {"pencil box": "\ud544\ud1b5"},
+    {"pencil sharpener": "\uc5f0\ud544 \uae4e\uae30"},
+    {"perfume": "\ud5a5\uc218"},
+    {"Petri dish": "\ud398\ud2b8\ub9ac \uc811\uc2dc"},
+    {"photocopier": "\ubcf5\uc0ac\uae30"},
+    {"pick": "\uc120\ud0dd\ud558\ub2e4"},
+    {"pickelhaube": "\ud53c\ud074\ud558\uc6b0\ubca0"},
+    {"picket fence": "\uc6b8\ud0c0\ub9ac"},
+    {"pickup": "\ucc3e\ub2e4"},
+    {"pier": "\uad50\uac01"},
+    {"piggy bank": "\ub3fc\uc9c0 \uc800\uae08\ud1b5"},
+    {"pill bottle": "\uc57d\ubcd1"},
+    {"pillow": "\ubca0\uac1c"},
+    {"ping-pong ball": "\ud0c1\uad6c\uacf5"},
+    {"pinwheel": "\ubc14\ub78c\uac1c\ube44"},
+    {"pirate": "\ud574\uc801"},
+    {"pitcher": "\ud53c\ucc98"},
+    {"plane": "\ube44\ud589\uae30"},
+    {"planetarium": "\ubcc4\uc790\ub9ac \ud22c\uc601\uae30"},
+    {"plastic bag": "\ube44\ub2d0 \ubd09\ud22c"},
+    {"plate rack": "\uc811\uc2dc\uac78\uc774"},
+    {"plow": "\uc7c1\uae30"},
+    {"plunger": "\ud50c\ub7f0\uc800"},
+    {"Polaroid camera": "\ud3f4\ub77c\ub85c\uc774\ub4dc \uce74\uba54\ub77c"},
+    {"pole": "\ud3f4"},
+    {"police van": "\uacbd\ucc30 \ubc34"},
+    {"poncho": "\ud310\ucd08"},
+    {"pool table": "\ub2f9\uad6c\ub300"},
+    {"pop bottle": "\ud31d\ubcd1"},
+    {"pot": "\ub0c4\ube44"},
+    {"potter's wheel": "\ubb3c\ub808"},
+    {"power drill": "\ud30c\uc6cc \ub4dc\ub9b4"},
+    {"prayer rug": "\uae30\ub3c4 \uae54\uac1c"},
+    {"printer": "\uc778\uc1c4\uae30"},
+    {"prison": "\uac10\uc625"},
+    {"projectile": "\ubc1c\uc0ac\uccb4"},
+    {"projector": "\uc601\uc0ac\uae30"},
+    {"puck": "\ud37d"},
+    {"punching bag": "\uc0cc\ub4dc\ubc31"},
+    {"purse": "\uc9c0\uac11"},
+    {"quill": "\uae43"},
+    {"quilt": "\uc774\ubd88"},
+    {"racer": "\uacbd\uc8fc\uc790"},
+    {"racket": "\ub77c\ucf13"},
+    {"radiator": "\ub77c\ub514\uc5d0\uc774\ud130"},
+    {"radio": "\ub77c\ub514\uc624"},
+    {"radio telescope": "\uc804\ud30c \ub9dd\uc6d0\uacbd"},
+    {"rain barrel": "\ube57\ubb3c\ud1b5"},
+    {"recreational vehicle": "\ub808\uc800 \uc6a9 \ucc28\ub7c9"},
+    {"reel": "\ub9b4"},
+    {"reflex camera": "\ub9ac\ud50c\ub809\uc2a4 \uce74\uba54\ub77c"},
+    {"refrigerator": "\ub0c9\uc7a5\uace0"},
+    {"remote control": "\ub9ac\ubaa8\ucf58"},
+    {"restaurant": "\uc2dd\ub2f9"},
+    {"revolver": "\ub9ac\ubcfc\ubc84"},
+    {"rifle": "\uc18c\ucd1d"},
+    {"rocking chair": "\ud754\ub4e4 \uc758\uc790"},
+    {"rotisserie": "\ubd88\uace0\uae30\uc9d1"},
+    {"rubber eraser": "\uace0\ubb34 \uc9c0\uc6b0\uac1c"},
+    {"rugby ball": "\ub7ed\ube44 \uacf5"},
+    {"rule": "\uaddc\uce59"},
+    {"running shoe": "\uc6b4\ub3d9\ud654"},
+    {"safe": "\uc548\uc804\ud55c"},
+    {"safety pin": "\uc548\uc804\ud540"},
+    {"saltshaker": "\uc18c\uae08 \ud1b5"},
+    {"sandal": "\uc0cc\ub4e4"},
+    {"sarong": "\uc0ac\ub871"},
+    {"sax": "\uc0c9\uc18c\ud3f0"},
+    {"scabbard": "\uc9d1"},
+    {"scale": "\uaddc\ubaa8"},
+    {"school bus": "\ud559\uad50 \ubc84\uc2a4"},
+    {"schooner": "\ud070 \uc870\ub07c"},
+    {"scoreboard": "\uc810\uc218\ud310"},
+    {"screen": "\ud654\uba74"},
+    {"screw": "\ub098\uc0ac"},
+    {"screwdriver": "\ub4dc\ub77c\uc774\ubc84"},
+    {"seat belt": "\uc548\uc804 \ubca8\ud2b8"},
+    {"sewing machine": "\uc7ac\ubd09\ud2c0"},
+    {"shield": "\ubc29\ud328"},
+    {"shoe shop": "\uc2e0\ubc1c \uac00\uac8c"},
+    {"shoji": "\ubbf8\ub2eb\uc774"},
+    {"shopping basket": "\uc1fc\ud551 \ubc14\uad6c\ub2c8"},
+    {"shopping cart": "\uc1fc\ud551 \uce74\ud2b8"},
+    {"shovel": "\uc0bd"},
+    {"shower cap": "\uc0e4\uc6cc \ucea1"},
+    {"shower curtain": "\uc0e4\uc6cc \ucee4\ud2bc"},
+    {"ski": "\uc2a4\ud0a4"},
+    {"ski mask": "\uc2a4\ud0a4 \ub9c8\uc2a4\ud06c"},
+    {"sleeping bag": "\uce68\ub0ad"},
+    {"slide rule": "\uaddc\uce59\uc744 \ube44\uaef4\ub098 \uac00\ub2e4"},
+    {"sliding door": "\ubbf8\ub2eb\uc774 \ubb38"},
+    {"slot": "\uc2ac\ub86f"},
+    {"snorkel": "\uc2a4\ub178\ud074"},
+    {"snowmobile": "\uc124\uc0c1\ucc28"},
+    {"snowplow": "\uc81c\uc124\uae30"},
+    {"soap dispenser": "\ube44\ub204 \ub514\uc2a4\ud39c\uc11c"},
+    {"soccer ball": "\ucd95\uad6c \uacf5"},
+    {"sock": "\uc591\ub9d0"},
+    {"solar dish": "\ud0dc\uc591 \uc811\uc2dc"},
+    {"sombrero": "\uc19c\ube0c\ub808\ub85c"},
+    {"soup bowl": "\uc218\ud504 \uadf8\ub987"},
+    {"space bar": "\uc2a4\ud398\uc774\uc2a4 \ubc14"},
+    {"space heater": "\uacf5\uac04 \ud788\ud130"},
+    {"space shuttle": "\uc6b0\uc8fc \uc655\ubcf5\uc120"},
+    {"spatula": "\uc8fc\uac71"},
+    {"speedboat": "\ucf8c\uc18d\uc815"},
+    {"spider web": "\uac70\ubbf8\uc904"},
+    {"spindle": "\ucd95"},
+    {"sports car": "\uc2a4\ud3ec\uce20\uce74"},
+    {"spotlight": "\uc2a4\ud3ec\ud2b8\ub77c\uc774\ud2b8"},
+    {"stage": "\ub2e8\uacc4"},
+    {"steam locomotive": "\uc99d\uae30 \uae30\uad00\ucc28"},
+    {"steel arch bridge": "\uac15\ucca0 \uc544\uce58\uad50"},
+    {"steel drum": "\uc2a4\ud2f8 \ub4dc\ub7fc"},
+    {"stethoscope": "\uccad\uc9c4\uae30"},
+    {"stole": "\uc2a4\ud1a8"},
+    {"stone wall": "\ub3cc\ub2f4"},
+    {"stopwatch": "\uc2a4\ud1b1\uc6cc\uce58"},
+    {"stove": "\ub09c\ub85c"},
+    {"strainer": "\uac70\ub974\ub294 \uc0ac\ub78c"},
+    {"streetcar": "\uc2dc\uac00 \uc804\ucc28"},
+    {"stretcher": "\ub4e4\uac83"},
+    {"studio couch": "\uc2a4\ud29c\ub514\uc624 \uc18c\ud30c"},
+    {"stupa": "\ud574\uace8"},
+    {"submarine": "\uc7a0\uc218\ud568"},
+    {"suit": "\uc815\uc7a5"},
+    {"sundial": "\ud574\uc2dc\uacc4"},
+    {"sunglass": "\uc120\uae00\ub798\uc2a4"},
+    {"sunglasses": "\uc0c9\uc548\uacbd"},
+    {"sunscreen": "\uc790\uc678\uc120 \ucc28\ub2e8\uc81c"},
+    {"suspension bridge": "\ud604\uc218\uad50"},
+    {"swab": "\ubbf8\ub828\ud241\uc774"},
+    {"sweatshirt": "\uc2a4\uc6e8\ud2b8 \uc154\uce20"},
+    {"swimming trunks": "\uc218\uc601\ubcf5"},
+    {"swing": "\uadf8\ub124"},
+    {"switch": "\uc2a4\uc704\uce58"},
+    {"syringe": "\uc8fc\uc0ac\uae30"},
+    {"table lamp": "\ud14c\uc774\ube14 \ub7a8\ud504"},
+    {"tank": "\ud0f1\ud06c"},
+    {"tape player": "\ud14c\uc774\ud504 \ud50c\ub808\uc774\uc5b4"},
+    {"teapot": "\ucc3b\uc8fc\uc804\uc790"},
+    {"teddy": "\ud14c\ub514"},
+    {"television": "\ud154\ub808\ube44\uc804"},
+    {"tennis ball": "\ud14c\ub2c8\uc2a4 \uacf5"},
+    {"thatch": "\uac08 \uc9c0\ud48d"},
+    {"theater curtain": "\uadf9\uc7a5 \ucee4\ud2bc"},
+    {"thimble": "\uace8\ubb34"},
+    {"thresher": "\ud0c8\uace1\uae30"},
+    {"throne": "\uc655\uc88c"},
+    {"tile roof": "\uae30\uc640\uc9c0\ubd95"},
+    {"toaster": "\ud1a0\uc2a4\ud130\uc5d0"},
+    {"tobacco shop": "\ub2f4\ubc30 \uac00\uac8c"},
+    {"toilet seat": "\ubcc0\uae30"},
+    {"torch": "\ud1a0\uce58"},
+    {"totem pole": "\ud1a0\ud15c\ud3f4"},
+    {"tow truck": "\uacac\uc778\ucc28"},
+    {"toyshop": "\uc7a5\ub09c\uac10 \uac00\uac8c"},
+    {"tractor": "\ud2b8\ub799\ud130"},
+    {"trailer truck": "\ud2b8\ub808\uc77c\ub7ec \ud2b8\ub7ed"},
+    {"tray": "\uc7c1\ubc18"},
+    {"trench coat": "\ud2b8\ub80c\uce58 \ucf54\ud2b8"},
+    {"tricycle": "\uc138\ubc1c\uc790\uc804\uac70"},
+    {"trimaran": "\uc0bc\ub3d9\uc120"},
+    {"tripod": "\uc0bc\uac01\ub300"},
+    {"triumphal arch": "\uac1c\uc120\ubb38"},
+    {"trolleybus": "\ubb34\uada4\ub3c4 \uc804\ucc28"},
+    {"trombone": "\ud2b8\ub86c\ubcf8"},
+    {"tub": "\ud1b5"},
+    {"turnstile": "\uac1c\ucc30\uad6c"},
+    {"typewriter keyboard": "\ud0c0\uc790\uae30 \ud0a4\ubcf4\ub4dc"},
+    {"umbrella": "\uc6b0\uc0b0"},
+    {"unicycle": "\uc678\ubc1c\uc790\uc804\uac70"},
+    {"upright": "\ub611\ubc14\ub85c"},
+    {"vacuum": "\uc9c4\uacf5"},
+    {"vase": "\uaf43\ubcd1"},
+    {"vault": "\ub465\uadfc \ucc9c\uc7a5"},
+    {"velvet": "\ubca8\ubcb3"},
+    {"vending machine": "\uc790\ud310\uae30"},
+    {"vestment": "\uc758\ubcf5"},
+    {"viaduct": "\uc721\uad50"},
+    {"violin": "\ubc14\uc774\uc62c\ub9b0"},
+    {"volleyball": "\ubc30\uad6c"},
+    {"waffle iron": "\uc640\ud50c \uc544\uc774\uc5b8"},
+    {"wall clock": "\ubcbd \uc2dc\uacc4"},
+    {"wallet": "\uc9c0\uac11"},
+    {"wardrobe": "\uc637\uc7a5"},
+    {"warplane": "\uc804\ud22c\uae30"},
+    {"washbasin": "\uc138\uba74\uae30"},
+    {"washer": "\uc138\ud0c1\uae30"},
+    {"water bottle": "\ubb3c \ubcd1"},
+    {"water jug": "\ubb3c\ubcd1"},
+    {"water tower": "\uae09\uc218\ud0d1"},
+    {"whiskey jug": "\uc704\uc2a4\ud0a4 \uc8fc\uc804\uc790"},
+    {"whistle": "\ud718\ud30c\ub78c"},
+    {"wig": "\uac00\ubc1c"},
+    {"window screen": "\uc708\ub3c4\uc6b0 \ud654\uba74"},
+    {"window shade": "\ucc3d\ubb38 \uadf8\ub298"},
+    {"Windsor tie": "\uc708\uc800 \ub125\ud0c0\uc774"},
+    {"wine bottle": "\uc640\uc778 \ubcd1"},
+    {"wing": "\ub0a0\uac1c"},
+    {"wok": "\uc6cd"},
+    {"wooden spoon": "\ub098\ubb34 \uc21f\uac00\ub77d"},
+    {"wool": "\uc591\ubaa8"},
+    {"worm fence": "\ubc8c\ub808 \uc6b8\ud0c0\ub9ac"},
+    {"wreck": "\ub09c\ud30c\uc120"},
+    {"yawl": "\uac1c\uc758 \uad6c\uc2ac\ud504\uac8c \uc9d6\ub294 \uc18c\ub9ac"},
+    {"yurt": "\uc720\ub974\ud2b8"},
+    {"web site": "\uc6f9\uc0ac\uc774\ud2b8"},
+    {"comic book": "\ub9cc\ud654\ucc45"},
+    {"crossword puzzle": "\ud06c\ub85c\uc2a4\uc6cc\ub4dc \ud37c\uc990"},
+    {"street sign": "\ub3c4\ub85c \ud45c\uc9c0\ud310"},
+    {"traffic light": "\uc2e0\ud638\ub4f1"},
+    {"book jacket": "\ucc45 \uc790\ucf13"},
+    {"menu": "\uba54\ub274"},
+    {"plate": "\uadf8\ub987"},
+    {"guacamole": "\uacfc\uce74\ubab0\ub9ac"},
+    {"consomme": "\ucf69\uc18c\uba54"},
+    {"hot pot": "\ub728\uac70\uc6b4 \ub0c4\ube44"},
+    {"trifle": "\uc2dc\uc2dc\ud55c \uac83"},
+    {"ice cream": "\uc544\uc774\uc2a4\ud06c\ub9bc"},
+    {"ice lolly": "\uc544\uc774\uc2a4 \ub864\ub9ac"},
+    {"French loaf": "\ud504\ub80c\uce58\ube75"},
+    {"bagel": "\ubca0\uc774\uae00"},
+    {"pretzel": "\ud504\ub808\uccbc"},
+    {"cheeseburger": "\uce58\uc988\ubc84\uac70"},
+    {"hotdog": "\ud56b\ub3c4\uadf8"},
+    {"mashed potato": "\uc73c\uae6c \uac10\uc790"},
+    {"head cabbage": "\uba38\ub9ac \uc591\ubc30\ucd94"},
+    {"broccoli": "\ube0c\ub85c\ucf5c\ub9ac"},
+    {"cauliflower": "\ucf5c\ub9ac\ud50c\ub77c\uc6cc"},
+    {"zucchini": "\uc11c\uc591 \ud638\ubc15"},
+    {"spaghetti squash": "\uc2a4\ud30c\uac8c\ud2f0 \uc2a4\ucffc\uc2dc"},
+    {"acorn squash": "\ub3c4\ud1a0\ub9ac \uc2a4\ucffc\uc2dc"},
+    {"butternut squash": "\ubc84\ud130\ub11b \uc2a4\ucffc\uc2dc"},
+    {"cucumber": "\uc624\uc774"},
+    {"artichoke": "\uc544\ud2f0\ucd08\ud06c"},
+    {"bell pepper": "\ud53c\ub9dd"},
+    {"cardoon": "\uce74\ub454"},
+    {"mushroom": "\ubc84\uc12f"},
+    {"Granny Smith": "\uc2a4\ubbf8\uc2a4 \ud560\uba38\ub2c8"},
+    {"strawberry": "\ub538\uae30"},
+    {"orange": "\uc8fc\ud669\uc0c9"},
+    {"lemon": "\ub808\ubaac"},
+    {"fig": "\ubb34\ud654\uacfc"},
+    {"pineapple": "\ud30c\uc778\uc560\ud50c"},
+    {"banana": "\ubc14\ub098\ub098"},
+    {"jackfruit": "\uc7ad\ud478\ub974\ud2b8"},
+    {"custard apple": "\ucee4\uc2a4\ud130\ub4dc \uc560\ud50c"},
+    {"pomegranate": "\uc11d\ub958"},
+    {"hay": "\uac74\ucd08"},
+    {"carbonara": "\uce74\ub974\ubcf4\ub098\ub77c"},
+    {"chocolate sauce": "\ucd08\ucf5c\ub9bf \uc18c\uc2a4"},
+    {"dough": "\ubc18\uc8fd"},
+    {"meat loaf": "\ub5a1\uac08\ube44"},
+    {"pizza": "\ud53c\uc790"},
+    {"potpie": "\ud30c\uc774"},
+    {"burrito": "\ubd80\ub9ac\ud1a0"},
+    {"red wine": "\uc801\ud3ec\ub3c4\uc8fc"},
+    {"espresso": "\uc5d0\uc2a4\ud504\ub808\uc18c"},
+    {"cup": "\ucef5"},
+    {"eggnog": "\uc5d0\uadf8\ub178\uadf8"},
+    {"alp": "\ub192\uc740 \uc0b0"},
+    {"bubble": "\uac70\ud488"},
+    {"cliff": "\ub0ad\ub5a0\ub7ec\uc9c0"},
+    {"coral reef": "\uc0b0\ud638\ucd08"},
+    {"geyser": "\uac04\ud5d0\ucc9c"},
+    {"lakeside": "\ud638\uc22b\uac00"},
+    {"promontory": "...\uacf6"},
+    {"sandbar": "\uc0ac\uc8fc"},
+    {"seashore": "\ud574\ubcc0"},
+    {"valley": "\uace8\uc9dc\uae30"},
+    {"volcano": "\ud654\uc0b0"},
+    {"ballplayer": "\uc57c\uad6c\uc120\uc218"},
+    {"groom": "\uc2e0\ub791"},
+    {"scuba diver": "\uc2a4\ucfe0\ubc84 \ub2e4\uc774\ubc84"},
+    {"rapeseed": "\uc720\ucc44"},
+    {"daisy": "\ub370\uc774\uc9c0"},
+    {"yellow lady's slipper": "\ub178\ub780 \uc5ec\uc131\uc6a9 \uc2ac\ub9ac\ud37c"},
+    {"corn": "\uc625\uc218\uc218"},
+    {"acorn": "\ub3c4\ud1a0\ub9ac"},
+    {"hip": "\uc798 \uc54c\uace0 \uc788\uae30"},
+    {"buckeye": "\ubc85\uc544\uc774"},
+    {"coral fungus": "\uc0b0\ud638 \uacf0\ud321\uc774"},
+    {"agaric": "\uc544\uac00\ub9b0"},
+    {"gyromitra": "\uc790\uc774\ub85c\ubbf8\ud2b8\ub77c"},
+    {"stinkhorn": "\uc545\ucde8\uac00 \ub098\ub294"},
+    {"earthstar": "\uc9c0\uad6c\uc758 \ubcc4"},
+    {"hen-of-the-woods": "\uc232\uc18d\uc758 \uc554\ud0c9"},
+    {"bolete": "\ubcfc\ub808\ud2b8"},
+    {"ear": "\uadc0"},
+    {"toilet tissue": "\ud654\uc7a5\uc9c0"}
 ]

@@ -1,3005 +1,1003 @@
 [
-    {
-        "background": "background"
-    },
-    {
-        "tench": "tinch"
-    },
-    {
-        "goldfish": "hippurus"
-    },
-    {
-        "great white shark": "magna alba turpis"
-    },
-    {
-        "tiger shark": "tigris PISTRIS"
-    },
-    {
-        "hammerhead": "malleohead"
-    },
-    {
-        "electric ray": "electrica ray"
-    },
-    {
-        "stingray": "stingray"
-    },
-    {
-        "cock": "galli"
-    },
-    {
-        "hen": "gallina"
-    },
-    {
-        "ostrich": "struthionem"
-    },
-    {
-        "brambling": "brambling"
-    },
-    {
-        "goldfinch": "hippurus"
-    },
-    {
-        "house finch": "domum finch"
-    },
-    {
-        "junco": "junco"
-    },
-    {
-        "indigo bunting": "indicum bunting"
-    },
-    {
-        "robin": "robin"
-    },
-    {
-        "bulbul": "bulbul"
-    },
-    {
-        "jay": "jay"
-    },
-    {
-        "magpie": "pica"
-    },
-    {
-        "chickadee": "chickadee"
-    },
-    {
-        "water ouzel": "aqua ouzel"
-    },
-    {
-        "kite": "milvus"
-    },
-    {
-        "bald eagle": "aquila calvitium"
-    },
-    {
-        "vulture": "vulturis"
-    },
-    {
-        "great grey owl": "magna noctua"
-    },
-    {
-        "European fire salamander": "salamandrae ignis Europae"
-    },
-    {
-        "common newt": "communi newt"
-    },
-    {
-        "eft": "eft"
-    },
-    {
-        "spotted salamander": "maculosus salamandrae"
-    },
-    {
-        "axolotl": "axolotl"
-    },
-    {
-        "bullfrog": "bullfrog"
-    },
-    {
-        "tree frog": "arbor ranae"
-    },
-    {
-        "tailed frog": "caudatus rana"
-    },
-    {
-        "loggerhead": "Loggerhead"
-    },
-    {
-        "leatherback turtle": "leatherback turtur"
-    },
-    {
-        "mud turtle": "luto turturis"
-    },
-    {
-        "terrapin": "terrapin"
-    },
-    {
-        "box turtle": "arca turturis"
-    },
-    {
-        "banded gecko": "steterunt migale"
-    },
-    {
-        "common iguana": "communis iguana"
-    },
-    {
-        "American chameleon": "American chamaeleontis"
-    },
-    {
-        "whiptail": "whiptail"
-    },
-    {
-        "agama": "agama"
-    },
-    {
-        "frilled lizard": "fricta lacerta"
-    },
-    {
-        "alligator lizard": "alligator lacerta"
-    },
-    {
-        "Gila monster": "Gila monstrum"
-    },
-    {
-        "green lizard": "viridi lacerta"
-    },
-    {
-        "African chameleon": "African chamaeleontis"
-    },
-    {
-        "Komodo dragon": "Komodo draco"
-    },
-    {
-        "African crocodile": "African crocodilus"
-    },
-    {
-        "American alligator": "American alligator"
-    },
-    {
-        "triceratops": "triceratops"
-    },
-    {
-        "thunder snake": "tonitrui anguis"
-    },
-    {
-        "ringneck snake": "ringneck anguis"
-    },
-    {
-        "hognose snake": "hognose anguis"
-    },
-    {
-        "green snake": "viridis anguis"
-    },
-    {
-        "king snake": "rex anguis"
-    },
-    {
-        "garter snake": "periscelide anguis"
-    },
-    {
-        "water snake": "aqua anguis"
-    },
-    {
-        "vine snake": "vitis anguis"
-    },
-    {
-        "night snake": "nox anguis"
-    },
-    {
-        "boa constrictor": "Boa constrictor"
-    },
-    {
-        "rock python": "petra python"
-    },
-    {
-        "Indian cobra": "Indian aspidis"
-    },
-    {
-        "green mamba": "viridis mamba"
-    },
-    {
-        "sea snake": "anguis marinus"
-    },
-    {
-        "horned viper": "corniger"
-    },
-    {
-        "diamondback": "diamondback"
-    },
-    {
-        "sidewinder": "sidewinder"
-    },
-    {
-        "trilobite": "trilobite"
-    },
-    {
-        "harvestman": "messor"
-    },
-    {
-        "scorpion": "scorpius"
-    },
-    {
-        "black and gold garden spider": "nigrum et aurum aranea hortus"
-    },
-    {
-        "barn spider": "horreum aranea"
-    },
-    {
-        "garden spider": "hortus aranea"
-    },
-    {
-        "black widow": "nigrum viduam"
-    },
-    {
-        "tarantula": "tarantula"
-    },
-    {
-        "wolf spider": "lupus aranea"
-    },
-    {
-        "tick": "tick"
-    },
-    {
-        "centipede": "scolopendra"
-    },
-    {
-        "black grouse": "tetraones"
-    },
-    {
-        "ptarmigan": "ptarmigan"
-    },
-    {
-        "ruffed grouse": "ruffed rusticulae"
-    },
-    {
-        "prairie chicken": "PRATUM pullum"
-    },
-    {
-        "peacock": "pavo"
-    },
-    {
-        "quail": "coturnix"
-    },
-    {
-        "partridge": "perdix"
-    },
-    {
-        "African grey": "African griseo"
-    },
-    {
-        "macaw": "macaw"
-    },
-    {
-        "sulphur-crested cockatoo": "sulphur, cockatoo"
-    },
-    {
-        "lorikeet": "lorikeet"
-    },
-    {
-        "coucal": "coucal"
-    },
-    {
-        "bee eater": "apis comedentis"
-    },
-    {
-        "hornbill": "hornbill"
-    },
-    {
-        "hummingbird": "hummingbird"
-    },
-    {
-        "jacamar": "jacamar"
-    },
-    {
-        "toucan": "toucan"
-    },
-    {
-        "drake": "drake"
-    },
-    {
-        "red-breasted merganser": "red-pectore merganser"
-    },
-    {
-        "goose": "anserem"
-    },
-    {
-        "black swan": "olor niger"
-    },
-    {
-        "tusker": "tusker"
-    },
-    {
-        "echidna": "echidna"
-    },
-    {
-        "platypus": "platypus"
-    },
-    {
-        "wallaby": "wallaby"
-    },
-    {
-        "koala": "koala"
-    },
-    {
-        "wombat": "uteroat"
-    },
-    {
-        "jellyfish": "jellyfish"
-    },
-    {
-        "sea anemone": "mare anemone"
-    },
-    {
-        "brain coral": "cerebrum corallium"
-    },
-    {
-        "flatworm": "flatworm"
-    },
-    {
-        "nematode": "nematode"
-    },
-    {
-        "conch": "conch"
-    },
-    {
-        "snail": "cochlea"
-    },
-    {
-        "slug": "limax"
-    },
-    {
-        "sea slug": "slug mari"
-    },
-    {
-        "chiton": "chiton"
-    },
-    {
-        "chambered nautilus": "nautilus cubicularius"
-    },
-    {
-        "Dungeness crab": "Cancrorum sterquilinium"
-    },
-    {
-        "rock crab": "petra cancer"
-    },
-    {
-        "fiddler crab": "cancri fiddler"
-    },
-    {
-        "king crab": "rex cancer"
-    },
-    {
-        "American lobster": "American locusta"
-    },
-    {
-        "spiny lobster": "lucusta"
-    },
-    {
-        "crayfish": "cancer"
-    },
-    {
-        "hermit crab": "cancri heremita"
-    },
-    {
-        "isopod": "isopod"
-    },
-    {
-        "white stork": "ciconia"
-    },
-    {
-        "black stork": "nigrum ciconiam"
-    },
-    {
-        "spoonbill": "cochleari"
-    },
-    {
-        "flamingo": "phoenicopteri"
-    },
-    {
-        "little blue heron": "paulo hyacintho herodium"
-    },
-    {
-        "American egret": "American egret"
-    },
-    {
-        "bittern": "amaran"
-    },
-    {
-        "crane": "gruis"
-    },
-    {
-        "limpkin": "limpkin"
-    },
-    {
-        "European gallinule": "Europaeae gallinulae"
-    },
-    {
-        "American coot": "American fulica"
-    },
-    {
-        "bustard": "bustard"
-    },
-    {
-        "ruddy turnstone": "rufus turnstone"
-    },
-    {
-        "red-backed sandpiper": "red-backed sandpiper"
-    },
-    {
-        "redshank": "redshank"
-    },
-    {
-        "dowitcher": "dowitcher"
-    },
-    {
-        "oystercatcher": "oystercatcher"
-    },
-    {
-        "pelican": "pellicanus"
-    },
-    {
-        "king penguin": "rex penguin"
-    },
-    {
-        "albatross": "albatross"
-    },
-    {
-        "grey whale": "griseo cete"
-    },
-    {
-        "killer whale": "orca"
-    },
-    {
-        "dugong": "dugong"
-    },
-    {
-        "sea lion": "mare leones"
-    },
-    {
-        "Chihuahua": "Chihuahua"
-    },
-    {
-        "Japanese spaniel": "Iaponica spaniel"
-    },
-    {
-        "Maltese dog": "Melitensis canis"
-    },
-    {
-        "Pekinese": "Pekinese"
-    },
-    {
-        "Shih-Tzu": "Shih-Tzu"
-    },
-    {
-        "Blenheim spaniel": "Blenheim spaniel"
-    },
-    {
-        "papillon": "papillon"
-    },
-    {
-        "toy terrier": "toy terrier"
-    },
-    {
-        "Rhodesian ridgeback": "Rhodesian ridgeback"
-    },
-    {
-        "Afghan hound": "Afghan canis"
-    },
-    {
-        "basset": "basset"
-    },
-    {
-        "beagle": "canidae"
-    },
-    {
-        "bloodhound": "bloodhound"
-    },
-    {
-        "bluetick": "bluetick"
-    },
-    {
-        "black-and-tan coonhound": "nigrum et tan coohound"
-    },
-    {
-        "Walker hound": "Walker canis"
-    },
-    {
-        "English foxhound": "Foxhound anglicus"
-    },
-    {
-        "redbone": "redbone"
-    },
-    {
-        "borzoi": "borzoi"
-    },
-    {
-        "Irish wolfhound": "Hibernica wolfhound"
-    },
-    {
-        "Italian greyhound": "Italiae leporarius"
-    },
-    {
-        "whippet": "whippet"
-    },
-    {
-        "Ibizan hound": "Canem Ibizan"
-    },
-    {
-        "Norwegian elkhound": "Norvegica elkhound"
-    },
-    {
-        "otterhound": "otterhound"
-    },
-    {
-        "Saluki": "Saluki"
-    },
-    {
-        "Scottish deerhound": "Scotorum deerhound"
-    },
-    {
-        "Weimaraner": "Weimaraner"
-    },
-    {
-        "Staffordshire bullterrier": "Staffordshire bullterrier"
-    },
-    {
-        "American Staffordshire terrier": "American Terrier Stafford"
-    },
-    {
-        "Bedlington terrier": "Bedlington terrier"
-    },
-    {
-        "Border terrier": "terminus terrier"
-    },
-    {
-        "Kerry blue terrier": "Kerry blue terrier"
-    },
-    {
-        "Irish terrier": "Hibernica terrier"
-    },
-    {
-        "Norfolk terrier": "Norfolk terrier"
-    },
-    {
-        "Norwich terrier": "Norwicensis terrier"
-    },
-    {
-        "Yorkshire terrier": "Eboracensis terrier"
-    },
-    {
-        "wire-haired fox terrier": "filum vulpis terrier"
-    },
-    {
-        "Lakeland terrier": "Lakeland terrier"
-    },
-    {
-        "Sealyham terrier": "Sealyham terrier"
-    },
-    {
-        "Airedale": "Airedale"
-    },
-    {
-        "cairn": "tumulus"
-    },
-    {
-        "Australian terrier": "Australia terrier"
-    },
-    {
-        "Dandie Dinmont": "Dandie Dinmont"
-    },
-    {
-        "Boston bull": "Boston taurus"
-    },
-    {
-        "miniature schnauzer": "exiguum schnauzer"
-    },
-    {
-        "giant schnauzer": "giant schnauzer"
-    },
-    {
-        "standard schnauzer": "vexillum schnauzer"
-    },
-    {
-        "Scotch terrier": "Scotus terrier"
-    },
-    {
-        "Tibetan terrier": "Tibetan terrier"
-    },
-    {
-        "silky terrier": "sericeus terrier"
-    },
-    {
-        "soft-coated wheaten terrier": "mollis iactaret triticeo terrier"
-    },
-    {
-        "West Highland white terrier": "West Highland alba terrier"
-    },
-    {
-        "Lhasa": "Lhasa"
-    },
-    {
-        "flat-coated retriever": "iactaret plana Retriever"
-    },
-    {
-        "curly-coated retriever": "crispus, iactaret Retriever"
-    },
-    {
-        "golden retriever": "aureum Retriever"
-    },
-    {
-        "Labrador retriever": "Labrador Retriever"
-    },
-    {
-        "Chesapeake Bay retriever": "Chesapeake Bay Retriever"
-    },
-    {
-        "German short-haired pointer": "Germanica brevi monstratorem"
-    },
-    {
-        "vizsla": "vizsla"
-    },
-    {
-        "English setter": "Anglicus novorum"
-    },
-    {
-        "Irish setter": "Hibernica novorum"
-    },
-    {
-        "Gordon setter": "Gordon novorum"
-    },
-    {
-        "Brittany spaniel": "Britannica spaniel"
-    },
-    {
-        "clumber": "clumber"
-    },
-    {
-        "English springer": "Anglicus springer"
-    },
-    {
-        "Welsh springer spaniel": "Cambrica springer spaniel"
-    },
-    {
-        "cocker spaniel": "cocker spaniel"
-    },
-    {
-        "Sussex spaniel": "Sussexiae spaniel"
-    },
-    {
-        "Irish water spaniel": "Hibernica aqua spaniel"
-    },
-    {
-        "kuvasz": "kuvasz"
-    },
-    {
-        "schipperke": "schipperke"
-    },
-    {
-        "groenendael": "groenendael"
-    },
-    {
-        "malinois": "malinois"
-    },
-    {
-        "briard": "brardi"
-    },
-    {
-        "kelpie": "kelpie"
-    },
-    {
-        "komondor": "komondor"
-    },
-    {
-        "Old English sheepdog": "Vetus Latina ovis"
-    },
-    {
-        "Shetland sheepdog": "Shetland ovis"
-    },
-    {
-        "collie": "collie"
-    },
-    {
-        "Border collie": "Collie"
-    },
-    {
-        "Bouvier des Flandres": "Bouvier des Flandres"
-    },
-    {
-        "Rottweiler": "Rottweiler"
-    },
-    {
-        "German shepherd": "German pastor"
-    },
-    {
-        "Doberman": "Doberman"
-    },
-    {
-        "miniature pinscher": "exiguum pinscher"
-    },
-    {
-        "Greater Swiss Mountain dog": "Maior canis Helvetica"
-    },
-    {
-        "Bernese mountain dog": "Bernesis mons canis"
-    },
-    {
-        "Appenzeller": "Appenzeller"
-    },
-    {
-        "EntleBucher": "EntleBucher"
-    },
-    {
-        "boxer": "pugil"
-    },
-    {
-        "bull mastiff": "bos Vinco"
-    },
-    {
-        "Tibetan mastiff": "Tibetan Vinco"
-    },
-    {
-        "French bulldog": "Gallica bulldog"
-    },
-    {
-        "Great Dane": "Magnus Danus"
-    },
-    {
-        "Saint Bernard": "Sancte Bernarde!"
-    },
-    {
-        "Eskimo dog": "Eskimorum canis"
-    },
-    {
-        "malamute": "malamute"
-    },
-    {
-        "Siberian husky": "Siberian rauca"
-    },
-    {
-        "dalmatian": "dalmatian"
-    },
-    {
-        "affenpinscher": "affenpinscher"
-    },
-    {
-        "basenji": "basenji"
-    },
-    {
-        "pug": "pug"
-    },
-    {
-        "Leonberg": "Leonberg"
-    },
-    {
-        "Newfoundland": "Terra Nova"
-    },
-    {
-        "Great Pyrenees": "Pyrenaei magna"
-    },
-    {
-        "Samoyed": "Samoyed"
-    },
-    {
-        "Pomeranian": "Pomeranian"
-    },
-    {
-        "chow": "chow"
-    },
-    {
-        "keeshond": "keeshond"
-    },
-    {
-        "Brabancon griffon": "Brabancon griffon"
-    },
-    {
-        "Pembroke": "Pembrochia"
-    },
-    {
-        "Cardigan": "Cardigan"
-    },
-    {
-        "toy poodle": "toy poodle"
-    },
-    {
-        "miniature poodle": "exiguum poodle"
-    },
-    {
-        "standard poodle": "vexillum poodle"
-    },
-    {
-        "Mexican hairless": "Mexicanus glaber"
-    },
-    {
-        "timber wolf": "ligna lupum"
-    },
-    {
-        "white wolf": "album lupus"
-    },
-    {
-        "red wolf": "rufus lupus"
-    },
-    {
-        "coyote": "coyote"
-    },
-    {
-        "dingo": "dingo"
-    },
-    {
-        "dhole": "dhole"
-    },
-    {
-        "African hunting dog": "African canis venandi"
-    },
-    {
-        "hyena": "hyaena"
-    },
-    {
-        "red fox": "rufus vulpes"
-    },
-    {
-        "kit fox": "ornamentum vulpis"
-    },
-    {
-        "Arctic fox": "Vulpes arctica"
-    },
-    {
-        "grey fox": "griseo vulpes"
-    },
-    {
-        "tabby": "maculosa"
-    },
-    {
-        "tiger cat": "tigris cattus"
-    },
-    {
-        "Persian cat": "Persica cat"
-    },
-    {
-        "Siamese cat": "Siamese cattus"
-    },
-    {
-        "Egyptian cat": "Aegyptia feles"
-    },
-    {
-        "cougar": "cougar"
-    },
-    {
-        "lynx": "lyncis"
-    },
-    {
-        "leopard": "pardus"
-    },
-    {
-        "snow leopard": "nix pardus"
-    },
-    {
-        "jaguar": "jaguar"
-    },
-    {
-        "lion": "leo"
-    },
-    {
-        "tiger": "tigris"
-    },
-    {
-        "cheetah": "cheetah"
-    },
-    {
-        "brown bear": "brunneis ursi"
-    },
-    {
-        "American black bear": "American ursi"
-    },
-    {
-        "ice bear": "glacies ursi"
-    },
-    {
-        "sloth bear": "desidia ursi"
-    },
-    {
-        "mongoose": "mongoose"
-    },
-    {
-        "meerkat": "meerkat"
-    },
-    {
-        "tiger beetle": "tigris beetle"
-    },
-    {
-        "ladybug": "ladybug"
-    },
-    {
-        "ground beetle": "terram beetle"
-    },
-    {
-        "long-horned beetle": "longa beetle"
-    },
-    {
-        "leaf beetle": "folium beetle"
-    },
-    {
-        "dung beetle": "stercus beetle"
-    },
-    {
-        "rhinoceros beetle": "rhinocerotis beetle"
-    },
-    {
-        "weevil": "curculio"
-    },
-    {
-        "fly": "volare"
-    },
-    {
-        "bee": "apis"
-    },
-    {
-        "ant": "ant"
-    },
-    {
-        "grasshopper": "locusta"
-    },
-    {
-        "cricket": "cricket"
-    },
-    {
-        "walking stick": "baculum"
-    },
-    {
-        "cockroach": "blatta"
-    },
-    {
-        "mantis": "mantis"
-    },
-    {
-        "cicada": "cicada"
-    },
-    {
-        "leafhopper": "leafhopper"
-    },
-    {
-        "lacewing": "lacewing"
-    },
-    {
-        "dragonfly": "damselfly"
-    },
-    {
-        "damselfly": "damselfly"
-    },
-    {
-        "admiral": "praefectus"
-    },
-    {
-        "ringlet": "cingulum"
-    },
-    {
-        "monarch": "monarch"
-    },
-    {
-        "cabbage butterfly": "brassica papilio"
-    },
-    {
-        "sulphur butterfly": "sulphur papilio"
-    },
-    {
-        "lycaenid": "lycaenid"
-    },
-    {
-        "starfish": "starfish"
-    },
-    {
-        "sea urchin": "echinus"
-    },
-    {
-        "sea cucumber": "cucumis maris"
-    },
-    {
-        "wood rabbit": "lignum lepus"
-    },
-    {
-        "hare": "lepus"
-    },
-    {
-        "Angora": "Angora"
-    },
-    {
-        "hamster": "criceta"
-    },
-    {
-        "porcupine": "ericius"
-    },
-    {
-        "fox squirrel": "vulpes sciurus"
-    },
-    {
-        "marmot": "marmot"
-    },
-    {
-        "beaver": "castorea"
-    },
-    {
-        "guinea pig": "Guinea porcus"
-    },
-    {
-        "sorrel": "lapathum"
-    },
-    {
-        "zebra": "zebra"
-    },
-    {
-        "hog": "ericius"
-    },
-    {
-        "wild boar": "ferox aper"
-    },
-    {
-        "warthog": "warthog"
-    },
-    {
-        "hippopotamus": "hippopotamo sedisse"
-    },
-    {
-        "ox": "bovis"
-    },
-    {
-        "water buffalo": "aqua gignat"
-    },
-    {
-        "bison": "bison"
-    },
-    {
-        "ram": "aries"
-    },
-    {
-        "bighorn": "bighorn"
-    },
-    {
-        "ibex": "ibex"
-    },
-    {
-        "hartebeest": "hartebeest"
-    },
-    {
-        "impala": "impala"
-    },
-    {
-        "gazelle": "capreae"
-    },
-    {
-        "Arabian camel": "arabicus camelus"
-    },
-    {
-        "llama": "llama"
-    },
-    {
-        "weasel": "mustela"
-    },
-    {
-        "mink": "creditis"
-    },
-    {
-        "polecat": "polecat"
-    },
-    {
-        "black-footed ferret": "nigrum bipes ferret"
-    },
-    {
-        "otter": "luter"
-    },
-    {
-        "skunk": "Skunk"
-    },
-    {
-        "badger": "melis"
-    },
-    {
-        "armadillo": "armadillo"
-    },
-    {
-        "three-toed sloth": "three-toed desidia"
-    },
-    {
-        "orangutan": "orangutan"
-    },
-    {
-        "gorilla": "aculeatus"
-    },
-    {
-        "chimpanzee": "sphingas"
-    },
-    {
-        "gibbon": "gibbon"
-    },
-    {
-        "siamang": "siamang"
-    },
-    {
-        "guenon": "guenon"
-    },
-    {
-        "patas": "patas"
-    },
-    {
-        "baboon": "Nireus"
-    },
-    {
-        "macaque": "macaque"
-    },
-    {
-        "langur": "langur"
-    },
-    {
-        "colobus": "colobus"
-    },
-    {
-        "proboscis monkey": "proboscis simia"
-    },
-    {
-        "marmoset": "marmoset"
-    },
-    {
-        "capuchin": "capuccinus"
-    },
-    {
-        "howler monkey": "ululatus simia"
-    },
-    {
-        "titi": "titi"
-    },
-    {
-        "spider monkey": "aranea simia"
-    },
-    {
-        "squirrel monkey": "sciurus simia"
-    },
-    {
-        "Madagascar cat": "Madagascar cat"
-    },
-    {
-        "indri": "indri"
-    },
-    {
-        "Indian elephant": "Indian elephant"
-    },
-    {
-        "African elephant": "African elephanti"
-    },
-    {
-        "lesser panda": "luminare Panda"
-    },
-    {
-        "giant panda": "giant panda"
-    },
-    {
-        "barracouta": "barracouta"
-    },
-    {
-        "eel": "anguillae"
-    },
-    {
-        "coho": "coho"
-    },
-    {
-        "rock beauty": "petra pulchritudo"
-    },
-    {
-        "anemone fish": "piscis anemone"
-    },
-    {
-        "sturgeon": "acipenser"
-    },
-    {
-        "gar": "gar"
-    },
-    {
-        "lionfish": "leoninus"
-    },
-    {
-        "puffer": "puffer"
-    },
-    {
-        "abacus": "abacus"
-    },
-    {
-        "abaya": "abaya"
-    },
-    {
-        "academic gown": "academic toga"
-    },
-    {
-        "accordion": "accordion"
-    },
-    {
-        "acoustic guitar": "Cithara porus acusticus"
-    },
-    {
-        "aircraft carrier": "aircraft tabellarius"
-    },
-    {
-        "airliner": "airliner"
-    },
-    {
-        "airship": "airship"
-    },
-    {
-        "altar": "altare"
-    },
-    {
-        "ambulance": "ambulance"
-    },
-    {
-        "amphibian": "amphibian"
-    },
-    {
-        "analog clock": "Analog horologium"
-    },
-    {
-        "apiary": "apiarium"
-    },
-    {
-        "apron": "PRAECINCTORIUM"
-    },
-    {
-        "ashcan": "ashcan"
-    },
-    {
-        "assault rifle": "impetum diripiat"
-    },
-    {
-        "backpack": "saccum dorsualem"
-    },
-    {
-        "bakery": "pistrinum"
-    },
-    {
-        "balance beam": "statera trabem"
-    },
-    {
-        "balloon": "Balloon"
-    },
-    {
-        "ballpoint": "ballpoint"
-    },
-    {
-        "Band Aid": "Cohors Aid"
-    },
-    {
-        "banjo": "banjo"
-    },
-    {
-        "bannister": "banister"
-    },
-    {
-        "barbell": "barbell"
-    },
-    {
-        "barber chair": "tonsorem sellam"
-    },
-    {
-        "barbershop": "tonsorina"
-    },
-    {
-        "barn": "horreum"
-    },
-    {
-        "barometer": "barometer"
-    },
-    {
-        "barrel": "dolium"
-    },
-    {
-        "barrow": "agger"
-    },
-    {
-        "baseball": "baseball"
-    },
-    {
-        "basketball": "ultrices"
-    },
-    {
-        "bassinet": "bassinet"
-    },
-    {
-        "bassoon": "bassoon"
-    },
-    {
-        "bathing cap": "lavacrum cap"
-    },
-    {
-        "bath towel": "balneum linteum"
-    },
-    {
-        "bathtub": "balneus"
-    },
-    {
-        "beach wagon": "litore plaustra"
-    },
-    {
-        "beacon": "pharus"
-    },
-    {
-        "beaker": "POCULUM"
-    },
-    {
-        "bearskin": "ursina"
-    },
-    {
-        "beer bottle": "cervisiam utrem"
-    },
-    {
-        "beer glass": "cervisiam vitrum"
-    },
-    {
-        "bell cote": "campane cote"
-    },
-    {
-        "bib": "bib"
-    },
-    {
-        "bicycle-built-for-two": "birota constructum pro duobus"
-    },
-    {
-        "bikini": "bikini"
-    },
-    {
-        "binder": "ligans"
-    },
-    {
-        "binoculars": "binoculars"
-    },
-    {
-        "birdhouse": "birdhouse"
-    },
-    {
-        "boathouse": "boathouse"
-    },
-    {
-        "bobsled": "bobsled"
-    },
-    {
-        "bolo tie": "bolo tie"
-    },
-    {
-        "bonnet": "mitram"
-    },
-    {
-        "bookcase": "scrinium"
-    },
-    {
-        "bookshop": "bibliopolium"
-    },
-    {
-        "bottlecap": "bottlecap"
-    },
-    {
-        "bow": "arcus"
-    },
-    {
-        "bow tie": "arcum tie"
-    },
-    {
-        "brass": "aeris"
-    },
-    {
-        "brassiere": "brassiere"
-    },
-    {
-        "breakwater": "ab alto"
-    },
-    {
-        "breastplate": "loricam"
-    },
-    {
-        "broom": "iuniperorum"
-    },
-    {
-        "bucket": "situla"
-    },
-    {
-        "buckle": "fibula"
-    },
-    {
-        "bulletproof vest": "bulletproof vestis"
-    },
-    {
-        "bullet train": "Bullet train"
-    },
-    {
-        "butcher shop": "macello"
-    },
-    {
-        "cab": "cab"
-    },
-    {
-        "caldron": "lebes"
-    },
-    {
-        "candle": "lucerna"
-    },
-    {
-        "cannon": "tormentum"
-    },
-    {
-        "canoe": "LINTER"
-    },
-    {
-        "can opener": "potest opener"
-    },
-    {
-        "cardigan": "cardigan"
-    },
-    {
-        "car mirror": "currus Speculum"
-    },
-    {
-        "carousel": "carousel"
-    },
-    {
-        "carpenter's kit": "ornamentum fabri"
-    },
-    {
-        "carton": "lobortis"
-    },
-    {
-        "car wheel": "rota currus"
-    },
-    {
-        "cash machine": "cash machina"
-    },
-    {
-        "cassette": "cassette"
-    },
-    {
-        "cassette player": "Paperback ludio ludius"
-    },
-    {
-        "castle": "castrum"
-    },
-    {
-        "catamaran": "catamaran"
-    },
-    {
-        "CD player": "CD player"
-    },
-    {
-        "cello": "cello"
-    },
-    {
-        "cellular telephone": "cellular telephone"
-    },
-    {
-        "chain": "catena"
-    },
-    {
-        "chainlink fence": "Chainlink saepem"
-    },
-    {
-        "chain mail": "catena mail"
-    },
-    {
-        "chain saw": "catena serram"
-    },
-    {
-        "chest": "pectus"
-    },
-    {
-        "chiffonier": "chiffonier"
-    },
-    {
-        "chime": "CANO"
-    },
-    {
-        "china cabinet": "Sina scrinium"
-    },
-    {
-        "Christmas stocking": "Class aptent metus"
-    },
-    {
-        "church": "ecclesia"
-    },
-    {
-        "cinema": "cinematographico"
-    },
-    {
-        "cleaver": "cleaver"
-    },
-    {
-        "cliff dwelling": "petra tabernaculum"
-    },
-    {
-        "cloak": "pallium"
-    },
-    {
-        "clog": "elog"
-    },
-    {
-        "cocktail shaker": "cocktail shaker"
-    },
-    {
-        "coffee mug": "capulus mug"
-    },
-    {
-        "coffeepot": "ollam capulus"
-    },
-    {
-        "coil": "coil"
-    },
-    {
-        "combination lock": "combination cincinno"
-    },
-    {
-        "computer keyboard": "computatrum tincidunt"
-    },
-    {
-        "confectionery": "cuppedia"
-    },
-    {
-        "container ship": "continens navis"
-    },
-    {
-        "convertible": "convertibilis"
-    },
-    {
-        "corkscrew": "corkscrew"
-    },
-    {
-        "cornet": "cornet"
-    },
-    {
-        "cowboy boot": "cowboy tabernus"
-    },
-    {
-        "cowboy hat": "cowboy hat"
-    },
-    {
-        "cradle": "cunabula"
-    },
-    {
-        "crane": "gruis"
-    },
-    {
-        "crash helmet": "ruina galeae"
-    },
-    {
-        "crate": "crate"
-    },
-    {
-        "crib": "praesepe"
-    },
-    {
-        "Crock Pot": "Vas fictile"
-    },
-    {
-        "croquet ball": "croquet pila"
-    },
-    {
-        "crutch": "fusum"
-    },
-    {
-        "cuirass": "lorica"
-    },
-    {
-        "dam": "dam"
-    },
-    {
-        "desk": "desk"
-    },
-    {
-        "desktop computer": "desktop computatrum"
-    },
-    {
-        "dial telephone": "dial telephone"
-    },
-    {
-        "diaper": "diaper"
-    },
-    {
-        "digital clock": "digital horologium"
-    },
-    {
-        "digital watch": "digital custodibus"
-    },
-    {
-        "dining table": "mensam"
-    },
-    {
-        "dishrag": "dishrag"
-    },
-    {
-        "dishwasher": "discilavator"
-    },
-    {
-        "disk brake": "orbis fregit"
-    },
-    {
-        "dock": "navale"
-    },
-    {
-        "dogsled": "canis lupus familiaris"
-    },
-    {
-        "dome": "testudine"
-    },
-    {
-        "doormat": "doormat"
-    },
-    {
-        "drilling platform": "diam diam"
-    },
-    {
-        "drum": "tympanum"
-    },
-    {
-        "drumstick": "clavicula"
-    },
-    {
-        "dumbbell": "dumbbell"
-    },
-    {
-        "Dutch oven": "Clibano Batavica"
-    },
-    {
-        "electric fan": "electrica fan"
-    },
-    {
-        "electric guitar": "Cithara electrica"
-    },
-    {
-        "electric locomotive": "electrica motivum secundum locum"
-    },
-    {
-        "entertainment center": "entertainment centrum"
-    },
-    {
-        "envelope": "involucro"
-    },
-    {
-        "espresso maker": "espresso factorem"
-    },
-    {
-        "face powder": "faciem pulveris"
-    },
-    {
-        "feather boa": "Pluma Boa"
-    },
-    {
-        "file": "file"
-    },
-    {
-        "fireboat": "caminus"
-    },
-    {
-        "fire engine": "ignis engine"
-    },
-    {
-        "fire screen": "ignis screen"
-    },
-    {
-        "flagpole": "navis"
-    },
-    {
-        "flute": "tibia"
-    },
-    {
-        "folding chair": "tenens sellam"
-    },
-    {
-        "football helmet": "eu galea"
-    },
-    {
-        "forklift": "forklift"
-    },
-    {
-        "fountain": "fons"
-    },
-    {
-        "fountain pen": "fons calamum"
-    },
-    {
-        "four-poster": "quattuor poster"
-    },
-    {
-        "freight car": "Suspendisse currus"
-    },
-    {
-        "French horn": "French cornu"
-    },
-    {
-        "frying pan": "sartagine"
-    },
-    {
-        "fur coat": "pilum tunicam"
-    },
-    {
-        "garbage truck": "quisquiliarum salsissimus vir vivens"
-    },
-    {
-        "gasmask": "gasmask"
-    },
-    {
-        "gas pump": "Gas sentinam"
-    },
-    {
-        "goblet": "patera"
-    },
-    {
-        "go-kart": "ire-kart"
-    },
-    {
-        "golf ball": "golf pila"
-    },
-    {
-        "golfcart": "golfcart"
-    },
-    {
-        "gondola": "gondola"
-    },
-    {
-        "gong": "gong"
-    },
-    {
-        "gown": "toga"
-    },
-    {
-        "grand piano": "magnam piano"
-    },
-    {
-        "greenhouse": "CONSERVATORIUM"
-    },
-    {
-        "grille": "cratem"
-    },
-    {
-        "grocery store": "grocery copia"
-    },
-    {
-        "guillotine": "guillotine"
-    },
-    {
-        "hair slide": "capillus slide"
-    },
-    {
-        "hair spray": "capillus imbre"
-    },
-    {
-        "half track": "medium semita"
-    },
-    {
-        "hammer": "malleus"
-    },
-    {
-        "hamper": "obsunt"
-    },
-    {
-        "hand blower": "manus CERAULA"
-    },
-    {
-        "hand-held computer": "manu-tenuit computatrum"
-    },
-    {
-        "handkerchief": "sudario"
-    },
-    {
-        "hard disc": "difficile discus"
-    },
-    {
-        "harmonica": "harmonica"
-    },
-    {
-        "harp": "cithara"
-    },
-    {
-        "harvester": "messor"
-    },
-    {
-        "hatchet": "securis"
-    },
-    {
-        "holster": "holster"
-    },
-    {
-        "home theater": "domum theatrum"
-    },
-    {
-        "honeycomb": "favus"
-    },
-    {
-        "hook": "hamo"
-    },
-    {
-        "hoopskirt": "hoopskirt"
-    },
-    {
-        "horizontal bar": "horizontalis talea"
-    },
-    {
-        "horse cart": "equus plaustrum"
-    },
-    {
-        "hourglass": "clepsydris metiuntur"
-    },
-    {
-        "iPod": "iPod"
-    },
-    {
-        "iron": "ferrum"
-    },
-    {
-        "jack-o'-lantern": "O lucerna Jack"
-    },
-    {
-        "jean": "jean"
-    },
-    {
-        "jeep": "Jeep"
-    },
-    {
-        "jersey": "Jersey"
-    },
-    {
-        "jigsaw puzzle": "aenigma sinuosi cursus"
-    },
-    {
-        "jinrikisha": "jinrikisha"
-    },
-    {
-        "joystick": "joystick"
-    },
-    {
-        "kimono": "kimono"
-    },
-    {
-        "knee pad": "genu pad"
-    },
-    {
-        "knot": "nodum"
-    },
-    {
-        "lab coat": "Lab tunica"
-    },
-    {
-        "ladle": "trulla"
-    },
-    {
-        "lampshade": "lampshade"
-    },
-    {
-        "laptop": "laptop"
-    },
-    {
-        "lawn mower": "gramina metentis"
-    },
-    {
-        "lens cap": "lens cap *"
-    },
-    {
-        "letter opener": "opener epistulam"
-    },
-    {
-        "library": "Bibliotheca"
-    },
-    {
-        "lifeboat": "scapha"
-    },
-    {
-        "lighter": "leviora"
-    },
-    {
-        "limousine": "limousine"
-    },
-    {
-        "liner": "liner"
-    },
-    {
-        "lipstick": "lipstick"
-    },
-    {
-        "Loafer": "Loafer"
-    },
-    {
-        "lotion": "illinere"
-    },
-    {
-        "loudspeaker": "loudspeaker"
-    },
-    {
-        "loupe": "loupe"
-    },
-    {
-        "lumbermill": "lignarius"
-    },
-    {
-        "magnetic compass": "magnetica circino"
-    },
-    {
-        "mailbag": "mailbag"
-    },
-    {
-        "mailbox": "mailbox"
-    },
-    {
-        "maillot": "maillot"
-    },
-    {
-        "maillot": "maillot"
-    },
-    {
-        "manhole cover": "manhole operimentum"
-    },
-    {
-        "maraca": "maraca"
-    },
-    {
-        "marimba": "marimba"
-    },
-    {
-        "mask": "larva"
-    },
-    {
-        "matchstick": "matchstick"
-    },
-    {
-        "maypole": "maypole"
-    },
-    {
-        "maze": "error"
-    },
-    {
-        "measuring cup": "calicem funiculus"
-    },
-    {
-        "medicine chest": "medicina pectus"
-    },
-    {
-        "megalith": "megalith"
-    },
-    {
-        "microphone": "tortor ligula"
-    },
-    {
-        "microwave": "Proin"
-    },
-    {
-        "military uniform": "militaris uniformis"
-    },
-    {
-        "milk can": "lac can"
-    },
-    {
-        "minibus": "minibus"
-    },
-    {
-        "miniskirt": "miniskirt"
-    },
-    {
-        "minivan": "minivan"
-    },
-    {
-        "missile": "missile"
-    },
-    {
-        "mitten": "mitten"
-    },
-    {
-        "mixing bowl": "cratera"
-    },
-    {
-        "mobile home": "mobile in domum suam"
-    },
-    {
-        "Model T": "Exemplar T"
-    },
-    {
-        "modem": "modem"
-    },
-    {
-        "monastery": "monasterium"
-    },
-    {
-        "monitor": "monitor"
-    },
-    {
-        "moped": "moped"
-    },
-    {
-        "mortar": "cæmento"
-    },
-    {
-        "mortarboard": "mortarboard"
-    },
-    {
-        "mosque": "mosque"
-    },
-    {
-        "mosquito net": "CULEX"
-    },
-    {
-        "motor scooter": "motricium scooter"
-    },
-    {
-        "mountain bike": "montem bike"
-    },
-    {
-        "mountain tent": "montem tentorium"
-    },
-    {
-        "mouse": "mus"
-    },
-    {
-        "mousetrap": "muscipula"
-    },
-    {
-        "moving van": "movere van"
-    },
-    {
-        "muzzle": "rostrum"
-    },
-    {
-        "nail": "clavus"
-    },
-    {
-        "neck brace": "collum ue"
-    },
-    {
-        "necklace": "monile"
-    },
-    {
-        "nipple": "papilla"
-    },
-    {
-        "notebook": "libello"
-    },
-    {
-        "obelisk": "obeliscus"
-    },
-    {
-        "oboe": "oboe"
-    },
-    {
-        "ocarina": "ocarina"
-    },
-    {
-        "odometer": "odometer"
-    },
-    {
-        "oil filter": "oleum filter"
-    },
-    {
-        "organ": "organum"
-    },
-    {
-        "oscilloscope": "oscilloscope"
-    },
-    {
-        "overskirt": "overskirt"
-    },
-    {
-        "oxcart": "oxcart"
-    },
-    {
-        "oxygen mask": "oxygeni larva"
-    },
-    {
-        "packet": "packet"
-    },
-    {
-        "paddle": "paxillum"
-    },
-    {
-        "paddlewheel": "paddlewheel"
-    },
-    {
-        "padlock": "padlock"
-    },
-    {
-        "paintbrush": "penicilla"
-    },
-    {
-        "pajama": "pajama"
-    },
-    {
-        "palace": "palatium"
-    },
-    {
-        "panpipe": "panpipe"
-    },
-    {
-        "paper towel": "charta linteum"
-    },
-    {
-        "parachute": "parachute"
-    },
-    {
-        "parallel bars": "parallel vectes"
-    },
-    {
-        "park bench": "parcum scamnum"
-    },
-    {
-        "parking meter": "raedam meter"
-    },
-    {
-        "passenger car": "viatoribus currus"
-    },
-    {
-        "patio": "Nunc"
-    },
-    {
-        "pay-phone": "stipendium, telephonum"
-    },
-    {
-        "pedestal": "basi"
-    },
-    {
-        "pencil box": "plumbum Box"
-    },
-    {
-        "pencil sharpener": "pincello ACUTOR"
-    },
-    {
-        "perfume": "unguentum"
-    },
-    {
-        "Petri dish": "Petri catino"
-    },
-    {
-        "photocopier": "photocopier"
-    },
-    {
-        "pick": "colligunt"
-    },
-    {
-        "pickelhaube": "pickelhaube"
-    },
-    {
-        "picket fence": "stationem saepem"
-    },
-    {
-        "pickup": "RAPINA"
-    },
-    {
-        "pier": "pier"
-    },
-    {
-        "piggy bank": "porcellum ripam"
-    },
-    {
-        "pill bottle": "pill utrem"
-    },
-    {
-        "pillow": "pulvinar"
-    },
-    {
-        "ping-pong ball": "ping-pong pila"
-    },
-    {
-        "pinwheel": "pinwheel"
-    },
-    {
-        "pirate": "pirata"
-    },
-    {
-        "pitcher": "hydriam"
-    },
-    {
-        "plane": "planum"
-    },
-    {
-        "planetarium": "planetarium"
-    },
-    {
-        "plastic bag": "plastic lapides sacculi"
-    },
-    {
-        "plate rack": "laminam eculeo"
-    },
-    {
-        "plow": "aratrum"
-    },
-    {
-        "plunger": "Poopus"
-    },
-    {
-        "Polaroid camera": "Polaroid camera"
-    },
-    {
-        "pole": "polus"
-    },
-    {
-        "police van": "vigilum van"
-    },
-    {
-        "poncho": "poncho"
-    },
-    {
-        "pool table": "mensa piscinam"
-    },
-    {
-        "pop bottle": "pop utrem"
-    },
-    {
-        "pot": "pot"
-    },
-    {
-        "potter's wheel": "rota figuli"
-    },
-    {
-        "power drill": "potentia terebro"
-    },
-    {
-        "prayer rug": "orationis rug"
-    },
-    {
-        "printer": "printer"
-    },
-    {
-        "prison": "carcer"
-    },
-    {
-        "projectile": "proiectum"
-    },
-    {
-        "projector": "projector"
-    },
-    {
-        "puck": "puck"
-    },
-    {
-        "punching bag": "pulsare sacculi"
-    },
-    {
-        "purse": "sacculus"
-    },
-    {
-        "quill": "plectrum"
-    },
-    {
-        "quilt": "pellem pilosam"
-    },
-    {
-        "racer": "cursor"
-    },
-    {
-        "racket": "reticulo"
-    },
-    {
-        "radiator": "radiator"
-    },
-    {
-        "radio": "radio"
-    },
-    {
-        "radio telescope": "radio telescopio"
-    },
-    {
-        "rain barrel": "dolium pluvia"
-    },
-    {
-        "recreational vehicle": "ludicras vehiculum"
-    },
-    {
-        "reel": "reel"
-    },
-    {
-        "reflex camera": "reflexum camera"
-    },
-    {
-        "refrigerator": "leo"
-    },
-    {
-        "remote control": "remota potestate"
-    },
-    {
-        "restaurant": "popina"
-    },
-    {
-        "revolver": "revolver"
-    },
-    {
-        "rifle": "vasa"
-    },
-    {
-        "rocking chair": "sella"
-    },
-    {
-        "rotisserie": "rotisserie"
-    },
-    {
-        "rubber eraser": "rubber eraser"
-    },
-    {
-        "rugby ball": "rugby pila"
-    },
-    {
-        "rule": "lex"
-    },
-    {
-        "running shoe": "currit calceamentum"
-    },
-    {
-        "safe": "tutum"
-    },
-    {
-        "safety pin": "salus paxillus"
-    },
-    {
-        "saltshaker": "saltshaker"
-    },
-    {
-        "sandal": "calciamentum"
-    },
-    {
-        "sarong": "sarong"
-    },
-    {
-        "sax": "sax"
-    },
-    {
-        "scabbard": "vagina"
-    },
-    {
-        "scale": "scalae"
-    },
-    {
-        "school bus": "schola bus"
-    },
-    {
-        "schooner": "schooner"
-    },
-    {
-        "scoreboard": "scoreboard"
-    },
-    {
-        "screen": "tentorium"
-    },
-    {
-        "screw": "cochlea"
-    },
-    {
-        "screwdriver": "solus"
-    },
-    {
-        "seat belt": "sedes balteus"
-    },
-    {
-        "sewing machine": "Sutura machina"
-    },
-    {
-        "shield": "scutum"
-    },
-    {
-        "shoe shop": "calceamentum tabernam"
-    },
-    {
-        "shoji": "shoji"
-    },
-    {
-        "shopping basket": "shopping cartallum"
-    },
-    {
-        "shopping cart": "shopping cart"
-    },
-    {
-        "shovel": "rutrum"
-    },
-    {
-        "shower cap": "imber cap"
-    },
-    {
-        "shower curtain": "imber sagum"
-    },
-    {
-        "ski": "ski"
-    },
-    {
-        "ski mask": "ski larva"
-    },
-    {
-        "sleeping bag": "dormiens sacculi"
-    },
-    {
-        "slide rule": "slide regulae"
-    },
-    {
-        "sliding door": "ostium illapsum"
-    },
-    {
-        "slot": "socors"
-    },
-    {
-        "snorkel": "snorkel"
-    },
-    {
-        "snowmobile": "snowmobile"
-    },
-    {
-        "snowplow": "snowplow"
-    },
-    {
-        "soap dispenser": "saponem dispensator"
-    },
-    {
-        "soccer ball": "Morbi pila"
-    },
-    {
-        "sock": "soccum"
-    },
-    {
-        "solar dish": "solaris catino"
-    },
-    {
-        "sombrero": "sombrero"
-    },
-    {
-        "soup bowl": "pulmenti patera"
-    },
-    {
-        "space bar": "spatium talea"
-    },
-    {
-        "space heater": "spatium calefacientis"
-    },
-    {
-        "space shuttle": "spatium succiditur"
-    },
-    {
-        "spatula": "spatula"
-    },
-    {
-        "speedboat": "speedboat"
-    },
-    {
-        "spider web": "aranea telam"
-    },
-    {
-        "spindle": "fusum"
-    },
-    {
-        "sports car": "ludis currus"
-    },
-    {
-        "spotlight": "arcu"
-    },
-    {
-        "stage": "scaena"
-    },
-    {
-        "steam locomotive": "vapor motivum secundum locum"
-    },
-    {
-        "steel arch bridge": "ferrum pontis arcus"
-    },
-    {
-        "steel drum": "ferro tympanum"
-    },
-    {
-        "stethoscope": "stethoscopium"
-    },
-    {
-        "stole": "furatus est"
-    },
-    {
-        "stone wall": "maceria lapidea"
-    },
-    {
-        "stopwatch": "stopwatch"
-    },
-    {
-        "stove": "caminus"
-    },
-    {
-        "strainer": "colum"
-    },
-    {
-        "streetcar": "streetcar"
-    },
-    {
-        "stretcher": "grabatum"
-    },
-    {
-        "studio couch": "Studio toro"
-    },
-    {
-        "stupa": "stupa"
-    },
-    {
-        "submarine": "subaquaneus"
-    },
-    {
-        "suit": "sectam"
-    },
-    {
-        "sundial": "horologium"
-    },
-    {
-        "sunglass": "ocularia"
-    },
-    {
-        "sunglasses": "ocularia"
-    },
-    {
-        "sunscreen": "sunscreen"
-    },
-    {
-        "suspension bridge": "suspensionis pontis"
-    },
-    {
-        "swab": "swab"
-    },
-    {
-        "sweatshirt": "sweatshirt"
-    },
-    {
-        "swimming trunks": "swimming truncis"
-    },
-    {
-        "swing": "adductius"
-    },
-    {
-        "switch": "switch"
-    },
-    {
-        "syringe": "clysterem"
-    },
-    {
-        "table lamp": "mensa lucerna"
-    },
-    {
-        "tank": "cisternina"
-    },
-    {
-        "tape player": "tape ludio"
-    },
-    {
-        "teapot": "teapot"
-    },
-    {
-        "teddy": "Teddy"
-    },
-    {
-        "television": "televisifica"
-    },
-    {
-        "tennis ball": "tennis pila"
-    },
-    {
-        "thatch": "culmo"
-    },
-    {
-        "theater curtain": "theatrum sagum"
-    },
-    {
-        "thimble": "thimble"
-    },
-    {
-        "thresher": "triturans"
-    },
-    {
-        "throne": "thronus"
-    },
-    {
-        "tile roof": "ille tecto"
-    },
-    {
-        "toaster": "toaster"
-    },
-    {
-        "tobacco shop": "Tabaci tabernam"
-    },
-    {
-        "toilet seat": "sellam pertusam"
-    },
-    {
-        "torch": "fax"
-    },
-    {
-        "totem pole": "totem polus"
-    },
-    {
-        "tow truck": "stuppa salsissimus"
-    },
-    {
-        "toyshop": "Shop"
-    },
-    {
-        "tractor": "tractor"
-    },
-    {
-        "trailer truck": "trailer salsissimus"
-    },
-    {
-        "tray": "lance"
-    },
-    {
-        "trench coat": "vallum tunica"
-    },
-    {
-        "tricycle": "tricycle"
-    },
-    {
-        "trimaran": "trimaran"
-    },
-    {
-        "tripod": "tripode"
-    },
-    {
-        "triumphal arch": "arcus triumphalis"
-    },
-    {
-        "trolleybus": "trolleybus"
-    },
-    {
-        "trombone": "tubae"
-    },
-    {
-        "tub": "tub"
-    },
-    {
-        "turnstile": "turntile"
-    },
-    {
-        "typewriter keyboard": "typewriter tincidunt"
-    },
-    {
-        "umbrella": "umbella"
-    },
-    {
-        "unicycle": "unicycle"
-    },
-    {
-        "upright": "rectus"
-    },
-    {
-        "vacuum": "vacuum"
-    },
-    {
-        "vase": "vas"
-    },
-    {
-        "vault": "testudine"
-    },
-    {
-        "velvet": "holoserica"
-    },
-    {
-        "vending machine": "vending machina"
-    },
-    {
-        "vestment": "vestis"
-    },
-    {
-        "viaduct": "viaduct"
-    },
-    {
-        "violin": "violin"
-    },
-    {
-        "volleyball": "pulvinar"
-    },
-    {
-        "waffle iron": "LOQUOR ferrum"
-    },
-    {
-        "wall clock": "murum horologium"
-    },
-    {
-        "wallet": "pera"
-    },
-    {
-        "wardrobe": "vestium"
-    },
-    {
-        "warplane": "warplane"
-    },
-    {
-        "washbasin": "labrum"
-    },
-    {
-        "washer": "washer"
-    },
-    {
-        "water bottle": "aqua"
-    },
-    {
-        "water jug": "aqua hydria"
-    },
-    {
-        "water tower": "aqua turris"
-    },
-    {
-        "whiskey jug": "cupam jug"
-    },
-    {
-        "whistle": "sibilus"
-    },
-    {
-        "wig": "galero"
-    },
-    {
-        "window screen": "fenestra screen"
-    },
-    {
-        "window shade": "fenestra umbra"
-    },
-    {
-        "Windsor tie": "Vindesorium tie"
-    },
-    {
-        "wine bottle": "vinum utrem"
-    },
-    {
-        "wing": "cornu"
-    },
-    {
-        "wok": "opere"
-    },
-    {
-        "wooden spoon": "dicula lignea"
-    },
-    {
-        "wool": "lana"
-    },
-    {
-        "worm fence": "vermis sepem"
-    },
-    {
-        "wreck": "wreccum"
-    },
-    {
-        "yawl": "yawl"
-    },
-    {
-        "yurt": "yurt"
-    },
-    {
-        "web site": "web site"
-    },
-    {
-        "comic book": "comicus Liber"
-    },
-    {
-        "crossword puzzle": "aenigma verbosum"
-    },
-    {
-        "street sign": "platea signum"
-    },
-    {
-        "traffic light": "negotiationis lux"
-    },
-    {
-        "book jacket": "liber iaccam"
-    },
-    {
-        "menu": "menu"
-    },
-    {
-        "plate": "laminam"
-    },
-    {
-        "guacamole": "guacamole"
-    },
-    {
-        "consomme": "consomme"
-    },
-    {
-        "hot pot": "calidum ollam"
-    },
-    {
-        "trifle": "nugae"
-    },
-    {
-        "ice cream": "glacies crepito"
-    },
-    {
-        "ice lolly": "glacies lolly"
-    },
-    {
-        "French loaf": "Gallica tortam"
-    },
-    {
-        "bagel": "bagel"
-    },
-    {
-        "pretzel": "pretzel"
-    },
-    {
-        "cheeseburger": "cheeseburger"
-    },
-    {
-        "hotdog": "hotdog"
-    },
-    {
-        "mashed potato": "mashed Capsicum annuum"
-    },
-    {
-        "head cabbage": "caput brassica"
-    },
-    {
-        "broccoli": "algentem"
-    },
-    {
-        "cauliflower": "BRASSICA"
-    },
-    {
-        "zucchini": "zucchini"
-    },
-    {
-        "spaghetti squash": "Spaghetti cucurbitae"
-    },
-    {
-        "acorn squash": "glandem cucurbita"
-    },
-    {
-        "butternut squash": "butternut cucurbitae"
-    },
-    {
-        "cucumber": "cucumis"
-    },
-    {
-        "artichoke": "cactus"
-    },
-    {
-        "bell pepper": "campana piper"
-    },
-    {
-        "cardoon": "cardoon"
-    },
-    {
-        "mushroom": "fungus"
-    },
-    {
-        "Granny Smith": "Granny Smith"
-    },
-    {
-        "strawberry": "fragum"
-    },
-    {
-        "orange": "orange"
-    },
-    {
-        "lemon": "lemon"
-    },
-    {
-        "fig": "ficus"
-    },
-    {
-        "pineapple": "pineapple"
-    },
-    {
-        "banana": "Musa"
-    },
-    {
-        "jackfruit": "jackfruit"
-    },
-    {
-        "custard apple": "custard malum"
-    },
-    {
-        "pomegranate": "malogranatum"
-    },
-    {
-        "hay": "faenum"
-    },
-    {
-        "carbonara": "carbonara"
-    },
-    {
-        "chocolate sauce": "scelerisque condimentum"
-    },
-    {
-        "dough": "corrumpit"
-    },
-    {
-        "meat loaf": "cibum tortam"
-    },
-    {
-        "pizza": "pizza"
-    },
-    {
-        "potpie": "potpie"
-    },
-    {
-        "burrito": "burrito"
-    },
-    {
-        "red wine": "vinum rubrum"
-    },
-    {
-        "espresso": "espresso"
-    },
-    {
-        "cup": "poculum"
-    },
-    {
-        "eggnog": "eggnog"
-    },
-    {
-        "alp": "alp"
-    },
-    {
-        "bubble": "bulla"
-    },
-    {
-        "cliff": "rupes"
-    },
-    {
-        "coral reef": "sericum scopulum"
-    },
-    {
-        "geyser": "geyser"
-    },
-    {
-        "lakeside": "lacus"
-    },
-    {
-        "promontory": "promontorium"
-    },
-    {
-        "sandbar": "sandbar"
-    },
-    {
-        "seashore": "litore maris"
-    },
-    {
-        "valley": "valles"
-    },
-    {
-        "volcano": "vulcano"
-    },
-    {
-        "ballplayer": "ballplayer"
-    },
-    {
-        "groom": "sponsus"
-    },
-    {
-        "scuba diver": "Aliquam diver"
-    },
-    {
-        "rapeseed": "rapaeed"
-    },
-    {
-        "daisy": "primula"
-    },
-    {
-        "yellow lady's slipper": "flavo domina lubrica"
-    },
-    {
-        "corn": "frumentum"
-    },
-    {
-        "acorn": "glandem"
-    },
-    {
-        "hip": "coxae"
-    },
-    {
-        "buckeye": "buckeye"
-    },
-    {
-        "coral fungus": "corallium fungus"
-    },
-    {
-        "agaric": "agaric"
-    },
-    {
-        "gyromitra": "gyromitra"
-    },
-    {
-        "stinkhorn": "stinkhorn"
-    },
-    {
-        "earthstar": "earthstar"
-    },
-    {
-        "hen-of-the-woods": "Gallina of-- silvae"
-    },
-    {
-        "bolete": "bolete"
-    },
-    {
-        "ear": "auris"
-    },
-    {
-        "toilet tissue": "CULTUS TEXTUS"
-    }
+    {"background": "background"},
+    {"tench": "tinch"},
+    {"goldfish": "hippurus"},
+    {"great white shark": "magna alba turpis"},
+    {"tiger shark": "tigris PISTRIS"},
+    {"hammerhead": "malleohead"},
+    {"electric ray": "electrica ray"},
+    {"stingray": "stingray"},
+    {"cock": "galli"},
+    {"hen": "gallina"},
+    {"ostrich": "struthionem"},
+    {"brambling": "brambling"},
+    {"goldfinch": "hippurus"},
+    {"house finch": "domum finch"},
+    {"junco": "junco"},
+    {"indigo bunting": "indicum bunting"},
+    {"robin": "robin"},
+    {"bulbul": "bulbul"},
+    {"jay": "jay"},
+    {"magpie": "pica"},
+    {"chickadee": "chickadee"},
+    {"water ouzel": "aqua ouzel"},
+    {"kite": "milvus"},
+    {"bald eagle": "aquila calvitium"},
+    {"vulture": "vulturis"},
+    {"great grey owl": "magna noctua"},
+    {"European fire salamander": "salamandrae ignis Europae"},
+    {"common newt": "communi newt"},
+    {"eft": "eft"},
+    {"spotted salamander": "maculosus salamandrae"},
+    {"axolotl": "axolotl"},
+    {"bullfrog": "bullfrog"},
+    {"tree frog": "arbor ranae"},
+    {"tailed frog": "caudatus rana"},
+    {"loggerhead": "Loggerhead"},
+    {"leatherback turtle": "leatherback turtur"},
+    {"mud turtle": "luto turturis"},
+    {"terrapin": "terrapin"},
+    {"box turtle": "arca turturis"},
+    {"banded gecko": "steterunt migale"},
+    {"common iguana": "communis iguana"},
+    {"American chameleon": "American chamaeleontis"},
+    {"whiptail": "whiptail"},
+    {"agama": "agama"},
+    {"frilled lizard": "fricta lacerta"},
+    {"alligator lizard": "alligator lacerta"},
+    {"Gila monster": "Gila monstrum"},
+    {"green lizard": "viridi lacerta"},
+    {"African chameleon": "African chamaeleontis"},
+    {"Komodo dragon": "Komodo draco"},
+    {"African crocodile": "African crocodilus"},
+    {"American alligator": "American alligator"},
+    {"triceratops": "triceratops"},
+    {"thunder snake": "tonitrui anguis"},
+    {"ringneck snake": "ringneck anguis"},
+    {"hognose snake": "hognose anguis"},
+    {"green snake": "viridis anguis"},
+    {"king snake": "rex anguis"},
+    {"garter snake": "periscelide anguis"},
+    {"water snake": "aqua anguis"},
+    {"vine snake": "vitis anguis"},
+    {"night snake": "nox anguis"},
+    {"boa constrictor": "Boa constrictor"},
+    {"rock python": "petra python"},
+    {"Indian cobra": "Indian aspidis"},
+    {"green mamba": "viridis mamba"},
+    {"sea snake": "anguis marinus"},
+    {"horned viper": "corniger"},
+    {"diamondback": "diamondback"},
+    {"sidewinder": "sidewinder"},
+    {"trilobite": "trilobite"},
+    {"harvestman": "messor"},
+    {"scorpion": "scorpius"},
+    {"black and gold garden spider": "nigrum et aurum aranea hortus"},
+    {"barn spider": "horreum aranea"},
+    {"garden spider": "hortus aranea"},
+    {"black widow": "nigrum viduam"},
+    {"tarantula": "tarantula"},
+    {"wolf spider": "lupus aranea"},
+    {"tick": "tick"},
+    {"centipede": "scolopendra"},
+    {"black grouse": "tetraones"},
+    {"ptarmigan": "ptarmigan"},
+    {"ruffed grouse": "ruffed rusticulae"},
+    {"prairie chicken": "PRATUM pullum"},
+    {"peacock": "pavo"},
+    {"quail": "coturnix"},
+    {"partridge": "perdix"},
+    {"African grey": "African griseo"},
+    {"macaw": "macaw"},
+    {"sulphur-crested cockatoo": "sulphur, cockatoo"},
+    {"lorikeet": "lorikeet"},
+    {"coucal": "coucal"},
+    {"bee eater": "apis comedentis"},
+    {"hornbill": "hornbill"},
+    {"hummingbird": "hummingbird"},
+    {"jacamar": "jacamar"},
+    {"toucan": "toucan"},
+    {"drake": "drake"},
+    {"red-breasted merganser": "red-pectore merganser"},
+    {"goose": "anserem"},
+    {"black swan": "olor niger"},
+    {"tusker": "tusker"},
+    {"echidna": "echidna"},
+    {"platypus": "platypus"},
+    {"wallaby": "wallaby"},
+    {"koala": "koala"},
+    {"wombat": "uteroat"},
+    {"jellyfish": "jellyfish"},
+    {"sea anemone": "mare anemone"},
+    {"brain coral": "cerebrum corallium"},
+    {"flatworm": "flatworm"},
+    {"nematode": "nematode"},
+    {"conch": "conch"},
+    {"snail": "cochlea"},
+    {"slug": "limax"},
+    {"sea slug": "slug mari"},
+    {"chiton": "chiton"},
+    {"chambered nautilus": "nautilus cubicularius"},
+    {"Dungeness crab": "Cancrorum sterquilinium"},
+    {"rock crab": "petra cancer"},
+    {"fiddler crab": "cancri fiddler"},
+    {"king crab": "rex cancer"},
+    {"American lobster": "American locusta"},
+    {"spiny lobster": "lucusta"},
+    {"crayfish": "cancer"},
+    {"hermit crab": "cancri heremita"},
+    {"isopod": "isopod"},
+    {"white stork": "ciconia"},
+    {"black stork": "nigrum ciconiam"},
+    {"spoonbill": "cochleari"},
+    {"flamingo": "phoenicopteri"},
+    {"little blue heron": "paulo hyacintho herodium"},
+    {"American egret": "American egret"},
+    {"bittern": "amaran"},
+    {"crane": "gruis"},
+    {"limpkin": "limpkin"},
+    {"European gallinule": "Europaeae gallinulae"},
+    {"American coot": "American fulica"},
+    {"bustard": "bustard"},
+    {"ruddy turnstone": "rufus turnstone"},
+    {"red-backed sandpiper": "red-backed sandpiper"},
+    {"redshank": "redshank"},
+    {"dowitcher": "dowitcher"},
+    {"oystercatcher": "oystercatcher"},
+    {"pelican": "pellicanus"},
+    {"king penguin": "rex penguin"},
+    {"albatross": "albatross"},
+    {"grey whale": "griseo cete"},
+    {"killer whale": "orca"},
+    {"dugong": "dugong"},
+    {"sea lion": "mare leones"},
+    {"Chihuahua": "Chihuahua"},
+    {"Japanese spaniel": "Iaponica spaniel"},
+    {"Maltese dog": "Melitensis canis"},
+    {"Pekinese": "Pekinese"},
+    {"Shih-Tzu": "Shih-Tzu"},
+    {"Blenheim spaniel": "Blenheim spaniel"},
+    {"papillon": "papillon"},
+    {"toy terrier": "toy terrier"},
+    {"Rhodesian ridgeback": "Rhodesian ridgeback"},
+    {"Afghan hound": "Afghan canis"},
+    {"basset": "basset"},
+    {"beagle": "canidae"},
+    {"bloodhound": "bloodhound"},
+    {"bluetick": "bluetick"},
+    {"black-and-tan coonhound": "nigrum et tan coohound"},
+    {"Walker hound": "Walker canis"},
+    {"English foxhound": "Foxhound anglicus"},
+    {"redbone": "redbone"},
+    {"borzoi": "borzoi"},
+    {"Irish wolfhound": "Hibernica wolfhound"},
+    {"Italian greyhound": "Italiae leporarius"},
+    {"whippet": "whippet"},
+    {"Ibizan hound": "Canem Ibizan"},
+    {"Norwegian elkhound": "Norvegica elkhound"},
+    {"otterhound": "otterhound"},
+    {"Saluki": "Saluki"},
+    {"Scottish deerhound": "Scotorum deerhound"},
+    {"Weimaraner": "Weimaraner"},
+    {"Staffordshire bullterrier": "Staffordshire bullterrier"},
+    {"American Staffordshire terrier": "American Terrier Stafford"},
+    {"Bedlington terrier": "Bedlington terrier"},
+    {"Border terrier": "terminus terrier"},
+    {"Kerry blue terrier": "Kerry blue terrier"},
+    {"Irish terrier": "Hibernica terrier"},
+    {"Norfolk terrier": "Norfolk terrier"},
+    {"Norwich terrier": "Norwicensis terrier"},
+    {"Yorkshire terrier": "Eboracensis terrier"},
+    {"wire-haired fox terrier": "filum vulpis terrier"},
+    {"Lakeland terrier": "Lakeland terrier"},
+    {"Sealyham terrier": "Sealyham terrier"},
+    {"Airedale": "Airedale"},
+    {"cairn": "tumulus"},
+    {"Australian terrier": "Australia terrier"},
+    {"Dandie Dinmont": "Dandie Dinmont"},
+    {"Boston bull": "Boston taurus"},
+    {"miniature schnauzer": "exiguum schnauzer"},
+    {"giant schnauzer": "giant schnauzer"},
+    {"standard schnauzer": "vexillum schnauzer"},
+    {"Scotch terrier": "Scotus terrier"},
+    {"Tibetan terrier": "Tibetan terrier"},
+    {"silky terrier": "sericeus terrier"},
+    {"soft-coated wheaten terrier": "mollis iactaret triticeo terrier"},
+    {"West Highland white terrier": "West Highland alba terrier"},
+    {"Lhasa": "Lhasa"},
+    {"flat-coated retriever": "iactaret plana Retriever"},
+    {"curly-coated retriever": "crispus, iactaret Retriever"},
+    {"golden retriever": "aureum Retriever"},
+    {"Labrador retriever": "Labrador Retriever"},
+    {"Chesapeake Bay retriever": "Chesapeake Bay Retriever"},
+    {"German short-haired pointer": "Germanica brevi monstratorem"},
+    {"vizsla": "vizsla"},
+    {"English setter": "Anglicus novorum"},
+    {"Irish setter": "Hibernica novorum"},
+    {"Gordon setter": "Gordon novorum"},
+    {"Brittany spaniel": "Britannica spaniel"},
+    {"clumber": "clumber"},
+    {"English springer": "Anglicus springer"},
+    {"Welsh springer spaniel": "Cambrica springer spaniel"},
+    {"cocker spaniel": "cocker spaniel"},
+    {"Sussex spaniel": "Sussexiae spaniel"},
+    {"Irish water spaniel": "Hibernica aqua spaniel"},
+    {"kuvasz": "kuvasz"},
+    {"schipperke": "schipperke"},
+    {"groenendael": "groenendael"},
+    {"malinois": "malinois"},
+    {"briard": "brardi"},
+    {"kelpie": "kelpie"},
+    {"komondor": "komondor"},
+    {"Old English sheepdog": "Vetus Latina ovis"},
+    {"Shetland sheepdog": "Shetland ovis"},
+    {"collie": "collie"},
+    {"Border collie": "Collie"},
+    {"Bouvier des Flandres": "Bouvier des Flandres"},
+    {"Rottweiler": "Rottweiler"},
+    {"German shepherd": "German pastor"},
+    {"Doberman": "Doberman"},
+    {"miniature pinscher": "exiguum pinscher"},
+    {"Greater Swiss Mountain dog": "Maior canis Helvetica"},
+    {"Bernese mountain dog": "Bernesis mons canis"},
+    {"Appenzeller": "Appenzeller"},
+    {"EntleBucher": "EntleBucher"},
+    {"boxer": "pugil"},
+    {"bull mastiff": "bos Vinco"},
+    {"Tibetan mastiff": "Tibetan Vinco"},
+    {"French bulldog": "Gallica bulldog"},
+    {"Great Dane": "Magnus Danus"},
+    {"Saint Bernard": "Sancte Bernarde!"},
+    {"Eskimo dog": "Eskimorum canis"},
+    {"malamute": "malamute"},
+    {"Siberian husky": "Siberian rauca"},
+    {"dalmatian": "dalmatian"},
+    {"affenpinscher": "affenpinscher"},
+    {"basenji": "basenji"},
+    {"pug": "pug"},
+    {"Leonberg": "Leonberg"},
+    {"Newfoundland": "Terra Nova"},
+    {"Great Pyrenees": "Pyrenaei magna"},
+    {"Samoyed": "Samoyed"},
+    {"Pomeranian": "Pomeranian"},
+    {"chow": "chow"},
+    {"keeshond": "keeshond"},
+    {"Brabancon griffon": "Brabancon griffon"},
+    {"Pembroke": "Pembrochia"},
+    {"Cardigan": "Cardigan"},
+    {"toy poodle": "toy poodle"},
+    {"miniature poodle": "exiguum poodle"},
+    {"standard poodle": "vexillum poodle"},
+    {"Mexican hairless": "Mexicanus glaber"},
+    {"timber wolf": "ligna lupum"},
+    {"white wolf": "album lupus"},
+    {"red wolf": "rufus lupus"},
+    {"coyote": "coyote"},
+    {"dingo": "dingo"},
+    {"dhole": "dhole"},
+    {"African hunting dog": "African canis venandi"},
+    {"hyena": "hyaena"},
+    {"red fox": "rufus vulpes"},
+    {"kit fox": "ornamentum vulpis"},
+    {"Arctic fox": "Vulpes arctica"},
+    {"grey fox": "griseo vulpes"},
+    {"tabby": "maculosa"},
+    {"tiger cat": "tigris cattus"},
+    {"Persian cat": "Persica cat"},
+    {"Siamese cat": "Siamese cattus"},
+    {"Egyptian cat": "Aegyptia feles"},
+    {"cougar": "cougar"},
+    {"lynx": "lyncis"},
+    {"leopard": "pardus"},
+    {"snow leopard": "nix pardus"},
+    {"jaguar": "jaguar"},
+    {"lion": "leo"},
+    {"tiger": "tigris"},
+    {"cheetah": "cheetah"},
+    {"brown bear": "brunneis ursi"},
+    {"American black bear": "American ursi"},
+    {"ice bear": "glacies ursi"},
+    {"sloth bear": "desidia ursi"},
+    {"mongoose": "mongoose"},
+    {"meerkat": "meerkat"},
+    {"tiger beetle": "tigris beetle"},
+    {"ladybug": "ladybug"},
+    {"ground beetle": "terram beetle"},
+    {"long-horned beetle": "longa beetle"},
+    {"leaf beetle": "folium beetle"},
+    {"dung beetle": "stercus beetle"},
+    {"rhinoceros beetle": "rhinocerotis beetle"},
+    {"weevil": "curculio"},
+    {"fly": "volare"},
+    {"bee": "apis"},
+    {"ant": "ant"},
+    {"grasshopper": "locusta"},
+    {"cricket": "cricket"},
+    {"walking stick": "baculum"},
+    {"cockroach": "blatta"},
+    {"mantis": "mantis"},
+    {"cicada": "cicada"},
+    {"leafhopper": "leafhopper"},
+    {"lacewing": "lacewing"},
+    {"dragonfly": "damselfly"},
+    {"damselfly": "damselfly"},
+    {"admiral": "praefectus"},
+    {"ringlet": "cingulum"},
+    {"monarch": "monarch"},
+    {"cabbage butterfly": "brassica papilio"},
+    {"sulphur butterfly": "sulphur papilio"},
+    {"lycaenid": "lycaenid"},
+    {"starfish": "starfish"},
+    {"sea urchin": "echinus"},
+    {"sea cucumber": "cucumis maris"},
+    {"wood rabbit": "lignum lepus"},
+    {"hare": "lepus"},
+    {"Angora": "Angora"},
+    {"hamster": "criceta"},
+    {"porcupine": "ericius"},
+    {"fox squirrel": "vulpes sciurus"},
+    {"marmot": "marmot"},
+    {"beaver": "castorea"},
+    {"guinea pig": "Guinea porcus"},
+    {"sorrel": "lapathum"},
+    {"zebra": "zebra"},
+    {"hog": "ericius"},
+    {"wild boar": "ferox aper"},
+    {"warthog": "warthog"},
+    {"hippopotamus": "hippopotamo sedisse"},
+    {"ox": "bovis"},
+    {"water buffalo": "aqua gignat"},
+    {"bison": "bison"},
+    {"ram": "aries"},
+    {"bighorn": "bighorn"},
+    {"ibex": "ibex"},
+    {"hartebeest": "hartebeest"},
+    {"impala": "impala"},
+    {"gazelle": "capreae"},
+    {"Arabian camel": "arabicus camelus"},
+    {"llama": "llama"},
+    {"weasel": "mustela"},
+    {"mink": "creditis"},
+    {"polecat": "polecat"},
+    {"black-footed ferret": "nigrum bipes ferret"},
+    {"otter": "luter"},
+    {"skunk": "Skunk"},
+    {"badger": "melis"},
+    {"armadillo": "armadillo"},
+    {"three-toed sloth": "three-toed desidia"},
+    {"orangutan": "orangutan"},
+    {"gorilla": "aculeatus"},
+    {"chimpanzee": "sphingas"},
+    {"gibbon": "gibbon"},
+    {"siamang": "siamang"},
+    {"guenon": "guenon"},
+    {"patas": "patas"},
+    {"baboon": "Nireus"},
+    {"macaque": "macaque"},
+    {"langur": "langur"},
+    {"colobus": "colobus"},
+    {"proboscis monkey": "proboscis simia"},
+    {"marmoset": "marmoset"},
+    {"capuchin": "capuccinus"},
+    {"howler monkey": "ululatus simia"},
+    {"titi": "titi"},
+    {"spider monkey": "aranea simia"},
+    {"squirrel monkey": "sciurus simia"},
+    {"Madagascar cat": "Madagascar cat"},
+    {"indri": "indri"},
+    {"Indian elephant": "Indian elephant"},
+    {"African elephant": "African elephanti"},
+    {"lesser panda": "luminare Panda"},
+    {"giant panda": "giant panda"},
+    {"barracouta": "barracouta"},
+    {"eel": "anguillae"},
+    {"coho": "coho"},
+    {"rock beauty": "petra pulchritudo"},
+    {"anemone fish": "piscis anemone"},
+    {"sturgeon": "acipenser"},
+    {"gar": "gar"},
+    {"lionfish": "leoninus"},
+    {"puffer": "puffer"},
+    {"abacus": "abacus"},
+    {"abaya": "abaya"},
+    {"academic gown": "academic toga"},
+    {"accordion": "accordion"},
+    {"acoustic guitar": "Cithara porus acusticus"},
+    {"aircraft carrier": "aircraft tabellarius"},
+    {"airliner": "airliner"},
+    {"airship": "airship"},
+    {"altar": "altare"},
+    {"ambulance": "ambulance"},
+    {"amphibian": "amphibian"},
+    {"analog clock": "Analog horologium"},
+    {"apiary": "apiarium"},
+    {"apron": "PRAECINCTORIUM"},
+    {"ashcan": "ashcan"},
+    {"assault rifle": "impetum diripiat"},
+    {"backpack": "saccum dorsualem"},
+    {"bakery": "pistrinum"},
+    {"balance beam": "statera trabem"},
+    {"balloon": "Balloon"},
+    {"ballpoint": "ballpoint"},
+    {"Band Aid": "Cohors Aid"},
+    {"banjo": "banjo"},
+    {"bannister": "banister"},
+    {"barbell": "barbell"},
+    {"barber chair": "tonsorem sellam"},
+    {"barbershop": "tonsorina"},
+    {"barn": "horreum"},
+    {"barometer": "barometer"},
+    {"barrel": "dolium"},
+    {"barrow": "agger"},
+    {"baseball": "baseball"},
+    {"basketball": "ultrices"},
+    {"bassinet": "bassinet"},
+    {"bassoon": "bassoon"},
+    {"bathing cap": "lavacrum cap"},
+    {"bath towel": "balneum linteum"},
+    {"bathtub": "balneus"},
+    {"beach wagon": "litore plaustra"},
+    {"beacon": "pharus"},
+    {"beaker": "POCULUM"},
+    {"bearskin": "ursina"},
+    {"beer bottle": "cervisiam utrem"},
+    {"beer glass": "cervisiam vitrum"},
+    {"bell cote": "campane cote"},
+    {"bib": "bib"},
+    {"bicycle-built-for-two": "birota constructum pro duobus"},
+    {"bikini": "bikini"},
+    {"binder": "ligans"},
+    {"binoculars": "binoculars"},
+    {"birdhouse": "birdhouse"},
+    {"boathouse": "boathouse"},
+    {"bobsled": "bobsled"},
+    {"bolo tie": "bolo tie"},
+    {"bonnet": "mitram"},
+    {"bookcase": "scrinium"},
+    {"bookshop": "bibliopolium"},
+    {"bottlecap": "bottlecap"},
+    {"bow": "arcus"},
+    {"bow tie": "arcum tie"},
+    {"brass": "aeris"},
+    {"brassiere": "brassiere"},
+    {"breakwater": "ab alto"},
+    {"breastplate": "loricam"},
+    {"broom": "iuniperorum"},
+    {"bucket": "situla"},
+    {"buckle": "fibula"},
+    {"bulletproof vest": "bulletproof vestis"},
+    {"bullet train": "Bullet train"},
+    {"butcher shop": "macello"},
+    {"cab": "cab"},
+    {"caldron": "lebes"},
+    {"candle": "lucerna"},
+    {"cannon": "tormentum"},
+    {"canoe": "LINTER"},
+    {"can opener": "potest opener"},
+    {"cardigan": "cardigan"},
+    {"car mirror": "currus Speculum"},
+    {"carousel": "carousel"},
+    {"carpenter's kit": "ornamentum fabri"},
+    {"carton": "lobortis"},
+    {"car wheel": "rota currus"},
+    {"cash machine": "cash machina"},
+    {"cassette": "cassette"},
+    {"cassette player": "Paperback ludio ludius"},
+    {"castle": "castrum"},
+    {"catamaran": "catamaran"},
+    {"CD player": "CD player"},
+    {"cello": "cello"},
+    {"cellular telephone": "cellular telephone"},
+    {"chain": "catena"},
+    {"chainlink fence": "Chainlink saepem"},
+    {"chain mail": "catena mail"},
+    {"chain saw": "catena serram"},
+    {"chest": "pectus"},
+    {"chiffonier": "chiffonier"},
+    {"chime": "CANO"},
+    {"china cabinet": "Sina scrinium"},
+    {"Christmas stocking": "Class aptent metus"},
+    {"church": "ecclesia"},
+    {"cinema": "cinematographico"},
+    {"cleaver": "cleaver"},
+    {"cliff dwelling": "petra tabernaculum"},
+    {"cloak": "pallium"},
+    {"clog": "elog"},
+    {"cocktail shaker": "cocktail shaker"},
+    {"coffee mug": "capulus mug"},
+    {"coffeepot": "ollam capulus"},
+    {"coil": "coil"},
+    {"combination lock": "combination cincinno"},
+    {"computer keyboard": "computatrum tincidunt"},
+    {"confectionery": "cuppedia"},
+    {"container ship": "continens navis"},
+    {"convertible": "convertibilis"},
+    {"corkscrew": "corkscrew"},
+    {"cornet": "cornet"},
+    {"cowboy boot": "cowboy tabernus"},
+    {"cowboy hat": "cowboy hat"},
+    {"cradle": "cunabula"},
+    {"crane": "gruis"},
+    {"crash helmet": "ruina galeae"},
+    {"crate": "crate"},
+    {"crib": "praesepe"},
+    {"Crock Pot": "Vas fictile"},
+    {"croquet ball": "croquet pila"},
+    {"crutch": "fusum"},
+    {"cuirass": "lorica"},
+    {"dam": "dam"},
+    {"desk": "desk"},
+    {"desktop computer": "desktop computatrum"},
+    {"dial telephone": "dial telephone"},
+    {"diaper": "diaper"},
+    {"digital clock": "digital horologium"},
+    {"digital watch": "digital custodibus"},
+    {"dining table": "mensam"},
+    {"dishrag": "dishrag"},
+    {"dishwasher": "discilavator"},
+    {"disk brake": "orbis fregit"},
+    {"dock": "navale"},
+    {"dogsled": "canis lupus familiaris"},
+    {"dome": "testudine"},
+    {"doormat": "doormat"},
+    {"drilling platform": "diam diam"},
+    {"drum": "tympanum"},
+    {"drumstick": "clavicula"},
+    {"dumbbell": "dumbbell"},
+    {"Dutch oven": "Clibano Batavica"},
+    {"electric fan": "electrica fan"},
+    {"electric guitar": "Cithara electrica"},
+    {"electric locomotive": "electrica motivum secundum locum"},
+    {"entertainment center": "entertainment centrum"},
+    {"envelope": "involucro"},
+    {"espresso maker": "espresso factorem"},
+    {"face powder": "faciem pulveris"},
+    {"feather boa": "Pluma Boa"},
+    {"file": "file"},
+    {"fireboat": "caminus"},
+    {"fire engine": "ignis engine"},
+    {"fire screen": "ignis screen"},
+    {"flagpole": "navis"},
+    {"flute": "tibia"},
+    {"folding chair": "tenens sellam"},
+    {"football helmet": "eu galea"},
+    {"forklift": "forklift"},
+    {"fountain": "fons"},
+    {"fountain pen": "fons calamum"},
+    {"four-poster": "quattuor poster"},
+    {"freight car": "Suspendisse currus"},
+    {"French horn": "French cornu"},
+    {"frying pan": "sartagine"},
+    {"fur coat": "pilum tunicam"},
+    {"garbage truck": "quisquiliarum salsissimus vir vivens"},
+    {"gasmask": "gasmask"},
+    {"gas pump": "Gas sentinam"},
+    {"goblet": "patera"},
+    {"go-kart": "ire-kart"},
+    {"golf ball": "golf pila"},
+    {"golfcart": "golfcart"},
+    {"gondola": "gondola"},
+    {"gong": "gong"},
+    {"gown": "toga"},
+    {"grand piano": "magnam piano"},
+    {"greenhouse": "CONSERVATORIUM"},
+    {"grille": "cratem"},
+    {"grocery store": "grocery copia"},
+    {"guillotine": "guillotine"},
+    {"hair slide": "capillus slide"},
+    {"hair spray": "capillus imbre"},
+    {"half track": "medium semita"},
+    {"hammer": "malleus"},
+    {"hamper": "obsunt"},
+    {"hand blower": "manus CERAULA"},
+    {"hand-held computer": "manu-tenuit computatrum"},
+    {"handkerchief": "sudario"},
+    {"hard disc": "difficile discus"},
+    {"harmonica": "harmonica"},
+    {"harp": "cithara"},
+    {"harvester": "messor"},
+    {"hatchet": "securis"},
+    {"holster": "holster"},
+    {"home theater": "domum theatrum"},
+    {"honeycomb": "favus"},
+    {"hook": "hamo"},
+    {"hoopskirt": "hoopskirt"},
+    {"horizontal bar": "horizontalis talea"},
+    {"horse cart": "equus plaustrum"},
+    {"hourglass": "clepsydris metiuntur"},
+    {"iPod": "iPod"},
+    {"iron": "ferrum"},
+    {"jack-o'-lantern": "O lucerna Jack"},
+    {"jean": "jean"},
+    {"jeep": "Jeep"},
+    {"jersey": "Jersey"},
+    {"jigsaw puzzle": "aenigma sinuosi cursus"},
+    {"jinrikisha": "jinrikisha"},
+    {"joystick": "joystick"},
+    {"kimono": "kimono"},
+    {"knee pad": "genu pad"},
+    {"knot": "nodum"},
+    {"lab coat": "Lab tunica"},
+    {"ladle": "trulla"},
+    {"lampshade": "lampshade"},
+    {"laptop": "laptop"},
+    {"lawn mower": "gramina metentis"},
+    {"lens cap": "lens cap *"},
+    {"letter opener": "opener epistulam"},
+    {"library": "Bibliotheca"},
+    {"lifeboat": "scapha"},
+    {"lighter": "leviora"},
+    {"limousine": "limousine"},
+    {"liner": "liner"},
+    {"lipstick": "lipstick"},
+    {"Loafer": "Loafer"},
+    {"lotion": "illinere"},
+    {"loudspeaker": "loudspeaker"},
+    {"loupe": "loupe"},
+    {"lumbermill": "lignarius"},
+    {"magnetic compass": "magnetica circino"},
+    {"mailbag": "mailbag"},
+    {"mailbox": "mailbox"},
+    {"maillot": "maillot"},
+    {"maillot": "maillot"},
+    {"manhole cover": "manhole operimentum"},
+    {"maraca": "maraca"},
+    {"marimba": "marimba"},
+    {"mask": "larva"},
+    {"matchstick": "matchstick"},
+    {"maypole": "maypole"},
+    {"maze": "error"},
+    {"measuring cup": "calicem funiculus"},
+    {"medicine chest": "medicina pectus"},
+    {"megalith": "megalith"},
+    {"microphone": "tortor ligula"},
+    {"microwave": "Proin"},
+    {"military uniform": "militaris uniformis"},
+    {"milk can": "lac can"},
+    {"minibus": "minibus"},
+    {"miniskirt": "miniskirt"},
+    {"minivan": "minivan"},
+    {"missile": "missile"},
+    {"mitten": "mitten"},
+    {"mixing bowl": "cratera"},
+    {"mobile home": "mobile in domum suam"},
+    {"Model T": "Exemplar T"},
+    {"modem": "modem"},
+    {"monastery": "monasterium"},
+    {"monitor": "monitor"},
+    {"moped": "moped"},
+    {"mortar": "c\u00e6mento"},
+    {"mortarboard": "mortarboard"},
+    {"mosque": "mosque"},
+    {"mosquito net": "CULEX"},
+    {"motor scooter": "motricium scooter"},
+    {"mountain bike": "montem bike"},
+    {"mountain tent": "montem tentorium"},
+    {"mouse": "mus"},
+    {"mousetrap": "muscipula"},
+    {"moving van": "movere van"},
+    {"muzzle": "rostrum"},
+    {"nail": "clavus"},
+    {"neck brace": "collum ue"},
+    {"necklace": "monile"},
+    {"nipple": "papilla"},
+    {"notebook": "libello"},
+    {"obelisk": "obeliscus"},
+    {"oboe": "oboe"},
+    {"ocarina": "ocarina"},
+    {"odometer": "odometer"},
+    {"oil filter": "oleum filter"},
+    {"organ": "organum"},
+    {"oscilloscope": "oscilloscope"},
+    {"overskirt": "overskirt"},
+    {"oxcart": "oxcart"},
+    {"oxygen mask": "oxygeni larva"},
+    {"packet": "packet"},
+    {"paddle": "paxillum"},
+    {"paddlewheel": "paddlewheel"},
+    {"padlock": "padlock"},
+    {"paintbrush": "penicilla"},
+    {"pajama": "pajama"},
+    {"palace": "palatium"},
+    {"panpipe": "panpipe"},
+    {"paper towel": "charta linteum"},
+    {"parachute": "parachute"},
+    {"parallel bars": "parallel vectes"},
+    {"park bench": "parcum scamnum"},
+    {"parking meter": "raedam meter"},
+    {"passenger car": "viatoribus currus"},
+    {"patio": "Nunc"},
+    {"pay-phone": "stipendium, telephonum"},
+    {"pedestal": "basi"},
+    {"pencil box": "plumbum Box"},
+    {"pencil sharpener": "pincello ACUTOR"},
+    {"perfume": "unguentum"},
+    {"Petri dish": "Petri catino"},
+    {"photocopier": "photocopier"},
+    {"pick": "colligunt"},
+    {"pickelhaube": "pickelhaube"},
+    {"picket fence": "stationem saepem"},
+    {"pickup": "RAPINA"},
+    {"pier": "pier"},
+    {"piggy bank": "porcellum ripam"},
+    {"pill bottle": "pill utrem"},
+    {"pillow": "pulvinar"},
+    {"ping-pong ball": "ping-pong pila"},
+    {"pinwheel": "pinwheel"},
+    {"pirate": "pirata"},
+    {"pitcher": "hydriam"},
+    {"plane": "planum"},
+    {"planetarium": "planetarium"},
+    {"plastic bag": "plastic lapides sacculi"},
+    {"plate rack": "laminam eculeo"},
+    {"plow": "aratrum"},
+    {"plunger": "Poopus"},
+    {"Polaroid camera": "Polaroid camera"},
+    {"pole": "polus"},
+    {"police van": "vigilum van"},
+    {"poncho": "poncho"},
+    {"pool table": "mensa piscinam"},
+    {"pop bottle": "pop utrem"},
+    {"pot": "pot"},
+    {"potter's wheel": "rota figuli"},
+    {"power drill": "potentia terebro"},
+    {"prayer rug": "orationis rug"},
+    {"printer": "printer"},
+    {"prison": "carcer"},
+    {"projectile": "proiectum"},
+    {"projector": "projector"},
+    {"puck": "puck"},
+    {"punching bag": "pulsare sacculi"},
+    {"purse": "sacculus"},
+    {"quill": "plectrum"},
+    {"quilt": "pellem pilosam"},
+    {"racer": "cursor"},
+    {"racket": "reticulo"},
+    {"radiator": "radiator"},
+    {"radio": "radio"},
+    {"radio telescope": "radio telescopio"},
+    {"rain barrel": "dolium pluvia"},
+    {"recreational vehicle": "ludicras vehiculum"},
+    {"reel": "reel"},
+    {"reflex camera": "reflexum camera"},
+    {"refrigerator": "leo"},
+    {"remote control": "remota potestate"},
+    {"restaurant": "popina"},
+    {"revolver": "revolver"},
+    {"rifle": "vasa"},
+    {"rocking chair": "sella"},
+    {"rotisserie": "rotisserie"},
+    {"rubber eraser": "rubber eraser"},
+    {"rugby ball": "rugby pila"},
+    {"rule": "lex"},
+    {"running shoe": "currit calceamentum"},
+    {"safe": "tutum"},
+    {"safety pin": "salus paxillus"},
+    {"saltshaker": "saltshaker"},
+    {"sandal": "calciamentum"},
+    {"sarong": "sarong"},
+    {"sax": "sax"},
+    {"scabbard": "vagina"},
+    {"scale": "scalae"},
+    {"school bus": "schola bus"},
+    {"schooner": "schooner"},
+    {"scoreboard": "scoreboard"},
+    {"screen": "tentorium"},
+    {"screw": "cochlea"},
+    {"screwdriver": "solus"},
+    {"seat belt": "sedes balteus"},
+    {"sewing machine": "Sutura machina"},
+    {"shield": "scutum"},
+    {"shoe shop": "calceamentum tabernam"},
+    {"shoji": "shoji"},
+    {"shopping basket": "shopping cartallum"},
+    {"shopping cart": "shopping cart"},
+    {"shovel": "rutrum"},
+    {"shower cap": "imber cap"},
+    {"shower curtain": "imber sagum"},
+    {"ski": "ski"},
+    {"ski mask": "ski larva"},
+    {"sleeping bag": "dormiens sacculi"},
+    {"slide rule": "slide regulae"},
+    {"sliding door": "ostium illapsum"},
+    {"slot": "socors"},
+    {"snorkel": "snorkel"},
+    {"snowmobile": "snowmobile"},
+    {"snowplow": "snowplow"},
+    {"soap dispenser": "saponem dispensator"},
+    {"soccer ball": "Morbi pila"},
+    {"sock": "soccum"},
+    {"solar dish": "solaris catino"},
+    {"sombrero": "sombrero"},
+    {"soup bowl": "pulmenti patera"},
+    {"space bar": "spatium talea"},
+    {"space heater": "spatium calefacientis"},
+    {"space shuttle": "spatium succiditur"},
+    {"spatula": "spatula"},
+    {"speedboat": "speedboat"},
+    {"spider web": "aranea telam"},
+    {"spindle": "fusum"},
+    {"sports car": "ludis currus"},
+    {"spotlight": "arcu"},
+    {"stage": "scaena"},
+    {"steam locomotive": "vapor motivum secundum locum"},
+    {"steel arch bridge": "ferrum pontis arcus"},
+    {"steel drum": "ferro tympanum"},
+    {"stethoscope": "stethoscopium"},
+    {"stole": "furatus est"},
+    {"stone wall": "maceria lapidea"},
+    {"stopwatch": "stopwatch"},
+    {"stove": "caminus"},
+    {"strainer": "colum"},
+    {"streetcar": "streetcar"},
+    {"stretcher": "grabatum"},
+    {"studio couch": "Studio toro"},
+    {"stupa": "stupa"},
+    {"submarine": "subaquaneus"},
+    {"suit": "sectam"},
+    {"sundial": "horologium"},
+    {"sunglass": "ocularia"},
+    {"sunglasses": "ocularia"},
+    {"sunscreen": "sunscreen"},
+    {"suspension bridge": "suspensionis pontis"},
+    {"swab": "swab"},
+    {"sweatshirt": "sweatshirt"},
+    {"swimming trunks": "swimming truncis"},
+    {"swing": "adductius"},
+    {"switch": "switch"},
+    {"syringe": "clysterem"},
+    {"table lamp": "mensa lucerna"},
+    {"tank": "cisternina"},
+    {"tape player": "tape ludio"},
+    {"teapot": "teapot"},
+    {"teddy": "Teddy"},
+    {"television": "televisifica"},
+    {"tennis ball": "tennis pila"},
+    {"thatch": "culmo"},
+    {"theater curtain": "theatrum sagum"},
+    {"thimble": "thimble"},
+    {"thresher": "triturans"},
+    {"throne": "thronus"},
+    {"tile roof": "ille tecto"},
+    {"toaster": "toaster"},
+    {"tobacco shop": "Tabaci tabernam"},
+    {"toilet seat": "sellam pertusam"},
+    {"torch": "fax"},
+    {"totem pole": "totem polus"},
+    {"tow truck": "stuppa salsissimus"},
+    {"toyshop": "Shop"},
+    {"tractor": "tractor"},
+    {"trailer truck": "trailer salsissimus"},
+    {"tray": "lance"},
+    {"trench coat": "vallum tunica"},
+    {"tricycle": "tricycle"},
+    {"trimaran": "trimaran"},
+    {"tripod": "tripode"},
+    {"triumphal arch": "arcus triumphalis"},
+    {"trolleybus": "trolleybus"},
+    {"trombone": "tubae"},
+    {"tub": "tub"},
+    {"turnstile": "turntile"},
+    {"typewriter keyboard": "typewriter tincidunt"},
+    {"umbrella": "umbella"},
+    {"unicycle": "unicycle"},
+    {"upright": "rectus"},
+    {"vacuum": "vacuum"},
+    {"vase": "vas"},
+    {"vault": "testudine"},
+    {"velvet": "holoserica"},
+    {"vending machine": "vending machina"},
+    {"vestment": "vestis"},
+    {"viaduct": "viaduct"},
+    {"violin": "violin"},
+    {"volleyball": "pulvinar"},
+    {"waffle iron": "LOQUOR ferrum"},
+    {"wall clock": "murum horologium"},
+    {"wallet": "pera"},
+    {"wardrobe": "vestium"},
+    {"warplane": "warplane"},
+    {"washbasin": "labrum"},
+    {"washer": "washer"},
+    {"water bottle": "aqua"},
+    {"water jug": "aqua hydria"},
+    {"water tower": "aqua turris"},
+    {"whiskey jug": "cupam jug"},
+    {"whistle": "sibilus"},
+    {"wig": "galero"},
+    {"window screen": "fenestra screen"},
+    {"window shade": "fenestra umbra"},
+    {"Windsor tie": "Vindesorium tie"},
+    {"wine bottle": "vinum utrem"},
+    {"wing": "cornu"},
+    {"wok": "opere"},
+    {"wooden spoon": "dicula lignea"},
+    {"wool": "lana"},
+    {"worm fence": "vermis sepem"},
+    {"wreck": "wreccum"},
+    {"yawl": "yawl"},
+    {"yurt": "yurt"},
+    {"web site": "web site"},
+    {"comic book": "comicus Liber"},
+    {"crossword puzzle": "aenigma verbosum"},
+    {"street sign": "platea signum"},
+    {"traffic light": "negotiationis lux"},
+    {"book jacket": "liber iaccam"},
+    {"menu": "menu"},
+    {"plate": "laminam"},
+    {"guacamole": "guacamole"},
+    {"consomme": "consomme"},
+    {"hot pot": "calidum ollam"},
+    {"trifle": "nugae"},
+    {"ice cream": "glacies crepito"},
+    {"ice lolly": "glacies lolly"},
+    {"French loaf": "Gallica tortam"},
+    {"bagel": "bagel"},
+    {"pretzel": "pretzel"},
+    {"cheeseburger": "cheeseburger"},
+    {"hotdog": "hotdog"},
+    {"mashed potato": "mashed Capsicum annuum"},
+    {"head cabbage": "caput brassica"},
+    {"broccoli": "algentem"},
+    {"cauliflower": "BRASSICA"},
+    {"zucchini": "zucchini"},
+    {"spaghetti squash": "Spaghetti cucurbitae"},
+    {"acorn squash": "glandem cucurbita"},
+    {"butternut squash": "butternut cucurbitae"},
+    {"cucumber": "cucumis"},
+    {"artichoke": "cactus"},
+    {"bell pepper": "campana piper"},
+    {"cardoon": "cardoon"},
+    {"mushroom": "fungus"},
+    {"Granny Smith": "Granny Smith"},
+    {"strawberry": "fragum"},
+    {"orange": "orange"},
+    {"lemon": "lemon"},
+    {"fig": "ficus"},
+    {"pineapple": "pineapple"},
+    {"banana": "Musa"},
+    {"jackfruit": "jackfruit"},
+    {"custard apple": "custard malum"},
+    {"pomegranate": "malogranatum"},
+    {"hay": "faenum"},
+    {"carbonara": "carbonara"},
+    {"chocolate sauce": "scelerisque condimentum"},
+    {"dough": "corrumpit"},
+    {"meat loaf": "cibum tortam"},
+    {"pizza": "pizza"},
+    {"potpie": "potpie"},
+    {"burrito": "burrito"},
+    {"red wine": "vinum rubrum"},
+    {"espresso": "espresso"},
+    {"cup": "poculum"},
+    {"eggnog": "eggnog"},
+    {"alp": "alp"},
+    {"bubble": "bulla"},
+    {"cliff": "rupes"},
+    {"coral reef": "sericum scopulum"},
+    {"geyser": "geyser"},
+    {"lakeside": "lacus"},
+    {"promontory": "promontorium"},
+    {"sandbar": "sandbar"},
+    {"seashore": "litore maris"},
+    {"valley": "valles"},
+    {"volcano": "vulcano"},
+    {"ballplayer": "ballplayer"},
+    {"groom": "sponsus"},
+    {"scuba diver": "Aliquam diver"},
+    {"rapeseed": "rapaeed"},
+    {"daisy": "primula"},
+    {"yellow lady's slipper": "flavo domina lubrica"},
+    {"corn": "frumentum"},
+    {"acorn": "glandem"},
+    {"hip": "coxae"},
+    {"buckeye": "buckeye"},
+    {"coral fungus": "corallium fungus"},
+    {"agaric": "agaric"},
+    {"gyromitra": "gyromitra"},
+    {"stinkhorn": "stinkhorn"},
+    {"earthstar": "earthstar"},
+    {"hen-of-the-woods": "Gallina of-- silvae"},
+    {"bolete": "bolete"},
+    {"ear": "auris"},
+    {"toilet tissue": "CULTUS TEXTUS"}
 ]
