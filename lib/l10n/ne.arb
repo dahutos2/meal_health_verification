@@ -41,5 +41,7 @@
     "showErrorDialogTitle": "त्रुटि भयो",
     "showErrorDialogOK": "ठिक छ",
     "lastWeek": "गएको हप्ता",
-    "nextWeek": "अर्को हप्ता"
+    "nextWeek": "अर्को हप्ता",
+    "recommendVisibleText": "प्रदर्शन",
+    "recommendHideText": "लुकेको"
 }

@@ -41,5 +41,7 @@
     "showErrorDialogTitle": "Terjadi kesalahan",
     "showErrorDialogOK": "OKE",
     "lastWeek": "minggu lalu",
-    "nextWeek": "minggu depan"
+    "nextWeek": "minggu depan",
+    "recommendVisibleText": "menampilkan",
+    "recommendHideText": "tersembunyi"
 }

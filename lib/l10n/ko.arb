@@ -41,5 +41,7 @@
     "showErrorDialogTitle": "오류 발생",
     "showErrorDialogOK": "오 K",
     "lastWeek": "지난주",
-    "nextWeek": "다음 주"
+    "nextWeek": "다음 주",
+    "recommendVisibleText": "표시",
+    "recommendHideText": "숨기기"
 }

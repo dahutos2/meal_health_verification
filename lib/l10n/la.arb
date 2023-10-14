@@ -41,5 +41,7 @@
     "showErrorDialogTitle": "Error occurrit",
     "showErrorDialogOK": "OK",
     "lastWeek": "Ultima septimana",
-    "nextWeek": "altera septimana"
+    "nextWeek": "altera septimana",
+    "recommendVisibleText": "ostentus",
+    "recommendHideText": "absconditus"
 }

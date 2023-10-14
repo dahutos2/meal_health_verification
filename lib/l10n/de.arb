@@ -41,5 +41,7 @@
     "showErrorDialogTitle": "Ein Fehler ist aufgetreten",
     "showErrorDialogOK": "OK",
     "lastWeek": "letzte Woche",
-    "nextWeek": "nächste Woche"
+    "nextWeek": "nächste Woche",
+    "recommendVisibleText": "Anzeige",
+    "recommendHideText": "versteckt"
 }

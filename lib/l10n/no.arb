@@ -41,5 +41,7 @@
     "showErrorDialogTitle": "Feil oppsto",
     "showErrorDialogOK": "OK",
     "lastWeek": "forrige uke",
-    "nextWeek": "neste uke"
+    "nextWeek": "neste uke",
+    "recommendVisibleText": "vise",
+    "recommendHideText": "skjult"
 }
