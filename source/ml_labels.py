@@ -55,13 +55,6 @@ def main():
 
     print("localizations.csvファイルの読み込みが完了しました。")
 
-    max_len = len(locales)
-    count = 0
-    print("翻訳を開始します。")
-
-    # トランスレータの初期化
-    translator = Translator()
-
     # 出力先ディレクトリを指定
     output_dir = "assets/ml/"
 
@@ -79,11 +72,18 @@ def main():
 
     print(f"ml/{base_code}.txtファイルの読み込みが完了しました。")
 
+    max_len = len(locales)
+    count = 0
+    print("翻訳を開始します。")
+
+    # トランスレータの初期化
+    translator = Translator()
+
     # 各言語で翻訳
     for code, language in locales.items():
         if code == {base_code}:
             continue
-        input_path = f"{input_dir}/{code}.txt"
+        input_path = f"{input_dir}/{code}.json"
 
         # すでに存在するデータを取得する
         existing_data = load_json_file(input_path)

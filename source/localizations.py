@@ -51,13 +51,6 @@ def main():
 
     print("localizations.csvファイルの読み込みが完了しました。")
 
-    max_len = len(locales)
-    count = 0
-    print("翻訳を開始します。")
-
-    # トランスレータの初期化
-    translator = Translator()
-
     # 出力先ディレクトリを指定
     output_directory = "lib/l10n/"
 
@@ -66,6 +59,13 @@ def main():
     base_data = load_file(f"{output_directory}/{base_code}.arb")
 
     print(f"{base_code}.arbファイルの読み込みが完了しました。")
+
+    max_len = len(locales)
+    count = 0
+    print("翻訳を開始します。")
+
+    # トランスレータの初期化
+    translator = Translator()
 
     for code, language in locales.items():
         if code == base_code:
