@@ -8,14 +8,17 @@ class MealNotifier with ChangeNotifier {
   final IGetFirstWeekMeals _getFirstWeekMeals;
   final IGetMealsByDateRange _getMealsByDateRange;
   final IGetLabel _getLabel;
+  final IRemoveLastMeal _removeLastMeal;
 
   MealNotifier({
     required IGetFirstWeekMeals getFirstWeekMeals,
     required IGetMealsByDateRange getMealsByDateRange,
     required IGetLabel getLabel,
+    required IRemoveLastMeal removeLastMeal,
   })  : _getFirstWeekMeals = getFirstWeekMeals,
         _getMealsByDateRange = getMealsByDateRange,
-        _getLabel = getLabel {
+        _getLabel = getLabel,
+        _removeLastMeal = removeLastMeal {
     displayList();
   }
 
@@ -43,6 +46,14 @@ class MealNotifier with ChangeNotifier {
   void add({required MealDto dto}) {
     _list?.add(convertToMeal(dto));
     notifyListeners();
+  }
+
+  void removeLast() {
+    _removeLastMeal.executeAsync().then((dto) {
+      if (dto != null && _list != null && _list!.isNotEmpty) {
+        _list!.removeLast();
+      }
+    });
   }
 
   Meal convertToMeal(MealDto dto) {

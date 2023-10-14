@@ -62,6 +62,11 @@ class ColorsCamera {
   Color get buttonInner => const Color(0xFFFFFFFF);
   Color get buttonOuter => const Color(0xFFFFFFFF);
   Color get buttonDisabled => const Color(0xFFFFFFFF);
+  Color get recommendButton => const Color(0xFF009688);
+  Color get recommendConfirm => const Color(0xFF2196F3);
+  Color get recommendConfirmPressed => const Color(0xFF64B5F6);
+  Color get errorOK => const Color(0xFF2196F3);
+  Color get errorOKPressed => const Color(0xFF64B5F6);
 }
 
 class ColorsDataConfirm {

@@ -17,7 +17,7 @@ echo "仮想環境を活性化しました。"
 # Pythonスクリプトを実行
 echo "Pythonスクリプトを実行します。"
 
-python3 -u source/ml_labels.py
+python3 -u source/ml_labels.py "$@"
 
 # 仮想環境を非アクティブにする
 deactivate

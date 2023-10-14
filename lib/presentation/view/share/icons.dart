@@ -11,6 +11,8 @@ class IconType {
   static const footer = IconsFooter();
 
   static const home = IconsHome();
+
+  static const camera = IconsCamera();
 }
 
 class IconsHeader {
@@ -36,5 +38,15 @@ class IconsHome {
   Icon get startUpCamera => const Icon(
         Icons.add_a_photo,
         color: Colors.white,
+      );
+}
+
+class IconsCamera {
+  const IconsCamera();
+
+  Icon get error => const Icon(
+        Icons.error,
+        size: 60,
+        color: Color(0xFF757575),
       );
 }

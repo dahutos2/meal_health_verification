@@ -37,8 +37,6 @@ class _PauseCameraButtonState extends State<PauseCameraButton>
       parent: _animationController,
       curve: Curves.easeInOut,
     ));
-
-    _animationController.repeat(reverse: true);
   }
 
   @override
@@ -49,6 +47,13 @@ class _PauseCameraButtonState extends State<PauseCameraButton>
 
   @override
   Widget build(BuildContext context) {
+    // 読み込み中のみ、再描画を行い続ける
+    if (!widget.isEnabled) {
+      _animationController.forward();
+      _animationController.repeat(reverse: true);
+    } else {
+      _animationController.stop();
+    }
     return InkWell(
       onTap: widget.isPause
           ? widget.resumeCamera
@@ -130,6 +135,6 @@ class BlinkingCameraButtonPainter extends CustomPainter {
 
   @override
   bool shouldRepaint(CustomPainter oldDelegate) {
-    return true;
+    return false;
   }
 }

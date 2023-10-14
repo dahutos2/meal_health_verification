@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+.back-button {
+    margin: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section {
+    margin: 20px;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+}

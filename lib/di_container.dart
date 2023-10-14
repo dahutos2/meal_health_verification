@@ -60,3 +60,8 @@ final getDetectObjectsProvider = Provider.autoDispose(
     modelRepository: ref.read(modelHelperProvider),
   ),
 );
+final removeLastMealProvider = Provider.autoDispose(
+  (ref) => RemoveLastMeal(
+    mealRepository: ref.read(mealRepositoryProvider),
+  ),
+);

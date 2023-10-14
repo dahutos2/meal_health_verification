@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../share/index.dart';
 
-const double headerHeight = 47.0;
+const double headerHeight = kToolbarHeight * 0.9;
 
 class HeaderView extends StatelessWidget implements PreferredSizeWidget {
   final String? title;

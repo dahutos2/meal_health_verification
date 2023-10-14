@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>標準偏差のシミュレーション</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>標準偏差のシミュレーション</h1>
+        <a href="../index.html" class="back-button">メインメニューに戻る</a>
+    </header>
+    <section>
+        <label for="length">データセットの長さ: </label>
+        <input type="number" id="length" min="1" max="100" value="10" step="1">
+        <label for="times">試行回数: </label>
+        <input type="number" id="times" min="100" max="10000" value="10000" step="100">
+        <button onclick="calculate()">計算</button>
+    </section>
+    <canvas id="chart"></canvas>
+    <script src="script.js"></script>
+</body>
+
+</html>

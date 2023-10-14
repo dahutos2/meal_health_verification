@@ -93,4 +93,11 @@ class DbHelper {
   ]) async {
     return await (_txn ?? _db)?.rawInsert(sql, arguments);
   }
+
+  Future<int?> rawDelete(
+    String sql, [
+    List<dynamic>? arguments,
+  ]) async {
+    return await (_txn ?? _db)?.rawDelete(sql, arguments);
+  }
 }

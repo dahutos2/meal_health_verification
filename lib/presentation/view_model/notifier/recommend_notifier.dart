@@ -54,20 +54,20 @@ class RecommendNotifier with ChangeNotifier {
     if (0 <= healthRating && healthRating < 30) {
       return RecommendText(
           value: (L10n l10n) => l10n.recommendBadText,
-          lottiePath: 'assets/lottie/bad.json');
+          lottiePath: 'assets/lottie/low.json');
     } else if (30 <= healthRating && healthRating < 60) {
       return RecommendText(
           value: (L10n l10n) => l10n.recommendNormalText,
-          lottiePath: 'assets/lottie/normal.json');
+          lottiePath: 'assets/lottie/middle.json');
     } else if (60 <= healthRating && healthRating < 100) {
       return RecommendText(
           value: (L10n l10n) => l10n.recommendGoodText,
-          lottiePath: 'assets/lottie/good.json');
+          lottiePath: 'assets/lottie/high.json');
     } else {
       // 範囲外のものは通常とする
       return RecommendText(
           value: (L10n l10n) => l10n.recommendBadText,
-          lottiePath: 'assets/lottie/bad.json');
+          lottiePath: 'assets/lottie/low.json');
     }
   }
 

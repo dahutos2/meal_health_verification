@@ -8,6 +8,7 @@ final mealNotifierProvider = ChangeNotifierProvider(
     getFirstWeekMeals: ref.read(getFirstWeekMealsProvider),
     getMealsByDateRange: ref.read(getMealsByDateRangeProvider),
     getLabel: ref.read(getLabelProvider),
+    removeLastMeal: ref.read(removeLastMealProvider),
   ),
 );
 
