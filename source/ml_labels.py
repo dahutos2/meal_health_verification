@@ -10,11 +10,17 @@ def load_text_file(filename):
         return file.read().splitlines()
 
 
-def load_json_file(filename):
-    if os.path.exists(filename):
-        with open(filename, "r") as json_file:
+def load_existing_json_file(input_path, output_path, base_text):
+    if os.path.exists(input_path):
+        with open(input_path, "r") as json_file:
             return json.load(json_file)
-    return {}
+
+    if not os.path.exists(output_path):
+        return {}
+
+    # データがない場合は、textをもとに作成する
+    text_data = load_text_file(output_path)
+    return {base: text for base, text in zip(base_text, text_data)}
 
 
 def merge_translations(existing_data, new_data, target):
@@ -84,9 +90,14 @@ def main():
         if code == {base_code}:
             continue
         input_path = f"{input_dir}/{code}.json"
+        output_path = f"{output_dir}/{code}.txt"
 
         # すでに存在するデータを取得する
-        existing_data = load_json_file(input_path)
+        existing_data = load_existing_json_file(
+            input_path,
+            output_path,
+            base_text_data,
+        )
 
         translated_data = {}
         for key, value in base_json_data.items():
@@ -118,7 +129,6 @@ def main():
             json.dump(ordered_data, file, indent=4, ensure_ascii=False)
 
         # ファイルに書き込む
-        output_path = f"{output_dir}/{code}.txt"
         text_data = [value for _, value in ordered_data.items()]
         with open(output_path, "w", encoding="utf-8") as out_file:
             for value in text_data:
@@ -129,3 +139,7 @@ def main():
         print(f"現在 {count}/{max_len}")
 
     print("翻訳が完了しました。")
+
+
+if __name__ == "__main__":
+    main()
