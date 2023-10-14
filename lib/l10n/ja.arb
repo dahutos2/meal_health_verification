@@ -34,6 +34,8 @@
     "captureDetectImageErrorOK": "OK",
     "recommendConfirmText": "確定",
     "recommendCancelText": "今回の画像を破棄し、再撮影する",
+    "recommendVisibleText": "表示",
+    "recommendHideText": "非表示",
     "dataConfirmLabel": "確認",
     "recommendBadText": "もう少し、健康を意識しても\nいいのではないでしょうか？",
     "recommendNormalText": "いい感じですが、\nもう一歩頑張りましょう!",

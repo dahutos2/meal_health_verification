@@ -100,6 +100,10 @@ class StylesCamera {
         fontSize: 16,
         color: Color(0xFF2196F3),
       );
+  TextStyle get visibleText => const TextStyle(
+        fontSize: 14,
+        color: Color(0xFFFFFFFF),
+      );
 }
 
 class StylesDataConfirm {
