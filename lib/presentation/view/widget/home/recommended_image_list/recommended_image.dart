@@ -11,9 +11,7 @@ class RecommendedImage extends StatelessWidget {
   final String mealImagePath;
   @override
   Widget build(BuildContext context) {
-    return Container(
-      // 画像の上に20pxのマージン
-      margin: const EdgeInsets.only(top: 20.0),
+    return DecoratedBox(
       decoration: BoxDecoration(
         // 画像の角を丸める
         borderRadius: BorderRadius.circular(12.0),
@@ -28,16 +26,6 @@ class RecommendedImage extends StatelessWidget {
               fit: BoxFit.cover,
               width: double.infinity,
               height: double.infinity,
-            ),
-          ),
-          Positioned(
-            top: 40.0, // 50px上に配置
-            left: 0,
-            right: 0,
-            child: Text(
-              L10n.of(context)!.recommendImageTitle,
-              textAlign: TextAlign.center,
-              style: StyleType.home.recommendImageTitle,
             ),
           ),
           Center(

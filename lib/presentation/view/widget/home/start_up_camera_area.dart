@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import '../../../page/index.dart';
-import '../../../share/index.dart';
-import '../../common/footer.dart';
+import '../../page/index.dart';
+import '../../share/index.dart';
+import '../common/footer.dart';
 
 class StartUpCameraArea extends ConsumerWidget {
   const StartUpCameraArea({super.key});

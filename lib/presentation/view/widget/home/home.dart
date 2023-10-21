@@ -1,10 +1,12 @@
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../../view_model/index.dart';
 import '../../share/index.dart';
-import 'home_parts/index.dart';
+import 'loading_recommend_image.dart';
+import 'recommended_image_list/index.dart';
+import 'start_up_camera_area.dart';
 
 class Home extends ConsumerStatefulWidget {
   const Home({super.key});
@@ -36,57 +38,33 @@ class HomeWidgetState extends ConsumerState<Home> {
 
     return Column(
       children: [
+        // タイトル部分
+        Expanded(
+            flex: 1,
+            // Text部分 1/8
+            child: Center(
+              child: Text(
+                L10n.of(context)!.recommendImageTitle,
+                textAlign: TextAlign.center,
+                style: StyleType.home.recommendImageTitle,
+              ),
+            )),
+
         /// 画像部分
         Expanded(
-          flex: 8, // 画像部分 7/10
+          // 画像部分 5/8
+          flex: 5,
           child: recommendImages.isEmpty
               ? const LoadingRecommendImage()
-              : LayoutBuilder(
-                  builder: (BuildContext context, BoxConstraints constraints) {
-                  return CarouselSlider.builder(
-                    itemCount: recommendImages.length,
-                    itemBuilder: (context, index, realIndex) {
-                      return Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                        child: Stack(
-                          children: [
-                            RecommendedImage(
-                              mealName: recommendImages[index].name,
-                              mealImagePath: recommendImages[index].imagePath,
-                            ),
-                            Positioned(
-                              left: 10,
-                              bottom: 10,
-                              child: Container(
-                                padding: const EdgeInsets.symmetric(
-                                    horizontal: 10, vertical: 5),
-                                decoration: BoxDecoration(
-                                  color: ColorType
-                                      .home.recommendImageIndexBackGround,
-                                  borderRadius: BorderRadius.circular(15),
-                                ),
-                                child: Text(
-                                  '${index + 1}/${recommendImages.length}',
-                                  style: StyleType.home.recommendImageIndex,
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
-                      );
-                    },
-                    options: CarouselOptions(
-                      aspectRatio: constraints.maxWidth / constraints.maxHeight,
-                      enableInfiniteScroll: true,
-                      viewportFraction: 0.9,
-                    ),
-                  );
-                }),
+              : RecommendedImageList(
+                  recommendImages: recommendImages,
+                ),
         ),
 
         /// メッセージとカメラ起動ボタン部分
         const Expanded(
-          flex: 2, // Container部分 2/10
+          // Container部分 2/8
+          flex: 2,
           child: StartUpCameraArea(),
         ),
       ],
