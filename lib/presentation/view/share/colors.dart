@@ -23,7 +23,7 @@ class ColorType {
 class ColorsBase {
   const ColorsBase();
 
-  Color get background => const Color(0xFFF3E5E5);
+  Color get background => const Color(0xFFF8F5EF);
   Color get initBackGround => const Color(0xFFF3E5E5);
 }
 
