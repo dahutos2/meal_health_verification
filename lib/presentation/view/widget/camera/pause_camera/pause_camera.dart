@@ -257,7 +257,7 @@ class _PauseCameraState extends State<PauseCamera> {
                           padding: const EdgeInsets.symmetric(
                               horizontal: 10, vertical: 5),
                           decoration: BoxDecoration(
-                            color: Colors.black.withOpacity(0.5),
+                            color: ColorType.camera.zoomBackGround,
                             borderRadius: BorderRadius.circular(15),
                           ),
                           child: Text(

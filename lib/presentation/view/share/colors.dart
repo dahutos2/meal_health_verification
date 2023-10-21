@@ -67,6 +67,7 @@ class ColorsCamera {
   Color get recommendConfirmPressed => const Color(0xFF64B5F6);
   Color get errorOK => const Color(0xFF2196F3);
   Color get errorOKPressed => const Color(0xFF64B5F6);
+  Color get zoomBackGround => const Color(0x88000000);
 }
 
 class ColorsDataConfirm {
