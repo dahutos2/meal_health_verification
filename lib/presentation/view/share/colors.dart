@@ -48,6 +48,7 @@ class ColorsHome {
   Color get cameraAreaBorder => const Color(0xFFF3E5E5);
   Color get cameraAreaBackground => const Color(0xFFFFFFFF);
   Color get cameraAreaButtonBackGround => const Color(0xFF9E9E9E);
+  Color get recommendImageIndexBackGround => const Color(0x88000000);
 }
 
 class ColorsCamera {

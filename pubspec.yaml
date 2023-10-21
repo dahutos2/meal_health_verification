@@ -49,6 +49,7 @@ dependencies:
   sqflite: 2.2.2
   meta: 1.9.1
   tflite_flutter: 0.10.2
+  carousel_slider: 4.2.1
 
 dev_dependencies:
   flutter_test:

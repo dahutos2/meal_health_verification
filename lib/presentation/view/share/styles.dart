@@ -50,6 +50,11 @@ class StylesHome {
         fontWeight: FontWeight.bold,
         color: Color(0xFFFFFFFF),
       );
+  TextStyle get recommendImageIndex => const TextStyle(
+        color: Color(0xFFFFFFFF),
+        fontWeight: FontWeight.bold,
+        fontSize: 14,
+      );
 }
 
 class StylesCamera {
