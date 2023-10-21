@@ -9,14 +9,14 @@ import '../common/index.dart';
 import 'pause_camera/index.dart';
 import 'recommend_meal.dart';
 
-class DetectImage extends ConsumerStatefulWidget {
-  const DetectImage({super.key});
+class Camera extends ConsumerStatefulWidget {
+  const Camera({super.key});
 
   @override
-  ConsumerState<DetectImage> createState() => _DetectImageState();
+  ConsumerState<Camera> createState() => _CameraState();
 }
 
-class _DetectImageState extends ConsumerState<DetectImage> {
+class _CameraState extends ConsumerState<Camera> {
   PauseCameraImage? _image;
 
   List<DetectedObject> _detectedObjects = [];
