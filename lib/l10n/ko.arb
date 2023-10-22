@@ -43,5 +43,6 @@
     "showErrorDialogTitle": "오류 발생",
     "showErrorDialogOK": "오 K",
     "lastWeek": "지난주",
-    "nextWeek": "다음 주"
+    "nextWeek": "다음 주",
+    "dataConfirmEmpty": "기록이 없습니다."
 }

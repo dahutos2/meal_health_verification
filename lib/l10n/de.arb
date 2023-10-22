@@ -43,5 +43,6 @@
     "showErrorDialogTitle": "Ein Fehler ist aufgetreten",
     "showErrorDialogOK": "OK",
     "lastWeek": "letzte Woche",
-    "nextWeek": "nächste Woche"
+    "nextWeek": "nächste Woche",
+    "dataConfirmEmpty": "Es gibt keine Aufzeichnungen."
 }

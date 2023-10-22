@@ -43,5 +43,6 @@
     "showErrorDialogTitle": "त्रुटि भयो",
     "showErrorDialogOK": "ठिक छ",
     "lastWeek": "गएको हप्ता",
-    "nextWeek": "अर्को हप्ता"
+    "nextWeek": "अर्को हप्ता",
+    "dataConfirmEmpty": "कुनै रेकर्ड छैन।"
 }
