@@ -35,6 +35,6 @@ void main() {
 
     // when
     // then
-    expect(find.byType(ElevatedButton), findsOneWidget);
+    expect(find.byType(IconButton), findsWidgets);
   });
 }
