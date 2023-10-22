@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../../view_model/index.dart';
-import '../../share/index.dart';
 import 'loading_recommend_image.dart';
-import 'recommended_image_list/index.dart';
+import 'recommended_images/index.dart';
 import 'start_up_camera_area.dart';
 
 class Home extends ConsumerStatefulWidget {
@@ -38,32 +36,20 @@ class HomeWidgetState extends ConsumerState<Home> {
 
     return Column(
       children: [
-        // タイトル部分
-        Expanded(
-            flex: 1,
-            // Text部分 1/8
-            child: Center(
-              child: Text(
-                L10n.of(context)!.recommendImageTitle,
-                textAlign: TextAlign.center,
-                style: StyleType.home.recommendImageTitle,
-              ),
-            )),
-
         /// 画像部分
         Expanded(
-          // 画像部分 5/8
-          flex: 5,
+          // 画像部分 8/10
+          flex: 8,
           child: recommendImages.isEmpty
               ? const LoadingRecommendImage()
-              : RecommendedImageList(
+              : RecommendedImages(
                   recommendImages: recommendImages,
                 ),
         ),
 
         /// メッセージとカメラ起動ボタン部分
         const Expanded(
-          // Container部分 2/8
+          // Container部分 2/10
           flex: 2,
           child: StartUpCameraArea(),
         ),
