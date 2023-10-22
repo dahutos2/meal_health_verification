@@ -50,6 +50,11 @@ class StylesHome {
         fontWeight: FontWeight.bold,
         color: Color(0xFFFFFFFF),
       );
+  TextStyle get recommendImageIndex => const TextStyle(
+        color: Color(0xFFFFFFFF),
+        fontWeight: FontWeight.bold,
+        fontSize: 14,
+      );
 }
 
 class StylesCamera {
@@ -84,7 +89,6 @@ class StylesCamera {
       );
   TextStyle get recommendCancelText => const TextStyle(
         fontSize: 14,
-        color: Color(0xFF2196F3),
         fontWeight: FontWeight.bold,
       );
   TextStyle get errorCaptureText => const TextStyle(
@@ -98,7 +102,6 @@ class StylesCamera {
       );
   TextStyle get errorOKText => const TextStyle(
         fontSize: 16,
-        color: Color(0xFF2196F3),
       );
   TextStyle get visibleText => const TextStyle(
         fontSize: 14,

@@ -23,8 +23,8 @@ class ColorType {
 class ColorsBase {
   const ColorsBase();
 
-  Color get background => const Color(0xFFF3E5E5);
-  Color get initBackGround => const Color(0xFFF3E5E5);
+  Color get background => const Color(0xFFF8F5EF);
+  Color get initBackGround => const Color(0xFFF8F5EF);
 }
 
 class ColorsHeader {
@@ -45,9 +45,9 @@ class ColorsHome {
   const ColorsHome();
 
   Color get loadingBackground => const Color(0xFFAAAAAA);
-  Color get cameraAreaBorder => const Color(0xFFF3E5E5);
+  Color get cameraAreaBorder => const Color(0xFFF8F5EF);
   Color get cameraAreaBackground => const Color(0xFFFFFFFF);
-  Color get cameraAreaButtonBackGround => const Color(0xFF9E9E9E);
+  Color get recommendImageIndexBackGround => const Color(0x88000000);
 }
 
 class ColorsCamera {
@@ -67,6 +67,7 @@ class ColorsCamera {
   Color get recommendConfirmPressed => const Color(0xFF64B5F6);
   Color get errorOK => const Color(0xFF2196F3);
   Color get errorOKPressed => const Color(0xFF64B5F6);
+  Color get zoomBackGround => const Color(0x88000000);
 }
 
 class ColorsDataConfirm {

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-import '../../../share/index.dart';
+import '../../share/index.dart';
 
 class LoadingRecommendImage extends StatelessWidget {
   const LoadingRecommendImage({super.key});

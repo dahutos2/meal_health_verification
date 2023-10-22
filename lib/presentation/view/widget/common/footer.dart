@@ -12,7 +12,7 @@ enum TabType { home, camera, confirm }
 const pages = [
   HomePage(),
   CameraPage(),
-  DataConfirm(),
+  DataConfirmPage(),
 ];
 
 final tabTypeProvider = StateProvider<TabType>((_) => TabType.home);

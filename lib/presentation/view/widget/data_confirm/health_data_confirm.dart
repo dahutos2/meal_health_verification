@@ -10,14 +10,14 @@ import '../../share/index.dart';
 import '../common/index.dart';
 import 'health_point_chart.dart';
 
-class HealthDataConfirm extends ConsumerStatefulWidget {
-  const HealthDataConfirm({super.key});
+class DataConfirm extends ConsumerStatefulWidget {
+  const DataConfirm({super.key});
 
   @override
   ConsumerState createState() => _HealthDataConfirmState();
 }
 
-class _HealthDataConfirmState extends ConsumerState<HealthDataConfirm> {
+class _HealthDataConfirmState extends ConsumerState<DataConfirm> {
   var healthData = <Meal>[];
   var displayDurationBeginDate = DateTime.now()
       .subtract(Duration(days: DateTime.now().weekday - 1)); // 必ず月曜

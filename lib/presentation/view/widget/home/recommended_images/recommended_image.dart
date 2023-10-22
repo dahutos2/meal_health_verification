@@ -12,27 +12,22 @@ class RecommendedImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(top: 20.0), // 画像の上に20pxのマージン
+      // 画像の上に20pxのマージン
+      margin: const EdgeInsets.only(top: 20.0),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(12.0), // 画像の角を丸める
+        // 画像の角を丸める
+        borderRadius: BorderRadius.circular(12.0),
       ),
       child: Stack(
-        fit: StackFit.expand, // Stackを親要素（Container）に合わせる
+        // Stackを親要素（Container）に合わせる
+        fit: StackFit.expand,
         children: [
           Center(
             child: Image.asset(
               mealImagePath,
               fit: BoxFit.cover,
-            ),
-          ),
-          Positioned(
-            top: 40.0, // 50px上に配置
-            left: 0,
-            right: 0,
-            child: Text(
-              L10n.of(context)!.recommendImageTitle,
-              textAlign: TextAlign.center,
-              style: StyleType.home.recommendImageTitle,
+              width: double.infinity,
+              height: double.infinity,
             ),
           ),
           Center(
