@@ -43,5 +43,6 @@
     "showErrorDialogTitle": "Feil oppsto",
     "showErrorDialogOK": "OK",
     "lastWeek": "forrige uke",
-    "nextWeek": "neste uke"
+    "nextWeek": "neste uke",
+    "dataConfirmEmpty": "Det er ingen poster."
 }

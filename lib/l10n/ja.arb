@@ -43,5 +43,6 @@
     "showErrorDialogTitle": "エラー発生",
     "showErrorDialogOK": "OK",
     "lastWeek": "先週",
-    "nextWeek": "翌週"
+    "nextWeek": "翌週",
+    "dataConfirmEmpty" : "記録がありません。"
 }

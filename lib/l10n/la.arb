@@ -43,5 +43,6 @@
     "showErrorDialogTitle": "Error occurrit",
     "showErrorDialogOK": "OK",
     "lastWeek": "Ultima septimana",
-    "nextWeek": "altera septimana"
+    "nextWeek": "altera septimana",
+    "dataConfirmEmpty": "Extant monumenta."
 }

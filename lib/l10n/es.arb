@@ -43,5 +43,6 @@
     "showErrorDialogTitle": "Se produjo un error",
     "showErrorDialogOK": "DE ACUERDO",
     "lastWeek": "la semana pasada",
-    "nextWeek": "la próxima semana"
+    "nextWeek": "la próxima semana",
+    "dataConfirmEmpty": "No hay registros."
 }

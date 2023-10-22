@@ -116,4 +116,6 @@ class StylesDataConfirm {
       const TextStyle(fontSize: 18, color: Color(0xFF545454));
   TextStyle get foodText =>
       const TextStyle(fontSize: 16, color: Color(0xFF545454));
+  TextStyle get emptyText =>
+      const TextStyle(fontSize: 18, color: Color(0xFF545454));
 }

@@ -7,7 +7,6 @@ import 'package:intl/intl.dart';
 
 import '../../../view_model/index.dart';
 import '../../share/index.dart';
-import '../common/index.dart';
 import 'health_point_chart.dart';
 
 class DataConfirm extends ConsumerStatefulWidget {
@@ -184,8 +183,11 @@ class _HealthDataConfirmState extends ConsumerState<DataConfirm> {
               color: Colors.white,
             ),
             child: dailyFoodHistory.isEmpty
-                ? const Center(
-                    child: ColorfulLoadPage(),
+                ? Center(
+                    child: Text(
+                      L10n.of(context)!.dataConfirmEmpty,
+                      style: StyleType.dataConfirm.emptyText,
+                    ),
                   )
                 : ListView.builder(
                     itemCount: dailyFoodHistory.length,
