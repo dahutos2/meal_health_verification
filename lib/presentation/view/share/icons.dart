@@ -35,9 +35,9 @@ class IconsFooter {
 class IconsHome {
   const IconsHome();
 
-  Icon get startUpCamera => const Icon(
-        Icons.add_a_photo,
-        color: Colors.white,
+  Icon get moveCamera => const Icon(
+        Icons.arrow_forward_ios_rounded,
+        color: Color(0xFFB8B8B8),
       );
 }
 

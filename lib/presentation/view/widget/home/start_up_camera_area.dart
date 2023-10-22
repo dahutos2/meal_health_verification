@@ -35,7 +35,7 @@ class StartUpCameraArea extends ConsumerWidget {
           ),
           // テキストとボタン間のスペース
           const SizedBox(width: 16.0),
-          ElevatedButton(
+          IconButton(
             onPressed: () {
               final tabType = ref.read(tabTypeProvider.notifier);
               tabType.state = TabType.camera;
@@ -46,12 +46,7 @@ class StartUpCameraArea extends ConsumerWidget {
                 (_) => false,
               );
             },
-            // 背景色を設定
-            style: ElevatedButton.styleFrom(
-              backgroundColor: ColorType.home.cameraAreaButtonBackGround,
-            ),
-            // カメラアイコン
-            child: IconType.home.startUpCamera,
+            icon: IconType.home.moveCamera,
           ),
         ],
       ),
