@@ -221,9 +221,9 @@ class _CameraState extends ConsumerState<Camera> {
                     foregroundColor: MaterialStateProperty.resolveWith<Color?>(
                       (Set<MaterialState> states) {
                         if (states.contains(MaterialState.pressed)) {
-                          return ColorType.camera.errorOK;
+                          return ColorType.camera.errorOKPressed;
                         }
-                        return ColorType.camera.errorOKPressed;
+                        return ColorType.camera.errorOK;
                       },
                     ),
                     overlayColor: MaterialStateProperty.resolveWith<Color?>(

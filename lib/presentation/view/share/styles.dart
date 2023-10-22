@@ -89,7 +89,6 @@ class StylesCamera {
       );
   TextStyle get recommendCancelText => const TextStyle(
         fontSize: 14,
-        color: Color(0xFF2196F3),
         fontWeight: FontWeight.bold,
       );
   TextStyle get errorCaptureText => const TextStyle(
@@ -103,7 +102,6 @@ class StylesCamera {
       );
   TextStyle get errorOKText => const TextStyle(
         fontSize: 16,
-        color: Color(0xFF2196F3),
       );
   TextStyle get visibleText => const TextStyle(
         fontSize: 14,
