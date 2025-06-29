@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // Develop Debugモード
+        {
+            "name": "Run Develop Debug",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug", // debugビルド
+            "program": "lib/main.dart" // アプリのエントリーポイント
+        },
+        // Develop Profileモード
+        {
+            "name": "Run Develop Profile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile", // profileビルド
+            "program": "lib/main.dart"
+        },
+        // Develop Releaseモード
+        {
+            "name": "Run Develop Release",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release", // releaseビルド
+            "program": "lib/main.dart"
+        }
+    ]
+}

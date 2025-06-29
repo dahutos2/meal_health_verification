@@ -115,6 +115,7 @@ class _PauseCameraState extends State<PauseCamera> {
         switch (e.code) {
           case 'CameraAccessDenied':
             _errorMessage =
+                // ignore: use_build_context_synchronously
                 L10n.of(context)!.pauseCameraErrorCameraAccessDenied;
             break;
           default:
@@ -224,6 +225,7 @@ class _PauseCameraState extends State<PauseCamera> {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: deprecated_member_use
     return WillPopScope(
       onWillPop: () async {
         _deleteImage();

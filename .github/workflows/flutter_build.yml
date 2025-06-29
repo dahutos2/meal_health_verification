@@ -4,10 +4,10 @@ on:
   # ビルドに時間がかかるので、ワークフローからのみ実施
   # pull_request:
   #   branches:
-  #     - master
+  #     - main
   # push:
   #   branches:
-  #     - master
+  #     - main
   workflow_dispatch:
 
 jobs:

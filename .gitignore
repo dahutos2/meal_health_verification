@@ -38,7 +38,6 @@ windows/flutter/generated_plugins.cmake
 # IntelliJ and VS Code related
 *.iml
 .idea/
-.vscode/
 
 # Android related build artifacts and configurations
 *.keystore
