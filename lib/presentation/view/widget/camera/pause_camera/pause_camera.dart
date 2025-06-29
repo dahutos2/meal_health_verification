@@ -115,6 +115,7 @@ class _PauseCameraState extends State<PauseCamera> {
         switch (e.code) {
           case 'CameraAccessDenied':
             _errorMessage =
+                // ignore: use_build_context_synchronously
                 L10n.of(context)!.pauseCameraErrorCameraAccessDenied;
             break;
           default:
@@ -224,6 +225,7 @@ class _PauseCameraState extends State<PauseCamera> {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: deprecated_member_use
     return WillPopScope(
       onWillPop: () async {
         _deleteImage();
@@ -291,7 +293,7 @@ class _PauseCameraState extends State<PauseCamera> {
               width: context.deviceWidth,
               padding: const EdgeInsets.symmetric(vertical: 10),
               decoration: BoxDecoration(
-                color: ColorType.camera.buttonBackGround.withOpacity(0.8),
+                color: ColorType.camera.buttonBackGround.withAlpha(240),
                 boxShadow: [
                   BoxShadow(
                     color: ColorType.camera.buttonBackGroundShadow,

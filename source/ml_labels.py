@@ -1,8 +1,8 @@
 import json
-import sys
 import csv
 import os
 import copy
+import argparse
 from googletrans import Translator, LANGUAGES
 
 
@@ -43,16 +43,21 @@ def save_json_data(data, filename):
         file.write(json_str)
 
 
-def main():
-    # オプション
-    # -o 引数として指定した 変数を上書きする
-    print(f"引数: {sys.argv}")
-    target = []
-    if len(sys.argv) > 2 and sys.argv[1] == "-o":
-        for arg in sys.argv[2:]:
-            target.append(arg)
+def parse_args():
+    parser = argparse.ArgumentParser(description="ML ラベルファイルを生成するツール")
+    parser.add_argument(
+        "--overwrite",
+        "-o",
+        nargs="+",
+        help="上書きするキー名（スペース区切りで指定）",
+    )
+    return parser.parse_args()
 
-    print(f"オプション -o: {target}")
+
+def main():
+    args = parse_args()
+    target = args.overwrite if args.overwrite else []
+    print(f"上書き対象キー: {target}")
 
     current_directory = os.getcwd()
     print(f"pythonでの現在のディレクトリ: {current_directory}")

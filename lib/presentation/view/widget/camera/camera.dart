@@ -156,7 +156,7 @@ class _CameraState extends ConsumerState<Camera> {
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 2),
         decoration: BoxDecoration(
-          color: Colors.black.withOpacity(0.5),
+          color: Colors.black.withAlpha(127),
           borderRadius: BorderRadius.circular(15),
         ),
         child: TextButton(
@@ -218,16 +218,16 @@ class _CameraState extends ConsumerState<Camera> {
                     Navigator.of(context).pop();
                   },
                   style: ButtonStyle(
-                    foregroundColor: MaterialStateProperty.resolveWith<Color?>(
-                      (Set<MaterialState> states) {
-                        if (states.contains(MaterialState.pressed)) {
+                    foregroundColor: WidgetStateProperty.resolveWith<Color?>(
+                      (Set<WidgetState> states) {
+                        if (states.contains(WidgetState.pressed)) {
                           return ColorType.camera.errorOKPressed;
                         }
                         return ColorType.camera.errorOK;
                       },
                     ),
-                    overlayColor: MaterialStateProperty.resolveWith<Color?>(
-                      (Set<MaterialState> states) {
+                    overlayColor: WidgetStateProperty.resolveWith<Color?>(
+                      (Set<WidgetState> states) {
                         return Colors.transparent;
                       },
                     ),
@@ -319,7 +319,7 @@ class _DetectedObjectsPainter extends CustomPainter {
         );
 
         final textBackgroundPaint = Paint()
-          ..color = Colors.black.withOpacity(0.6)
+          ..color = Colors.black.withAlpha(153)
           ..style = PaintingStyle.fill;
 
         canvas.drawRRect(

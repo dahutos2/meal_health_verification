@@ -55,16 +55,16 @@ class RecommendMeal extends ConsumerWidget {
             ref.read(mealNotifierProvider).removeLast();
           },
           style: ButtonStyle(
-            foregroundColor: MaterialStateProperty.resolveWith<Color?>(
-              (Set<MaterialState> states) {
-                if (states.contains(MaterialState.pressed)) {
+            foregroundColor: WidgetStateProperty.resolveWith<Color?>(
+              (Set<WidgetState> states) {
+                if (states.contains(WidgetState.pressed)) {
                   return ColorType.camera.recommendConfirmPressed;
                 }
                 return ColorType.camera.recommendConfirm;
               },
             ),
-            overlayColor: MaterialStateProperty.resolveWith<Color?>(
-              (Set<MaterialState> states) {
+            overlayColor: WidgetStateProperty.resolveWith<Color?>(
+              (Set<WidgetState> states) {
                 // リップル効果を非表示に
                 return Colors.transparent;
               },
