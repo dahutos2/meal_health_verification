@@ -17,7 +17,7 @@ class HealthPointChart extends StatefulWidget {
 class _HealthPointChartState extends State<HealthPointChart> {
   List<Color> gradientColors = [
     ColorType.footer.background,
-    ColorType.footer.background.withOpacity(0.5),
+    ColorType.footer.background.withAlpha(127),
   ];
 
   @override
@@ -70,7 +70,7 @@ class _HealthPointChartState extends State<HealthPointChart> {
     }
 
     return SideTitleWidget(
-      axisSide: meta.axisSide,
+      meta: meta,
       child: text,
     );
   }
@@ -175,9 +175,8 @@ class _HealthPointChartState extends State<HealthPointChart> {
           belowBarData: BarAreaData(
             show: true,
             gradient: LinearGradient(
-              colors: gradientColors
-                  .map((color) => color.withOpacity(0.3))
-                  .toList(),
+              colors:
+                  gradientColors.map((color) => color.withAlpha(76)).toList(),
             ),
           ),
         ),

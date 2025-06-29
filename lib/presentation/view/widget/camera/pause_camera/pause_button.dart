@@ -22,7 +22,7 @@ class PauseCameraButton extends StatefulWidget {
 class _PauseCameraButtonState extends State<PauseCameraButton>
     with TickerProviderStateMixin {
   late AnimationController _animationController;
-  late Animation _animation;
+  late Animation<num> _animation;
 
   @override
   void initState() {
@@ -84,7 +84,7 @@ class _PauseCameraButtonState extends State<PauseCameraButton>
 class BlinkingCameraButtonPainter extends CustomPainter {
   final bool isButtonEnabled;
   final bool isPause;
-  final Animation animation;
+  final Animation<num> animation;
 
   BlinkingCameraButtonPainter({
     required this.isButtonEnabled,
@@ -104,7 +104,8 @@ class BlinkingCameraButtonPainter extends CustomPainter {
     final innerCirclePaint = Paint()
       ..color = isButtonEnabled
           ? ColorType.camera.buttonOuter
-          : ColorType.camera.buttonDisabled.withOpacity(animation.value)
+          : ColorType.camera.buttonDisabled
+              .withAlpha((animation.value * 255).round())
       ..style = PaintingStyle.fill;
 
     final outerCircle = Offset(size.width / 2, size.height / 2);

@@ -291,7 +291,7 @@ class _PauseCameraState extends State<PauseCamera> {
               width: context.deviceWidth,
               padding: const EdgeInsets.symmetric(vertical: 10),
               decoration: BoxDecoration(
-                color: ColorType.camera.buttonBackGround.withOpacity(0.8),
+                color: ColorType.camera.buttonBackGround.withAlpha(240),
                 boxShadow: [
                   BoxShadow(
                     color: ColorType.camera.buttonBackGroundShadow,
